@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-10T08:11:39.121675+00:00",
+  "limit_bytes_strict": 25165824,
+  "all_zip_sizes_below_limit": true,
+  "packages": [
+    {
+      "filename": "Wastewater_Stage2_Code_Data_20261010.zip",
+      "bytes": 1018750,
+      "sha256": "9e1563811e35b0d9abafaf59e9d11342d4b507520f8009181b803ff71ec7c5ed",
+      "member_count": 89,
+      "crc_and_all_member_sha256_passed": true,
+      "payload_member_count": 87
+    },
+    {
+      "filename": "Wastewater_Stage2_Runs_20261010.zip",
+      "bytes": 22073601,
+      "sha256": "2d234a71243574acd7ebd22720c340f299ead73a2cc579e4fb895cd8c71962c7",
+      "member_count": 5010,
+      "crc_and_all_member_sha256_passed": true,
+      "payload_member_count": 5008
+    },
+    {
+      "filename": "Wastewater_Stage2_Reports_Figures_20261010.zip",
+      "bytes": 6417207,
+      "sha256": "fb833734ed1c34fcbf819fb997a3d2834dd08caa9ced61f6bc76494f5b203be3",
+      "member_count": 55,
+      "crc_and_all_member_sha256_passed": true,
+      "payload_member_count": 53
+    }
+  ],
+  "completed_inputs": {
+    "full_manifest_sha256": "7732b727c0d5554b14365689722396bffb32d21b8013ba5d7af59c82633838cc",
+    "report_validation_sha256": "d482b9b09ba4d663fd5d2dd04251af82520afc5bbcb10a5687d3584f0d01c956",
+    "task_counts": {
+      "full": 960,
+      "smoke": 96
+    },
+    "prediction_rows": 201600,
+    "seeds": [
+      20261009,
+      20261010,
+      20261011
+    ],
+    "qa_raw_sha256": "22f494e2b96fe6fa9550c68971d50c752ddd291793fdc60334d64b2ef089f518",
+    "core_sha256": {
+      "shared_data.py": "3814e7bb507fc7bbb19d63608982cc585f695c5b11b935fb53f380958a84f86a",
+      "shared_models.py": "d4edd554a71eb352834f1ec3f4b99e304729268b02de7f3372eb4df520b00d13",
+      "shared_experiment.py": "fece872385396484d80b172d86f9ca073e4cb272f7996386c02d43877dac8fd4"
+    }
+  },
+  "original_artifacts_preserved": {
+    "original_four_deliverables": {
+      "deliverables/Wastewater_Development_Results_20261009.zip": "7821b9853db4268ea9b8826804f45a53115a64acbf14c81843bc3c6818dc3232",
+      "deliverables/Wastewater_Full_Audit_20261009.zip": "5a985f646afa1c64566aa79fe8de457f535c6ebdac657b23fa47594af6c01df9",
+      "deliverables/Wastewater_Development_Draft_20261009.pdf": "4e22b5548a6648852a4ecd015ab68a685653c95edd58a3b10f7cd2e6fceabaa9",
+      "deliverables/Wastewater_Overleaf_Development_20261009.zip": "8af92863d1f7f7f77d93324b3e8da46e387472431b7983636c553e618b95a720"
+    },
+    "original_report_outputs": {
+      "reports/development_20261009/metrics_by_station.csv": "79c6ef2f25eddc2f32e7b40d1c16d9ee62e340e58c0dfc3e10a0a99deedb6cdd",
+      "reports/development_20261009/fit_records_all.csv": "7e4181acd1085b10ba31363ed67dc27a69d7ee4fd13acae8e1a9ffc0a04a783a",
+      "reports/development_20261009/predictions_all.csv": "7424c66ed593b4806a40abfaac6597b300f0cd6ff8c9398c2a24017a9beac7b0",
+      "reports/development_20261009/equal_station_summary.csv": "8a517147c9e7969fedb2431fed3194b3360263fa6c410785be08a5d9fb9ae0bf",
+      "reports/development_20261009/availability_by_station.csv": "64e3b801e1cb3f38939d4fcaa2a8b987f9c97071351d524f0f88065cab7f12e3"
+    },
+    "original_audit_outputs": {
+      "data/derived/wessex_audit_20261009/rules.json": "98b3c00f33d33b74e7f8dc5612ef3b43f9601e970b7fe0e579fcb5c07ffb8611",
+      "data/derived/wessex_audit_20261009/row_audit.csv": "270930a32b87ac458e5ba35c0ff5c18da4191ab1602d6e9f4f20d5b08c703878",
+      "data/derived/wessex_audit_20261009/daily_candidates.csv": "75d0dc1c884bbea647da096ba435a78572659a25ab18665d767f87fb617fd231",
+      "data/derived/wessex_audit_20261009/flagged_records.csv": "be59991474f5d93bae9cc444c8c45f45518c49edc49c68e2a2ea9d1bd2cad09e",
+      "data/derived/wessex_audit_20261009/summary.json": "0d218e905aa366bfacda53f518ab54c3d69171e9aafcb883273e4222e23ed8bf"
+    }
+  },
+  "model_training_executed_by_packager": false,
+  "github_upload_performed_by_packager": false,
+  "shared_extraction_root": true,
+  "checksum_manifest_import": "validate per ZIP then skip extraction; no cross-package overwrite",
+  "raw_million_row_csv_packaged": false,
+  "raw_docx_packaged": false
+}
