@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "conditions_verified": 240,
+  "frozen_encoder_checkpoint_checks": 2160,
+  "independent_station_metric_checks": 1800,
+  "common_date_groups": 4713,
+  "negative_raw_predictions": 86,
+  "final_period_performance_calculated": false,
+  "report_validation_sha256": "bbbca1407689ffd90360e0fc1046f8f1afe0b7470ae88c67b7e1138130270bcb",
+  "checker_sha256": "8904aa6982797b68cfca18968c7259faca4004451ca26f743c5ce61ed8f19f8e"
+}

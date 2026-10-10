@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "numeric_not_bitwise": true,
+  "endpoint_checks": [
+    {
+      "new_endpoint": "local_gru_E40",
+      "old_model": "local_gru",
+      "rows": 43200,
+      "max_absolute_volume_difference_m3": 0.09892759326612577,
+      "max_normalized_difference": 5.483627319338854e-06
+    },
+    {
+      "new_endpoint": "shared_gru_E40",
+      "old_model": "shared_gru",
+      "rows": 43200,
+      "max_absolute_volume_difference_m3": 1.6344201564788818,
+      "max_normalized_difference": 1.8119812011472196e-05
+    },
+    {
+      "new_endpoint": "head_gru_E10",
+      "old_model": "shared_gru_adapt",
+      "rows": 43200,
+      "max_absolute_volume_difference_m3": 0.061637699604034424,
+      "max_normalized_difference": 9.536743155707013e-07
+    }
+  ]
+}

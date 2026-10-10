@@ -1,0 +1,116 @@
+{
+  "version": "stage3a_20261010_v3",
+  "stage": "development",
+  "analysis_unit": "station_exploratory",
+  "qa_mode": "published_good_only_retrospective",
+  "verified_real_time": false,
+  "canonical_csv": "data/derived/wessex_qa_v3_20261009/daily_candidates.csv",
+  "mapping_csv": "data/provenance/FACILITY_MAPPING_V3_20261009.csv",
+  "source_ids": [
+    "13006",
+    "13008",
+    "13012"
+  ],
+  "development_ids": [
+    "13013",
+    "13015",
+    "13016",
+    "13017",
+    "13022",
+    "13024",
+    "13025",
+    "13028",
+    "13029",
+    "13031"
+  ],
+  "source_training_start": "2016-01-01",
+  "source_training_end": "2021-12-31",
+  "source_selection_train_end": "2020-12-31",
+  "source_selection_validation_start": "2021-01-01",
+  "origins": [
+    "2022-01-01",
+    "2022-07-01",
+    "2023-01-01",
+    "2023-07-01"
+  ],
+  "evaluation_days": 60,
+  "budgets": [
+    30,
+    90,
+    180
+  ],
+  "horizons": [
+    1,
+    3
+  ],
+  "extra_delay_days": 0,
+  "sequence_length": 7,
+  "min_train_labels": 14,
+  "scale": "median_positive_Good_volume_in_allowed_training_history; fallback=1m3",
+  "high_volume_quantile": 0.9,
+  "high_volume_history_days": 30,
+  "prediction_constraint": "none_primary; max(0,yhat)_for_ALL_models_secondary_only",
+  "ridge_alphas": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "gru_hidden_candidates": [
+    8
+  ],
+  "gru_source_epochs": 40,
+  "gru_local_epochs": 40,
+  "gru_adaptation_epochs": 10,
+  "gru_learning_rate": 0.01,
+  "gru_adaptation_lr": 0.01,
+  "gru_adaptation": "freeze_encoder_train_linear_head",
+  "batch_size": 256,
+  "seeds": [
+    20261009,
+    20261010,
+    20261011
+  ],
+  "selection_seed": 20261009,
+  "selection_score": "equal_source_normalized_MAE_on_2021; no_target_data",
+  "source_weight": "sum_one_equal_facility_then_equal_valid_sample",
+  "source_output": "runs/stage3a_20261010_v3/source",
+  "output": "runs/stage3a_20261010_v3/full",
+  "bootstrap": {
+    "replicates": 1000,
+    "blocks": [
+      7,
+      14,
+      28
+    ],
+    "primary_block": 14,
+    "seed": 20261009,
+    "design": "same calendar blocks for all stations; stratify episodes; station cluster resampling; seed losses averaged, not extra stations"
+  },
+  "gru_epochs_grid": [
+    40,
+    120,
+    300
+  ],
+  "adapt_epochs_grid": [
+    10,
+    40,
+    120
+  ],
+  "local_validation_fraction": 0.2,
+  "validation_min_fit_labels": 30,
+  "validation_min_labels": 10,
+  "source_pseudo_origins": [
+    "2021-01-01",
+    "2021-07-01"
+  ],
+  "source_pseudo_validation_days": 14,
+  "primary_local_ridge_reference": "local_ridge_lags_tuned",
+  "selection_criterion": "normalized MAE averaged over three seeds; legal validation only",
+  "loss": "MSE",
+  "workers": 4,
+  "checkpoint_every": 20,
+  "protocol": "STAGE3A_PROTOCOL.md"
+}

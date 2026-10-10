@@ -1,0 +1,42 @@
+{
+  "status": "measured",
+  "device": "CPU",
+  "workers": 4,
+  "one_torch_thread_per_worker": true,
+  "resident_memory_observed_MiB": {
+    "parent": 258.9,
+    "workers": [
+      327.2,
+      324.0,
+      329.7,
+      323.7
+    ]
+  },
+  "accepted_v3_model_fitting": {
+    "source": {
+      "fits": 30,
+      "seconds": 283.718384498,
+      "updates": 97200
+    },
+    "source_budget_validation": {
+      "fits": 72,
+      "seconds": 35.43216838499848,
+      "updates": 15120
+    },
+    "target_validation": {
+      "fits": 1008,
+      "seconds": 555.261495503998,
+      "updates": 211680
+    },
+    "target_full": {
+      "fits": 1464,
+      "seconds": 795.6348684809877,
+      "updates": 307440
+    }
+  },
+  "summed_fit_elapsed_seconds": 1670.0469168679842,
+  "includes_smoke_duplicate_fits": true,
+  "target_full_wall_seconds": 348.754714,
+  "excludes_preflight_failed_versions_from_fit_sum": true,
+  "GPU_required": false
+}
