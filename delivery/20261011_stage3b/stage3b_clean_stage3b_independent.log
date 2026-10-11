@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "prediction_rows": 198000,
+  "daily_losses": 388938,
+  "station_metric_checks": 2640,
+  "lambda_zero_exact_prediction_checks": 12480,
+  "linear_prediction_reconstruction_checks": 0,
+  "independent_source_normal_equation_checks": 0,
+  "completed_output_hash_checks": 0,
+  "arithmetic_only": true,
+  "arithmetic_tolerances": {
+    "atol_m3": 1e-08,
+    "rtol": 1e-12
+  },
+  "ridge_normalized_tolerances": {
+    "normalized_atol": 1e-10,
+    "rtol": 1e-10,
+    "scope": "deterministic Ridge small replay; archival GRU separate previously disclosed tolerances"
+  },
+  "predictions_sha256": "c8b477cc24cef7e075b1cd68f47e1e8a4ec35b9c5d0253f05ac9114d38a9ce63",
+  "daily_losses_sha256": "bd8a35046c889f565a7a8cb7f0be9ad724b7c37ffc33ffc0d2930d1aceaf1330",
+  "checker_sha256": "ad4f0c0d9a78e8638a12d15b38dacc0426f4a731b6b60fb694c17df5d64e5ff7",
+  "final_period_used": false
+}

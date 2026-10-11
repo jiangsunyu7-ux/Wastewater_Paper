@@ -1,0 +1,86 @@
+{
+  "status": "passed",
+  "primary_interval_rows_independently_recomputed": 12,
+  "high_volume_classification_mismatch_groups": 0,
+  "checks": [
+    {
+      "evaluation_set": "original_development",
+      "horizon": 1,
+      "block_days": 7,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "evaluation_set": "original_development",
+      "horizon": 1,
+      "block_days": 14,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "evaluation_set": "original_development",
+      "horizon": 1,
+      "block_days": 28,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "evaluation_set": "original_development",
+      "horizon": 3,
+      "block_days": 7,
+      "max_absolute_difference": 9.71445146547012e-17
+    },
+    {
+      "evaluation_set": "original_development",
+      "horizon": 3,
+      "block_days": 14,
+      "max_absolute_difference": 1.1449174941446927e-16
+    },
+    {
+      "evaluation_set": "original_development",
+      "horizon": 3,
+      "block_days": 28,
+      "max_absolute_difference": 9.540979117872439e-17
+    },
+    {
+      "evaluation_set": "additional_time_validation",
+      "horizon": 1,
+      "block_days": 7,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "evaluation_set": "additional_time_validation",
+      "horizon": 1,
+      "block_days": 14,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "evaluation_set": "additional_time_validation",
+      "horizon": 1,
+      "block_days": 28,
+      "max_absolute_difference": 0.0
+    },
+    {
+      "evaluation_set": "additional_time_validation",
+      "horizon": 3,
+      "block_days": 7,
+      "max_absolute_difference": 8.673617379884035e-17
+    },
+    {
+      "evaluation_set": "additional_time_validation",
+      "horizon": 3,
+      "block_days": 14,
+      "max_absolute_difference": 8.326672684688674e-17
+    },
+    {
+      "evaluation_set": "additional_time_validation",
+      "horizon": 3,
+      "block_days": 28,
+      "max_absolute_difference": 9.020562075079397e-17
+    }
+  ],
+  "skill_tolerance": {
+    "atol": 1e-12,
+    "rtol": 1e-12
+  },
+  "predictions_sha256": "c8b477cc24cef7e075b1cd68f47e1e8a4ec35b9c5d0253f05ac9114d38a9ce63",
+  "checker_sha256": "94e07f115904b41800f786a4eca0989594a652b72cdfe885137468d3a3c0fae4",
+  "no_model_training": true
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "archives": 8,
+  "verified_files": 8827,
+  "crc_and_all_member_sha256_verified": true,
+  "destination": "/tmp/wastewater_stage3b_external_review"
+}

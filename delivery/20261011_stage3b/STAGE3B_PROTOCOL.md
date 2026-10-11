@@ -1,0 +1,77 @@
+# Stage 3B: Persistence residual Ridge and conservative correction
+
+Version: stage3b_20261011_v1. This is a prospective **development** protocol motivated by already inspected Stage 2/3A results. It is not preregistration or an independent final test. The user explicitly authorized Stage3A evidence verification and Stage3B execution on 2026-10-11. Old protocols, code, predictions, failed preflights and packages remain unchanged.
+
+## Question, scope and failure criteria
+
+Can shared historical information improve treated effluent daily volume forecasts for origin+1 and origin+3 in existing facilities with 30/90/180 days of initial modeling history? Origin+3 denotes that day's volume, not a three-day sum. Two secondary questions are relative history efficiency and negative transfer under predefined conservative correction. No water-quality, energy, overflow, capacity, new-plant startup or economic benefit is inferred.
+
+The primary candidate is **shared residual Ridge + budget-local mean bias + validation-selected lambda**, B30, compared with Persistence at h1 and h3. Report both, including failures. Success requires positive equal-SiteID mean MAE skill at both horizons, intervals supporting improvement, and consistency across SiteIDs and time windows. There is no independently justified operational minimum improvement threshold. An interval crossing zero does not establish equivalence. Only beating a local learned model is insufficient evidence beyond Persistence. Frequent lambda=0, unstable gains, negative transfer, or unresolved data/partition evidence are legitimate negative findings; stop after this fixed design rather than expanding the search.
+
+## Frozen data and partitions
+
+Use QA-v3 daily_candidates.csv (SHA256 40f6e6fdb1d09d0afa9c19ba31729b156811ca1cdbb0b317484fdf5fea1d854f), accepted by Stage3A. Raw CSV SHA256: 22f494e2b96fe6fa9550c68971d50c752ddd291793fdc60334d64b2ef089f518. Published Good finite nonnegative and nonconflicting values define **inputs, fitting labels and evaluation truth** consistently. Good zero is retained; Missing zero/nonzero, Suspect, Good negatives and conflict dates are masked. Calendar positions remain; targets are never imputed and inputs never filled from future observations. Missing model inputs use the allowed-history positive median (normalized value 1) plus availability masks. Scale fallback is 1 cubic metre if no positive values exist, reported explicitly.
+
+This is retrospective published-QA filtering. Daily-volume arrival, historical QA publication and revisions remain unverified; daily-end observation access is a scenario, not verified real-time deployment.
+
+Source SiteIDs: 13006, 13008, 13012. Target development SiteIDs: 13013, 13015, 13016, 13017, 13022, 13024, 13025, 13028, 13029, 13031. Main source pool is not expanded. Physical facility/outfall identity remains unresolved; names and SiteIDs alone do not prove independence. Retain station:SiteID grouping and explicitly exploratory claims. If official evidence demonstrates linked source/target facilities, correct and version the partition before execution. Unverified identities stay unknown.
+
+Final shared fits: source 2016-01-01 through 2021-12-31. Legal selection proxies: sources through 2020-12-31. No target training in a shared source model. No 2024–2025 performance, model selection, feature/threshold design or reserved-target analysis. Earlier full-data descriptive QA reads, including 2024–2025, are disclosed rather than described as complete data blindness.
+
+## Initial budget and prediction information
+
+For first origin T, initial history is the B calendar days [T-B,T-1], including missing dates. All lag construction, local scale fitting, model fitting, bias and selection obey that left boundary. Fitting sample labels must be <= their fitting cutoff. Initial models, scale, alpha, bias and lambda then freeze throughout 60 daily prediction origins. New observations available by each origin can update lag inputs, but deployment labels never update parameters or selection. This does not mean only B observations are accessed over the entire deployment.
+
+Persistence p(t,h) is the last published-QA-valid volume available at t, searching t through t-7 and never before T-B. If none exists, its prediction is missing. Weekly Persistence for y(t+h) uses y(t+h-7), never y(t-7). No future volume is visible. Compact features remain the accepted six columns: normalized volume at t,t-1,t-6 and their availability masks. No weather or new feature search.
+
+Per condition, save calendar history, observed history count, usable fitting inputs and labels, validation labels, first/last label and origin dates, scale fitting range, bias range, high-volume threshold range and source of hyperparameter selection. Training eligibility requires valid target, at least one observed lag and finite Persistence for residual construction; directly modeled comparators use the same eligible samples. Record any difference from archived Stage3A sample eligibility.
+
+## Model families and finite selection
+
+Retain Persistence, weekly Persistence, accepted compact direct local Ridge, direct shared Ridge and direct shared+bias. Recompute these deterministic comparators on the same data/date rules; check direct forecasts against the accepted archive. Archive 42-column models and the three-seed GRU without retraining or expanding them. GRU archive aggregation remains mean per-date losses, never a prediction ensemble.
+
+New families are local residual Ridge, shared residual Ridge, and shared residual Ridge+local bias. Define normalized residual z=(y(t+h)-p(t,h))/s, with facility scale s fitted only on allowed history. Fit six-feature Ridge by weighted MSE plus alpha times squared coefficients; intercept is unpenalized. Local weights are 1/n; source weights are 1/(number of sources times valid labels per source), summing to one, so alpha penalizes mean rather than summed MSE. No additional standardizer is fitted.
+
+Bias b is the arithmetic mean of z-r_hat over eligible target fitting samples, in normalized units; b=0 for other families. During internal validation b uses only the fold fitting samples. Reconstruct raw cubic-metre predictions as p + lambda*s*(r_hat+b). lambda=0 uses an explicit copy of p, including missing values, to ensure exact Persistence fallback even if a residual prediction is missing.
+
+Fixed alpha candidates: 0.0001,0.001,0.01,0.1,1,10. Fixed lambda candidates: 0,0.25,0.5,1. Training objective is MSE; selection uses normalized validation MAE. Each family reports (a) lambda=1 with alpha selected among its lambda=1 candidates and (b) the alpha/lambda pair selected over the joint finite grid. Exact score ties prefer smaller lambda, then smaller alpha. Selection never uses deployment errors. A selected and an unshrunk result may differ in alpha, so their difference is not a pure causal shrinkage effect; save the complete grid to show this. Bias and shrinkage can still cause negative transfer. Report lambda distributions and fallback proportions, not a guarantee from including zero.
+
+The residual formulation uses established methods. When Persistence is the observed lag0 and lies in the linear feature span, it shifts the Ridge penalty center toward that baseline and may be close to a linear reparameterization; missing-value fallback can alter this relation. It is not a new-algorithm claim.
+
+## Legal tuning, source assistance and direct controls
+
+B90/180: reserve the last ceil(.2*B) calendar days of initial history for chronological validation. Fit labels end strictly before the split. Validation origins end at initial cutoff-h, keeping their labels within the budget. Scale is fitted on the prefix only. Require >=30 fitting labels and >=10 validation labels. All target fold evaluation, including shared residual fits and target bias, uses that prefix scale. Shared validation proxies are fit on source <=2020; they therefore precede even the earliest late-2021 target validation. After selection, local fits/scale/bias use the whole initial budget; final shared fits use source <=2021. This conservative proxy/final-period difference is disclosed.
+
+B30, or any insufficient internal fold: use equal-weight source-assisted pseudo-deployments at 2021-01-01 and 2021-07-01, initial history B and 14 validation origins. Pseudo-target is one held-out source SiteID; shared proxy fits use the other two sources only, through 2020. All validation labels are <=2021-12-31, and source model cutoff precedes each validation origin. Local and shared families use the same six held-SiteID/date folds. Average normalized MAE equally across those folds; do not pool raw large-facility volumes. These local baselines are locally fitted with source-assisted tuning, not completely source-independent methods. Save fold-specific losses and fit dates.
+
+Direct local compact Ridge uses the accepted Stage3A alpha-selection policy: budget-internal chronological MAE where viable, otherwise equal-weight source pseudo-budget alpha selection. Shared direct alpha is frozen from accepted Stage3A source-only validation (.0001 for h1, .01 for h3); its mean bias uses eligible initial target labels. The controls preserve their accepted policies; the residual methods additionally search the explicitly specified lambda grid. The resulting unequal tuning choices are disclosed, not claimed to isolate all effects perfectly.
+
+## Windows, history-use audit and freeze
+
+Original first origins: 2022-01-01,2022-07-01,2023-01-01,2023-07-01; 60 origins each. These four windows have repeatedly informed development and are labeled reused development results.
+
+Only additional candidate: first origin 2023-10-01, 60 origins (last origin 2023-11-29; last h3 label 2023-12-02). Before scoring, independently inventory old configs, predictions, fitting/validation records and saved reports. Enable this candidate only if its evaluation labels were not used for training/validation/performance/selection; disclose prior descriptive reads. If historical use cannot be established, do not substitute a different window or 2024–2025. Any enabled run is additional temporal validation on the same development SiteIDs, not external facility validation. Old evaluation labels may legitimately form its past calibration history; that does not make the new target dates unused in every possible sense.
+
+Write configs/stage3b_20261011_v1/FREEZE.json with protocol/config/data hashes and the history-audit decision **before any Stage3B deployment score**. Code is separately hashed in execution signatures. Later substantive modifications require a new version. No use of subsequent additional-window results to alter this round's models or rules.
+
+## Evaluation and uncertainty
+
+Primary analysis uses untruncated predictions. Secondary analysis applies max(0,prediction) uniformly to all methods and saves both columns. For each set of windows, compare all 11 policies and all budgets on matched valid SiteID/episode/h/origin/target dates; retain calendar gaps, all predictions, missing/failed configurations, expected coverage and the paired index. This match can differ from Stage3A's wider 15-policy/three-seed mask; recompute every comparator on the Stage3B mask rather than compare published old summaries directly.
+
+Per SiteID MAE/RMSE, skill=1-MAE_model/MAE_reference, valid count and high-volume count. A zero reference MAE yields undefined relative skill, explicitly counted, with absolute errors retained. Average station skills equally; never use pooled raw MAE ratios as station-average skill. Report mean/median skills, wins/ties/losses, and shared vs matched local negative transfer. Negative-transfer reference for residual selected policies is local residual selected; also compare the primary policy with local direct tuned. Numerical equality for reporting uses absolute skill <=1e-12; it does not establish scientific equivalence.
+
+History comparisons are shared B30 vs local B90, shared B30 vs local B180, shared B90 vs local B180, for both residual and compact direct local controls, with Persistence retained. High-volume subgroup uses each SiteID/episode's initial30-day valid-history Q90, identical across budgets; record fit dates/count. Realized targets only define the exploratory reporting subgroup, never deployment selection. No capacity/permit/overflow interpretation.
+
+Paired block bootstrap follows the audited project design: synchronized noncircular moving blocks within each 60-origin episode, draw ceil(60/L) starts uniformly from 0..60-L, concatenate and truncate to60; retain original missing calendar positions. Draw the same date indices for all SiteIDs/methods/budgets, then resample whole SiteID clusters. Use 1000 replicates, primary L14, sensitivity L7/L28, seed20261009+h*100+L. Compute each sampled SiteID error ratio, then equal-SiteID average. NaN date gaps remain NaN and are skipped only inside means, not collapsed before blocks.
+
+The two B30/h1,h3 primary comparisons receive Bonferroni-adjusted 97.5% individual percentile intervals (1.25th/98.75th percentiles). Original and additional temporal sets are reported separately; a claim jointly covering both sets has four comparisons and also reports the stricter 98.75% individual intervals. Other comparisons/subgroups have exploratory95% intervals and clearly stated multiplicity limits. Seeds, days, budgets, horizons and repeated windows are not independent facilities. Ten nonrandom SiteIDs, three sources, shared weather and unresolved physical links limit extrapolation.
+
+## Execution, verification and stop
+
+Order: audit/preservation -> freeze -> implementation -> two original smoke SiteIDs (13013,13015), first window, all budgets/horizons -> ten SiteIDs/all original windows -> eligible additional window -> metrics/figures/evidence packages. Ridge is deterministic and is not repeated for three artificial seeds. Retain actual three-seed GRU archive evidence.
+
+Test information boundaries, purged labels, validation scaling/bias, h3 alignment, residual construction/reconstruction, exact lambda0/Persistence, matched evaluation indices, weight/alpha meaning, future-record perturbation invariance, and cache/partial-resume/config mismatch. Save task statuses at SiteID-window-budget-horizon with all model outcomes, parameters, validation losses, source diagnostics and failures. Cache requires matching config/data/code fingerprints and completed-output hashes. Record CPU environment, wall time, data and code versions. No paid/GPU resource is requested. Colab/Drive functionality is distinguished from locally tested core execution.
+
+Deliver audit/protocol/configs, provenance/map, code/tests/notebook, Stage3A code/predictions/daily-losses/key curves, Stage3B complete predictions/diagnostics/metrics/blocks, real PDF/SVG/PNG plots, editable executed-flow.drawio, Chinese analysis, CLAIM_EVIDENCE.csv, RUN_STATUS and verified ZIPs <24MiB. Omitted original/archived weights are named with verified retrieval/checksum instructions. Independent arithmetic is reproducible without every training checkpoint; full training replay has explicitly stated dependencies.
+
+STOP after the frozen round regardless of sign. Do not enlarge source pools, fit interval models, rerun larger GRUs, use final-period targets, develop App/ensembles, or rewrite the manuscript. Recommendations for the next single experiment are proposals only.

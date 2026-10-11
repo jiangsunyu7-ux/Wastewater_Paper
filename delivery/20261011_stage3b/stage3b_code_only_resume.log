@@ -1,0 +1,24 @@
+condition 1/12 13013_2022-01-01_B30_H1 cached
+condition 2/12 13013_2022-01-01_B30_H3 cached
+condition 3/12 13013_2022-01-01_B90_H1 cached
+condition 4/12 13013_2022-01-01_B90_H3 cached
+condition 5/12 13013_2022-01-01_B180_H1 cached
+condition 6/12 13013_2022-01-01_B180_H3 cached
+condition 7/12 13015_2022-01-01_B30_H1 cached
+condition 8/12 13015_2022-01-01_B30_H3 cached
+condition 9/12 13015_2022-01-01_B90_H1 cached
+condition 10/12 13015_2022-01-01_B90_H3 cached
+condition 11/12 13015_2022-01-01_B180_H1 cached
+condition 12/12 13015_2022-01-01_B180_H3 cached
+{
+  "status": "completed",
+  "completed_conditions": 12,
+  "expected_conditions": 12,
+  "failed_conditions": 0,
+  "counts_this_call": {
+    "completed": 0,
+    "cached": 12,
+    "failed": 0
+  },
+  "seconds_this_call": 1.2741095819947077
+}

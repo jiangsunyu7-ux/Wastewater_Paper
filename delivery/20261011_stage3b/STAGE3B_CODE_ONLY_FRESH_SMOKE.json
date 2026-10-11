@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "source": "Only independently imported Code_and_Reproduce ZIP; no prior Stage3B model caches",
+  "actual_new_conditions": 12,
+  "prediction_rows_compared": 7920,
+  "model_policies": 11,
+  "source_fitting_state": "completed",
+  "fresh_counts": {
+    "completed": 12,
+    "cached": 0,
+    "failed": 0
+  },
+  "actual_cpu_wall_seconds": 2.7760793560009915,
+  "normalized_max_prediction_difference": 0.0,
+  "comparison_tolerance": {
+    "atol": 1e-10,
+    "rtol": 1e-10
+  },
+  "alpha_lambda_exact": true,
+  "selection_parameters_exact": true,
+  "signature": "141817f1c1b7be4da4346b6f42664eb3f553801416a81214eb527abf1fa0dcd8",
+  "full_GRU_training_repeated": false,
+  "live_Colab_Drive_checked": false,
+  "original_workspace_experiment_untouched": true
+}

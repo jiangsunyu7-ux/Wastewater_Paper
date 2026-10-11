@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "prediction_rows": 388800,
+  "common_origin_conditions": 4713,
+  "station_metrics": 1800,
+  "seed_aggregation": "Mean per-date absolute and squared losses, not a prediction ensemble",
+  "atol": 1e-08,
+  "rtol": 1e-12,
+  "checks": {
+    "daily": {
+      "absolute_error": 6.548361852765083e-11,
+      "squared_error": 7.62939453125e-06,
+      "truth_m3": 0.0,
+      "high_threshold_m3": 0.0,
+      "seed_count": 0.0
+    },
+    "station_metrics": {
+      "n_dates": 0.0,
+      "mae_m3": 7.275957614183426e-12,
+      "rmse_m3": 7.275957614183426e-12,
+      "skill_vs_persistence": 4.440892098500626e-16
+    }
+  },
+  "scope": "Independent arithmetic and date/mask checks only; no training or full trajectory replay claimed"
+}

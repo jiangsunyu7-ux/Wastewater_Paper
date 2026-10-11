@@ -1,0 +1,72 @@
+{
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "pdflatex": true
+}
+test_audit_and_development_cli_with_unit_fixture (test_cli.CliTests.test_audit_and_development_cli_with_unit_fixture) ... ok
+test_any_development_unit_rejects_final_label_boundary (test_integrity.IntegrityTests.test_any_development_unit_rejects_final_label_boundary) ... ok
+test_budget_no_warmup_and_label_boundary (test_integrity.IntegrityTests.test_budget_no_warmup_and_label_boundary) ... ok
+test_calendar_missing_day_not_compressed (test_integrity.IntegrityTests.test_calendar_missing_day_not_compressed) ... ok
+test_common_dates_and_metrics_known_errors (test_integrity.IntegrityTests.test_common_dates_and_metrics_known_errors) ... ok
+test_delay_applies_to_features_and_training_labels (test_integrity.IntegrityTests.test_delay_applies_to_features_and_training_labels) ... ok
+test_duplicate_canonical_rejected (test_integrity.IntegrityTests.test_duplicate_canonical_rejected) ... ok
+test_exploration_is_explicit_not_fake_reviewed_facility (test_integrity.IntegrityTests.test_exploration_is_explicit_not_fake_reviewed_facility) ... ok
+test_facility_duplicates_rejected (test_integrity.IntegrityTests.test_facility_duplicates_rejected) ... ok
+test_final_mapping_rejected (test_integrity.IntegrityTests.test_final_mapping_rejected) ... ok
+test_final_stage_rejected (test_integrity.IntegrityTests.test_final_stage_rejected) ... ok
+test_future_inputs_and_targets_do_not_change_fit (test_integrity.IntegrityTests.test_future_inputs_and_targets_do_not_change_fit) ... ok
+test_good_zero_policy_is_preserved_not_outcome_selected (test_integrity.IntegrityTests.test_good_zero_policy_is_preserved_not_outcome_selected) ... ok
+test_invalid_raw_never_becomes_truth (test_integrity.IntegrityTests.test_invalid_raw_never_becomes_truth) ... ok
+test_loader_excludes_reserved_years_even_at_development_station (test_integrity.IntegrityTests.test_loader_excludes_reserved_years_even_at_development_station) ... ok
+test_loader_retains_only_explicit_development (test_integrity.IntegrityTests.test_loader_retains_only_explicit_development) ... ok
+test_missing_target_never_evaluated (test_integrity.IntegrityTests.test_missing_target_never_evaluated) ... ok
+test_persistence_staleness_and_budget_left (test_integrity.IntegrityTests.test_persistence_staleness_and_budget_left) ... ok
+test_prediction_target_weekly_alignment (test_integrity.IntegrityTests.test_prediction_target_weekly_alignment) ... ok
+test_quality_conflicts_and_duplicate_rules (test_integrity.IntegrityTests.test_quality_conflicts_and_duplicate_rules) ... ok
+test_retrospective_qa_truth_violation_rejected (test_integrity.IntegrityTests.test_retrospective_qa_truth_violation_rejected) ... ok
+test_scaler_is_training_only (test_integrity.IntegrityTests.test_scaler_is_training_only) ... ok
+test_train_does_not_use_retrospective_qa (test_integrity.IntegrityTests.test_train_does_not_use_retrospective_qa) ... ok
+test_unreviewed_template_rejected (test_integrity.IntegrityTests.test_unreviewed_template_rejected) ... ok
+test_unverified_station_mapping_accepted_but_spoofed_facility_rejected (test_integrity.IntegrityTests.test_unverified_station_mapping_accepted_but_spoofed_facility_rejected) ... ok
+test_wrong_units_cannot_enter_inputs_or_truth (test_integrity.IntegrityTests.test_wrong_units_cannot_enter_inputs_or_truth) ... ok
+test_zero_baseline_relative_gain_undefined (test_integrity.IntegrityTests.test_zero_baseline_relative_gain_undefined) ... ok
+test_calendar_gap_is_not_compressed (test_shared_v3.SharedIntegrity.test_calendar_gap_is_not_compressed) ... ok
+test_final_data_rejected (test_shared_v3.SharedIntegrity.test_final_data_rejected) ... ok
+test_gru_checkpoint_and_head_only (test_shared_v3.SharedIntegrity.test_gru_checkpoint_and_head_only) ... ok
+test_horizon_label_budget_boundary (test_shared_v3.SharedIntegrity.test_horizon_label_budget_boundary) ... ok
+test_missing_target_never_imputed (test_shared_v3.SharedIntegrity.test_missing_target_never_imputed) ... ok
+test_no_observation_before_budget_or_after_origin (test_shared_v3.SharedIntegrity.test_no_observation_before_budget_or_after_origin) ... ok
+test_qa_input_cannot_differ_from_truth_mask (test_shared_v3.SharedIntegrity.test_qa_input_cannot_differ_from_truth_mask) ... ok
+test_scale_uses_only_budget_and_retains_zero (test_shared_v3.SharedIntegrity.test_scale_uses_only_budget_and_retains_zero) ... ok
+test_source_target_overlap_rejected (test_shared_v3.SharedIntegrity.test_source_target_overlap_rejected) ... ok
+test_weighted_ridge_is_invariant_to_duplication_with_adjusted_weights (test_shared_v3.SharedIntegrity.test_weighted_ridge_is_invariant_to_duplication_with_adjusted_weights) ... ok
+test_final_window_and_cohort_rejected (test_stage3a.Stage3ATests.test_final_window_and_cohort_rejected) ... ok
+test_real_budget_folds_and_future_perturbation (test_stage3a.Stage3ATests.test_real_budget_folds_and_future_perturbation) ... ok
+test_resume_exact_original_endpoints_and_encoder_freeze (test_stage3a.Stage3ATests.test_resume_exact_original_endpoints_and_encoder_freeze) ... ok
+test_scaling_ignores_validation_and_compact_indices (test_stage3a.Stage3ATests.test_scaling_ignores_validation_and_compact_indices) ... ok
+test_checked_import_gzip_materialization_and_same_content_repeat (test_stage3b_delivery.DeliveryTests.test_checked_import_gzip_materialization_and_same_content_repeat) ... ok
+test_outer_hash_and_unsafe_paths_rejected (test_stage3b_delivery.DeliveryTests.test_outer_hash_and_unsafe_paths_rejected) ... ok
+test_alignment_and_uniform_constraint_reject_invalid_values (test_stage3b_evaluation.Stage3BEvaluationTests.test_alignment_and_uniform_constraint_reject_invalid_values) ... ok
+test_calendar_blocks_and_bonferroni_point_are_correct (test_stage3b_evaluation.Stage3BEvaluationTests.test_calendar_blocks_and_bonferroni_point_are_correct) ... ok
+test_equal_station_skill_not_ratio_of_pooled_volumes (test_stage3b_evaluation.Stage3BEvaluationTests.test_equal_station_skill_not_ratio_of_pooled_volumes) ... ok
+test_missing_task_rows_preserved_and_dates_matched_across_budgets (test_stage3b_evaluation.Stage3BEvaluationTests.test_missing_task_rows_preserved_and_dates_matched_across_budgets) ... ok
+test_unauthorized_extra_window_rejected_and_missing_rows_survive_recompute (test_stage3b_evaluation.Stage3BEvaluationTests.test_unauthorized_extra_window_rejected_and_missing_rows_survive_recompute) ... ok
+test_zero_reference_is_undefined_and_reported (test_stage3b_evaluation.Stage3BEvaluationTests.test_zero_reference_is_undefined_and_reported) ... ok
+test_frozen_boundaries_and_final_period_rejected (test_stage3b_models.Stage3BTests.test_frozen_boundaries_and_final_period_rejected) ... ok
+test_real_initial_budget_and_future_perturbation (test_stage3b_models.Stage3BTests.test_real_initial_budget_and_future_perturbation) ... ok
+test_residual_formula_lambda_zero_and_weekly_h3_alignment (test_stage3b_models.Stage3BTests.test_residual_formula_lambda_zero_and_weekly_h3_alignment) ... ok
+test_tie_selection_and_immutable_resume (test_stage3b_models.Stage3BTests.test_tie_selection_and_immutable_resume) ... ok
+test_validation_scaling_bias_and_choice_ignore_post_budget (test_stage3b_models.Stage3BTests.test_validation_scaling_bias_and_choice_ignore_post_budget) ... ok
+test_weighted_mean_mse_and_intercept_unpenalized (test_stage3b_models.Stage3BTests.test_weighted_mean_mse_and_intercept_unpenalized) ... ok
+
+----------------------------------------------------------------------
+Ran 55 tests in 10.351s
+
+OK
