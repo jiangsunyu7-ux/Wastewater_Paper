@@ -1,0 +1,252 @@
+{
+  "status": "PASSED",
+  "scientific_version": "stage3d_interval_v1",
+  "created_utc": "2026-10-12T10:09:52.647973+00:00",
+  "new_stageD_packages": 5,
+  "original_C2_byte_identical_reissued_packages": 5,
+  "all_zip_less_than_24_MiB": true,
+  "scientific_conditions": 300,
+  "interval_rows": 324000,
+  "source_gamma_choices": 18,
+  "source_validation_folds": 1080,
+  "scientific_results_complete": true,
+  "clean_replay_complete": true,
+  "original_C2_predictions_regenerated": false,
+  "package_check_authority": "PACKAGE_CHECKS.json",
+  "post_package_preservation": "POST_PACKAGE_PRESERVATION.json",
+  "code_sha256": "9665a1e0a7e0bdd9ae9fc0f2c96a50f1903dac0749f95ccbb4ce6b01a501a3ca",
+  "files": [
+    {
+      "file": "ANALYSIS_ZH.md",
+      "bytes": 9079,
+      "sha256": "f00df07bbef3f7dce9647899987002dd10fbfe1c2ca3176069d081bf6ff1bcf0"
+    },
+    {
+      "file": "C2_ORIGINAL_REISSUE_MANIFEST.json",
+      "bytes": 1230051,
+      "sha256": "f6dfc74a705e793bf783cebcb0d09a2eb8e3a3d8da1bb625b445c7265bebce7d"
+    },
+    {
+      "file": "CLAIM_EVIDENCE.csv",
+      "bytes": 4978,
+      "sha256": "5fb22caf303f9cd504ebd02c2fa116484d5f14fdc318badd768395797ef3680b"
+    },
+    {
+      "file": "CODE_VERSION.json",
+      "bytes": 4584,
+      "sha256": "e7ac202776be17483080ac6e3ecbbf835ee4b1bf6f3a6eab31d106cff53c0952"
+    },
+    {
+      "file": "ENVIRONMENT.json",
+      "bytes": 653,
+      "sha256": "ee02932cb6b21d985254461c71e3b58daea0b31d83075e7e12c88ebae86238c9"
+    },
+    {
+      "file": "ENVIRONMENT_DRAFT_SAVE.json",
+      "bytes": 391,
+      "sha256": "4cbb8381ad07592d3ac7b425901b6f6ffceb131e97911050b5dd1a240952b12b"
+    },
+    {
+      "file": "EXTRACTION_SAFETY_CHECK.json",
+      "bytes": 400,
+      "sha256": "40458b2e132f3afbeb0a6b7bd07159828b9c407aae55dbced60c923e87520e2f"
+    },
+    {
+      "file": "FACILITY_MAPPING_STATUS.csv",
+      "bytes": 28866,
+      "sha256": "5edf6897d356e260de90558be5c6bdd0a0a49fc2ecc9d80f1de469228862a816"
+    },
+    {
+      "file": "FREEZE.json",
+      "bytes": 3491,
+      "sha256": "86174425dc6867befaa9de3db2aa4e269dc6643a61ab60dc034419bb5b839b81"
+    },
+    {
+      "file": "GAMMA_FREEZE.json",
+      "bytes": 4069,
+      "sha256": "27e93942cbe61893bbbf3b5b3f0487c592152df1fe6b0786c2532c9a0abe103e"
+    },
+    {
+      "file": "INDEPENDENT_CHECK.json",
+      "bytes": 6820,
+      "sha256": "e2b48684813653c55d0fbb3a862df1156fb60228a667459ff2a02442af2db81b"
+    },
+    {
+      "file": "MANIFEST.json",
+      "bytes": 2130,
+      "sha256": "dd939f549f7491410f49bc9d43fa9392ea6851903b1d0b57f92e91d19fdba7a0"
+    },
+    {
+      "file": "PACKAGE_CHECKS.json",
+      "bytes": 36253,
+      "sha256": "3bcb6f8b0a973c901f2075ffddcd15fd53faf9c00d23533507cefd0caba8a262"
+    },
+    {
+      "file": "POST_PACKAGE_PRESERVATION.json",
+      "bytes": 323,
+      "sha256": "ce933bc311968ca6d3a1c0e0fcd4f131fa34dea75c132113986954c092a29417"
+    },
+    {
+      "file": "PRESERVATION_AFTER.json",
+      "bytes": 270,
+      "sha256": "d8afca034177257f053348af86bfcc961230d96778f7f3e8618f587f8d4e2b3d"
+    },
+    {
+      "file": "PROVIDER_QUESTIONS_ZH.md",
+      "bytes": 2773,
+      "sha256": "769b0ed1feba25ad0d0af4c48a0e3304a4acc1f06cb70e8081b4ee80162270af"
+    },
+    {
+      "file": "README.md",
+      "bytes": 4942,
+      "sha256": "36b5734bb8067905c50f45c9efbb23132edb8094858ef89ae8e518f64d836508"
+    },
+    {
+      "file": "REPRODUCE.md",
+      "bytes": 7775,
+      "sha256": "1a1a14fa3a4c7b13a98a878238578a25cd158033c2f1140e561c621e3d2229a8"
+    },
+    {
+      "file": "RUN_STATUS.json",
+      "bytes": 1658,
+      "sha256": "3b2606c85fea3c37e57ec089513abcf54c3c1cb342f9e6cad719f277460b771e"
+    },
+    {
+      "file": "SOFTWARE_ISSUES.json",
+      "bytes": 2524,
+      "sha256": "891d6191de65a0e16fe15609d1111240e8deccd7478363c8f770c8d58e108629"
+    },
+    {
+      "file": "STAGE3D_PROTOCOL.md",
+      "bytes": 17679,
+      "sha256": "2d55d1e32581a57bcce0a48ef8590a6d5c13d9e33fb5c9f8016e98f092d51bbc"
+    },
+    {
+      "file": "Wessex_Stage3C2_Original_Code_and_Reproduce_Reissued_20261012.zip",
+      "bytes": 11848744,
+      "sha256": "7ad78fc45809e932a3df4fdb77dfea561b0acb3f5747c2a41ba818b41e110ab2"
+    },
+    {
+      "file": "Wessex_Stage3C2_Original_Code_and_Reproduce_Reissued_20261012.zip.members.SHA256SUMS",
+      "bytes": 92357,
+      "sha256": "5ec52feb6f877248b33a54694efff26cf68978a6f8be64502de7d2ae7752f8cc"
+    },
+    {
+      "file": "Wessex_Stage3C2_Original_Predictions_and_Diagnostics_Part01_Reissued_20261012.zip",
+      "bytes": 23057568,
+      "sha256": "396662672038a7221f062c1f1e43aa56a26770379244db788a13a2cf1f0226a8"
+    },
+    {
+      "file": "Wessex_Stage3C2_Original_Predictions_and_Diagnostics_Part01_Reissued_20261012.zip.members.SHA256SUMS",
+      "bytes": 33211,
+      "sha256": "fb420d6f9b2226d77659de636749b6cccd8c001bdfa262f12247f9816b546593"
+    },
+    {
+      "file": "Wessex_Stage3C2_Original_Predictions_and_Diagnostics_Part02_Reissued_20261012.zip",
+      "bytes": 21943829,
+      "sha256": "4a81e3b7d7413008754f3d286606c51980700163830ee104f6027a13a2fbf805"
+    },
+    {
+      "file": "Wessex_Stage3C2_Original_Predictions_and_Diagnostics_Part02_Reissued_20261012.zip.members.SHA256SUMS",
+      "bytes": 597964,
+      "sha256": "519229b27c494d4831e5a52bac93751086f7944ced257c23691b7f80fac699e2"
+    },
+    {
+      "file": "Wessex_Stage3C2_Original_Predictions_and_Diagnostics_Part03_Reissued_20261012.zip",
+      "bytes": 2987695,
+      "sha256": "1d1d101f04f0bd4f5d339aa7cbb96583c95a2b49ce6cb6e8e55e4d45e6113bd6"
+    },
+    {
+      "file": "Wessex_Stage3C2_Original_Predictions_and_Diagnostics_Part03_Reissued_20261012.zip.members.SHA256SUMS",
+      "bytes": 27993,
+      "sha256": "cf66a91de32c858c954b6e3b07ac49f7cda3456b402fc41c4b40658f411570bb"
+    },
+    {
+      "file": "Wessex_Stage3C2_Original_Quick_Review_Reissued_20261012.zip",
+      "bytes": 3543727,
+      "sha256": "6f34f6704e78b719d10229f0431f731bfcecf768f4e9359db5441483c70d2d43"
+    },
+    {
+      "file": "Wessex_Stage3C2_Original_Quick_Review_Reissued_20261012.zip.members.SHA256SUMS",
+      "bytes": 14463,
+      "sha256": "92eb9a4fbc271374384b9315138096902802e455bd6b8029290ebb1ce7f64032"
+    },
+    {
+      "file": "Wessex_Stage3D_Code_and_Reproduce_20261012.zip",
+      "bytes": 6943004,
+      "sha256": "7ef5c0dcb15e0bf63b37f9ab3e7687ecea711a6c8b7db6aac2b130d4481422c7"
+    },
+    {
+      "file": "Wessex_Stage3D_Predictions_and_Diagnostics_20261012_Part01.zip",
+      "bytes": 23066000,
+      "sha256": "e72c5e7cafde1a11b7abac50dc71fc9f7efa85f91a657db8a203d7c3b3f4a0e4"
+    },
+    {
+      "file": "Wessex_Stage3D_Predictions_and_Diagnostics_20261012_Part02.zip",
+      "bytes": 20502673,
+      "sha256": "f88f6ca7de3a975ed6bf6ebd9e68c41dad0a8a79af0d5697359b91473aa9ef1e"
+    },
+    {
+      "file": "Wessex_Stage3D_Predictions_and_Diagnostics_20261012_Part03.zip",
+      "bytes": 14454280,
+      "sha256": "fff490f6f0fbdc7277fdd683b0d61dacc8e8b4ec7b9977a549718178cbd5fe74"
+    },
+    {
+      "file": "Wessex_Stage3D_Quick_Review_20261012.zip",
+      "bytes": 8804286,
+      "sha256": "a23f50ac2714b10741156fbafe39ab70f89be6b133d5fe638ab92ae57efab8c2"
+    },
+    {
+      "file": "clean_replay_logs/cold_original_two_site_smoke.log",
+      "bytes": 2880,
+      "sha256": "cedae6139a3b5e10ab4576820f9bdc856b387f95acf440a581d38d8f8ec5c2dc"
+    },
+    {
+      "file": "clean_replay_logs/cold_three_source_libraries_and_1080_pseudo_folds.log",
+      "bytes": 255,
+      "sha256": "f28ee290c7b14ba4bf5c2fb0d340b28e9b682eaf7e28da6ea145c693f0bceea5"
+    },
+    {
+      "file": "clean_replay_logs/independent_cold_smoke_calibration_interval_gate.log",
+      "bytes": 2853,
+      "sha256": "5257d8676530aee5315ff8185621f966d84cc86ee5d8ecf0309d722d7b5ae2f6"
+    },
+    {
+      "file": "clean_replay_logs/independent_full_D_CDF_selection_metric_bootstrap_reconstruction.log",
+      "bytes": 7573,
+      "sha256": "15f8f841fe181f19a68734cdab10265f87fbde1fd8d0b6f61596891a1785e95c"
+    },
+    {
+      "file": "clean_replay_logs/original_C2_canonical_raw_excerpt_QA.log",
+      "bytes": 1258,
+      "sha256": "445901056f740cf55b1a48a50b3f5af22b32df4059107b99eeb76fec75038e4c"
+    },
+    {
+      "file": "clean_replay_logs/saved_interval_all_table_evaluation_5000_resamples.log",
+      "bytes": 5641,
+      "sha256": "8f238d5b055e65236487bc2d4b92a6d31ada6d29b8f9276f463adb24f8eaa24f"
+    },
+    {
+      "file": "clean_replay_logs/unit_tests.log",
+      "bytes": 6770,
+      "sha256": "318ad33ac89ee1e4f545802999324c168c5ba671cf188a4384c8ff90cda17146"
+    },
+    {
+      "file": "clean_replay_logs/validated_full_300_task_cache_resume.log",
+      "bytes": 32341,
+      "sha256": "705367419322a6f7c56c3d7a4351b701dc495ea9a2efd4dc181730eda8b69c5a"
+    },
+    {
+      "file": "clean_replay_logs/validated_twelve_task_smoke_cache_resume.log",
+      "bytes": 2564,
+      "sha256": "83edce9f9bfc85611965671f00b91f4aa980a7099f54740b81ccdf7749998a52"
+    },
+    {
+      "file": "full.json",
+      "bytes": 5540,
+      "sha256": "9db2cb6dd886d4b89ca875d08c597b94503665c63b1b68f125ae3b45bb6b670d"
+    }
+  ],
+  "scope": "New StageD cold source/gamma/smoke + cached full/evaluation/independent audit; original C2 byte reissue only; no final-period performance",
+  "STOP": "Stage3D completed. Await review. No automatic extra experiments."
+}

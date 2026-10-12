@@ -1,0 +1,24 @@
+{
+  "status": "PASSED",
+  "canonical_rows": 189236,
+  "raw_excerpt_rows": 189236,
+  "values_and_masks": "exact float64 equality, no tolerance",
+  "valid_observations": 187819,
+  "Good_zero_retained": 43,
+  "Missing_zero_excluded_raw_rows": 240,
+  "protected_input_records": 0,
+  "source_after2021_records": 0,
+  "target_after2023_records": 0,
+  "source_rankings_independently_verified": true,
+  "temporary_protection_rank_independently_verified": true,
+  "physical_mapping_verified": false,
+  "no_model_or_performance_files_read": true,
+  "dependency_scope": "QA and frozen pool arithmetic self-contained; rebuilding 186-candidate eligibility requires original full raw file and Stage3C1 audit inputs",
+  "sha256": {
+    "data/derived/stage3c2_source_scale_v1/daily_candidates.csv": "0ed8366360d487d74c447ba8a304e1d9b8db9c112d019975a034b5700bf3bddf",
+    "data/provenance/stage3c2_source_scale_v1/selected_model_raw_records.csv.gz": "956d3ba68612de76f959a1296b62d5c8da28729d38017a1bb8b3bb7d8789051f",
+    "data/provenance/stage3c2_source_scale_v1/source_pool_definition.json": "db1ed7af6954ef6d819433ee977ba8638891a9eacc2db33ca733192be84c356e",
+    "scripts/verify_stage3c2_data.py": "f19c7297e727bf5e7718f6d1faf2e75eb2cf64dcc749e2149c4d5336d62e26b5"
+  }
+}
+

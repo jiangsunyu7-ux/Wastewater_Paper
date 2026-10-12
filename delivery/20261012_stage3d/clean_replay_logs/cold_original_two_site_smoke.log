@@ -1,0 +1,51 @@
+SOURCE_READY order20261012_K30
+SOURCE_READY order20261013_K30
+SOURCE_READY order20261014_K30
+smoke 1/12 {"task": "13013_2022-01-01_B30_H1", "status": "COMPLETED", "seconds": 0.26589965499988466, "calibration_valid": true}
+smoke 2/12 {"task": "13013_2022-01-01_B30_H3", "status": "COMPLETED", "seconds": 0.2690798769999674, "calibration_valid": true}
+smoke 3/12 {"task": "13013_2022-01-01_B90_H1", "status": "COMPLETED", "seconds": 0.2707423759984522, "calibration_valid": true}
+smoke 4/12 {"task": "13013_2022-01-01_B90_H3", "status": "COMPLETED", "seconds": 0.26938058599989745, "calibration_valid": true}
+smoke 5/12 {"task": "13013_2022-01-01_B180_H1", "status": "COMPLETED", "seconds": 0.2855814320009813, "calibration_valid": true}
+smoke 6/12 {"task": "13013_2022-01-01_B180_H3", "status": "COMPLETED", "seconds": 0.2820733669996116, "calibration_valid": true}
+smoke 7/12 {"task": "13015_2022-01-01_B30_H1", "status": "COMPLETED", "seconds": 0.26649808200090774, "calibration_valid": true}
+smoke 8/12 {"task": "13015_2022-01-01_B30_H3", "status": "COMPLETED", "seconds": 0.2858347409983253, "calibration_valid": true}
+smoke 9/12 {"task": "13015_2022-01-01_B90_H1", "status": "COMPLETED", "seconds": 0.2741379059989413, "calibration_valid": true}
+smoke 10/12 {"task": "13015_2022-01-01_B90_H3", "status": "COMPLETED", "seconds": 0.2816312140002992, "calibration_valid": true}
+smoke 11/12 {"task": "13015_2022-01-01_B180_H1", "status": "COMPLETED", "seconds": 0.29374402800021926, "calibration_valid": true}
+smoke 12/12 {"task": "13015_2022-01-01_B180_H3", "status": "COMPLETED", "seconds": 0.29339451200030453, "calibration_valid": true}
+{
+  "status": "COMPLETED",
+  "signature": "31451b4547aed6b9654da2d79e4d80a2e91bed8a23d5cda263d663da34a18b61",
+  "mode": "smoke",
+  "config_path": "configs/stage3d_interval_v1/full.json",
+  "config_sha256": "9db2cb6dd886d4b89ca875d08c597b94503665c63b1b68f125ae3b45bb6b670d",
+  "gamma_freeze_sha256": "c4568da3657f9d198659065f0535dad45029f7d4314b53ceb33e5185b0aa4c51",
+  "expected_conditions": 12,
+  "expected_prediction_rows": 12960,
+  "started_utc": "2026-10-12T10:03:31.486527+00:00",
+  "device": "cpu",
+  "workers": 1,
+  "physical_mapping_verified": false,
+  "all_windows_used_development": true,
+  "code_version": {
+    "git_head": ""
+  },
+  "completed_conditions": 12,
+  "failed_conditions": 0,
+  "not_completed_conditions": 0,
+  "invalid_calibration_conditions": 0,
+  "counts_this_call": {
+    "COMPLETED": 12,
+    "CACHED": 0,
+    "FAILED": 0
+  },
+  "phase_seconds": {
+    "data_load": 1.0009988519996114,
+    "source_calibration_or_cache": 1.019403448999583,
+    "target_calibration_or_cache": 3.352602075001414
+  },
+  "finished_utc": "2026-10-12T10:03:34.846992+00:00",
+  "peak_RSS_KiB": 144484,
+  "predictions_sha256": "90d19ecb82ec52c57065ee87c82279592980b80ffa992d8959b8d6fbb37dc8ce",
+  "seconds_this_call": 5.709035997000683
+}

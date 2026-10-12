@@ -1,0 +1,8 @@
+{
+  "status": "PASSED",
+  "files_checked": 4588,
+  "bytes_checked": 364174205,
+  "changed_or_missing": [],
+  "checked_utc": "2026-10-12T09:58:20.836914+00:00",
+  "scope": "Original Stage3C2 scientific bytes and original delivery unchanged; no prediction regeneration"
+}

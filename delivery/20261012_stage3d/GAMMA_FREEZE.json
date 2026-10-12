@@ -1,0 +1,58 @@
+{
+  "status": "FROZEN_SOURCE_ONLY_GAMMA_BEFORE_TARGET_INTERVALS",
+  "signature": "31451b4547aed6b9654da2d79e4d80a2e91bed8a23d5cda263d663da34a18b61",
+  "configuration_sha256": "9db2cb6dd886d4b89ca875d08c597b94503665c63b1b68f125ae3b45bb6b670d",
+  "files_sha256": {
+    "runs/stage3d_interval_v1/source/order20261012_K30/status.json": "8122295954a698816cbf77df232d2bc071e31c34909b4e7fc9fc79a19d500b10",
+    "runs/stage3d_interval_v1/source/order20261012_K30/source_errors_proxy.csv.gz": "c9ef4e951195ddc5a13d3b05c1d57e778c4a2060af69966d2dda00c64b63ab29",
+    "runs/stage3d_interval_v1/source/order20261012_K30/source_errors_final.csv.gz": "5c7bc80059c817daa45b02530acf4cef4212a0b1303920a8d41e66abceac5bc6",
+    "runs/stage3d_interval_v1/source/order20261012_K30/source_diagnostics.csv": "a22aba40e2dd885b7200d43a38b72c97e253a093e28c831623de63480fef610f",
+    "runs/stage3d_interval_v1/source/order20261012_K30/source_validation.csv": "117416767e6b6d3632de5d3670e7e9f879d024c0a3556b664dc371566211fb67",
+    "runs/stage3d_interval_v1/source/order20261012_K30/source_validation_diagnostics.csv": "f2257e7d3ffea5c798cb42d5dcb368411b6151af449552fbd1ec0e0bf416b06b",
+    "runs/stage3d_interval_v1/source/order20261012_K30/selected_gamma.json": "1e0fb0f321bfb45df2f0f4c96fdf7979c92e7b6f873030b7631de3de88401c0f",
+    "runs/stage3d_interval_v1/source/order20261013_K30/status.json": "8012cfd2c558d903d61090c5c90c80799771f425102874c877b324ba07a7005a",
+    "runs/stage3d_interval_v1/source/order20261013_K30/source_errors_proxy.csv.gz": "f2637905c35be01b7486a5bb836f486c3844589d53b2f534c647acd4801f1642",
+    "runs/stage3d_interval_v1/source/order20261013_K30/source_errors_final.csv.gz": "9a758e7d215fd7c6940b543677e0b9771fa2a859e686046f0eea815088fbe212",
+    "runs/stage3d_interval_v1/source/order20261013_K30/source_diagnostics.csv": "495662f578986783f727eadf8bad703f21f057f3688e8d65a91bf2ffa7659b2f",
+    "runs/stage3d_interval_v1/source/order20261013_K30/source_validation.csv": "0f453d69af604df904f80a7a7fcb32df87c46e4f662aebdd5450601eac9097b7",
+    "runs/stage3d_interval_v1/source/order20261013_K30/source_validation_diagnostics.csv": "afc7121f5b76b82577d63e5b712f0270c19729ab4a15adb8dae31eb8cc7e1478",
+    "runs/stage3d_interval_v1/source/order20261013_K30/selected_gamma.json": "7dedabeff71f2589cbae9589ae3c24b2e5c0cdb5e0e0928f507b71d9081ecea7",
+    "runs/stage3d_interval_v1/source/order20261014_K30/status.json": "318c5d2adcc4315c0829adb384b69fbabc4cdd67c221037c461387ed0d024bc4",
+    "runs/stage3d_interval_v1/source/order20261014_K30/source_errors_proxy.csv.gz": "43f0da49e8acc14ca7e37bc9b13fd98e604e12f545f26edaa0490455ac9147f9",
+    "runs/stage3d_interval_v1/source/order20261014_K30/source_errors_final.csv.gz": "4aa82e71011a3915c1c0400e60dd0e1b721afcfb6b3f0c9005a33e7343260de6",
+    "runs/stage3d_interval_v1/source/order20261014_K30/source_diagnostics.csv": "fc2e3269d40adda7dd901a5b7ebfd7b1adbb18fc0ae45e7d2d9986cc30090fa8",
+    "runs/stage3d_interval_v1/source/order20261014_K30/source_validation.csv": "02b9291368ada12cc2c777cf90358de72261b4c7fe08f11dbe934aaf08952712",
+    "runs/stage3d_interval_v1/source/order20261014_K30/source_validation_diagnostics.csv": "5713df93bf42c33229d486986ab44ada786b421b3f3b028f1e9bbeb2b8715b53",
+    "runs/stage3d_interval_v1/source/order20261014_K30/selected_gamma.json": "5159f52fac467640ff0aea416e5c1a5065b3929850c1275b1d5b3dfc7432d7a6"
+  },
+  "selected_gamma": {
+    "order20261012_K30": {
+      "B30_H1": 0.25,
+      "B30_H3": 0.5,
+      "B90_H1": 0.25,
+      "B90_H3": 0.25,
+      "B180_H1": 0.75,
+      "B180_H3": 0.5
+    },
+    "order20261013_K30": {
+      "B30_H1": 0.0,
+      "B30_H3": 0.0,
+      "B90_H1": 0.0,
+      "B90_H3": 0.25,
+      "B180_H1": 0.75,
+      "B180_H3": 0.5
+    },
+    "order20261014_K30": {
+      "B30_H1": 0.25,
+      "B30_H3": 0.75,
+      "B90_H1": 0.75,
+      "B90_H3": 0.0,
+      "B180_H1": 0.75,
+      "B180_H3": 0.5
+    }
+  },
+  "source_selection_train_end": "2020-12-31",
+  "held_year": 2021,
+  "target_deployment_scores_used": false,
+  "created_utc": "2026-10-12T09:37:23.478323+00:00"
+}

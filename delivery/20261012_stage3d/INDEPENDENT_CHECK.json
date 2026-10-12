@@ -1,0 +1,174 @@
+{
+  "status": "PASSED",
+  "mode": "full_independent_interval_evidence_audit",
+  "old_c2": {
+    "status": "PASSED",
+    "packages": [
+      {
+        "file": "Wastewater_Stage3C2_Quick_Review_20261012.zip",
+        "sha256": "6f34f6704e78b719d10229f0431f731bfcecf768f4e9359db5441483c70d2d43",
+        "bytes": 3543727,
+        "ZIP_CRC_passed": true,
+        "member_SHA_checks": 110,
+        "original_scientific_member_bytes_matched": 21
+      },
+      {
+        "file": "Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+        "sha256": "7ad78fc45809e932a3df4fdb77dfea561b0acb3f5747c2a41ba818b41e110ab2",
+        "bytes": 11848744,
+        "ZIP_CRC_passed": true,
+        "member_SHA_checks": 664,
+        "original_scientific_member_bytes_matched": 5
+      },
+      {
+        "file": "Wastewater_Stage3C2_Predictions_and_Diagnostics_20261012_Part01.zip",
+        "sha256": "396662672038a7221f062c1f1e43aa56a26770379244db788a13a2cf1f0226a8",
+        "bytes": 23057568,
+        "ZIP_CRC_passed": true,
+        "member_SHA_checks": 227,
+        "original_scientific_member_bytes_matched": 225
+      },
+      {
+        "file": "Wastewater_Stage3C2_Predictions_and_Diagnostics_20261012_Part02.zip",
+        "sha256": "4a81e3b7d7413008754f3d286606c51980700163830ee104f6027a13a2fbf805",
+        "bytes": 21943829,
+        "ZIP_CRC_passed": true,
+        "member_SHA_checks": 4008,
+        "original_scientific_member_bytes_matched": 4008
+      },
+      {
+        "file": "Wastewater_Stage3C2_Predictions_and_Diagnostics_20261012_Part03.zip",
+        "sha256": "1d1d101f04f0bd4f5d339aa7cbb96583c95a2b49ce6cb6e8e55e4d45e6113bd6",
+        "bytes": 2987695,
+        "ZIP_CRC_passed": true,
+        "member_SHA_checks": 196,
+        "original_scientific_member_bytes_matched": 196
+      }
+    ],
+    "original_prediction_SHA256": "630a21a4c1e7799992bdc963214d36f3c90f8995d791e7c8cd2c97f8e0e9feae",
+    "original_daily_losses_SHA256": "7cab88b09505184e3a93e1eb185d5affbd97f8ea434d61f5e052912b4be5ef1e",
+    "original_predictions_verified_not_regenerated": true,
+    "missing_client_Part01_Part02_found_in_repository": true
+  },
+  "counts": {
+    "original_c2_saved_prediction_rows_checked": 306000,
+    "frozen_input_or_code_SHA_checks": 25,
+    "completed_artifact_SHA_checks": 918,
+    "independent_source_error_rows_checked": 717102,
+    "equal_source_site_weight_checks": 360,
+    "independent_source_validation_objectives_checked": 5400,
+    "independent_leave_relation_group_folds_checked": 1080,
+    "independent_selected_gamma_choices_checked": 18,
+    "independently_reconstructed_interval_rows": 324000,
+    "gamma_endpoint_exact_interval_rows": 24000,
+    "independent_target_calibration_rows_checked": 29216,
+    "independently_checked_target_conditions": 300,
+    "preserved_C2_Persistence_rows_matched": 324000,
+    "nested_80_90_interval_pairs_checked": 162000,
+    "independent_arithmetic_rows_checked": 670284,
+    "independent_summary_rows_checked": 1512,
+    "independent_paired_site_rows_checked": 5760,
+    "independent_negative_transfer_summaries_checked": 144,
+    "independent_primary_bootstrap_interval_rows_checked": 6
+  },
+  "checker_sha256": "08f93c4206c08906ff91af7c283cb619b7e0715484bbd71a5a82476f2352ba3a",
+  "old_models_retrained": false,
+  "signature": "31451b4547aed6b9654da2d79e4d80a2e91bed8a23d5cda263d663da34a18b61",
+  "source_evidence": [
+    {
+      "pool_id": "order20261012_K30",
+      "source_validation_rows": 1800,
+      "source_validation_SHA256": "117416767e6b6d3632de5d3670e7e9f879d024c0a3556b664dc371566211fb67",
+      "selected_gamma_SHA256": "1e0fb0f321bfb45df2f0f4c96fdf7979c92e7b6f873030b7631de3de88401c0f"
+    },
+    {
+      "pool_id": "order20261013_K30",
+      "source_validation_rows": 1800,
+      "source_validation_SHA256": "0f453d69af604df904f80a7a7fcb32df87c46e4f662aebdd5450601eac9097b7",
+      "selected_gamma_SHA256": "7dedabeff71f2589cbae9589ae3c24b2e5c0cdb5e0e0928f507b71d9081ecea7"
+    },
+    {
+      "pool_id": "order20261014_K30",
+      "source_validation_rows": 1800,
+      "source_validation_SHA256": "02b9291368ada12cc2c777cf90358de72261b4c7fe08f11dbe934aaf08952712",
+      "selected_gamma_SHA256": "5159f52fac467640ff0aea416e5c1a5065b3929850c1275b1d5b3dfc7432d7a6"
+    }
+  ],
+  "bootstrap_checks": [
+    {
+      "horizon": 1,
+      "block_days": 7,
+      "replicates": 5000,
+      "confidence_level": 0.975,
+      "facility_layer_indices_exact": true,
+      "time_layer_indices_exact": true,
+      "windows_not_crossed": true,
+      "max_absolute_skill_difference": 1.457167719820518e-16
+    },
+    {
+      "horizon": 1,
+      "block_days": 14,
+      "replicates": 5000,
+      "confidence_level": 0.975,
+      "facility_layer_indices_exact": true,
+      "time_layer_indices_exact": true,
+      "windows_not_crossed": true,
+      "max_absolute_skill_difference": 8.881784197001252e-16
+    },
+    {
+      "horizon": 1,
+      "block_days": 28,
+      "replicates": 5000,
+      "confidence_level": 0.975,
+      "facility_layer_indices_exact": true,
+      "time_layer_indices_exact": true,
+      "windows_not_crossed": true,
+      "max_absolute_skill_difference": 5.585809592645319e-16
+    },
+    {
+      "horizon": 3,
+      "block_days": 7,
+      "replicates": 5000,
+      "confidence_level": 0.975,
+      "facility_layer_indices_exact": true,
+      "time_layer_indices_exact": true,
+      "windows_not_crossed": true,
+      "max_absolute_skill_difference": 5.551115123125783e-17
+    },
+    {
+      "horizon": 3,
+      "block_days": 14,
+      "replicates": 5000,
+      "confidence_level": 0.975,
+      "facility_layer_indices_exact": true,
+      "time_layer_indices_exact": true,
+      "windows_not_crossed": true,
+      "max_absolute_skill_difference": 1.8041124150158794e-16
+    },
+    {
+      "horizon": 3,
+      "block_days": 28,
+      "replicates": 5000,
+      "confidence_level": 0.975,
+      "facility_layer_indices_exact": true,
+      "time_layer_indices_exact": true,
+      "windows_not_crossed": true,
+      "max_absolute_skill_difference": 1.3183898417423734e-16
+    }
+  ],
+  "config_sha256": "9db2cb6dd886d4b89ca875d08c597b94503665c63b1b68f125ae3b45bb6b670d",
+  "predictions_sha256": "aa7f478b2c40b7c0e9d7804aea56c1607e077ea446800ac0d853be2841d7118d",
+  "gamma_freeze_sha256": "27e93942cbe61893bbbf3b5b3f0487c592152df1fe6b0786c2532c9a0abe103e",
+  "tolerances": {
+    "m3_atol": 1e-08,
+    "m3_rtol": 1e-12,
+    "normalized_atol": 1e-10,
+    "normalized_rtol": 1e-10
+  },
+  "scope": "Independent CDF, allowed histories, source-only selection, interval reconstruction, metrics and primitive bootstrap; no trainer/evaluator import",
+  "physical_mapping_verified": false,
+  "verified_real_time": false,
+  "final_2024_2025_performance_used": false,
+  "numerical_tolerance_is_not_bitwise_replication": true,
+  "elapsed_seconds": 103.17292119800004
+}

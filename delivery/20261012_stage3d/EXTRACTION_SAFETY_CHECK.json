@@ -1,0 +1,16 @@
+{
+  "status": "PASSED",
+  "software_fixtures_only": true,
+  "original_extraction": {
+    "packages": 1,
+    "validated_file_instances": 4,
+    "differing_existing_members_rejected": true
+  },
+  "identical_overlay": {
+    "packages": 1,
+    "validated_file_instances": 4,
+    "differing_existing_members_rejected": true
+  },
+  "differing_SHA_overlay_refused": true,
+  "CRC_member_SHA_checked": true
+}
