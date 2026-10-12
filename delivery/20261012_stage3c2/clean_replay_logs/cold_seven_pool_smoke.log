@@ -1,0 +1,161 @@
+source pool K3 ready cached=True
+source order20261012_K10 1/10 final H1 labels=21786
+source order20261012_K10 2/10 final H3 labels=21767
+source order20261012_K10 3/10 proxy H1 labels=18158
+source order20261012_K10 4/10 proxy H3 labels=18139
+source order20261012_K10 5/10 loso_13006 H1 labels=16344
+source order20261012_K10 6/10 loso_13006 H3 labels=16327
+source order20261012_K10 7/10 loso_13008 H1 labels=16345
+source order20261012_K10 8/10 loso_13008 H3 labels=16328
+source order20261012_K10 9/10 loso_13012 H1 labels=16341
+source order20261012_K10 10/10 loso_13012 H3 labels=16324
+source validation order20261012_K10 6/36 B30 H1
+source validation order20261012_K10 12/36 B30 H3
+source validation order20261012_K10 18/36 B90 H1
+source validation order20261012_K10 24/36 B90 H3
+source validation order20261012_K10 30/36 B180 H1
+source validation order20261012_K10 36/36 B180 H3
+source pool order20261012_K10 ready cached=False
+source order20261012_K30 1/10 final H1 labels=65227
+source order20261012_K30 2/10 final H3 labels=65157
+source order20261012_K30 3/10 proxy H1 labels=54342
+source order20261012_K30 4/10 proxy H3 labels=54273
+source order20261012_K30 5/10 loso_13006 H1 labels=52528
+source order20261012_K30 6/10 loso_13006 H3 labels=52461
+source order20261012_K30 7/10 loso_13008 H1 labels=52529
+source order20261012_K30 8/10 loso_13008 H3 labels=52462
+source order20261012_K30 9/10 loso_13012 H1 labels=52525
+source order20261012_K30 10/10 loso_13012 H3 labels=52458
+source validation order20261012_K30 6/36 B30 H1
+source validation order20261012_K30 12/36 B30 H3
+source validation order20261012_K30 18/36 B90 H1
+source validation order20261012_K30 24/36 B90 H3
+source validation order20261012_K30 30/36 B180 H1
+source validation order20261012_K30 36/36 B180 H3
+source pool order20261012_K30 ready cached=False
+source order20261013_K10 1/10 final H1 labels=21720
+source order20261013_K10 2/10 final H3 labels=21700
+source order20261013_K10 3/10 proxy H1 labels=18095
+source order20261013_K10 4/10 proxy H3 labels=18075
+source order20261013_K10 5/10 loso_13006 H1 labels=16281
+source order20261013_K10 6/10 loso_13006 H3 labels=16263
+source order20261013_K10 7/10 loso_13008 H1 labels=16282
+source order20261013_K10 8/10 loso_13008 H3 labels=16264
+source order20261013_K10 9/10 loso_13012 H1 labels=16278
+source order20261013_K10 10/10 loso_13012 H3 labels=16260
+source validation order20261013_K10 6/36 B30 H1
+source validation order20261013_K10 12/36 B30 H3
+source validation order20261013_K10 18/36 B90 H1
+source validation order20261013_K10 24/36 B90 H3
+source validation order20261013_K10 30/36 B180 H1
+source validation order20261013_K10 36/36 B180 H3
+source pool order20261013_K10 ready cached=False
+source order20261013_K30 1/10 final H1 labels=65205
+source order20261013_K30 2/10 final H3 labels=65142
+source order20261013_K30 3/10 proxy H1 labels=54333
+source order20261013_K30 4/10 proxy H3 labels=54270
+source order20261013_K30 5/10 loso_13006 H1 labels=52519
+source order20261013_K30 6/10 loso_13006 H3 labels=52458
+source order20261013_K30 7/10 loso_13008 H1 labels=52520
+source order20261013_K30 8/10 loso_13008 H3 labels=52459
+source order20261013_K30 9/10 loso_13012 H1 labels=52516
+source order20261013_K30 10/10 loso_13012 H3 labels=52455
+source validation order20261013_K30 6/36 B30 H1
+source validation order20261013_K30 12/36 B30 H3
+source validation order20261013_K30 18/36 B90 H1
+source validation order20261013_K30 24/36 B90 H3
+source validation order20261013_K30 30/36 B180 H1
+source validation order20261013_K30 36/36 B180 H3
+source pool order20261013_K30 ready cached=False
+source order20261014_K10 1/10 final H1 labels=21775
+source order20261014_K10 2/10 final H3 labels=21754
+source order20261014_K10 3/10 proxy H1 labels=18157
+source order20261014_K10 4/10 proxy H3 labels=18136
+source order20261014_K10 5/10 loso_13006 H1 labels=16343
+source order20261014_K10 6/10 loso_13006 H3 labels=16324
+source order20261014_K10 7/10 loso_13008 H1 labels=16344
+source order20261014_K10 8/10 loso_13008 H3 labels=16325
+source order20261014_K10 9/10 loso_13012 H1 labels=16340
+source order20261014_K10 10/10 loso_13012 H3 labels=16321
+source validation order20261014_K10 6/36 B30 H1
+source validation order20261014_K10 12/36 B30 H3
+source validation order20261014_K10 18/36 B90 H1
+source validation order20261014_K10 24/36 B90 H3
+source validation order20261014_K10 30/36 B180 H1
+source validation order20261014_K10 36/36 B180 H3
+source pool order20261014_K10 ready cached=False
+source order20261014_K30 1/10 final H1 labels=65232
+source order20261014_K30 2/10 final H3 labels=65164
+source order20261014_K30 3/10 proxy H1 labels=54377
+source order20261014_K30 4/10 proxy H3 labels=54311
+source order20261014_K30 5/10 loso_13006 H1 labels=52563
+source order20261014_K30 6/10 loso_13006 H3 labels=52499
+source order20261014_K30 7/10 loso_13008 H1 labels=52564
+source order20261014_K30 8/10 loso_13008 H3 labels=52500
+source order20261014_K30 9/10 loso_13012 H1 labels=52560
+source order20261014_K30 10/10 loso_13012 H3 labels=52496
+source validation order20261014_K30 6/36 B30 H1
+source validation order20261014_K30 12/36 B30 H3
+source validation order20261014_K30 18/36 B90 H1
+source validation order20261014_K30 24/36 B90 H3
+source validation order20261014_K30 30/36 B180 H1
+source validation order20261014_K30 36/36 B180 H3
+source pool order20261014_K30 ready cached=False
+smoke 1/12 {'task': '13013_2022-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.05170755600556731}
+smoke 2/12 {'task': '13013_2022-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.04668066499289125}
+smoke 3/12 {'task': '13013_2022-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.12034117701114155}
+smoke 4/12 {'task': '13013_2022-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.12784402898978442}
+smoke 5/12 {'task': '13013_2022-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.12173814998823218}
+smoke 6/12 {'task': '13013_2022-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.12419592699734494}
+smoke 7/12 {'task': '13015_2022-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.04723089298931882}
+smoke 8/12 {'task': '13015_2022-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.04492199598462321}
+smoke 9/12 {'task': '13015_2022-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.1250506350188516}
+smoke 10/12 {'task': '13015_2022-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.11814789500203915}
+smoke 11/12 {'task': '13015_2022-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.11958516298909672}
+smoke 12/12 {'task': '13015_2022-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.12711407398455776}
+{
+  "status": "COMPLETED",
+  "signature": "02e143306740f9957c4b6189996f45be75a636957ec2b7ed6d16f7d18d1ba9ae",
+  "mode": "smoke",
+  "config_path": "configs/stage3c2_source_scale_v1/full.json",
+  "config_sha256": "d26962beff3c34f83b11fa9ac13a5ca3b2cdc6e457e2aca3c448a40a345466d6",
+  "expected_conditions": 12,
+  "expected_policies": 17,
+  "expected_prediction_rows": 12240,
+  "pool_ids": [
+    "K3",
+    "order20261012_K10",
+    "order20261012_K30",
+    "order20261013_K10",
+    "order20261013_K30",
+    "order20261014_K10",
+    "order20261014_K30"
+  ],
+  "started_utc": "2026-10-12T04:41:28.759113+00:00",
+  "code_version": {
+    "git_head": null
+  },
+  "physical_mapping_verified": false,
+  "all_windows_used_development": true,
+  "device": "cpu",
+  "workers": 2,
+  "completed_conditions": 12,
+  "failed_conditions": 0,
+  "not_completed_conditions": 0,
+  "counts_this_call": {
+    "COMPLETED": 12,
+    "CACHED": 0,
+    "FAILED": 0
+  },
+  "finished_utc": "2026-10-12T04:41:31.574241+00:00",
+  "seconds_this_call": 10.643036382010905,
+  "phase_seconds": {
+    "data_load": 1.1800585789897013,
+    "source_training_or_cache": 6.647625823999988,
+    "target_training_or_cache": 2.802225420018658
+  },
+  "peak_RSS_parent_KiB": 180024,
+  "peak_RSS_children_KiB": 174004,
+  "outputs_and_fingerprints_verified": true,
+  "predictions_sha256": "09ab80d2a28de0375464a1e732478444798a8ce8b80d6451e37264c13112975e"
+}

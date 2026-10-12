@@ -1,0 +1,30 @@
+{
+  "version": "stage3c2_source_scale_v1",
+  "files": [
+    {
+      "file": "Wastewater_Stage3C2_Quick_Review_20261012.zip",
+      "bytes": 3543727,
+      "sha256": "6f34f6704e78b719d10229f0431f731bfcecf768f4e9359db5441483c70d2d43"
+    },
+    {
+      "file": "Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "bytes": 11848744,
+      "sha256": "7ad78fc45809e932a3df4fdb77dfea561b0acb3f5747c2a41ba818b41e110ab2"
+    },
+    {
+      "file": "Wastewater_Stage3C2_Predictions_and_Diagnostics_20261012_Part01.zip",
+      "bytes": 23057568,
+      "sha256": "396662672038a7221f062c1f1e43aa56a26770379244db788a13a2cf1f0226a8"
+    },
+    {
+      "file": "Wastewater_Stage3C2_Predictions_and_Diagnostics_20261012_Part02.zip",
+      "bytes": 21943829,
+      "sha256": "4a81e3b7d7413008754f3d286606c51980700163830ee104f6027a13a2fbf805"
+    },
+    {
+      "file": "Wastewater_Stage3C2_Predictions_and_Diagnostics_20261012_Part03.zip",
+      "bytes": 2987695,
+      "sha256": "1d1d101f04f0bd4f5d339aa7cbb96583c95a2b49ce6cb6e8e55e4d45e6113bd6"
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+source K3 1/10 final H1 labels=6527
+source K3 2/10 final H3 labels=6521
+source K3 3/10 proxy H1 labels=5444
+source K3 4/10 proxy H3 labels=5438
+source K3 5/10 loso_13006 H1 labels=3630
+source K3 6/10 loso_13006 H3 labels=3626
+source K3 7/10 loso_13008 H1 labels=3631
+source K3 8/10 loso_13008 H3 labels=3627
+source K3 9/10 loso_13012 H1 labels=3627
+source K3 10/10 loso_13012 H3 labels=3623
+source validation K3 6/36 B30 H1
+source validation K3 12/36 B30 H3
+source validation K3 18/36 B90 H1
+source validation K3 24/36 B90 H3
+source validation K3 30/36 B180 H1
+source validation K3 36/36 B180 H3
+source pool K3 ready cached=False
+k3-check 1/300 {'task': '13013_2022-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.0682797800109256}
+k3-check 2/300 {'task': '13013_2022-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.030048157001147047}
+k3-check 3/300 {'task': '13013_2022-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04075549601111561}
+k3-check 4/300 {'task': '13013_2022-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04870104297879152}
+k3-check 5/300 {'task': '13013_2022-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.039547977008624}
+k3-check 6/300 {'task': '13013_2022-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.03984463098458946}
+k3-check 7/300 {'task': '13015_2022-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023926155001390725}
+k3-check 8/300 {'task': '13015_2022-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.024273744988022372}
+k3-check 9/300 {'task': '13015_2022-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04005214001517743}
+k3-check 10/300 {'task': '13015_2022-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03897177000180818}
+k3-check 11/300 {'task': '13015_2022-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03912365299765952}
+k3-check 12/300 {'task': '13015_2022-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.0390059019846376}
+k3-check 13/300 {'task': '13016_2022-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023800469993148}
+k3-check 14/300 {'task': '13016_2022-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.024011795001570135}
+k3-check 15/300 {'task': '13016_2022-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.03929859001073055}
+k3-check 16/300 {'task': '13016_2022-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03900574200088158}
+k3-check 17/300 {'task': '13016_2022-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03980540900374763}
+k3-check 18/300 {'task': '13016_2022-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.03944150698953308}
+k3-check 19/300 {'task': '13017_2022-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023556033003842458}
+k3-check 20/300 {'task': '13017_2022-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.0241805010009557}
+k3-check 21/300 {'task': '13017_2022-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.03940256600617431}
+k3-check 22/300 {'task': '13017_2022-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04098225000780076}
+k3-check 23/300 {'task': '13017_2022-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.04320834300597198}
+k3-check 24/300 {'task': '13017_2022-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.04059183897334151}
+k3-check 25/300 {'task': '13022_2022-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023836998007027432}
+k3-check 26/300 {'task': '13022_2022-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.02362908999202773}
+k3-check 27/300 {'task': '13022_2022-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.03878000099211931}
+k3-check 28/300 {'task': '13022_2022-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.040711253008339554}
+k3-check 29/300 {'task': '13022_2022-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03996974599431269}
+k3-check 30/300 {'task': '13022_2022-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.041495609999401495}
+k3-check 31/300 {'task': '13024_2022-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023189967992948368}
+k3-check 32/300 {'task': '13024_2022-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.024071107007330284}
+k3-check 33/300 {'task': '13024_2022-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.03893122199224308}
+k3-check 34/300 {'task': '13024_2022-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03931385898613371}
+k3-check 35/300 {'task': '13024_2022-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.039443301007850096}
+k3-check 36/300 {'task': '13024_2022-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.040705231978790835}
+k3-check 37/300 {'task': '13025_2022-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023602789995493367}
+k3-check 38/300 {'task': '13025_2022-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.024755455990089104}
+k3-check 39/300 {'task': '13025_2022-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.039445575006539}
+k3-check 40/300 {'task': '13025_2022-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.038766323996242136}
+k3-check 41/300 {'task': '13025_2022-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.039611805987078696}
+k3-check 42/300 {'task': '13025_2022-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.04306916400673799}
+k3-check 43/300 {'task': '13028_2022-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023613360011950135}
+k3-check 44/300 {'task': '13028_2022-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.025229182007024065}
+k3-check 45/300 {'task': '13028_2022-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.03886572999181226}
+k3-check 46/300 {'task': '13028_2022-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03899649498634972}
+k3-check 47/300 {'task': '13028_2022-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03933167198556475}
+k3-check 48/300 {'task': '13028_2022-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.03892115401686169}
+k3-check 49/300 {'task': '13029_2022-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023675316013395786}
+k3-check 50/300 {'task': '13029_2022-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.023739424999803305}
+k3-check 51/300 {'task': '13029_2022-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.038590896991081536}
+k3-check 52/300 {'task': '13029_2022-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03958634898299351}
+k3-check 53/300 {'task': '13029_2022-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03998621698701754}
+k3-check 54/300 {'task': '13029_2022-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.040190267987782136}
+k3-check 55/300 {'task': '13031_2022-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.02381837400025688}
+k3-check 56/300 {'task': '13031_2022-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.026845586020499468}
+k3-check 57/300 {'task': '13031_2022-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.042589104996295646}
+k3-check 58/300 {'task': '13031_2022-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04052068601595238}
+k3-check 59/300 {'task': '13031_2022-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03915509200305678}
+k3-check 60/300 {'task': '13031_2022-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.03928287999588065}
+k3-check 61/300 {'task': '13013_2022-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023600154992891476}
+k3-check 62/300 {'task': '13013_2022-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.023786222998751327}
+k3-check 63/300 {'task': '13013_2022-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04111084001488052}
+k3-check 64/300 {'task': '13013_2022-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.039604742982191965}
+k3-check 65/300 {'task': '13013_2022-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.04059122802573256}
+k3-check 66/300 {'task': '13013_2022-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.03914573500514962}
+k3-check 67/300 {'task': '13015_2022-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.02353585499804467}
+k3-check 68/300 {'task': '13015_2022-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.02368661598302424}
+k3-check 69/300 {'task': '13015_2022-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.039135585015174}
+k3-check 70/300 {'task': '13015_2022-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03873803099850193}
+k3-check 71/300 {'task': '13015_2022-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.0387780669843778}
+k3-check 72/300 {'task': '13015_2022-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.03853707600501366}
+k3-check 73/300 {'task': '13016_2022-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.02337441299459897}
+k3-check 74/300 {'task': '13016_2022-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.02470142499078065}
+k3-check 75/300 {'task': '13016_2022-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.039827339991461486}
+k3-check 76/300 {'task': '13016_2022-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04798127102549188}
+k3-check 77/300 {'task': '13016_2022-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03939275600714609}
+k3-check 78/300 {'task': '13017_2022-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.024058923998381943}
+k3-check 79/300 {'task': '13016_2022-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.04182245102128945}
+k3-check 80/300 {'task': '13017_2022-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.024435878003714606}
+k3-check 81/300 {'task': '13017_2022-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04480737398262136}
+k3-check 82/300 {'task': '13017_2022-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04389123202417977}
+k3-check 83/300 {'task': '13017_2022-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.041819525009486824}
+k3-check 84/300 {'task': '13017_2022-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.042401234008139}
+k3-check 85/300 {'task': '13022_2022-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.02651444700313732}
+k3-check 86/300 {'task': '13022_2022-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.02478577199508436}
+k3-check 87/300 {'task': '13022_2022-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04042114902404137}
+k3-check 88/300 {'task': '13022_2022-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04061450099106878}
+k3-check 89/300 {'task': '13022_2022-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.04129244000068866}
+k3-check 90/300 {'task': '13022_2022-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.04284854099387303}
+k3-check 91/300 {'task': '13024_2022-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.025834344007307664}
+k3-check 92/300 {'task': '13024_2022-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.025702557002659887}
+k3-check 93/300 {'task': '13024_2022-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04194766900036484}
+k3-check 94/300 {'task': '13024_2022-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03889736399287358}
+k3-check 95/300 {'task': '13024_2022-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.04057915500015952}
+k3-check 96/300 {'task': '13024_2022-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.04227639900636859}
+k3-check 97/300 {'task': '13025_2022-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.0265535969811026}
+k3-check 98/300 {'task': '13025_2022-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.02581885299878195}
+k3-check 99/300 {'task': '13025_2022-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04299730699858628}
+k3-check 100/300 {'task': '13025_2022-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.040378479985520244}
+k3-check 101/300 {'task': '13025_2022-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.043312096007866785}
+k3-check 102/300 {'task': '13025_2022-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.04030061498633586}
+k3-check 103/300 {'task': '13028_2022-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.024451145000057295}
+k3-check 104/300 {'task': '13028_2022-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.024363189993891865}
+k3-check 105/300 {'task': '13028_2022-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04286018101265654}
+k3-check 106/300 {'task': '13028_2022-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04042383600608446}
+k3-check 107/300 {'task': '13028_2022-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.04769142597797327}
+k3-check 108/300 {'task': '13028_2022-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.03989099900354631}
+k3-check 109/300 {'task': '13029_2022-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.027346199000021443}
+k3-check 110/300 {'task': '13029_2022-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.02537288801977411}
+k3-check 111/300 {'task': '13029_2022-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04311194198089652}
+k3-check 112/300 {'task': '13029_2022-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04704366499208845}
+k3-check 113/300 {'task': '13029_2022-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.04131669498747215}
+k3-check 114/300 {'task': '13029_2022-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.03951645799679682}
+k3-check 115/300 {'task': '13031_2022-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.02384221600368619}
+k3-check 116/300 {'task': '13031_2022-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.023922947992105037}
+k3-check 117/300 {'task': '13031_2022-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.038866482995217666}
+k3-check 118/300 {'task': '13031_2022-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03818555999896489}
+k3-check 119/300 {'task': '13031_2022-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.04101469001034275}
+k3-check 120/300 {'task': '13031_2022-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.04411286301910877}
+k3-check 121/300 {'task': '13013_2023-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.024400700989644974}
+k3-check 122/300 {'task': '13013_2023-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.02389841098920442}
+k3-check 123/300 {'task': '13013_2023-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04182674898765981}
+k3-check 124/300 {'task': '13013_2023-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04329068600782193}
+k3-check 125/300 {'task': '13013_2023-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.0425115890102461}
+k3-check 126/300 {'task': '13013_2023-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.044072717981180176}
+k3-check 127/300 {'task': '13015_2023-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023895756021374837}
+k3-check 128/300 {'task': '13015_2023-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.024472694989526644}
+k3-check 129/300 {'task': '13015_2023-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.03967735901824199}
+k3-check 130/300 {'task': '13015_2023-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03890313100419007}
+k3-check 131/300 {'task': '13015_2023-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.04025931700016372}
+k3-check 132/300 {'task': '13015_2023-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.0384262400039006}
+k3-check 133/300 {'task': '13016_2023-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.024059942981693894}
+k3-check 134/300 {'task': '13016_2023-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.023751817003358155}
+k3-check 135/300 {'task': '13016_2023-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.0379216649744194}
+k3-check 136/300 {'task': '13016_2023-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.041622687014751136}
+k3-check 137/300 {'task': '13016_2023-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03879655199125409}
+k3-check 138/300 {'task': '13016_2023-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.041430757992202416}
+k3-check 139/300 {'task': '13017_2023-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023280936002265662}
+k3-check 140/300 {'task': '13017_2023-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.024072425992926583}
+k3-check 141/300 {'task': '13017_2023-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.03811747199506499}
+k3-check 142/300 {'task': '13017_2023-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03897878300631419}
+k3-check 143/300 {'task': '13017_2023-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03876178798964247}
+k3-check 144/300 {'task': '13017_2023-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.039587651001056656}
+k3-check 145/300 {'task': '13022_2023-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023264093993930146}
+k3-check 146/300 {'task': '13022_2023-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.024457797000650316}
+k3-check 147/300 {'task': '13022_2023-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.039300955017097294}
+k3-check 148/300 {'task': '13022_2023-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04760947200702503}
+k3-check 149/300 {'task': '13022_2023-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.038400482008000836}
+k3-check 150/300 {'task': '13024_2023-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023190898005850613}
+k3-check 151/300 {'task': '13022_2023-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.04545624597813003}
+k3-check 152/300 {'task': '13024_2023-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.02332373699755408}
+k3-check 153/300 {'task': '13024_2023-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04234706098213792}
+k3-check 154/300 {'task': '13024_2023-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03875317997881211}
+k3-check 155/300 {'task': '13024_2023-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.04064829499111511}
+k3-check 156/300 {'task': '13024_2023-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.046709599992027506}
+k3-check 157/300 {'task': '13025_2023-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.026237674988806248}
+k3-check 158/300 {'task': '13025_2023-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.023842966998927295}
+k3-check 159/300 {'task': '13025_2023-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.0408165089902468}
+k3-check 160/300 {'task': '13025_2023-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03843958501238376}
+k3-check 161/300 {'task': '13025_2023-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.04081357299583033}
+k3-check 162/300 {'task': '13025_2023-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.04074117902200669}
+k3-check 163/300 {'task': '13028_2023-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.024451756005873904}
+k3-check 164/300 {'task': '13028_2023-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.023657590005313978}
+k3-check 165/300 {'task': '13028_2023-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04092996200779453}
+k3-check 166/300 {'task': '13028_2023-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.0404057819978334}
+k3-check 167/300 {'task': '13028_2023-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.042602077999617904}
+k3-check 168/300 {'task': '13028_2023-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.04013410402694717}
+k3-check 169/300 {'task': '13029_2023-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.023390390997519717}
+k3-check 170/300 {'task': '13029_2023-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.0458993450156413}
+k3-check 171/300 {'task': '13029_2023-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.03829829100868665}
+k3-check 172/300 {'task': '13029_2023-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.06674651699722745}
+k3-check 173/300 {'task': '13029_2023-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03846613402129151}
+k3-check 174/300 {'task': '13031_2023-01-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023526214994490147}
+k3-check 175/300 {'task': '13029_2023-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.03882687899749726}
+k3-check 176/300 {'task': '13031_2023-01-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.024328825995326042}
+k3-check 177/300 {'task': '13031_2023-01-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.03963131198543124}
+k3-check 178/300 {'task': '13031_2023-01-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.038716282026143745}
+k3-check 179/300 {'task': '13031_2023-01-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.05787431899807416}
+k3-check 180/300 {'task': '13031_2023-01-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.06611267500557005}
+k3-check 181/300 {'task': '13013_2023-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.03244637799798511}
+k3-check 182/300 {'task': '13013_2023-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.02593578101368621}
+k3-check 183/300 {'task': '13013_2023-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.041005692997714505}
+k3-check 184/300 {'task': '13013_2023-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04302424701745622}
+k3-check 185/300 {'task': '13013_2023-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.0602123890130315}
+k3-check 186/300 {'task': '13013_2023-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.054531206988031045}
+k3-check 187/300 {'task': '13015_2023-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.026270780013874173}
+k3-check 188/300 {'task': '13015_2023-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.023897570004919544}
+k3-check 189/300 {'task': '13015_2023-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04840212099952623}
+k3-check 190/300 {'task': '13015_2023-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04586305600241758}
+k3-check 191/300 {'task': '13015_2023-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.0385770509892609}
+k3-check 192/300 {'task': '13015_2023-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.040853057987987995}
+k3-check 193/300 {'task': '13016_2023-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023384591011563316}
+k3-check 194/300 {'task': '13016_2023-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.023890286014648154}
+k3-check 195/300 {'task': '13016_2023-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.03886795599828474}
+k3-check 196/300 {'task': '13016_2023-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03995174201554619}
+k3-check 197/300 {'task': '13016_2023-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03949615001329221}
+k3-check 198/300 {'task': '13016_2023-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.039553737005917355}
+k3-check 199/300 {'task': '13017_2023-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.025078578997636214}
+k3-check 200/300 {'task': '13017_2023-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.024095641012536362}
+k3-check 201/300 {'task': '13017_2023-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04075996301253326}
+k3-check 202/300 {'task': '13017_2023-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03947104400140233}
+k3-check 203/300 {'task': '13017_2023-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03982108799391426}
+k3-check 204/300 {'task': '13017_2023-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.03959838201990351}
+k3-check 205/300 {'task': '13022_2023-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.02375608601141721}
+k3-check 206/300 {'task': '13022_2023-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.024460401997203007}
+k3-check 207/300 {'task': '13022_2023-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.038456335983937606}
+k3-check 208/300 {'task': '13022_2023-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.040742671000771224}
+k3-check 209/300 {'task': '13022_2023-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03938290901714936}
+k3-check 210/300 {'task': '13022_2023-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.039444784983061254}
+k3-check 211/300 {'task': '13024_2023-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.02314141602255404}
+k3-check 212/300 {'task': '13024_2023-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.023456755006918684}
+k3-check 213/300 {'task': '13024_2023-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.0383285169955343}
+k3-check 214/300 {'task': '13024_2023-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04072956700110808}
+k3-check 215/300 {'task': '13024_2023-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.038464520999696106}
+k3-check 216/300 {'task': '13024_2023-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.04149013900314458}
+k3-check 217/300 {'task': '13025_2023-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.0237646609894}
+k3-check 218/300 {'task': '13025_2023-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.024746567010879517}
+k3-check 219/300 {'task': '13025_2023-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.03817137301666662}
+k3-check 220/300 {'task': '13025_2023-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04211953599588014}
+k3-check 221/300 {'task': '13025_2023-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03871696299756877}
+k3-check 222/300 {'task': '13028_2023-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023693858995102346}
+k3-check 223/300 {'task': '13025_2023-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.04187371602165513}
+k3-check 224/300 {'task': '13028_2023-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.023746597988065332}
+k3-check 225/300 {'task': '13028_2023-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.0425053270009812}
+k3-check 226/300 {'task': '13028_2023-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04029985301895067}
+k3-check 227/300 {'task': '13028_2023-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.040266170020913705}
+k3-check 228/300 {'task': '13028_2023-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.0430586019938346}
+k3-check 229/300 {'task': '13029_2023-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.02417301500099711}
+k3-check 230/300 {'task': '13029_2023-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.02783966198330745}
+k3-check 231/300 {'task': '13029_2023-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04098746902309358}
+k3-check 232/300 {'task': '13029_2023-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04415990100824274}
+k3-check 233/300 {'task': '13029_2023-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.04016874800436199}
+k3-check 234/300 {'task': '13031_2023-07-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.02457847198820673}
+k3-check 235/300 {'task': '13029_2023-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.045288481982424855}
+k3-check 236/300 {'task': '13031_2023-07-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.025751396984560415}
+k3-check 237/300 {'task': '13031_2023-07-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04247912799473852}
+k3-check 238/300 {'task': '13031_2023-07-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04103669000323862}
+k3-check 239/300 {'task': '13031_2023-07-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.044036891020368785}
+k3-check 240/300 {'task': '13031_2023-07-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.04102712401072495}
+k3-check 241/300 {'task': '13013_2023-10-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.02482069600955583}
+k3-check 242/300 {'task': '13013_2023-10-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.02527445400482975}
+k3-check 243/300 {'task': '13013_2023-10-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.041982338996604085}
+k3-check 244/300 {'task': '13013_2023-10-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04034288300317712}
+k3-check 245/300 {'task': '13013_2023-10-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.0463434350094758}
+k3-check 246/300 {'task': '13013_2023-10-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.0402941619977355}
+k3-check 247/300 {'task': '13015_2023-10-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.024503852997440845}
+k3-check 248/300 {'task': '13015_2023-10-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.025651349016698077}
+k3-check 249/300 {'task': '13015_2023-10-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04143185098655522}
+k3-check 250/300 {'task': '13015_2023-10-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.040351119998376817}
+k3-check 251/300 {'task': '13015_2023-10-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.0397881259850692}
+k3-check 252/300 {'task': '13015_2023-10-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.04086106299655512}
+k3-check 253/300 {'task': '13016_2023-10-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023621122003532946}
+k3-check 254/300 {'task': '13016_2023-10-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.024176912003895268}
+k3-check 255/300 {'task': '13016_2023-10-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.03904378600418568}
+k3-check 256/300 {'task': '13016_2023-10-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.039183439017506316}
+k3-check 257/300 {'task': '13016_2023-10-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03933371801394969}
+k3-check 258/300 {'task': '13016_2023-10-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.03942744398955256}
+k3-check 259/300 {'task': '13017_2023-10-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.02590090301237069}
+k3-check 260/300 {'task': '13017_2023-10-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.025213788991095498}
+k3-check 261/300 {'task': '13017_2023-10-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.040618201019242406}
+k3-check 262/300 {'task': '13017_2023-10-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04390943600446917}
+k3-check 263/300 {'task': '13017_2023-10-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.0442232429923024}
+k3-check 264/300 {'task': '13017_2023-10-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.041114758991170675}
+k3-check 265/300 {'task': '13022_2023-10-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.02746293498785235}
+k3-check 266/300 {'task': '13022_2023-10-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.023872721008956432}
+k3-check 267/300 {'task': '13022_2023-10-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04011477899621241}
+k3-check 268/300 {'task': '13022_2023-10-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03896370701841079}
+k3-check 269/300 {'task': '13022_2023-10-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.04038905201014131}
+k3-check 270/300 {'task': '13022_2023-10-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.04163764699478634}
+k3-check 271/300 {'task': '13024_2023-10-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.024926180980401114}
+k3-check 272/300 {'task': '13024_2023-10-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.02629601300577633}
+k3-check 273/300 {'task': '13024_2023-10-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.04456783697241917}
+k3-check 274/300 {'task': '13024_2023-10-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.047271643998101354}
+k3-check 275/300 {'task': '13024_2023-10-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.0417189700237941}
+k3-check 276/300 {'task': '13024_2023-10-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.04881389200454578}
+k3-check 277/300 {'task': '13025_2023-10-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.024632060987642035}
+k3-check 278/300 {'task': '13025_2023-10-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.02397380000911653}
+k3-check 279/300 {'task': '13025_2023-10-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.04131713800597936}
+k3-check 280/300 {'task': '13025_2023-10-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03915337999933399}
+k3-check 281/300 {'task': '13025_2023-10-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.039418706990545616}
+k3-check 282/300 {'task': '13025_2023-10-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.038753903994802386}
+k3-check 283/300 {'task': '13028_2023-10-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.023552952014142647}
+k3-check 284/300 {'task': '13028_2023-10-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.023945466993609443}
+k3-check 285/300 {'task': '13028_2023-10-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.03867943401564844}
+k3-check 286/300 {'task': '13028_2023-10-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.0390701649885159}
+k3-check 287/300 {'task': '13028_2023-10-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.039654127991525456}
+k3-check 288/300 {'task': '13028_2023-10-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.03936268200050108}
+k3-check 289/300 {'task': '13029_2023-10-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.02423131198156625}
+k3-check 290/300 {'task': '13029_2023-10-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.02387996402103454}
+k3-check 291/300 {'task': '13029_2023-10-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.039449474978027865}
+k3-check 292/300 {'task': '13029_2023-10-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03927926599862985}
+k3-check 293/300 {'task': '13029_2023-10-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03876052499981597}
+k3-check 294/300 {'task': '13029_2023-10-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.03980859601870179}
+k3-check 295/300 {'task': '13031_2023-10-01_B30_H1', 'status': 'COMPLETED', 'seconds': 0.02372957198531367}
+k3-check 296/300 {'task': '13031_2023-10-01_B30_H3', 'status': 'COMPLETED', 'seconds': 0.02391032100422308}
+k3-check 297/300 {'task': '13031_2023-10-01_B90_H1', 'status': 'COMPLETED', 'seconds': 0.03943519800668582}
+k3-check 298/300 {'task': '13031_2023-10-01_B90_H3', 'status': 'COMPLETED', 'seconds': 0.03901914000744}
+k3-check 299/300 {'task': '13031_2023-10-01_B180_H1', 'status': 'COMPLETED', 'seconds': 0.03919095097808167}
+k3-check 300/300 {'task': '13031_2023-10-01_B180_H3', 'status': 'COMPLETED', 'seconds': 0.038909014023374766}
+{
+  "status": "COMPLETED",
+  "signature": "02e143306740f9957c4b6189996f45be75a636957ec2b7ed6d16f7d18d1ba9ae",
+  "mode": "k3-check",
+  "config_path": "configs/stage3c2_source_scale_v1/full.json",
+  "config_sha256": "d26962beff3c34f83b11fa9ac13a5ca3b2cdc6e457e2aca3c448a40a345466d6",
+  "expected_conditions": 300,
+  "expected_policies": 5,
+  "expected_prediction_rows": 90000,
+  "pool_ids": [
+    "K3"
+  ],
+  "started_utc": "2026-10-12T04:41:05.888959+00:00",
+  "code_version": {
+    "git_head": null
+  },
+  "physical_mapping_verified": false,
+  "all_windows_used_development": true,
+  "device": "cpu",
+  "workers": 2,
+  "completed_conditions": 300,
+  "failed_conditions": 0,
+  "not_completed_conditions": 0,
+  "counts_this_call": {
+    "COMPLETED": 300,
+    "CACHED": 0,
+    "FAILED": 0
+  },
+  "finished_utc": "2026-10-12T04:41:13.577090+00:00",
+  "seconds_this_call": 8.787489590991754,
+  "phase_seconds": {
+    "data_load": 0.34267823098343797,
+    "source_training_or_cache": 0.756520950992126,
+    "target_training_or_cache": 7.549737506022211
+  },
+  "peak_RSS_parent_KiB": 180024,
+  "peak_RSS_children_KiB": 167284,
+  "outputs_and_fingerprints_verified": true,
+  "predictions_sha256": "3156a35097a19cb6fd23afa42107f292212942824b1b2dee109749cc4d8157cb"
+}

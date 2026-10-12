@@ -1,0 +1,23 @@
+{
+  "status": "PASSED",
+  "signature": "02e143306740f9957c4b6189996f45be75a636957ec2b7ed6d16f7d18d1ba9ae",
+  "prediction_rows_compared": 90000,
+  "source_array_checks": 50,
+  "parameter_choices_checked": 900,
+  "internal_validation_scores_checked": 14400,
+  "maximum_normalized_prediction_difference": 8.881784197001252e-16,
+  "prediction_tolerance": {
+    "normalized_atol": 1e-10,
+    "rtol": 1e-10
+  },
+  "validation_tolerance": {
+    "normalized_atol": 1e-12,
+    "rtol": 1e-12
+  },
+  "persistence_exact": true,
+  "truth_history_thresholds_choices_exact": true,
+  "scope": "five corresponding policies, all300conditions/5 usedwindows; numerical tolerance is not bitwise replication",
+  "old_predictions_source": "immutable individual Stage3B job predictions, not rounded summaries",
+  "new_predictions_sha256": "3156a35097a19cb6fd23afa42107f292212942824b1b2dee109749cc4d8157cb",
+  "checker_sha256": "8bc1c4052be2cd8e3c344f30b67ce726a0556d1f746da67a7fd42fd523f9d515"
+}

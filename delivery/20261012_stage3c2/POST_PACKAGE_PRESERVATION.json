@@ -1,0 +1,8 @@
+{
+  "status": "PASSED",
+  "checked_utc": "2026-10-12T04:49:14.810015+00:00",
+  "files_checked": 2901,
+  "bytes_checked": 242094551,
+  "changed_or_missing": [],
+  "scope": "After actual package creation and both clean replay roots; original Stage3B/C1 bytes exact unchanged"
+}

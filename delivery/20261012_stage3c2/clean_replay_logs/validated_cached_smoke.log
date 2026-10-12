@@ -1,0 +1,65 @@
+source pool K3 ready cached=True
+source pool order20261012_K10 ready cached=True
+source pool order20261012_K30 ready cached=True
+source pool order20261013_K10 ready cached=True
+source pool order20261013_K30 ready cached=True
+source pool order20261014_K10 ready cached=True
+source pool order20261014_K30 ready cached=True
+smoke 1/12 {'task': '13013_2022-01-01_B30_H1', 'status': 'CACHED', 'seconds': 0.001040776027366519}
+smoke 2/12 {'task': '13013_2022-01-01_B30_H3', 'status': 'CACHED', 'seconds': 0.0006633609882555902}
+smoke 3/12 {'task': '13013_2022-01-01_B90_H3', 'status': 'CACHED', 'seconds': 0.0009778189996723086}
+smoke 4/12 {'task': '13013_2022-01-01_B90_H1', 'status': 'CACHED', 'seconds': 0.0012003850133623928}
+smoke 5/12 {'task': '13013_2022-01-01_B180_H1', 'status': 'CACHED', 'seconds': 0.0007764020119793713}
+smoke 6/12 {'task': '13013_2022-01-01_B180_H3', 'status': 'CACHED', 'seconds': 0.0007926419784780592}
+smoke 7/12 {'task': '13015_2022-01-01_B30_H1', 'status': 'CACHED', 'seconds': 0.0005632030079141259}
+smoke 8/12 {'task': '13015_2022-01-01_B30_H3', 'status': 'CACHED', 'seconds': 0.000594220997299999}
+smoke 9/12 {'task': '13015_2022-01-01_B90_H1', 'status': 'CACHED', 'seconds': 0.0007497630140278488}
+smoke 10/12 {'task': '13015_2022-01-01_B90_H3', 'status': 'CACHED', 'seconds': 0.0007097769994288683}
+smoke 11/12 {'task': '13015_2022-01-01_B180_H1', 'status': 'CACHED', 'seconds': 0.0007334009860642254}
+smoke 12/12 {'task': '13015_2022-01-01_B180_H3', 'status': 'CACHED', 'seconds': 0.000701351003954187}
+{
+  "status": "COMPLETED",
+  "signature": "02e143306740f9957c4b6189996f45be75a636957ec2b7ed6d16f7d18d1ba9ae",
+  "mode": "smoke",
+  "config_path": "configs/stage3c2_source_scale_v1/full.json",
+  "config_sha256": "d26962beff3c34f83b11fa9ac13a5ca3b2cdc6e457e2aca3c448a40a345466d6",
+  "expected_conditions": 12,
+  "expected_policies": 17,
+  "expected_prediction_rows": 12240,
+  "pool_ids": [
+    "K3",
+    "order20261012_K10",
+    "order20261012_K30",
+    "order20261013_K10",
+    "order20261013_K30",
+    "order20261014_K10",
+    "order20261014_K30"
+  ],
+  "started_utc": "2026-10-12T04:41:34.575766+00:00",
+  "code_version": {
+    "git_head": null
+  },
+  "physical_mapping_verified": false,
+  "all_windows_used_development": true,
+  "device": "cpu",
+  "workers": 2,
+  "completed_conditions": 12,
+  "failed_conditions": 0,
+  "not_completed_conditions": 0,
+  "counts_this_call": {
+    "COMPLETED": 0,
+    "CACHED": 12,
+    "FAILED": 0
+  },
+  "finished_utc": "2026-10-12T04:41:36.730162+00:00",
+  "seconds_this_call": 3.4971014079928864,
+  "phase_seconds": {
+    "data_load": 1.1826300469983835,
+    "source_training_or_cache": 0.1598187200143002,
+    "target_training_or_cache": 2.140706839010818
+  },
+  "peak_RSS_parent_KiB": 180024,
+  "peak_RSS_children_KiB": 167288,
+  "outputs_and_fingerprints_verified": true,
+  "predictions_sha256": "09ab80d2a28de0375464a1e732478444798a8ce8b80d6451e37264c13112975e"
+}

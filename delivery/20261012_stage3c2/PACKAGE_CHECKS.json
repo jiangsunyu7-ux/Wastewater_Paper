@@ -1,0 +1,672 @@
+{
+  "status": "PASSED",
+  "version": "stage3c2_source_scale_v1",
+  "created_utc": "2026-10-12T04:43:49.453711+00:00",
+  "package_script_sha256": "5731bd5b518fd2820a3eea12e7e70914097ede4e7329795f957967e49357888a",
+  "strict_ZIP_limit_bytes": 25165824,
+  "scientific_completion_checked": {
+    "signature": "02e143306740f9957c4b6189996f45be75a636957ec2b7ed6d16f7d18d1ba9ae",
+    "target_conditions": 300,
+    "policies": 17,
+    "model_conditions": 5100,
+    "expected_prediction_rows": 306000,
+    "all_expected_job_outputs_and_hashes_verified": true,
+    "saved_evaluation_table_hashes_verified": true,
+    "independent_full_model_selection_metric_audit_passed": true,
+    "full_K3_prediction_rows_independently_compared": 90000,
+    "physical_mapping_verified": false,
+    "final_period_performance_used": false
+  },
+  "packages": [
+    {
+      "category": "Quick_Review",
+      "part": null,
+      "bytes": 3543727,
+      "MiB": 3.379561424255371,
+      "sha256": "6f34f6704e78b719d10229f0431f731bfcecf768f4e9359db5441483c70d2d43",
+      "CRC_and_all_member_SHA256_passed": true,
+      "file": "Wastewater_Stage3C2_Quick_Review_20261012.zip"
+    },
+    {
+      "category": "Code_and_Reproduce",
+      "part": null,
+      "bytes": 11848744,
+      "MiB": 11.299842834472656,
+      "sha256": "7ad78fc45809e932a3df4fdb77dfea561b0acb3f5747c2a41ba818b41e110ab2",
+      "CRC_and_all_member_SHA256_passed": true,
+      "file": "Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip"
+    },
+    {
+      "category": "Predictions_and_Diagnostics",
+      "part": 1,
+      "bytes": 23057568,
+      "MiB": 21.989410400390625,
+      "sha256": "396662672038a7221f062c1f1e43aa56a26770379244db788a13a2cf1f0226a8",
+      "CRC_and_all_member_SHA256_passed": true,
+      "file": "Wastewater_Stage3C2_Predictions_and_Diagnostics_20261012_Part01.zip"
+    },
+    {
+      "category": "Predictions_and_Diagnostics",
+      "part": 2,
+      "bytes": 21943829,
+      "MiB": 20.927266120910645,
+      "sha256": "4a81e3b7d7413008754f3d286606c51980700163830ee104f6027a13a2fbf805",
+      "CRC_and_all_member_SHA256_passed": true,
+      "file": "Wastewater_Stage3C2_Predictions_and_Diagnostics_20261012_Part02.zip"
+    },
+    {
+      "category": "Predictions_and_Diagnostics",
+      "part": 3,
+      "bytes": 2987695,
+      "MiB": 2.849287986755371,
+      "sha256": "1d1d101f04f0bd4f5d339aa7cbb96583c95a2b49ce6cb6e8e55e4d45e6113bd6",
+      "CRC_and_all_member_SHA256_passed": true,
+      "file": "Wastewater_Stage3C2_Predictions_and_Diagnostics_20261012_Part03.zip"
+    }
+  ],
+  "clean_replay": {
+    "status": "PASSED",
+    "code_only_clean_extraction": {
+      "packages": 1,
+      "validated_file_instances": 667,
+      "differing_existing_members_rejected": true
+    },
+    "merged_clean_extraction": {
+      "packages": 5,
+      "validated_file_instances": 5220,
+      "differing_existing_members_rejected": true
+    },
+    "no_network_calls": true,
+    "original_full_raw_csv_omitted": true,
+    "source_eligibility_full_raw_rebuild": "NOT_EXECUTED; same-SHA original raw and historical metadata external",
+    "cold_training_executed": {
+      "K3_target_conditions": 300,
+      "smoke_target_conditions": 12,
+      "source_banks": 7
+    },
+    "independent_archived_K3_gate": {
+      "status": "PASSED",
+      "signature": "02e143306740f9957c4b6189996f45be75a636957ec2b7ed6d16f7d18d1ba9ae",
+      "prediction_rows_compared": 90000,
+      "source_array_checks": 50,
+      "parameter_choices_checked": 900,
+      "internal_validation_scores_checked": 14400,
+      "maximum_normalized_prediction_difference": 8.881784197001252e-16,
+      "prediction_tolerance": {
+        "normalized_atol": 1e-10,
+        "rtol": 1e-10
+      },
+      "validation_tolerance": {
+        "normalized_atol": 1e-12,
+        "rtol": 1e-12
+      },
+      "persistence_exact": true,
+      "truth_history_thresholds_choices_exact": true,
+      "scope": "five corresponding policies, all300conditions/5 usedwindows; numerical tolerance is not bitwise replication",
+      "old_predictions_source": "immutable individual Stage3B job predictions, not rounded summaries",
+      "new_predictions_sha256": "3156a35097a19cb6fd23afa42107f292212942824b1b2dee109749cc4d8157cb",
+      "checker_sha256": "8bc1c4052be2cd8e3c344f30b67ce726a0556d1f746da67a7fd42fd523f9d515"
+    },
+    "smoke_forecast_comparison": {
+      "rows": 12240,
+      "date_and_policy_keys_exact": true,
+      "alpha_lambda_truth_scale_training_count_exact": true,
+      "normalized_atol": 1e-10,
+      "rtol": 1e-10,
+      "tolerance_not_bitwise_claim": true,
+      "checks": [
+        {
+          "column": "prediction_m3",
+          "maximum_normalized_absolute_difference": 0.0
+        },
+        {
+          "column": "prediction_nonnegative_m3",
+          "maximum_normalized_absolute_difference": 0.0
+        },
+        {
+          "column": "bias_m3",
+          "maximum_normalized_absolute_difference": 0.0
+        }
+      ]
+    },
+    "smoke_cached_replay": {
+      "rows": 12240,
+      "date_and_policy_keys_exact": true,
+      "alpha_lambda_truth_scale_training_count_exact": true,
+      "normalized_atol": 1e-10,
+      "rtol": 1e-10,
+      "tolerance_not_bitwise_claim": true,
+      "checks": [
+        {
+          "column": "prediction_m3",
+          "maximum_normalized_absolute_difference": 0.0
+        },
+        {
+          "column": "prediction_nonnegative_m3",
+          "maximum_normalized_absolute_difference": 0.0
+        },
+        {
+          "column": "bias_m3",
+          "maximum_normalized_absolute_difference": 0.0
+        }
+      ]
+    },
+    "full_validated_cache_tasks": 300,
+    "full_saved_forecast_comparison": {
+      "rows": 306000,
+      "date_and_policy_keys_exact": true,
+      "alpha_lambda_truth_scale_training_count_exact": true,
+      "normalized_atol": 1e-10,
+      "rtol": 1e-10,
+      "tolerance_not_bitwise_claim": true,
+      "checks": [
+        {
+          "column": "prediction_m3",
+          "maximum_normalized_absolute_difference": 0.0
+        },
+        {
+          "column": "prediction_nonnegative_m3",
+          "maximum_normalized_absolute_difference": 0.0
+        },
+        {
+          "column": "bias_m3",
+          "maximum_normalized_absolute_difference": 0.0
+        }
+      ]
+    },
+    "full_source_scale_cold_retraining": "NOT_REPEATED_IN_PACKAGE_REPLAY; original full experiment and clean smoke are separate scopes",
+    "recomputed_evaluation_tables": [
+      {
+        "table": "availability.csv",
+        "rows": 5100,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "cross_budget_by_station.csv",
+        "rows": 1680,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "cross_budget_intervals.csv",
+        "rows": 504,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "daily_losses.csv.gz",
+        "rows": 601086,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "high_volume_block_intervals.csv",
+        "rows": 2268,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "high_volume_metrics_by_station.csv",
+        "rows": 2040,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "high_volume_paired_by_station.csv",
+        "rows": 7560,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "high_volume_summary.csv",
+        "rows": 204,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "lambda_distribution.csv",
+        "rows": 270,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "lambda_fallback.csv",
+        "rows": 90,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "metrics_by_station.csv",
+        "rows": 2040,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "metrics_by_station_window.csv",
+        "rows": 10200,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "missing_or_failed_predictions.csv.gz",
+        "rows": 3131,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "negative_transfer_summary.csv",
+        "rows": 168,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "paired_block_intervals.csv",
+        "rows": 2268,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "paired_comparisons_by_station.csv",
+        "rows": 7560,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "paired_evaluation_index.csv.gz",
+        "rows": 6000,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "parameter_choices.csv",
+        "rows": 5100,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "summary.csv",
+        "rows": 204,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "summary_by_window.csv",
+        "rows": 1020,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      },
+      {
+        "table": "zero_reference_comparisons.csv",
+        "rows": 0,
+        "numeric_atol": 1e-10,
+        "numeric_rtol": 1e-10,
+        "maximum_scaled_absolute_difference": 0.0
+      }
+    ],
+    "resamples_each_block": 5000,
+    "independent_full_audit": {
+      "status": "PASSED",
+      "mode": "full_independent_evidence_audit",
+      "counts": {
+        "source_rankings_checked": 3,
+        "provisionally_protected_groups_checked": 37,
+        "independent_metric_or_loss_rows_checked": 617046,
+        "independent_summary_rows_checked": 1428,
+        "independent_paired_station_rows_checked": 15120,
+        "lambda_zero_exact_prediction_rows_checked": 68820,
+        "global_common_calendar_groups_checked": 6000,
+        "independent_primary_interval_rows_checked": 18,
+        "completed_member_hash_checks": 1898,
+        "independent_source_residual_normal_equation_checks": 420,
+        "independent_validation_grid_scores_checked": 118944,
+        "independent_source_pseudo_folds_checked": 252,
+        "selected_parameter_choices_checked": 4326,
+        "source_assisted_parameter_choices_checked": 2100,
+        "independent_prediction_reconstruction_tasks_checked": 5100,
+        "lambda_zero_exact_task_checks": 1147,
+        "independent_target_jobs_checked": 300
+      },
+      "bootstrap_checks": [
+        {
+          "horizon": 1,
+          "block_days": 7,
+          "reference_pool": "baseline",
+          "reference_model": "persistence",
+          "max_absolute_difference": 3.3306690738754696e-16,
+          "replicates": 5000
+        },
+        {
+          "horizon": 1,
+          "block_days": 7,
+          "reference_pool": "K3",
+          "reference_model": "shared_residual_ridge_bias_selected",
+          "max_absolute_difference": 3.3306690738754696e-16,
+          "replicates": 5000
+        },
+        {
+          "horizon": 1,
+          "block_days": 7,
+          "reference_pool": "baseline",
+          "reference_model": "local_residual_ridge_selected",
+          "max_absolute_difference": 3.95516952522712e-16,
+          "replicates": 5000
+        },
+        {
+          "horizon": 1,
+          "block_days": 14,
+          "reference_pool": "baseline",
+          "reference_model": "persistence",
+          "max_absolute_difference": 7.24247051220317e-16,
+          "replicates": 5000
+        },
+        {
+          "horizon": 1,
+          "block_days": 14,
+          "reference_pool": "K3",
+          "reference_model": "shared_residual_ridge_bias_selected",
+          "max_absolute_difference": 7.24247051220317e-16,
+          "replicates": 5000
+        },
+        {
+          "horizon": 1,
+          "block_days": 14,
+          "reference_pool": "baseline",
+          "reference_model": "local_residual_ridge_selected",
+          "max_absolute_difference": 4.0939474033052647e-16,
+          "replicates": 5000
+        },
+        {
+          "horizon": 1,
+          "block_days": 28,
+          "reference_pool": "baseline",
+          "reference_model": "persistence",
+          "max_absolute_difference": 4.718447854656915e-16,
+          "replicates": 5000
+        },
+        {
+          "horizon": 1,
+          "block_days": 28,
+          "reference_pool": "K3",
+          "reference_model": "shared_residual_ridge_bias_selected",
+          "max_absolute_difference": 4.718447854656915e-16,
+          "replicates": 5000
+        },
+        {
+          "horizon": 1,
+          "block_days": 28,
+          "reference_pool": "baseline",
+          "reference_model": "local_residual_ridge_selected",
+          "max_absolute_difference": 2.983724378680108e-16,
+          "replicates": 5000
+        },
+        {
+          "horizon": 3,
+          "block_days": 7,
+          "reference_pool": "baseline",
+          "reference_model": "persistence",
+          "max_absolute_difference": 3.677613769070831e-16,
+          "replicates": 5000
+        },
+        {
+          "horizon": 3,
+          "block_days": 7,
+          "reference_pool": "K3",
+          "reference_model": "shared_residual_ridge_bias_selected",
+          "max_absolute_difference": 4.388850394221322e-16,
+          "replicates": 5000
+        },
+        {
+          "horizon": 3,
+          "block_days": 7,
+          "reference_pool": "baseline",
+          "reference_model": "local_residual_ridge_selected",
+          "max_absolute_difference": 1.0269562977782698e-15,
+          "replicates": 5000
+        },
+        {
+          "horizon": 3,
+          "block_days": 14,
+          "reference_pool": "baseline",
+          "reference_model": "persistence",
+          "max_absolute_difference": 2.7755575615628914e-16,
+          "replicates": 5000
+        },
+        {
+          "horizon": 3,
+          "block_days": 14,
+          "reference_pool": "K3",
+          "reference_model": "shared_residual_ridge_bias_selected",
+          "max_absolute_difference": 5.154297127996088e-16,
+          "replicates": 5000
+        },
+        {
+          "horizon": 3,
+          "block_days": 14,
+          "reference_pool": "baseline",
+          "reference_model": "local_residual_ridge_selected",
+          "max_absolute_difference": 7.632783294297951e-16,
+          "replicates": 5000
+        },
+        {
+          "horizon": 3,
+          "block_days": 28,
+          "reference_pool": "baseline",
+          "reference_model": "persistence",
+          "max_absolute_difference": 4.579669976578771e-16,
+          "replicates": 5000
+        },
+        {
+          "horizon": 3,
+          "block_days": 28,
+          "reference_pool": "K3",
+          "reference_model": "shared_residual_ridge_bias_selected",
+          "max_absolute_difference": 2.8449465006019636e-16,
+          "replicates": 5000
+        },
+        {
+          "horizon": 3,
+          "block_days": 28,
+          "reference_pool": "baseline",
+          "reference_model": "local_residual_ridge_selected",
+          "max_absolute_difference": 3.191891195797325e-16,
+          "replicates": 5000
+        }
+      ],
+      "checker_sha256": "880775b06ef4c792119083ab27a6bf40bb8661eb6a89dd7610b255cc071cad64",
+      "config_sha256": "d26962beff3c34f83b11fa9ac13a5ca3b2cdc6e457e2aca3c448a40a345466d6",
+      "predictions_sha256": "630a21a4c1e7799992bdc963214d36f3c90f8995d791e7c8cd2c97f8e0e9feae",
+      "daily_losses_sha256": "7cab88b09505184e3a93e1eb185d5affbd97f8ea434d61f5e052912b4be5ef1e",
+      "tolerances": {
+        "metric_absolute_m3": 1e-08,
+        "metric_rtol": 1e-12,
+        "normalized_model_atol": 1e-10,
+        "normalized_model_rtol": 1e-10,
+        "bootstrap_skill_atol": 1e-10,
+        "bootstrap_skill_rtol": 1e-10
+      },
+      "evidence_independence": "Independent feature, baseline, normal-equation, validation, metric and primitive-bootstrap implementation; no evaluator/runner import",
+      "numerical_tolerance_is_not_bitwise_replication": true,
+      "no_new_model_training": true,
+      "physical_mapping_verified": false,
+      "verified_real_time": false,
+      "final_2024_2025_performance_used": false,
+      "elapsed_seconds": 67.50389765700675
+    },
+    "commands": [
+      {
+        "command": [
+          "/workspace/Wastewater_Paper/.venv-stage2/bin/python",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-p",
+          "test_stage3c2*.py",
+          "-v"
+        ],
+        "cwd": "clean temporary root",
+        "exit_code": 0,
+        "seconds": 2.472098976984853,
+        "log_path": "/workspace/Wastewater_Paper/delivery/20261012_stage3c2/clean_replay_logs/unit_tests.log",
+        "log_sha256": "e7da084a66cb609bc9b0c501c2850502ac1a0ef29657335c2f878031be2b5c2f"
+      },
+      {
+        "command": [
+          "/workspace/Wastewater_Paper/.venv-stage2/bin/python",
+          "scripts/verify_stage3c2_data.py",
+          "--root",
+          "/tmp/stage3c2_code_replay_24lhwqu2",
+          "--output",
+          "verification/data.json"
+        ],
+        "cwd": "clean temporary root",
+        "exit_code": 0,
+        "seconds": 1.016704475012375,
+        "log_path": "/workspace/Wastewater_Paper/delivery/20261012_stage3c2/clean_replay_logs/independent_data_qa.log",
+        "log_sha256": "445901056f740cf55b1a48a50b3f5af22b32df4059107b99eeb76fec75038e4c"
+      },
+      {
+        "command": [
+          "/workspace/Wastewater_Paper/.venv-stage2/bin/python",
+          "-m",
+          "wastewater.stage3c2_experiment",
+          "--config",
+          "configs/stage3c2_source_scale_v1/full.json",
+          "--mode",
+          "k3-check",
+          "--workers",
+          "2"
+        ],
+        "cwd": "clean temporary root",
+        "exit_code": 0,
+        "seconds": 13.103517098003067,
+        "log_path": "/workspace/Wastewater_Paper/delivery/20261012_stage3c2/clean_replay_logs/cold_k3_all_300.log",
+        "log_sha256": "dbfd7edf1bf0002fec92c15a9c9dc7e305f573e993ed7a7187c08f86ef02e86b"
+      },
+      {
+        "command": [
+          "/workspace/Wastewater_Paper/.venv-stage2/bin/python",
+          "scripts/check_stage3c2_k3.py"
+        ],
+        "cwd": "clean temporary root",
+        "exit_code": 0,
+        "seconds": 3.0724801430187654,
+        "log_path": "/workspace/Wastewater_Paper/delivery/20261012_stage3c2/clean_replay_logs/independent_archived_k3_gate.log",
+        "log_sha256": "8c7ab942b96f61e91a138d420f2874d7da07e23d53f75ed32ab773d6715c7c3b"
+      },
+      {
+        "command": [
+          "/workspace/Wastewater_Paper/.venv-stage2/bin/python",
+          "-m",
+          "wastewater.stage3c2_experiment",
+          "--config",
+          "configs/stage3c2_source_scale_v1/full.json",
+          "--mode",
+          "smoke",
+          "--workers",
+          "2"
+        ],
+        "cwd": "clean temporary root",
+        "exit_code": 0,
+        "seconds": 12.152924627007451,
+        "log_path": "/workspace/Wastewater_Paper/delivery/20261012_stage3c2/clean_replay_logs/cold_seven_pool_smoke.log",
+        "log_sha256": "a90b867f478dee4c4f7c0a9ba382748fba8fc52eeab8ebb4706cc36790a3946f"
+      },
+      {
+        "command": [
+          "/workspace/Wastewater_Paper/.venv-stage2/bin/python",
+          "-m",
+          "wastewater.stage3c2_experiment",
+          "--config",
+          "configs/stage3c2_source_scale_v1/full.json",
+          "--mode",
+          "smoke",
+          "--workers",
+          "2"
+        ],
+        "cwd": "clean temporary root",
+        "exit_code": 0,
+        "seconds": 5.028001233993564,
+        "log_path": "/workspace/Wastewater_Paper/delivery/20261012_stage3c2/clean_replay_logs/validated_cached_smoke.log",
+        "log_sha256": "eba748c8c8baa75074fb578e1aead0e579c1a2ea89be20d686a7eaeef9ad5e72"
+      },
+      {
+        "command": [
+          "/workspace/Wastewater_Paper/.venv-stage2/bin/python",
+          "-m",
+          "wastewater.stage3c2_experiment",
+          "--config",
+          "configs/stage3c2_source_scale_v1/full.json",
+          "--mode",
+          "resume",
+          "--workers",
+          "2"
+        ],
+        "cwd": "clean temporary root",
+        "exit_code": 0,
+        "seconds": 14.561000982997939,
+        "log_path": "/workspace/Wastewater_Paper/delivery/20261012_stage3c2/clean_replay_logs/validated_full_300_cache_resume.log",
+        "log_sha256": "551724fe4f704ea140036b469dc61cffa6d1ac392233737d9af999562123c570"
+      },
+      {
+        "command": [
+          "/workspace/Wastewater_Paper/.venv-stage2/bin/python",
+          "scripts/summarize_stage3c2.py",
+          "--config",
+          "configs/stage3c2_source_scale_v1/full.json",
+          "--run",
+          "runs/stage3c2_source_scale_v1/full",
+          "--output",
+          "verification/results"
+        ],
+        "cwd": "clean temporary root",
+        "exit_code": 0,
+        "seconds": 41.378917551017366,
+        "log_path": "/workspace/Wastewater_Paper/delivery/20261012_stage3c2/clean_replay_logs/all_saved_forecast_evaluation_5000_resamples.log",
+        "log_sha256": "8283494fd9233d43c07bace824101fd1bb2a5b2fc84c3ac213814a7717af73a5"
+      },
+      {
+        "command": [
+          "/workspace/Wastewater_Paper/.venv-stage2/bin/python",
+          "scripts/check_stage3c2_results.py",
+          "--root",
+          "/tmp/stage3c2_full_evaluate_n2e_67qs",
+          "--output",
+          "verification/independent_check.json"
+        ],
+        "cwd": "clean temporary root",
+        "exit_code": 0,
+        "seconds": 67.82674998400034,
+        "log_path": "/workspace/Wastewater_Paper/delivery/20261012_stage3c2/clean_replay_logs/independent_full_source_selection_metric_bootstrap_reconstruction.log",
+        "log_sha256": "415e906dd15952830ba0781952b41c0c0954b4a4e4cd2b28e9d4e8d578d2d31f"
+      }
+    ],
+    "tolerance_not_bitwise_replication": true
+  },
+  "timings_seconds": {
+    "package_creation_and_member_checks": 33.525271972001065,
+    "clean_replay_and_total": 203.21072027698392
+  }
+}
