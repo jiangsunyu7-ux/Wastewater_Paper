@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "metric_rows_independently_recomputed": 960,
+  "paired_contrast_points_independently_recomputed": 72,
+  "same_date_three_seed_loss_averaging_confirmed": true,
+  "prediction_ensemble_used": false,
+  "max_shared_gru_mean_seed_mse_minus_ensemble_mse_m6": 5307965745.668385,
+  "report_input_sha256": {
+    "predictions_all.csv": "bdc343aee8da6d380c22a7797f7abc698fd085ea1fa701f761ed97134eb85478",
+    "metrics_by_station.csv": "441f0fda47f48ed5fec78dc5b1e297873185f8478229d3f39d002b59b7b4d069",
+    "paired_block_intervals.csv": "1441f1a20e5e400e991d7403b49d937222003bc092218734571193d997e4572e"
+  }
+}

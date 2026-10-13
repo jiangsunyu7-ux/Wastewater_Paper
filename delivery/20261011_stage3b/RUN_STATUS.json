@@ -1,0 +1,53 @@
+{
+  "scientific_experiment_status": "completed",
+  "version": "stage3b_20261011_v1",
+  "accepted_stage3a": "stage3a_20261010_v3",
+  "completed_utc": "2026-10-11T02:43:44.747331+00:00",
+  "scientific_signature": "141817f1c1b7be4da4346b6f42664eb3f553801416a81214eb527abf1fa0dcd8",
+  "actual_executed": {
+    "smoke_conditions": 12,
+    "full_conditions": 300,
+    "original_development_conditions": 240,
+    "additional_temporal_conditions": 60,
+    "deterministic_policy_count": 11,
+    "prediction_rows": 198000,
+    "daily_loss_rows": 388938,
+    "station_metric_rows": 2640,
+    "parameter_and_diagnostic_rows_each": 2700,
+    "fitting_device": "cpu",
+    "workers": 2,
+    "source_and_smoke_wall_seconds": 2.6804179690007004,
+    "first_full_wall_seconds": 15.745436537996284,
+    "evaluation_wall_seconds": 26.729015728000377
+  },
+  "not_executed": [
+    "Stage3B GRU fitting or further epochs",
+    "source pool expansion experiment",
+    "2024-2025 forecast performance",
+    "reserved target facilities",
+    "prediction interval models",
+    "ensembles",
+    "App",
+    "full manuscript rewrite",
+    "live Colab/Drive/GPU verification",
+    "independent physical-facility verification"
+  ],
+  "scientific_failed_conditions": 0,
+  "unexecuted_registered_conditions": 0,
+  "common_dates": {
+    "original": 4713,
+    "original_planned": 4800,
+    "additional": 1180,
+    "additional_planned": 1200
+  },
+  "physical_facility_independence_verified": false,
+  "real_time_QA_availability_verified": false,
+  "initial_history_budget_design": "B30/90/180 initial calendar history; parameters freeze; subsequent origin-known inputs permitted, no deployment label updates",
+  "primary_success_criterion_met": false,
+  "training_peak_memory": "not measured; no GPU or paid resource used",
+  "software_verification": "Final pinned environment refresh executed:55 tests passed in10.351s; independent prediction/metric and12 primary interval/high-volume checks passed; notebook core tested locally, liveDrive unverified.",
+  "scope_of_stage3a_reproduction": "Independent arithmetic, deterministic Ridge refitting, selected-GRU weight forwards and frozen-encoder checks; no full GRU reoptimization",
+  "old_preservation_manifest": "preservation/stage3a_before_stage3b_20261011/manifest.json",
+  "delivery_scope_note": "This is scientific completion, not remote upload/publication certification. Separate package/extraction/Git receipts record actual delivery checks.",
+  "STOP": "Fixed Stage3B round complete. No further experiments without user review."
+}

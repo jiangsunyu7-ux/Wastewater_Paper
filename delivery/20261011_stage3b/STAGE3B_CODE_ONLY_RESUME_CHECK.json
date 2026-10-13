@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "counts_this_call": {
+    "completed": 0,
+    "cached": 12,
+    "failed": 0
+  },
+  "source_state": "cached",
+  "verified_unchanged_cache_members": 112,
+  "actual_wall_seconds": 1.2741095819947077,
+  "fresh_run_signature": "141817f1c1b7be4da4346b6f42664eb3f553801416a81214eb527abf1fa0dcd8",
+  "original_worktree_results_unmodified": true
+}

@@ -1,0 +1,146 @@
+{
+  "status": "passed",
+  "all_new_zip_sizes_below_24_MiB": true,
+  "packages": [
+    {
+      "filename": "Wastewater_Stage3A_Code_Data_20261010.zip",
+      "bytes": 1325340,
+      "sha256": "13911e8b11b767c651b362500d0bdc68e560fba909f78eb67f87592e7bb83253",
+      "member_count": 114,
+      "payload_files": 112,
+      "part": 1,
+      "parts": 1,
+      "crc_and_all_member_hashes_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3A_Runs_20261010_Part01.zip",
+      "bytes": 21422277,
+      "sha256": "59b0a2edcbbb922dd6101db685bf8db01fc086d8716a9116b97d351c6259150e",
+      "member_count": 2237,
+      "payload_files": 2235,
+      "part": 1,
+      "parts": 8,
+      "crc_and_all_member_hashes_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3A_Runs_20261010_Part02.zip",
+      "bytes": 21697437,
+      "sha256": "722ece4b6538cfb0aae39e5ca13bdf4deb19a0e5d0cfb81ecca9aa6eb82f231f",
+      "member_count": 2214,
+      "payload_files": 2212,
+      "part": 2,
+      "parts": 8,
+      "crc_and_all_member_hashes_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3A_Runs_20261010_Part03.zip",
+      "bytes": 21757994,
+      "sha256": "c3ad2f530c536cce49b4872a6dc9b0a978209a3b382a26a56f2a65bdc01b0ca2",
+      "member_count": 2202,
+      "payload_files": 2200,
+      "part": 3,
+      "parts": 8,
+      "crc_and_all_member_hashes_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3A_Runs_20261010_Part04.zip",
+      "bytes": 21824833,
+      "sha256": "7879370ebf2549d2d40a7e150034b41e6507ed68425eb1610ac6b124ad629736",
+      "member_count": 2210,
+      "payload_files": 2208,
+      "part": 4,
+      "parts": 8,
+      "crc_and_all_member_hashes_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3A_Runs_20261010_Part05.zip",
+      "bytes": 21767648,
+      "sha256": "34fd710922e98b4ce11bf7525192ee62f6530875c3f3ace16dd13258341553e9",
+      "member_count": 2202,
+      "payload_files": 2200,
+      "part": 5,
+      "parts": 8,
+      "crc_and_all_member_hashes_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3A_Runs_20261010_Part06.zip",
+      "bytes": 22230191,
+      "sha256": "85e907981615eb5258e69a4bde9538d7edab06e479e0ed14eb2673c4c8ba8f09",
+      "member_count": 2246,
+      "payload_files": 2244,
+      "part": 6,
+      "parts": 8,
+      "crc_and_all_member_hashes_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3A_Runs_20261010_Part07.zip",
+      "bytes": 22198032,
+      "sha256": "302c90bba539a2c247259e4f00534f6883bac308fe9eafa4adae12bcfcd28c8b",
+      "member_count": 2246,
+      "payload_files": 2244,
+      "part": 7,
+      "parts": 8,
+      "crc_and_all_member_hashes_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3A_Runs_20261010_Part08.zip",
+      "bytes": 22054148,
+      "sha256": "468973dea073c768f748e611899268cbab2b473bce2297ed9466c4a3116c511a",
+      "member_count": 2255,
+      "payload_files": 2253,
+      "part": 8,
+      "parts": 8,
+      "crc_and_all_member_hashes_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3A_Reports_Figures_20261010_Part01.zip",
+      "bytes": 20512289,
+      "sha256": "c4e81cc317edfde80bb5e2a6adbe6b407be7df14dfc8baabf17edebe15d3c782",
+      "member_count": 43,
+      "payload_files": 41,
+      "part": 1,
+      "parts": 3,
+      "crc_and_all_member_hashes_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3A_Reports_Figures_20261010_Part02.zip",
+      "bytes": 9118816,
+      "sha256": "35f92f9e351f90a8f6867e7215a85e1a7a0e7ba81bd3211fc12e6516ccaad5f0",
+      "member_count": 5,
+      "payload_files": 3,
+      "part": 2,
+      "parts": 3,
+      "crc_and_all_member_hashes_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3A_Reports_Figures_20261010_Part03.zip",
+      "bytes": 16082300,
+      "sha256": "74c7120557e9e6993e55a74f504e7ded97349a538fed0f50a0d00da7045725c6",
+      "member_count": 23,
+      "payload_files": 21,
+      "part": 3,
+      "parts": 3,
+      "crc_and_all_member_hashes_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3A_Quick_Review_20261010.zip",
+      "bytes": 1899817,
+      "sha256": "2cac5907c984d3001d9c2b1dd761fb30be9dc7f4429ed9fe639d75537687a984",
+      "member_count": 44,
+      "payload_files": 42,
+      "part": 1,
+      "parts": 1,
+      "crc_and_all_member_hashes_passed": true,
+      "optional_review_bundle": true,
+      "contains_all_prediction_rows": false,
+      "contains_all_model_checkpoints": false
+    }
+  ],
+  "stage2_preserved_files": 5040,
+  "scientific_run_manifest_sha256": "b007cd6862087425d312a42a0aedb0c2aef6201320cf9a9a162d7e33fe185582",
+  "original_stage2_archives_required": true,
+  "model_training_executed_by_packager": false,
+  "raw_final_period_data_packaged": false,
+  "quick_review_is_optional": true,
+  "original_complete_partition_count": 12
+}

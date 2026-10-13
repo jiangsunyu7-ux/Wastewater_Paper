@@ -1,0 +1,339 @@
+SOURCE_READY order20261012_K30
+SOURCE_READY order20261013_K30
+SOURCE_READY order20261014_K30
+full 1/300 {"task": "13013_2022-01-01_B30_H1", "status": "CACHED", "seconds": 0.0004554719998850487}
+full 2/300 {"task": "13013_2022-01-01_B30_H3", "status": "CACHED", "seconds": 0.0004586869999911869}
+full 3/300 {"task": "13013_2022-01-01_B90_H1", "status": "CACHED", "seconds": 0.0004955609983881004}
+full 4/300 {"task": "13013_2022-01-01_B90_H3", "status": "CACHED", "seconds": 0.00040883300061977934}
+full 5/300 {"task": "13013_2022-01-01_B180_H1", "status": "CACHED", "seconds": 0.0004267700005584629}
+full 6/300 {"task": "13013_2022-01-01_B180_H3", "status": "CACHED", "seconds": 0.000418207000620896}
+full 7/300 {"task": "13015_2022-01-01_B30_H1", "status": "CACHED", "seconds": 0.000358839999535121}
+full 8/300 {"task": "13015_2022-01-01_B30_H3", "status": "CACHED", "seconds": 0.00037956000051053707}
+full 9/300 {"task": "13015_2022-01-01_B90_H1", "status": "CACHED", "seconds": 0.00035348100027476903}
+full 10/300 {"task": "13015_2022-01-01_B90_H3", "status": "CACHED", "seconds": 0.0003749730003619334}
+full 11/300 {"task": "13015_2022-01-01_B180_H1", "status": "CACHED", "seconds": 0.0004028839994134614}
+full 12/300 {"task": "13015_2022-01-01_B180_H3", "status": "CACHED", "seconds": 0.0004009509993920801}
+full 13/300 {"task": "13016_2022-01-01_B30_H1", "status": "CACHED", "seconds": 0.0003661600003397325}
+full 14/300 {"task": "13016_2022-01-01_B30_H3", "status": "CACHED", "seconds": 0.00037523399987549055}
+full 15/300 {"task": "13016_2022-01-01_B90_H1", "status": "CACHED", "seconds": 0.00035660600042319857}
+full 16/300 {"task": "13016_2022-01-01_B90_H3", "status": "CACHED", "seconds": 0.000360231000740896}
+full 17/300 {"task": "13016_2022-01-01_B180_H1", "status": "CACHED", "seconds": 0.00041898799827322364}
+full 18/300 {"task": "13016_2022-01-01_B180_H3", "status": "CACHED", "seconds": 0.00038237400076468475}
+full 19/300 {"task": "13017_2022-01-01_B30_H1", "status": "CACHED", "seconds": 0.00038185300036275294}
+full 20/300 {"task": "13017_2022-01-01_B30_H3", "status": "CACHED", "seconds": 0.0004060789997311076}
+full 21/300 {"task": "13017_2022-01-01_B90_H1", "status": "CACHED", "seconds": 0.0004011919991171453}
+full 22/300 {"task": "13017_2022-01-01_B90_H3", "status": "CACHED", "seconds": 0.00036556899976858404}
+full 23/300 {"task": "13017_2022-01-01_B180_H1", "status": "CACHED", "seconds": 0.00038567900082853157}
+full 24/300 {"task": "13017_2022-01-01_B180_H3", "status": "CACHED", "seconds": 0.0003882929995597806}
+full 25/300 {"task": "13022_2022-01-01_B30_H1", "status": "CACHED", "seconds": 0.00038935399970796425}
+full 26/300 {"task": "13022_2022-01-01_B30_H3", "status": "CACHED", "seconds": 0.00035349199970369227}
+full 27/300 {"task": "13022_2022-01-01_B90_H1", "status": "CACHED", "seconds": 0.00035428299997875}
+full 28/300 {"task": "13022_2022-01-01_B90_H3", "status": "CACHED", "seconds": 0.0003564059989002999}
+full 29/300 {"task": "13022_2022-01-01_B180_H1", "status": "CACHED", "seconds": 0.0004012620011053514}
+full 30/300 {"task": "13022_2022-01-01_B180_H3", "status": "CACHED", "seconds": 0.000416263999795774}
+full 31/300 {"task": "13024_2022-01-01_B30_H1", "status": "CACHED", "seconds": 0.00035066700002062134}
+full 32/300 {"task": "13024_2022-01-01_B30_H3", "status": "CACHED", "seconds": 0.0003740419997484423}
+full 33/300 {"task": "13024_2022-01-01_B90_H1", "status": "CACHED", "seconds": 0.00035704699985217303}
+full 34/300 {"task": "13024_2022-01-01_B90_H3", "status": "CACHED", "seconds": 0.00037874899862799793}
+full 35/300 {"task": "13024_2022-01-01_B180_H1", "status": "CACHED", "seconds": 0.0003628960002970416}
+full 36/300 {"task": "13024_2022-01-01_B180_H3", "status": "CACHED", "seconds": 0.0003602010001486633}
+full 37/300 {"task": "13025_2022-01-01_B30_H1", "status": "CACHED", "seconds": 0.0003567870007827878}
+full 38/300 {"task": "13025_2022-01-01_B30_H3", "status": "CACHED", "seconds": 0.0003996400009782519}
+full 39/300 {"task": "13025_2022-01-01_B90_H1", "status": "CACHED", "seconds": 0.0004101449994777795}
+full 40/300 {"task": "13025_2022-01-01_B90_H3", "status": "CACHED", "seconds": 0.0003625449990067864}
+full 41/300 {"task": "13025_2022-01-01_B180_H1", "status": "CACHED", "seconds": 0.000387301000955631}
+full 42/300 {"task": "13025_2022-01-01_B180_H3", "status": "CACHED", "seconds": 0.0003614739998738514}
+full 43/300 {"task": "13028_2022-01-01_B30_H1", "status": "CACHED", "seconds": 0.0003727200000867015}
+full 44/300 {"task": "13028_2022-01-01_B30_H3", "status": "CACHED", "seconds": 0.0003512089988362277}
+full 45/300 {"task": "13028_2022-01-01_B90_H1", "status": "CACHED", "seconds": 0.0003566760005924152}
+full 46/300 {"task": "13028_2022-01-01_B90_H3", "status": "CACHED", "seconds": 0.0003568360007193405}
+full 47/300 {"task": "13028_2022-01-01_B180_H1", "status": "CACHED", "seconds": 0.00043892699977732264}
+full 48/300 {"task": "13028_2022-01-01_B180_H3", "status": "CACHED", "seconds": 0.0003996300001745112}
+full 49/300 {"task": "13029_2022-01-01_B30_H1", "status": "CACHED", "seconds": 0.0003593910005292855}
+full 50/300 {"task": "13029_2022-01-01_B30_H3", "status": "CACHED", "seconds": 0.0003533710005285684}
+full 51/300 {"task": "13029_2022-01-01_B90_H1", "status": "CACHED", "seconds": 0.0003828749995591352}
+full 52/300 {"task": "13029_2022-01-01_B90_H3", "status": "CACHED", "seconds": 0.00035647600088850595}
+full 53/300 {"task": "13029_2022-01-01_B180_H1", "status": "CACHED", "seconds": 0.0003983080005127704}
+full 54/300 {"task": "13029_2022-01-01_B180_H3", "status": "CACHED", "seconds": 0.00036135299887973815}
+full 55/300 {"task": "13031_2022-01-01_B30_H1", "status": "CACHED", "seconds": 0.00037134800004423596}
+full 56/300 {"task": "13031_2022-01-01_B30_H3", "status": "CACHED", "seconds": 0.00034963600046467036}
+full 57/300 {"task": "13031_2022-01-01_B90_H1", "status": "CACHED", "seconds": 0.0003561850007827161}
+full 58/300 {"task": "13031_2022-01-01_B90_H3", "status": "CACHED", "seconds": 0.0003807319990301039}
+full 59/300 {"task": "13031_2022-01-01_B180_H1", "status": "CACHED", "seconds": 0.000362004000635352}
+full 60/300 {"task": "13031_2022-01-01_B180_H3", "status": "CACHED", "seconds": 0.0004004809998150449}
+full 61/300 {"task": "13013_2022-07-01_B30_H1", "status": "CACHED", "seconds": 0.0003529410005285172}
+full 62/300 {"task": "13013_2022-07-01_B30_H3", "status": "CACHED", "seconds": 0.00038655000025755726}
+full 63/300 {"task": "13013_2022-07-01_B90_H1", "status": "CACHED", "seconds": 0.00037611500010825694}
+full 64/300 {"task": "13013_2022-07-01_B90_H3", "status": "CACHED", "seconds": 0.0003906759993697051}
+full 65/300 {"task": "13013_2022-07-01_B180_H1", "status": "CACHED", "seconds": 0.000382574000468594}
+full 66/300 {"task": "13013_2022-07-01_B180_H3", "status": "CACHED", "seconds": 0.0003625050012487918}
+full 67/300 {"task": "13015_2022-07-01_B30_H1", "status": "CACHED", "seconds": 0.00036854400059382897}
+full 68/300 {"task": "13015_2022-07-01_B30_H3", "status": "CACHED", "seconds": 0.0003453699991950998}
+full 69/300 {"task": "13015_2022-07-01_B90_H1", "status": "CACHED", "seconds": 0.00036810400160902645}
+full 70/300 {"task": "13015_2022-07-01_B90_H3", "status": "CACHED", "seconds": 0.00035081699934380595}
+full 71/300 {"task": "13015_2022-07-01_B180_H1", "status": "CACHED", "seconds": 0.00039409099917975254}
+full 72/300 {"task": "13015_2022-07-01_B180_H3", "status": "CACHED", "seconds": 0.0003526599994074786}
+full 73/300 {"task": "13016_2022-07-01_B30_H1", "status": "CACHED", "seconds": 0.00037400200017145835}
+full 74/300 {"task": "13016_2022-07-01_B30_H3", "status": "CACHED", "seconds": 0.00035406299866735935}
+full 75/300 {"task": "13016_2022-07-01_B90_H1", "status": "CACHED", "seconds": 0.0003615540008468088}
+full 76/300 {"task": "13016_2022-07-01_B90_H3", "status": "CACHED", "seconds": 0.0003855089998978656}
+full 77/300 {"task": "13016_2022-07-01_B180_H1", "status": "CACHED", "seconds": 0.0003643670006567845}
+full 78/300 {"task": "13016_2022-07-01_B180_H3", "status": "CACHED", "seconds": 0.00038443699850176927}
+full 79/300 {"task": "13017_2022-07-01_B30_H1", "status": "CACHED", "seconds": 0.0003583390007406706}
+full 80/300 {"task": "13017_2022-07-01_B30_H3", "status": "CACHED", "seconds": 0.00038312600008794107}
+full 81/300 {"task": "13017_2022-07-01_B90_H1", "status": "CACHED", "seconds": 0.00035706599919649307}
+full 82/300 {"task": "13017_2022-07-01_B90_H3", "status": "CACHED", "seconds": 0.0003910670002369443}
+full 83/300 {"task": "13017_2022-07-01_B180_H1", "status": "CACHED", "seconds": 0.00036160400122753344}
+full 84/300 {"task": "13017_2022-07-01_B180_H3", "status": "CACHED", "seconds": 0.0003584690002753632}
+full 85/300 {"task": "13022_2022-07-01_B30_H1", "status": "CACHED", "seconds": 0.00038558900087082293}
+full 86/300 {"task": "13022_2022-07-01_B30_H3", "status": "CACHED", "seconds": 0.0003640079994511325}
+full 87/300 {"task": "13022_2022-07-01_B90_H1", "status": "CACHED", "seconds": 0.00037717699888162315}
+full 88/300 {"task": "13022_2022-07-01_B90_H3", "status": "CACHED", "seconds": 0.0003527099997882033}
+full 89/300 {"task": "13022_2022-07-01_B180_H1", "status": "CACHED", "seconds": 0.00038250400029937737}
+full 90/300 {"task": "13022_2022-07-01_B180_H3", "status": "CACHED", "seconds": 0.0003599110004870454}
+full 91/300 {"task": "13024_2022-07-01_B30_H1", "status": "CACHED", "seconds": 0.0003896750004059868}
+full 92/300 {"task": "13024_2022-07-01_B30_H3", "status": "CACHED", "seconds": 0.0003790099999605445}
+full 93/300 {"task": "13024_2022-07-01_B90_H1", "status": "CACHED", "seconds": 0.00035412199940765277}
+full 94/300 {"task": "13024_2022-07-01_B90_H3", "status": "CACHED", "seconds": 0.0003756639998755418}
+full 95/300 {"task": "13024_2022-07-01_B180_H1", "status": "CACHED", "seconds": 0.0004138309996051248}
+full 96/300 {"task": "13024_2022-07-01_B180_H3", "status": "CACHED", "seconds": 0.00038806299926363863}
+full 97/300 {"task": "13025_2022-07-01_B30_H1", "status": "CACHED", "seconds": 0.000363757000741316}
+full 98/300 {"task": "13025_2022-07-01_B30_H3", "status": "CACHED", "seconds": 0.00038204400152608287}
+full 99/300 {"task": "13025_2022-07-01_B90_H1", "status": "CACHED", "seconds": 0.00036560000080498867}
+full 100/300 {"task": "13025_2022-07-01_B90_H3", "status": "CACHED", "seconds": 0.0003920580002159113}
+full 101/300 {"task": "13025_2022-07-01_B180_H1", "status": "CACHED", "seconds": 0.00036762200033990666}
+full 102/300 {"task": "13025_2022-07-01_B180_H3", "status": "CACHED", "seconds": 0.0003637569989223266}
+full 103/300 {"task": "13028_2022-07-01_B30_H1", "status": "CACHED", "seconds": 0.00037587399856420234}
+full 104/300 {"task": "13028_2022-07-01_B30_H3", "status": "CACHED", "seconds": 0.0003496859990264056}
+full 105/300 {"task": "13028_2022-07-01_B90_H1", "status": "CACHED", "seconds": 0.0003792790012084879}
+full 106/300 {"task": "13028_2022-07-01_B90_H3", "status": "CACHED", "seconds": 0.00035815800038108137}
+full 107/300 {"task": "13028_2022-07-01_B180_H1", "status": "CACHED", "seconds": 0.00038085200139903463}
+full 108/300 {"task": "13028_2022-07-01_B180_H3", "status": "CACHED", "seconds": 0.00035942000067734625}
+full 109/300 {"task": "13029_2022-07-01_B30_H1", "status": "CACHED", "seconds": 0.00038362600025720894}
+full 110/300 {"task": "13029_2022-07-01_B30_H3", "status": "CACHED", "seconds": 0.0003842469996016007}
+full 111/300 {"task": "13029_2022-07-01_B90_H1", "status": "CACHED", "seconds": 0.00035622500035970006}
+full 112/300 {"task": "13029_2022-07-01_B90_H3", "status": "CACHED", "seconds": 0.0003708570002345368}
+full 113/300 {"task": "13029_2022-07-01_B180_H1", "status": "CACHED", "seconds": 0.0003630259998317342}
+full 114/300 {"task": "13029_2022-07-01_B180_H3", "status": "CACHED", "seconds": 0.00037378100023488514}
+full 115/300 {"task": "13031_2022-07-01_B30_H1", "status": "CACHED", "seconds": 0.0003446589998929994}
+full 116/300 {"task": "13031_2022-07-01_B30_H3", "status": "CACHED", "seconds": 0.00033962099951168057}
+full 117/300 {"task": "13031_2022-07-01_B90_H1", "status": "CACHED", "seconds": 0.00038477700036310125}
+full 118/300 {"task": "13031_2022-07-01_B90_H3", "status": "CACHED", "seconds": 0.0003737719998753164}
+full 119/300 {"task": "13031_2022-07-01_B180_H1", "status": "CACHED", "seconds": 0.00037734700163127854}
+full 120/300 {"task": "13031_2022-07-01_B180_H3", "status": "CACHED", "seconds": 0.0003544230003171833}
+full 121/300 {"task": "13013_2023-01-01_B30_H1", "status": "CACHED", "seconds": 0.0004296040006011026}
+full 122/300 {"task": "13013_2023-01-01_B30_H3", "status": "CACHED", "seconds": 0.00039805800042813644}
+full 123/300 {"task": "13013_2023-01-01_B90_H1", "status": "CACHED", "seconds": 0.00041461199907644186}
+full 124/300 {"task": "13013_2023-01-01_B90_H3", "status": "CACHED", "seconds": 0.0003785289991355967}
+full 125/300 {"task": "13013_2023-01-01_B180_H1", "status": "CACHED", "seconds": 0.00037988999974913895}
+full 126/300 {"task": "13013_2023-01-01_B180_H3", "status": "CACHED", "seconds": 0.0003720989989233203}
+full 127/300 {"task": "13015_2023-01-01_B30_H1", "status": "CACHED", "seconds": 0.0003825249987130519}
+full 128/300 {"task": "13015_2023-01-01_B30_H3", "status": "CACHED", "seconds": 0.0003764450011658482}
+full 129/300 {"task": "13015_2023-01-01_B90_H1", "status": "CACHED", "seconds": 0.00036719200033985544}
+full 130/300 {"task": "13015_2023-01-01_B90_H3", "status": "CACHED", "seconds": 0.0004362540003057802}
+full 131/300 {"task": "13015_2023-01-01_B180_H1", "status": "CACHED", "seconds": 0.0003693149992614053}
+full 132/300 {"task": "13015_2023-01-01_B180_H3", "status": "CACHED", "seconds": 0.000383376000172575}
+full 133/300 {"task": "13016_2023-01-01_B30_H1", "status": "CACHED", "seconds": 0.0003524999992805533}
+full 134/300 {"task": "13016_2023-01-01_B30_H3", "status": "CACHED", "seconds": 0.00034854399928008206}
+full 135/300 {"task": "13016_2023-01-01_B90_H1", "status": "CACHED", "seconds": 0.0003536019994498929}
+full 136/300 {"task": "13016_2023-01-01_B90_H3", "status": "CACHED", "seconds": 0.00037559500015049707}
+full 137/300 {"task": "13016_2023-01-01_B180_H1", "status": "CACHED", "seconds": 0.00038891400072316173}
+full 138/300 {"task": "13016_2023-01-01_B180_H3", "status": "CACHED", "seconds": 0.0003619939998316113}
+full 139/300 {"task": "13017_2023-01-01_B30_H1", "status": "CACHED", "seconds": 0.0004383369996503461}
+full 140/300 {"task": "13017_2023-01-01_B30_H3", "status": "CACHED", "seconds": 0.00034786300057021435}
+full 141/300 {"task": "13017_2023-01-01_B90_H1", "status": "CACHED", "seconds": 0.0003744229998119408}
+full 142/300 {"task": "13017_2023-01-01_B90_H3", "status": "CACHED", "seconds": 0.0003483239997876808}
+full 143/300 {"task": "13017_2023-01-01_B180_H1", "status": "CACHED", "seconds": 0.0003544930004864}
+full 144/300 {"task": "13017_2023-01-01_B180_H3", "status": "CACHED", "seconds": 0.00040150300083041657}
+full 145/300 {"task": "13022_2023-01-01_B30_H1", "status": "CACHED", "seconds": 0.0003907469999830937}
+full 146/300 {"task": "13022_2023-01-01_B30_H3", "status": "CACHED", "seconds": 0.00037222899845801294}
+full 147/300 {"task": "13022_2023-01-01_B90_H1", "status": "CACHED", "seconds": 0.0003571270008251304}
+full 148/300 {"task": "13022_2023-01-01_B90_H3", "status": "CACHED", "seconds": 0.0003712580000865273}
+full 149/300 {"task": "13022_2023-01-01_B180_H1", "status": "CACHED", "seconds": 0.00035985099930258}
+full 150/300 {"task": "13022_2023-01-01_B180_H3", "status": "CACHED", "seconds": 0.000355273999957717}
+full 151/300 {"task": "13024_2023-01-01_B30_H1", "status": "CACHED", "seconds": 0.0003441480002948083}
+full 152/300 {"task": "13024_2023-01-01_B30_H3", "status": "CACHED", "seconds": 0.0003412530004425207}
+full 153/300 {"task": "13024_2023-01-01_B90_H1", "status": "CACHED", "seconds": 0.00037525399966398254}
+full 154/300 {"task": "13024_2023-01-01_B90_H3", "status": "CACHED", "seconds": 0.00037714700010837987}
+full 155/300 {"task": "13024_2023-01-01_B180_H1", "status": "CACHED", "seconds": 0.0003757049998966977}
+full 156/300 {"task": "13024_2023-01-01_B180_H3", "status": "CACHED", "seconds": 0.0003528100005496526}
+full 157/300 {"task": "13025_2023-01-01_B30_H1", "status": "CACHED", "seconds": 0.0003502870004012948}
+full 158/300 {"task": "13025_2023-01-01_B30_H3", "status": "CACHED", "seconds": 0.00035440300052869134}
+full 159/300 {"task": "13025_2023-01-01_B90_H1", "status": "CACHED", "seconds": 0.00036074300078325905}
+full 160/300 {"task": "13025_2023-01-01_B90_H3", "status": "CACHED", "seconds": 0.00037881800017203204}
+full 161/300 {"task": "13025_2023-01-01_B180_H1", "status": "CACHED", "seconds": 0.0003629849998105783}
+full 162/300 {"task": "13025_2023-01-01_B180_H3", "status": "CACHED", "seconds": 0.0003852179997920757}
+full 163/300 {"task": "13028_2023-01-01_B30_H1", "status": "CACHED", "seconds": 0.0003502469990053214}
+full 164/300 {"task": "13028_2023-01-01_B30_H3", "status": "CACHED", "seconds": 0.0003736910002771765}
+full 165/300 {"task": "13028_2023-01-01_B90_H1", "status": "CACHED", "seconds": 0.00034660100027394947}
+full 166/300 {"task": "13028_2023-01-01_B90_H3", "status": "CACHED", "seconds": 0.00034280600084457546}
+full 167/300 {"task": "13028_2023-01-01_B180_H1", "status": "CACHED", "seconds": 0.0003743520010175416}
+full 168/300 {"task": "13028_2023-01-01_B180_H3", "status": "CACHED", "seconds": 0.0003735210011654999}
+full 169/300 {"task": "13029_2023-01-01_B30_H1", "status": "CACHED", "seconds": 0.0004116079999221256}
+full 170/300 {"task": "13029_2023-01-01_B30_H3", "status": "CACHED", "seconds": 0.0003466220005066134}
+full 171/300 {"task": "13029_2023-01-01_B90_H1", "status": "CACHED", "seconds": 0.0003722499986906769}
+full 172/300 {"task": "13029_2023-01-01_B90_H3", "status": "CACHED", "seconds": 0.0003819940011453582}
+full 173/300 {"task": "13029_2023-01-01_B180_H1", "status": "CACHED", "seconds": 0.0003805209998972714}
+full 174/300 {"task": "13029_2023-01-01_B180_H3", "status": "CACHED", "seconds": 0.00035589499930210877}
+full 175/300 {"task": "13031_2023-01-01_B30_H1", "status": "CACHED", "seconds": 0.0003504069991322467}
+full 176/300 {"task": "13031_2023-01-01_B30_H3", "status": "CACHED", "seconds": 0.0003520499994920101}
+full 177/300 {"task": "13031_2023-01-01_B90_H1", "status": "CACHED", "seconds": 0.00035499300065566786}
+full 178/300 {"task": "13031_2023-01-01_B90_H3", "status": "CACHED", "seconds": 0.00036540899964165874}
+full 179/300 {"task": "13031_2023-01-01_B180_H1", "status": "CACHED", "seconds": 0.0003611230004025856}
+full 180/300 {"task": "13031_2023-01-01_B180_H3", "status": "CACHED", "seconds": 0.00037457299913512543}
+full 181/300 {"task": "13013_2023-07-01_B30_H1", "status": "CACHED", "seconds": 0.000359890998879564}
+full 182/300 {"task": "13013_2023-07-01_B30_H3", "status": "CACHED", "seconds": 0.0003920780000044033}
+full 183/300 {"task": "13013_2023-07-01_B90_H1", "status": "CACHED", "seconds": 0.00037972000063746236}
+full 184/300 {"task": "13013_2023-07-01_B90_H3", "status": "CACHED", "seconds": 0.0004458579987840494}
+full 185/300 {"task": "13013_2023-07-01_B180_H1", "status": "CACHED", "seconds": 0.00038971499998297077}
+full 186/300 {"task": "13013_2023-07-01_B180_H3", "status": "CACHED", "seconds": 0.0003801500006375136}
+full 187/300 {"task": "13015_2023-07-01_B30_H1", "status": "CACHED", "seconds": 0.00042064100125571713}
+full 188/300 {"task": "13015_2023-07-01_B30_H3", "status": "CACHED", "seconds": 0.00039074600135791115}
+full 189/300 {"task": "13015_2023-07-01_B90_H1", "status": "CACHED", "seconds": 0.00041618400064180605}
+full 190/300 {"task": "13015_2023-07-01_B90_H3", "status": "CACHED", "seconds": 0.00042146200030401815}
+full 191/300 {"task": "13015_2023-07-01_B180_H1", "status": "CACHED", "seconds": 0.000478224999824306}
+full 192/300 {"task": "13015_2023-07-01_B180_H3", "status": "CACHED", "seconds": 0.0004028749990538927}
+full 193/300 {"task": "13016_2023-07-01_B30_H1", "status": "CACHED", "seconds": 0.0003711280005518347}
+full 194/300 {"task": "13016_2023-07-01_B30_H3", "status": "CACHED", "seconds": 0.00034871400021074805}
+full 195/300 {"task": "13016_2023-07-01_B90_H1", "status": "CACHED", "seconds": 0.0003738209998118691}
+full 196/300 {"task": "13016_2023-07-01_B90_H3", "status": "CACHED", "seconds": 0.00035966100040241145}
+full 197/300 {"task": "13016_2023-07-01_B180_H1", "status": "CACHED", "seconds": 0.0003594999998313142}
+full 198/300 {"task": "13016_2023-07-01_B180_H3", "status": "CACHED", "seconds": 0.0003553549995558569}
+full 199/300 {"task": "13017_2023-07-01_B30_H1", "status": "CACHED", "seconds": 0.00038678100099787116}
+full 200/300 {"task": "13017_2023-07-01_B30_H3", "status": "CACHED", "seconds": 0.0003824840005108854}
+full 201/300 {"task": "13017_2023-07-01_B90_H1", "status": "CACHED", "seconds": 0.00035980100074084476}
+full 202/300 {"task": "13017_2023-07-01_B90_H3", "status": "CACHED", "seconds": 0.0003968759992858395}
+full 203/300 {"task": "13017_2023-07-01_B180_H1", "status": "CACHED", "seconds": 0.00036840400025539566}
+full 204/300 {"task": "13017_2023-07-01_B180_H3", "status": "CACHED", "seconds": 0.00041600400072638877}
+full 205/300 {"task": "13022_2023-07-01_B30_H1", "status": "CACHED", "seconds": 0.0003541730002325494}
+full 206/300 {"task": "13022_2023-07-01_B30_H3", "status": "CACHED", "seconds": 0.00036328600072010886}
+full 207/300 {"task": "13022_2023-07-01_B90_H1", "status": "CACHED", "seconds": 0.0003724790003616363}
+full 208/300 {"task": "13022_2023-07-01_B90_H3", "status": "CACHED", "seconds": 0.00038695100010954775}
+full 209/300 {"task": "13022_2023-07-01_B180_H1", "status": "CACHED", "seconds": 0.0004112370006623678}
+full 210/300 {"task": "13022_2023-07-01_B180_H3", "status": "CACHED", "seconds": 0.0003825250005320413}
+full 211/300 {"task": "13024_2023-07-01_B30_H1", "status": "CACHED", "seconds": 0.0003647279991128016}
+full 212/300 {"task": "13024_2023-07-01_B30_H3", "status": "CACHED", "seconds": 0.00034459900052752346}
+full 213/300 {"task": "13024_2023-07-01_B90_H1", "status": "CACHED", "seconds": 0.00037402199995995034}
+full 214/300 {"task": "13024_2023-07-01_B90_H3", "status": "CACHED", "seconds": 0.0003621140003815526}
+full 215/300 {"task": "13024_2023-07-01_B180_H1", "status": "CACHED", "seconds": 0.0003578280011424795}
+full 216/300 {"task": "13024_2023-07-01_B180_H3", "status": "CACHED", "seconds": 0.000355504000253859}
+full 217/300 {"task": "13025_2023-07-01_B30_H1", "status": "CACHED", "seconds": 0.00041934900036721956}
+full 218/300 {"task": "13025_2023-07-01_B30_H3", "status": "CACHED", "seconds": 0.00037817799966433086}
+full 219/300 {"task": "13025_2023-07-01_B90_H1", "status": "CACHED", "seconds": 0.00036158400143904146}
+full 220/300 {"task": "13025_2023-07-01_B90_H3", "status": "CACHED", "seconds": 0.0003772870004468132}
+full 221/300 {"task": "13025_2023-07-01_B180_H1", "status": "CACHED", "seconds": 0.0003666720003820956}
+full 222/300 {"task": "13025_2023-07-01_B180_H3", "status": "CACHED", "seconds": 0.00038225400021474343}
+full 223/300 {"task": "13028_2023-07-01_B30_H1", "status": "CACHED", "seconds": 0.00035628600016934797}
+full 224/300 {"task": "13028_2023-07-01_B30_H3", "status": "CACHED", "seconds": 0.00038252400008786935}
+full 225/300 {"task": "13028_2023-07-01_B90_H1", "status": "CACHED", "seconds": 0.00039222899977175985}
+full 226/300 {"task": "13028_2023-07-01_B90_H3", "status": "CACHED", "seconds": 0.0003931499995815102}
+full 227/300 {"task": "13028_2023-07-01_B180_H1", "status": "CACHED", "seconds": 0.00038519800000358373}
+full 228/300 {"task": "13028_2023-07-01_B180_H3", "status": "CACHED", "seconds": 0.0003591900003812043}
+full 229/300 {"task": "13029_2023-07-01_B30_H1", "status": "CACHED", "seconds": 0.00044346399954520166}
+full 230/300 {"task": "13029_2023-07-01_B30_H3", "status": "CACHED", "seconds": 0.00035785799991572276}
+full 231/300 {"task": "13029_2023-07-01_B90_H1", "status": "CACHED", "seconds": 0.0003737320002983324}
+full 232/300 {"task": "13029_2023-07-01_B90_H3", "status": "CACHED", "seconds": 0.0003770969997276552}
+full 233/300 {"task": "13029_2023-07-01_B180_H1", "status": "CACHED", "seconds": 0.00037818799864908215}
+full 234/300 {"task": "13029_2023-07-01_B180_H3", "status": "CACHED", "seconds": 0.0003610219991969643}
+full 235/300 {"task": "13031_2023-07-01_B30_H1", "status": "CACHED", "seconds": 0.0003756639998755418}
+full 236/300 {"task": "13031_2023-07-01_B30_H3", "status": "CACHED", "seconds": 0.0003747329992620507}
+full 237/300 {"task": "13031_2023-07-01_B90_H1", "status": "CACHED", "seconds": 0.00034714200046437327}
+full 238/300 {"task": "13031_2023-07-01_B90_H3", "status": "CACHED", "seconds": 0.00036077299955650233}
+full 239/300 {"task": "13031_2023-07-01_B180_H1", "status": "CACHED", "seconds": 0.0003617040001699934}
+full 240/300 {"task": "13031_2023-07-01_B180_H3", "status": "CACHED", "seconds": 0.00037646600139851216}
+full 241/300 {"task": "13013_2023-10-01_B30_H1", "status": "CACHED", "seconds": 0.0003962539994972758}
+full 242/300 {"task": "13013_2023-10-01_B30_H3", "status": "CACHED", "seconds": 0.00036799299959966447}
+full 243/300 {"task": "13013_2023-10-01_B90_H1", "status": "CACHED", "seconds": 0.0003530809990479611}
+full 244/300 {"task": "13013_2023-10-01_B90_H3", "status": "CACHED", "seconds": 0.0003863599995383993}
+full 245/300 {"task": "13013_2023-10-01_B180_H1", "status": "CACHED", "seconds": 0.00042526700053713284}
+full 246/300 {"task": "13013_2023-10-01_B180_H3", "status": "CACHED", "seconds": 0.00038971499998297077}
+full 247/300 {"task": "13015_2023-10-01_B30_H1", "status": "CACHED", "seconds": 0.0004142910001974087}
+full 248/300 {"task": "13015_2023-10-01_B30_H3", "status": "CACHED", "seconds": 0.00039064699922164436}
+full 249/300 {"task": "13015_2023-10-01_B90_H1", "status": "CACHED", "seconds": 0.0004083219992025988}
+full 250/300 {"task": "13015_2023-10-01_B90_H3", "status": "CACHED", "seconds": 0.00037992000034137163}
+full 251/300 {"task": "13015_2023-10-01_B180_H1", "status": "CACHED", "seconds": 0.0004353719996288419}
+full 252/300 {"task": "13015_2023-10-01_B180_H3", "status": "CACHED", "seconds": 0.00045079600022290833}
+full 253/300 {"task": "13016_2023-10-01_B30_H1", "status": "CACHED", "seconds": 0.0003852890004054643}
+full 254/300 {"task": "13016_2023-10-01_B30_H3", "status": "CACHED", "seconds": 0.0003566659997886745}
+full 255/300 {"task": "13016_2023-10-01_B90_H1", "status": "CACHED", "seconds": 0.00041360099930898286}
+full 256/300 {"task": "13016_2023-10-01_B90_H3", "status": "CACHED", "seconds": 0.000361833999704686}
+full 257/300 {"task": "13016_2023-10-01_B180_H1", "status": "CACHED", "seconds": 0.000385989998903824}
+full 258/300 {"task": "13016_2023-10-01_B180_H3", "status": "CACHED", "seconds": 0.0003658499990706332}
+full 259/300 {"task": "13017_2023-10-01_B30_H1", "status": "CACHED", "seconds": 0.0003529210007400252}
+full 260/300 {"task": "13017_2023-10-01_B30_H3", "status": "CACHED", "seconds": 0.00035484299951349385}
+full 261/300 {"task": "13017_2023-10-01_B90_H1", "status": "CACHED", "seconds": 0.00038257500091276597}
+full 262/300 {"task": "13017_2023-10-01_B90_H3", "status": "CACHED", "seconds": 0.00037974999941070564}
+full 263/300 {"task": "13017_2023-10-01_B180_H1", "status": "CACHED", "seconds": 0.00037130700002308004}
+full 264/300 {"task": "13017_2023-10-01_B180_H3", "status": "CACHED", "seconds": 0.00038347599911503494}
+full 265/300 {"task": "13022_2023-10-01_B30_H1", "status": "CACHED", "seconds": 0.00035211000067647547}
+full 266/300 {"task": "13022_2023-10-01_B30_H3", "status": "CACHED", "seconds": 0.00035058799949183594}
+full 267/300 {"task": "13022_2023-10-01_B90_H1", "status": "CACHED", "seconds": 0.00035431200012681074}
+full 268/300 {"task": "13022_2023-10-01_B90_H3", "status": "CACHED", "seconds": 0.0003490149993012892}
+full 269/300 {"task": "13022_2023-10-01_B180_H1", "status": "CACHED", "seconds": 0.00039094699968700297}
+full 270/300 {"task": "13022_2023-10-01_B180_H3", "status": "CACHED", "seconds": 0.0003921980005543446}
+full 271/300 {"task": "13024_2023-10-01_B30_H1", "status": "CACHED", "seconds": 0.00037827899905096274}
+full 272/300 {"task": "13024_2023-10-01_B30_H3", "status": "CACHED", "seconds": 0.0003540329998941161}
+full 273/300 {"task": "13024_2023-10-01_B90_H1", "status": "CACHED", "seconds": 0.0003756950009119464}
+full 274/300 {"task": "13024_2023-10-01_B90_H3", "status": "CACHED", "seconds": 0.0004353620006440906}
+full 275/300 {"task": "13024_2023-10-01_B180_H1", "status": "CACHED", "seconds": 0.00036234400067769457}
+full 276/300 {"task": "13024_2023-10-01_B180_H3", "status": "CACHED", "seconds": 0.00035952100006397814}
+full 277/300 {"task": "13025_2023-10-01_B30_H1", "status": "CACHED", "seconds": 0.00035615600063465536}
+full 278/300 {"task": "13025_2023-10-01_B30_H3", "status": "CACHED", "seconds": 0.0003700259985635057}
+full 279/300 {"task": "13025_2023-10-01_B90_H1", "status": "CACHED", "seconds": 0.00038482799936900847}
+full 280/300 {"task": "13025_2023-10-01_B90_H3", "status": "CACHED", "seconds": 0.0003765959991142154}
+full 281/300 {"task": "13025_2023-10-01_B180_H1", "status": "CACHED", "seconds": 0.0003617330003180541}
+full 282/300 {"task": "13025_2023-10-01_B180_H3", "status": "CACHED", "seconds": 0.0003793899995798711}
+full 283/300 {"task": "13028_2023-10-01_B30_H1", "status": "CACHED", "seconds": 0.0003555650000635069}
+full 284/300 {"task": "13028_2023-10-01_B30_H3", "status": "CACHED", "seconds": 0.00035258999923826195}
+full 285/300 {"task": "13028_2023-10-01_B90_H1", "status": "CACHED", "seconds": 0.00037622499985445756}
+full 286/300 {"task": "13028_2023-10-01_B90_H3", "status": "CACHED", "seconds": 0.0003546940006344812}
+full 287/300 {"task": "13028_2023-10-01_B180_H1", "status": "CACHED", "seconds": 0.0003921690004062839}
+full 288/300 {"task": "13028_2023-10-01_B180_H3", "status": "CACHED", "seconds": 0.00036449700019147713}
+full 289/300 {"task": "13029_2023-10-01_B30_H1", "status": "CACHED", "seconds": 0.00037223899926175363}
+full 290/300 {"task": "13029_2023-10-01_B30_H3", "status": "CACHED", "seconds": 0.000353711000570911}
+full 291/300 {"task": "13029_2023-10-01_B90_H1", "status": "CACHED", "seconds": 0.0003542419999575941}
+full 292/300 {"task": "13029_2023-10-01_B90_H3", "status": "CACHED", "seconds": 0.00038183300057426095}
+full 293/300 {"task": "13029_2023-10-01_B180_H1", "status": "CACHED", "seconds": 0.00035862000004271977}
+full 294/300 {"task": "13029_2023-10-01_B180_H3", "status": "CACHED", "seconds": 0.00038064199907239527}
+full 295/300 {"task": "13031_2023-10-01_B30_H1", "status": "CACHED", "seconds": 0.00034160399991378654}
+full 296/300 {"task": "13031_2023-10-01_B30_H3", "status": "CACHED", "seconds": 0.00036427699888008647}
+full 297/300 {"task": "13031_2023-10-01_B90_H1", "status": "CACHED", "seconds": 0.00035380199915380217}
+full 298/300 {"task": "13031_2023-10-01_B90_H3", "status": "CACHED", "seconds": 0.00039744599962432403}
+full 299/300 {"task": "13031_2023-10-01_B180_H1", "status": "CACHED", "seconds": 0.00035983099951408803}
+full 300/300 {"task": "13031_2023-10-01_B180_H3", "status": "CACHED", "seconds": 0.0003498959995340556}
+{
+  "status": "COMPLETED",
+  "signature": "31451b4547aed6b9654da2d79e4d80a2e91bed8a23d5cda263d663da34a18b61",
+  "mode": "full",
+  "config_path": "configs/stage3d_interval_v1/full.json",
+  "config_sha256": "9db2cb6dd886d4b89ca875d08c597b94503665c63b1b68f125ae3b45bb6b670d",
+  "gamma_freeze_sha256": "27e93942cbe61893bbbf3b5b3f0487c592152df1fe6b0786c2532c9a0abe103e",
+  "expected_conditions": 300,
+  "expected_prediction_rows": 324000,
+  "started_utc": "2026-10-12T10:03:45.211663+00:00",
+  "device": "cpu",
+  "workers": 1,
+  "physical_mapping_verified": false,
+  "all_windows_used_development": true,
+  "code_version": {
+    "git_head": ""
+  },
+  "completed_conditions": 300,
+  "failed_conditions": 0,
+  "not_completed_conditions": 0,
+  "invalid_calibration_conditions": 0,
+  "counts_this_call": {
+    "COMPLETED": 0,
+    "CACHED": 300,
+    "FAILED": 0
+  },
+  "phase_seconds": {
+    "data_load": 1.0122458490004647,
+    "source_calibration_or_cache": 1.0199384499992448,
+    "target_calibration_or_cache": 0.1346735789993545
+  },
+  "finished_utc": "2026-10-12T10:03:45.476689+00:00",
+  "peak_RSS_KiB": 130728,
+  "predictions_sha256": "1cdb09324750e231ad2215f4f47bacc96632c6389f0240fb2f2ee161e44cf1f4",
+  "seconds_this_call": 10.208238401999552
+}

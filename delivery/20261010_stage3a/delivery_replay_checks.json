@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "zip_packages": 12,
+  "verified_member_imports": 23136,
+  "stage2_preserved_files": 5040,
+  "extracted_files_unchanged": 23054,
+  "changed_files": [],
+  "cached_full_conditions": 240,
+  "model_training_executed": false,
+  "tests": 4,
+  "unsafe_zip_paths_rejected": true,
+  "actual_Colab_Drive_mount_verified": false,
+  "actual_GPU_execution_verified": false,
+  "notebook_sha256": "a92ff23860b45b0776c21c723a7c6001fd045fb217792873b4e083c26caaeb40",
+  "checker_sha256": "598dcc7301944e5a4d056230ea6eff8335bc36f7a3511cd23fa525ea1437ae1f",
+  "replay_stdout": "{\"status\": \"passed\", \"cached_full_conditions\": 240, \"models_retrained\": 0}\n",
+  "test_stdout": "test_final_window_and_cohort_rejected (test_stage3a.Stage3ATests.test_final_window_and_cohort_rejected) ... ok\ntest_real_budget_folds_and_future_perturbation (test_stage3a.Stage3ATests.test_real_budget_folds_and_future_perturbation) ... ok\ntest_resume_exact_original_endpoints_and_encoder_freeze (test_stage3a.Stage3ATests.test_resume_exact_original_endpoints_and_encoder_freeze) ... ok\ntest_scaling_ignores_validation_and_compact_indices (test_stage3a.Stage3ATests.test_scaling_ignores_validation_and_compact_indices) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 1.407s\n\nOK\n"
+}

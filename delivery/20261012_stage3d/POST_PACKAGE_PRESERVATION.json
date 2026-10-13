@@ -1,0 +1,10 @@
+{
+  "status": "PASSED",
+  "files_checked": 4588,
+  "bytes_checked": 364174205,
+  "changed_or_missing": [],
+  "checked_utc": "2026-10-12T10:09:52.544675+00:00",
+  "after_stageD_packaging_and_clean_replay": true,
+  "original_C2_predictions_regenerated": false,
+  "original_C2_archives_and_scientific_bytes_unchanged": true
+}

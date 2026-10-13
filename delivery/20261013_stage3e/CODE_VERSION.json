@@ -1,0 +1,28 @@
+{
+  "version": "stage3e_evidence_review_v1",
+  "generated_utc": "2026-10-13T05:29:11.218685+00:00",
+  "checkout_HEAD": "e6a4fc628d8aae0412cb83a81c528b43d6662fea",
+  "checkout_branch": "work",
+  "scientific_files_are_untracked_in_base_HEAD": true,
+  "authoritative_version": "content SHA256 plus immutable D freeze",
+  "files_sha256": {
+    "STAGE3E_PROTOCOL.md": "461c8ab4aa2b9c0eca7985afd653a3ad915a8dbebc374a10131c5b68fae21562",
+    "configs/stage3e_evidence_review_v1/diagnostics.json": "f4aacab3ed594762c8f1c4fc462637cefd2c667ae92a9ad1c8089070a3bf47e9",
+    "configs/stage3e_evidence_review_v1/full.json": "e9a371e98b22eb97ac37d07b54d4af3da7fc90514ddeec0980ebe28417e3e42a",
+    "reports/stage3e_evidence_review_v1/literature/verify_literature_evidence.py": "3b79de51ba19875f41c5bd05faa384243b942774e329822ed337e3f1f3f9069e",
+    "scripts/check_stage3e_evidence.py": "37c368d1bf578c059eabb1075bb44af7e28cb8eb25bd26d7db67be814741d19e",
+    "scripts/check_stage3e_runtime.py": "f9e355d4ea9c74a0bd55c43ae5ff9d1cf028138b6e1650ece92a2acdb3e82025",
+    "scripts/finalize_stage3e_evidence.py": "ae6b35c911927f7a9e3a5dbf49b0fbe69695676945cc2c52e3398604b3ac2955",
+    "scripts/package_stage3e.py": "999814cf4f4e76972cb68a6cbb9aae72eb56a377efef773dd9d599e6df20ff1d",
+    "scripts/plot_stage3e.py": "19ecd593bc11072599c7a0eeee5c6bbd845adbed9173152cab00b5e54930fbbd",
+    "scripts/run_stage3e_diagnostics.py": "f7bc98b2ad06a7b09e680753958d09a0ed7518d3b8789b0ce75e0ad015b69bd2",
+    "src/wastewater/stage3e_diagnostics.py": "3968b4c0e8a69f0c4492986440181ad4e46b7462b1b31eea626a552608a72e3f",
+    "src/wastewater/stage3e_runtime.py": "cc78ae3ed41515e4720ee9e74a1738f1ab0648907e972a9626e474cb5b9b3164",
+    "tests/test_stage3e_diagnostics.py": "73ecdb7b5f3247062469a898eaf4fce1ec2303df72cada02680a06d659fa4f85",
+    "tests/test_stage3e_runtime.py": "be600542df7edfc023ee290584fae693f1266c5ba25f4134962166375af9b2b2"
+  },
+  "code_changes_diff_sha256": "33119c402b56197e65079e896a5c6e65be83fe3a744c1cc9427c4583e71338f2",
+  "all_old_C2_D_scientific_code_unchanged": true,
+  "old_D_freeze_sha256": "86174425dc6867befaa9de3db2aa4e269dc6643a61ab60dc034419bb5b839b81",
+  "delivery_commit_recorded_separately": true
+}

@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "notebook_sha256": "2583fc600acb2ba4fb2688cd1e7786305aece8186f4fd1f60c8fb998532ae78c",
+  "scope": "isolated local notebook-core verification; excluded from scientific reports",
+  "real_Colab_Drive_mount_verified": false,
+  "GPU_execution_verified": false,
+  "checks": {
+    "all_code_cells_parse": 10,
+    "exact_cpu_environment_and_original_config_preflight": {
+      "status": "passed",
+      "config": "configs/shared_v3_20261009/smoke.json",
+      "config_sha256": "a10b67456d843a7dd85719c6896e3bc1113077169ae44b86b3bdbeea0dc81fd3",
+      "runtime_versions": {
+        "torch": "2.8.0+cpu",
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "scipy": "1.17.0",
+        "sklearn": "1.8.0",
+        "matplotlib": "3.10.8"
+      },
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "signature": "adc9114dd35076def2ac8b8694671a1eb37346ec0ea2f13233b8cc8a3fb105d6",
+      "source_ids": [
+        "13006",
+        "13008",
+        "13012"
+      ],
+      "development_ids": [
+        "13013",
+        "13015"
+      ],
+      "expected_jobs": 96,
+      "physical_facility_independence_verified": false,
+      "online_QA_availability_verified": false
+    },
+    "two_original_stations_all_96_tasks_verified_cached": true,
+    "independent_saved_two_station_prediction_validation": {
+      "status": "passed",
+      "run": "runs/shared_v3_20261009/smoke",
+      "rows": 23040,
+      "stations": 2,
+      "seeds": [
+        20261009
+      ],
+      "all_completed_artifacts_sha256": true,
+      "same_features_and_scales_all_models": true,
+      "independent_budget_training_count_and_threshold": true,
+      "same_dates_across_models_seeds_budgets": true,
+      "evaluation_truth_matches_cleaned_original": true,
+      "final_period_excluded": true,
+      "source_target_disjoint": true,
+      "min_training_labels": 27,
+      "max_training_labels": 179,
+      "common_station_episode_horizon_origins": 912,
+      "possible_station_episode_horizon_origins": 960,
+      "negative_raw_predictions": 11,
+      "physical_facility_independence_verified": false,
+      "historical_QA_arrival_verified": false
+    },
+    "new_partial_task_group_run_then_exact_cache_replay": {
+      "completed_jobs": 2,
+      "expected_jobs": 96,
+      "artifacts_unchanged": true,
+      "scope": "interface-only original first smoke condition; excluded from science"
+    },
+    "changed_training_configuration_rejected": true,
+    "changed_canonical_hash_rejected": true,
+    "changed_completed_predictions_rejected": true,
+    "notebook_failure_log_and_status_retained": true,
+    "epoch_two_interruption_then_resume_matches_uninterrupted": {
+      "resume_epoch": 2,
+      "completed_epochs": 4,
+      "real_budget_limited_training_labels": 29,
+      "predictions_and_loss_history_exact": true,
+      "included_in_scientific_results": false
+    },
+    "changed_epoch_checkpoint_metadata_rejected": true,
+    "two_ZIPs_distinct_SHA256SUMS_verified_merged_without_copying_checksums": true,
+    "incorrect_package_member_SHA256_rejected_before_payload_copy": true,
+    "zip_different_existing_file_preserved": true,
+    "zip_path_escape_rejected": true,
+    "zip_crc_manifest_and_identical_reimport_verified": true,
+    "original_source_and_smoke_artifacts_unchanged": 446
+  }
+}

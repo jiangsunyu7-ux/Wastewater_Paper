@@ -1,0 +1,41 @@
+            evaluation_set constraint site_id  budget  horizon                               model  n_dates       mae_m3      rmse_m3  persistence_mae  zero_reference_mae  skill_vs_persistence
+      original_development        raw   13013      30        1 shared_residual_ridge_bias_selected      236 16231.157839 25885.225295     16231.157839               False              0.000000
+      original_development        raw   13013      30        3 shared_residual_ridge_bias_selected      236 25374.529416 34849.661642     25206.878263               False             -0.006651
+      original_development        raw   13015      30        1 shared_residual_ridge_bias_selected      220    13.116728    21.590546        13.116728               False              0.000000
+      original_development        raw   13015      30        3 shared_residual_ridge_bias_selected      220    22.622379    32.201993        21.344786               False             -0.059855
+      original_development        raw   13016      30        1 shared_residual_ridge_bias_selected      238  2661.677395  4553.426730      2661.677395               False              0.000000
+      original_development        raw   13016      30        3 shared_residual_ridge_bias_selected      238  3986.738291  5851.682727      3937.332395               False             -0.012548
+      original_development        raw   13017      30        1 shared_residual_ridge_bias_selected      238    40.827951    70.404368        40.827951               False              0.000000
+      original_development        raw   13017      30        3 shared_residual_ridge_bias_selected      238    60.373032    90.202931        56.620514               False             -0.066275
+      original_development        raw   13022      30        1 shared_residual_ridge_bias_selected      238   122.693116   181.785282       122.693116               False              0.000000
+      original_development        raw   13022      30        3 shared_residual_ridge_bias_selected      238   166.991701   248.893765       167.810720               False              0.004881
+      original_development        raw   13024      30        1 shared_residual_ridge_bias_selected      240   149.142533   272.412075       149.142533               False              0.000000
+      original_development        raw   13024      30        3 shared_residual_ridge_bias_selected      240   263.993607   387.365109       232.872466               False             -0.133640
+      original_development        raw   13025      30        1 shared_residual_ridge_bias_selected      238    58.410481   102.691612        58.410481               False              0.000000
+      original_development        raw   13025      30        3 shared_residual_ridge_bias_selected      238    94.870719   135.909968        90.096373               False             -0.052992
+      original_development        raw   13028      30        1 shared_residual_ridge_bias_selected      240   443.968750   668.176137       443.968750               False              0.000000
+      original_development        raw   13028      30        3 shared_residual_ridge_bias_selected      240   656.333679   913.307574       653.530500               False             -0.004289
+      original_development        raw   13029      30        1 shared_residual_ridge_bias_selected      240   126.933842   189.843255       126.933842               False              0.000000
+      original_development        raw   13029      30        3 shared_residual_ridge_bias_selected      240   161.225486   220.853013       160.635239               False             -0.003674
+      original_development        raw   13031      30        1 shared_residual_ridge_bias_selected      228   357.473947   617.467604       357.473947               False              0.000000
+      original_development        raw   13031      30        3 shared_residual_ridge_bias_selected      229   489.728276   685.920904       452.582314               False             -0.082076
+additional_time_validation        raw   13013      30        1 shared_residual_ridge_bias_selected       52 16505.317692 26751.652281     16505.317692               False              0.000000
+additional_time_validation        raw   13013      30        3 shared_residual_ridge_bias_selected       52 28057.058186 41304.546488     30076.587885               False              0.067146
+additional_time_validation        raw   13015      30        1 shared_residual_ridge_bias_selected       60    35.134332    60.180724        35.134332               False              0.000000
+additional_time_validation        raw   13015      30        3 shared_residual_ridge_bias_selected       60    67.467861   114.499566        69.007550               False              0.022312
+additional_time_validation        raw   13016      30        1 shared_residual_ridge_bias_selected       60  2092.840333  3256.571220      2092.840333               False              0.000000
+additional_time_validation        raw   13016      30        3 shared_residual_ridge_bias_selected       60  3906.787118  5726.541194      3952.183333               False              0.011486
+additional_time_validation        raw   13017      30        1 shared_residual_ridge_bias_selected       60    97.968840   139.551763        97.968840               False              0.000000
+additional_time_validation        raw   13017      30        3 shared_residual_ridge_bias_selected       60   119.219787   174.317646       129.902505               False              0.082236
+additional_time_validation        raw   13022      30        1 shared_residual_ridge_bias_selected       60   208.583428   305.557159       208.583428               False              0.000000
+additional_time_validation        raw   13022      30        3 shared_residual_ridge_bias_selected       60   366.533724   499.577901       389.677188               False              0.059391
+additional_time_validation        raw   13024      30        1 shared_residual_ridge_bias_selected       60   372.900667   544.096199       372.900667               False              0.000000
+additional_time_validation        raw   13024      30        3 shared_residual_ridge_bias_selected       60   564.711012   746.266276       578.869000               False              0.024458
+additional_time_validation        raw   13025      30        1 shared_residual_ridge_bias_selected       60    75.318355   121.082744        75.318355               False              0.000000
+additional_time_validation        raw   13025      30        3 shared_residual_ridge_bias_selected       60   143.513304   201.269030       143.204810               False             -0.002154
+additional_time_validation        raw   13028      30        1 shared_residual_ridge_bias_selected       60   803.638667  1069.500400       803.638667               False              0.000000
+additional_time_validation        raw   13028      30        3 shared_residual_ridge_bias_selected       60  1244.573484  1655.797859      1312.794167               False              0.051966
+additional_time_validation        raw   13029      30        1 shared_residual_ridge_bias_selected       60   221.177765   288.854233       221.177765               False              0.000000
+additional_time_validation        raw   13029      30        3 shared_residual_ridge_bias_selected       60   309.132037   427.815266       346.664740               False              0.108268
+additional_time_validation        raw   13031      30        1 shared_residual_ridge_bias_selected       58   917.382241  1283.531303       917.382241               False              0.000000
+additional_time_validation        raw   13031      30        3 shared_residual_ridge_bias_selected       58  1166.412731  1704.687984      1266.925517               False              0.079336

@@ -1,0 +1,44 @@
+{
+  "issue": "Smoke audit report serialization of numpy int64 budget/horizon",
+  "impact": "All numeric/time/endpoints checks had passed; final JSON report write failed. No calibration, gamma, interval or frozen fitting code changed.",
+  "preserved_frozen_checker": "scripts/check_stage3d_smoke.py",
+  "corrected_new_checker": "scripts/check_stage3d_smoke_v2.py",
+  "failure_log": "SMOKE_CHECK.log",
+  "scientific_revision_required": false,
+  "status": "CLOSED_V3_SMOKE_VERIFIED",
+  "rerun_check": "SMOKE_CHECK.json",
+  "optimized_new_checker": "scripts/check_stage3d_smoke_v3.py",
+  "optimization": "Read identical final source libraries once rather than repeatedly per interval method; empirical quantiles and checked records unchanged",
+  "independent_audit_csv_scale_issue": {
+    "observed_difference_m3": 5.684341886080802e-14,
+    "cause": "CSV parsing last-bit rounding; audit erroneously required exact scale equality",
+    "corrected_rule": "Use protocol already-frozen m3_atol=1e-8/rtol=1e-12 for continuous scale; categorical gamma/IDs/dates/masks and endpoint copying remain exact",
+    "prediction_or_algorithm_changed": false,
+    "failure_logs": [
+      "INDEPENDENT_CHECK.log",
+      "COST_INDEPENDENT.json"
+    ],
+    "status": "CLOSED_FULL_INDEPENDENT_V4_PASSED"
+  },
+  "independent_audit_task_hash_issue": {
+    "cause": "pandas groupby budget/horizon scalars were numpy int64; task hash JSON requires equivalent native Python scalars",
+    "impact": "Source errors, 1080 folds and 18 gamma checks passed before target task receipt serialization; mathematical interval results unchanged",
+    "correction": "Normalize numpy scalar with item() in independent hash JSON only; equals original native task hash",
+    "failure_logs": [
+      "INDEPENDENT_CHECK_V2.log",
+      "COST_INDEPENDENT_V2.json"
+    ],
+    "status": "CLOSED_FULL_INDEPENDENT_V4_PASSED"
+  },
+  "independent_audit_numeric_dataframe_issue": {
+    "cause": "Mixed pandas boolean and float metric DataFrame became object dtype for numpy.isfinite",
+    "correction": "Explicit numeric float view in audit comparator; bool masks remain compared under exact zero tolerance",
+    "impact": "Independent source and all300 target reconstructions had completed before metric comparator error; no forecast/calibration/metric altered",
+    "failure_logs": [
+      "INDEPENDENT_CHECK_V3.log",
+      "COST_INDEPENDENT_V3.json"
+    ],
+    "status": "CLOSED_FULL_INDEPENDENT_V4_PASSED"
+  },
+  "science_construction_selection_or_result_changed": false
+}

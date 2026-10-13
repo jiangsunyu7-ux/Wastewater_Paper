@@ -1,0 +1,59 @@
+Interval statistics: raw/all_dates, h=1, c=0.8, block=7; 5000 paired draws, 0.53s
+Interval statistics: raw/all_dates, h=1, c=0.8, block=14; 5000 paired draws, 0.41s
+Interval statistics: raw/all_dates, h=1, c=0.8, block=28; 5000 paired draws, 0.36s
+Interval statistics: raw/all_dates, h=1, c=0.9, block=7; 5000 paired draws, 0.26s
+Interval statistics: raw/all_dates, h=1, c=0.9, block=14; 5000 paired draws, 0.16s
+Interval statistics: raw/all_dates, h=1, c=0.9, block=28; 5000 paired draws, 0.12s
+Interval statistics: raw/all_dates, h=3, c=0.8, block=7; 5000 paired draws, 0.50s
+Interval statistics: raw/all_dates, h=3, c=0.8, block=14; 5000 paired draws, 0.41s
+Interval statistics: raw/all_dates, h=3, c=0.8, block=28; 5000 paired draws, 0.36s
+Interval statistics: raw/all_dates, h=3, c=0.9, block=7; 5000 paired draws, 0.25s
+Interval statistics: raw/all_dates, h=3, c=0.9, block=14; 5000 paired draws, 0.16s
+Interval statistics: raw/all_dates, h=3, c=0.9, block=28; 5000 paired draws, 0.11s
+Interval statistics: raw/historical_high_volume, h=1, c=0.8, block=7; 5000 paired draws, 0.25s
+Interval statistics: raw/historical_high_volume, h=1, c=0.8, block=14; 5000 paired draws, 0.16s
+Interval statistics: raw/historical_high_volume, h=1, c=0.8, block=28; 5000 paired draws, 0.11s
+Interval statistics: raw/historical_high_volume, h=1, c=0.9, block=7; 5000 paired draws, 0.25s
+Interval statistics: raw/historical_high_volume, h=1, c=0.9, block=14; 5000 paired draws, 0.16s
+Interval statistics: raw/historical_high_volume, h=1, c=0.9, block=28; 5000 paired draws, 0.11s
+Interval statistics: raw/historical_high_volume, h=3, c=0.8, block=7; 5000 paired draws, 0.25s
+Interval statistics: raw/historical_high_volume, h=3, c=0.8, block=14; 5000 paired draws, 0.16s
+Interval statistics: raw/historical_high_volume, h=3, c=0.8, block=28; 5000 paired draws, 0.12s
+Interval statistics: raw/historical_high_volume, h=3, c=0.9, block=7; 5000 paired draws, 0.24s
+Interval statistics: raw/historical_high_volume, h=3, c=0.9, block=14; 5000 paired draws, 0.16s
+Interval statistics: raw/historical_high_volume, h=3, c=0.9, block=28; 5000 paired draws, 0.11s
+Interval statistics: all_methods_lower_nonnegative/all_dates, h=1, c=0.8, block=7; 5000 paired draws, 0.25s
+Interval statistics: all_methods_lower_nonnegative/all_dates, h=1, c=0.8, block=14; 5000 paired draws, 0.16s
+Interval statistics: all_methods_lower_nonnegative/all_dates, h=1, c=0.8, block=28; 5000 paired draws, 0.11s
+Interval statistics: all_methods_lower_nonnegative/all_dates, h=1, c=0.9, block=7; 5000 paired draws, 0.25s
+Interval statistics: all_methods_lower_nonnegative/all_dates, h=1, c=0.9, block=14; 5000 paired draws, 0.16s
+Interval statistics: all_methods_lower_nonnegative/all_dates, h=1, c=0.9, block=28; 5000 paired draws, 0.11s
+Interval statistics: all_methods_lower_nonnegative/all_dates, h=3, c=0.8, block=7; 5000 paired draws, 0.24s
+Interval statistics: all_methods_lower_nonnegative/all_dates, h=3, c=0.8, block=14; 5000 paired draws, 0.15s
+Interval statistics: all_methods_lower_nonnegative/all_dates, h=3, c=0.8, block=28; 5000 paired draws, 0.11s
+Interval statistics: all_methods_lower_nonnegative/all_dates, h=3, c=0.9, block=7; 5000 paired draws, 0.25s
+Interval statistics: all_methods_lower_nonnegative/all_dates, h=3, c=0.9, block=14; 5000 paired draws, 0.16s
+Interval statistics: all_methods_lower_nonnegative/all_dates, h=3, c=0.9, block=28; 5000 paired draws, 0.11s
+Interval statistics: all_methods_lower_nonnegative/historical_high_volume, h=1, c=0.8, block=7; 5000 paired draws, 0.25s
+Interval statistics: all_methods_lower_nonnegative/historical_high_volume, h=1, c=0.8, block=14; 5000 paired draws, 0.16s
+Interval statistics: all_methods_lower_nonnegative/historical_high_volume, h=1, c=0.8, block=28; 5000 paired draws, 0.11s
+Interval statistics: all_methods_lower_nonnegative/historical_high_volume, h=1, c=0.9, block=7; 5000 paired draws, 0.24s
+Interval statistics: all_methods_lower_nonnegative/historical_high_volume, h=1, c=0.9, block=14; 5000 paired draws, 0.16s
+Interval statistics: all_methods_lower_nonnegative/historical_high_volume, h=1, c=0.9, block=28; 5000 paired draws, 0.11s
+Interval statistics: all_methods_lower_nonnegative/historical_high_volume, h=3, c=0.8, block=7; 5000 paired draws, 0.24s
+Interval statistics: all_methods_lower_nonnegative/historical_high_volume, h=3, c=0.8, block=14; 5000 paired draws, 0.16s
+Interval statistics: all_methods_lower_nonnegative/historical_high_volume, h=3, c=0.8, block=28; 5000 paired draws, 0.11s
+Interval statistics: all_methods_lower_nonnegative/historical_high_volume, h=3, c=0.9, block=7; 5000 paired draws, 0.25s
+Interval statistics: all_methods_lower_nonnegative/historical_high_volume, h=3, c=0.9, block=14; 5000 paired draws, 0.16s
+Interval statistics: all_methods_lower_nonnegative/historical_high_volume, h=3, c=0.9, block=28; 5000 paired draws, 0.11s
+Coverage/width exploratory intervals: raw, h=1, c=0.8
+Coverage/width exploratory intervals: raw, h=1, c=0.9
+Coverage/width exploratory intervals: raw, h=3, c=0.8
+Coverage/width exploratory intervals: raw, h=3, c=0.9
+Coverage/width exploratory intervals: all_methods_lower_nonnegative, h=1, c=0.8
+Coverage/width exploratory intervals: all_methods_lower_nonnegative, h=1, c=0.9
+Coverage/width exploratory intervals: all_methods_lower_nonnegative, h=3, c=0.8
+Coverage/width exploratory intervals: all_methods_lower_nonnegative, h=3, c=0.9
+ horizon  mean_station_skill  lower_ci  upper_ci  confidence_level
+       1            0.026407 -0.022270  0.073506             0.975
+       3            0.021222 -0.046545  0.093640             0.975

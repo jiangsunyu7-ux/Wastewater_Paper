@@ -1,0 +1,107 @@
+independent source interval audit order20261012_K30: held 13006
+independent source interval audit order20261012_K30: held 13008
+independent source interval audit order20261012_K30: held 13012
+independent source interval audit order20261012_K30: held 13035
+independent source interval audit order20261012_K30: held 17968
+independent source interval audit order20261012_K30: held 13264
+independent source interval audit order20261012_K30: held 13278
+independent source interval audit order20261012_K30: held 13064
+independent source interval audit order20261012_K30: held 13145
+independent source interval audit order20261012_K30: held 13364
+independent source interval audit order20261012_K30: held 13353
+independent source interval audit order20261012_K30: held 13242
+independent source interval audit order20261012_K30: held 13220
+independent source interval audit order20261012_K30: held 13214
+independent source interval audit order20261012_K30: held 13252
+independent source interval audit order20261012_K30: held 13515
+independent source interval audit order20261012_K30: held 13324
+independent source interval audit order20261012_K30: held 13248
+independent source interval audit order20261012_K30: held 13255
+independent source interval audit order20261012_K30: held 13362
+independent source interval audit order20261012_K30: held 13079
+independent source interval audit order20261012_K30: held 19155
+independent source interval audit order20261012_K30: held 13243
+independent source interval audit order20261012_K30: held 13232
+independent source interval audit order20261012_K30: held 13182
+independent source interval audit order20261012_K30: held 13082
+independent source interval audit order20261012_K30: held 13043
+independent source interval audit order20261012_K30: held 17430
+independent source interval audit order20261012_K30: held 13041
+independent source interval audit order20261012_K30: held 13125
+independent source interval audit order20261013_K30: held 13006
+independent source interval audit order20261013_K30: held 13008
+independent source interval audit order20261013_K30: held 13012
+independent source interval audit order20261013_K30: held 13032
+independent source interval audit order20261013_K30: held 13047
+independent source interval audit order20261013_K30: held 13316
+independent source interval audit order20261013_K30: held 13035
+independent source interval audit order20261013_K30: held 13163
+independent source interval audit order20261013_K30: held 13275
+independent source interval audit order20261013_K30: held 13354
+independent source interval audit order20261013_K30: held 13060
+independent source interval audit order20261013_K30: held 19539
+independent source interval audit order20261013_K30: held 13324
+independent source interval audit order20261013_K30: held 13071
+independent source interval audit order20261013_K30: held 13056
+independent source interval audit order20261013_K30: held 13118
+independent source interval audit order20261013_K30: held 13207
+independent source interval audit order20261013_K30: held 13142
+independent source interval audit order20261013_K30: held 13175
+independent source interval audit order20261013_K30: held 13079
+independent source interval audit order20261013_K30: held 13315
+independent source interval audit order20261013_K30: held 13223
+independent source interval audit order20261013_K30: held 13264
+independent source interval audit order20261013_K30: held 13238
+independent source interval audit order20261013_K30: held 13172
+independent source interval audit order20261013_K30: held 13143
+independent source interval audit order20261013_K30: held 13101
+independent source interval audit order20261013_K30: held 13361
+independent source interval audit order20261013_K30: held 13360
+independent source interval audit order20261013_K30: held 13078
+independent source interval audit order20261014_K30: held 13006
+independent source interval audit order20261014_K30: held 13008
+independent source interval audit order20261014_K30: held 13012
+independent source interval audit order20261014_K30: held 13156
+independent source interval audit order20261014_K30: held 13515
+independent source interval audit order20261014_K30: held 13238
+independent source interval audit order20261014_K30: held 13242
+independent source interval audit order20261014_K30: held 13207
+independent source interval audit order20261014_K30: held 13044
+independent source interval audit order20261014_K30: held 13144
+independent source interval audit order20261014_K30: held 13191
+independent source interval audit order20261014_K30: held 13249
+independent source interval audit order20261014_K30: held 13219
+independent source interval audit order20261014_K30: held 13291
+independent source interval audit order20261014_K30: held 13201
+independent source interval audit order20261014_K30: held 13075
+independent source interval audit order20261014_K30: held 13198
+independent source interval audit order20261014_K30: held 13293
+independent source interval audit order20261014_K30: held 13310
+independent source interval audit order20261014_K30: held 13260
+independent source interval audit order20261014_K30: held 13076
+independent source interval audit order20261014_K30: held 13254
+independent source interval audit order20261014_K30: held 13134
+independent source interval audit order20261014_K30: held 13192
+independent source interval audit order20261014_K30: held 13275
+independent source interval audit order20261014_K30: held 13055
+independent source interval audit order20261014_K30: held 13079
+independent source interval audit order20261014_K30: held 13171
+independent source interval audit order20261014_K30: held 13035
+independent source interval audit order20261014_K30: held 19556
+Independent target interval audit 30/300
+Independent target interval audit 60/300
+Independent target interval audit 90/300
+Independent target interval audit 120/300
+Independent target interval audit 150/300
+Independent target interval audit 180/300
+Independent target interval audit 210/300
+Independent target interval audit 240/300
+Independent target interval audit 270/300
+Independent target interval audit 300/300
+Independent interval bootstrap h=1 block=7: 5000 primitive paired draws
+Independent interval bootstrap h=1 block=14: 5000 primitive paired draws
+Independent interval bootstrap h=1 block=28: 5000 primitive paired draws
+Independent interval bootstrap h=3 block=7: 5000 primitive paired draws
+Independent interval bootstrap h=3 block=14: 5000 primitive paired draws
+Independent interval bootstrap h=3 block=28: 5000 primitive paired draws
+{"status": "PASSED", "mode": "full_independent_interval_evidence_audit", "counts": {"frozen_input_or_code_SHA_checks": 25, "completed_artifact_SHA_checks": 918, "independent_source_error_rows_checked": 717102, "equal_source_site_weight_checks": 360, "independent_source_validation_objectives_checked": 5400, "independent_leave_relation_group_folds_checked": 1080, "independent_selected_gamma_choices_checked": 18, "independently_reconstructed_interval_rows": 324000, "gamma_endpoint_exact_interval_rows": 24000, "independent_target_calibration_rows_checked": 29216, "independently_checked_target_conditions": 300, "preserved_C2_Persistence_rows_matched": 324000, "nested_80_90_interval_pairs_checked": 162000, "independent_arithmetic_rows_checked": 670284, "independent_summary_rows_checked": 1512, "independent_paired_site_rows_checked": 5760, "independent_negative_transfer_summaries_checked": 144, "independent_primary_bootstrap_interval_rows_checked": 6}}

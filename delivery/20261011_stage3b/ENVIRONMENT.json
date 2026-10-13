@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-10-11T02:43:44.747580+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "logical_cpus": 5,
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "torch": "2.8.0+cpu"
+  },
+  "no_cuda": true,
+  "thread_environment": "OMP_NUM_THREADS=OPENBLAS_NUM_THREADS=MKL_NUM_THREADS=1",
+  "install": "bash scripts/refresh_stage2_environment.sh (existing CPU environment); minimal Ridge replay requires requirements.txt",
+  "original_git_head": "e6a4fc628d8aae0412cb83a81c528b43d6662fea"
+}

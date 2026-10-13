@@ -1,0 +1,116 @@
+{
+  "status": "PASSED",
+  "signature": "31451b4547aed6b9654da2d79e4d80a2e91bed8a23d5cda263d663da34a18b61",
+  "conditions": 12,
+  "interval_rows_checked": 12960,
+  "source_bank_count": 3,
+  "nested_80_90_pairs": 6480,
+  "gamma_endpoint_rows_checked": 960,
+  "calendar_bounds_checked": [
+    {
+      "site_id": "13013",
+      "budget": 30,
+      "horizon": 1,
+      "calibration_samples": 29,
+      "latest_target": "2021-12-31",
+      "latest_input": "2021-12-30"
+    },
+    {
+      "site_id": "13013",
+      "budget": 30,
+      "horizon": 3,
+      "calibration_samples": 27,
+      "latest_target": "2021-12-31",
+      "latest_input": "2021-12-28"
+    },
+    {
+      "site_id": "13013",
+      "budget": 90,
+      "horizon": 1,
+      "calibration_samples": 89,
+      "latest_target": "2021-12-31",
+      "latest_input": "2021-12-30"
+    },
+    {
+      "site_id": "13013",
+      "budget": 90,
+      "horizon": 3,
+      "calibration_samples": 87,
+      "latest_target": "2021-12-31",
+      "latest_input": "2021-12-28"
+    },
+    {
+      "site_id": "13013",
+      "budget": 180,
+      "horizon": 1,
+      "calibration_samples": 179,
+      "latest_target": "2021-12-31",
+      "latest_input": "2021-12-30"
+    },
+    {
+      "site_id": "13013",
+      "budget": 180,
+      "horizon": 3,
+      "calibration_samples": 177,
+      "latest_target": "2021-12-31",
+      "latest_input": "2021-12-28"
+    },
+    {
+      "site_id": "13015",
+      "budget": 30,
+      "horizon": 1,
+      "calibration_samples": 29,
+      "latest_target": "2021-12-31",
+      "latest_input": "2021-12-30"
+    },
+    {
+      "site_id": "13015",
+      "budget": 30,
+      "horizon": 3,
+      "calibration_samples": 27,
+      "latest_target": "2021-12-31",
+      "latest_input": "2021-12-28"
+    },
+    {
+      "site_id": "13015",
+      "budget": 90,
+      "horizon": 1,
+      "calibration_samples": 89,
+      "latest_target": "2021-12-31",
+      "latest_input": "2021-12-30"
+    },
+    {
+      "site_id": "13015",
+      "budget": 90,
+      "horizon": 3,
+      "calibration_samples": 87,
+      "latest_target": "2021-12-31",
+      "latest_input": "2021-12-28"
+    },
+    {
+      "site_id": "13015",
+      "budget": 180,
+      "horizon": 1,
+      "calibration_samples": 179,
+      "latest_target": "2021-12-31",
+      "latest_input": "2021-12-30"
+    },
+    {
+      "site_id": "13015",
+      "budget": 180,
+      "horizon": 3,
+      "calibration_samples": 177,
+      "latest_target": "2021-12-31",
+      "latest_input": "2021-12-28"
+    }
+  ],
+  "original_sites": [
+    "13013",
+    "13015"
+  ],
+  "fixed_first_window": "2022-01-01",
+  "smoke_predictions_sha256": "90d19ecb82ec52c57065ee87c82279592980b80ffa992d8959b8d6fbb37dc8ce",
+  "checker_sha256": "803e432a271b902ac0563284702681196c522afcde266965be2b2e7e9ffaa277",
+  "numerical_tolerance_not_bitwise_claim": true,
+  "real_data": true
+}

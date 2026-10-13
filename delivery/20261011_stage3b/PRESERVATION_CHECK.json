@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checked_files": 23245,
+  "changed_scientific_files": [],
+  "allowed_global_doc_updates": [
+    "AGENTS.md",
+    "EXPERIMENT_PROTOCOL.md",
+    "RESEARCH_PLAN.md",
+    "STATUS.md",
+    "WORKFLOW.md"
+  ],
+  "preupdate_doc_copies_hash_checked": true,
+  "old_sources_results_packages_preserved": true,
+  "checked_utc": "2026-10-11T02:44:32.166026+00:00"
+}

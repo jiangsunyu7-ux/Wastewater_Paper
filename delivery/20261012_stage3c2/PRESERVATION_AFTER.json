@@ -1,0 +1,8 @@
+{
+  "status": "PASSED",
+  "checked_utc": "2026-10-12T04:32:44.104212+00:00",
+  "files_checked": 2901,
+  "bytes_checked": 242094551,
+  "changed_or_missing": [],
+  "comparison": "exact file-size and SHA256; Stage3B/C1 scientific files unchanged"
+}

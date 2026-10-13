@@ -1,0 +1,142 @@
+{
+  "transfer_and_history_intervals.pdf": {
+    "bytes": 17335,
+    "sha256": "bef05b74c236e67117bfc79e5a0aa7bd5bd0b0601001e4bf78d75bad597cebac"
+  },
+  "package_checks.json": {
+    "bytes": 4817,
+    "sha256": "84bda8d82fba294e45842095dd6493e89e366c26d0b141677be79e640871cf43"
+  },
+  "transfer_and_history_intervals.png": {
+    "bytes": 80077,
+    "sha256": "c95c7d3b77bebc95b943a30887c10b3a59c73b216ad80f280eba73ccfff6ffc5"
+  },
+  "Wastewater_Stage3A_Quick_Review_20261010.zip": {
+    "bytes": 1899817,
+    "sha256": "2cac5907c984d3001d9c2b1dd761fb30be9dc7f4429ed9fe639d75537687a984"
+  },
+  "validation_selections.csv": {
+    "bytes": 50883,
+    "sha256": "2631af428aad880a6af6756df50955f8966dbf305748cfc4e91bfa3d292b1e4b"
+  },
+  "negative_transfer_summary.csv": {
+    "bytes": 4575,
+    "sha256": "28b251551120306688264edeb28a8220c2bb2b8a9e43d9ca77252f5dc174be62"
+  },
+  "STAGE3A_PROTOCOL.md": {
+    "bytes": 7379,
+    "sha256": "0c24cfb9fef280d32040bc78518e573f9f7e904bdee9ae5a9079b0d860025349"
+  },
+  "claim_traceability.csv": {
+    "bytes": 30370,
+    "sha256": "51d4fe0568bcfd53ab3a40820ce43943010a67d438c79c45de4941610598fbb0"
+  },
+  "Wastewater_Stage3A_Runs_20261010_Part05.zip": {
+    "bytes": 21767648,
+    "sha256": "34fd710922e98b4ce11bf7525192ee62f6530875c3f3ace16dd13258341553e9"
+  },
+  "delivery_replay_checks.json": {
+    "bytes": 1324,
+    "sha256": "bf15840fc98aefd2fa77657d647449516080369396925489df39e3e6bd14fe10"
+  },
+  "compute_cost.json": {
+    "bytes": 928,
+    "sha256": "41741cee5050320e58b826be7cc29a7b818064e5cc50f51befcfac01dc531916"
+  },
+  "Wastewater_Stage3A_Runs_20261010_Part02.zip": {
+    "bytes": 21697437,
+    "sha256": "722ece4b6538cfb0aae39e5ca13bdf4deb19a0e5d0cfb81ecca9aa6eb82f231f"
+  },
+  "Wastewater_Stage3A_Reports_Figures_20261010_Part03.zip": {
+    "bytes": 16082300,
+    "sha256": "74c7120557e9e6993e55a74f504e7ded97349a538fed0f50a0d00da7045725c6"
+  },
+  "Wastewater_Stage3A_Runs_20261010_Part04.zip": {
+    "bytes": 21824833,
+    "sha256": "7879370ebf2549d2d40a7e150034b41e6507ed68425eb1610ac6b124ad629736"
+  },
+  "Wastewater_Stage3A_Reports_Figures_20261010_Part02.zip": {
+    "bytes": 9118816,
+    "sha256": "35f92f9e351f90a8f6867e7215a85e1a7a0e7ba81bd3211fc12e6516ccaad5f0"
+  },
+  "summary.csv": {
+    "bytes": 24351,
+    "sha256": "eca26d7cb0583259fd03d95d9672e36ddc8bf5034a02f3d09336bcd341acd418"
+  },
+  "STAGE3A_IMPLEMENTATION.md": {
+    "bytes": 3373,
+    "sha256": "e0179b7f66fb3879ac1c6dc87d575f6ed033b7733b157fd2dd18c7837e09eb43"
+  },
+  "FACILITY_MAPPING.csv": {
+    "bytes": 4017,
+    "sha256": "34a40ca92b25d081636c88dd752f007366bde73cff1b5ee3962ee3a300e77eab"
+  },
+  "ANALYSIS_ZH.md": {
+    "bytes": 16338,
+    "sha256": "4cc470bfea9082212b2c6b5f57454959e8a28afa81170bf50655bc6a4f3c74f0"
+  },
+  "Wastewater_Stage3A_Runs_20261010_Part01.zip": {
+    "bytes": 21422277,
+    "sha256": "59b0a2edcbbb922dd6101db685bf8db01fc086d8716a9116b97d351c6259150e"
+  },
+  "archive_forecast_equivalence.json": {
+    "bytes": 770,
+    "sha256": "59dbffe1ef6d295caef175d38d61631d0c57705b2b362afa648dad158c4e37e9"
+  },
+  "Wastewater_Stage3A_Reports_Figures_20261010_Part01.zip": {
+    "bytes": 20512289,
+    "sha256": "c4e81cc317edfde80bb5e2a6adbe6b407be7df14dfc8baabf17edebe15d3c782"
+  },
+  "Wessex_Stage3A_CPU.ipynb": {
+    "bytes": 8939,
+    "sha256": "a92ff23860b45b0776c21c723a7c6001fd045fb217792873b4e083c26caaeb40"
+  },
+  "full_config.json": {
+    "bytes": 2766,
+    "sha256": "b3663b82eb2ac6fda800e599a250cd64684eec444518608e8d33c038edc29f9f"
+  },
+  "validate_stage3a_delivery.py": {
+    "bytes": 5001,
+    "sha256": "598dcc7301944e5a4d056230ea6eff8335bc36f7a3511cd23fa525ea1437ae1f"
+  },
+  "Wastewater_Stage3A_Runs_20261010_Part03.zip": {
+    "bytes": 21757994,
+    "sha256": "c3ad2f530c536cce49b4872a6dc9b0a978209a3b382a26a56f2a65bdc01b0ca2"
+  },
+  "SHA256SUMS": {
+    "bytes": 1462,
+    "sha256": "73b9c6f80dac652789feba8285039d2d14420adef73e04e14359513488397edc"
+  },
+  "Wastewater_Stage3A_Runs_20261010_Part06.zip": {
+    "bytes": 22230191,
+    "sha256": "85e907981615eb5258e69a4bde9538d7edab06e479e0ed14eb2673c4c8ba8f09"
+  },
+  "independent_results.json": {
+    "bytes": 442,
+    "sha256": "57e7089eabf13a8d78f55581c2f209b28ead88a6e52c5794f442dc0425c1c1f7"
+  },
+  "baseline_fairness_budget_skill.pdf": {
+    "bytes": 24092,
+    "sha256": "60c74b5861478889bd2aab52610c66d1d2c61522049dc10536a98d91b898b533"
+  },
+  "Wastewater_Stage3A_Runs_20261010_Part07.zip": {
+    "bytes": 22198032,
+    "sha256": "302c90bba539a2c247259e4f00534f6883bac308fe9eafa4adae12bcfcd28c8b"
+  },
+  "baseline_fairness_budget_skill.png": {
+    "bytes": 248021,
+    "sha256": "7765b0bb270892297e71261e1f99d1699326c49d30b82ba7823860601ba6795b"
+  },
+  "Wastewater_Stage3A_Runs_20261010_Part08.zip": {
+    "bytes": 22054148,
+    "sha256": "468973dea073c768f748e611899268cbab2b473bce2297ed9466c4a3116c511a"
+  },
+  "README.md": {
+    "bytes": 5687,
+    "sha256": "6b7a47d04d6558c4b98d4426fa8e65cff2313302d0c721ccc2ca125133c716aa"
+  },
+  "Wastewater_Stage3A_Code_Data_20261010.zip": {
+    "bytes": 1325340,
+    "sha256": "13911e8b11b767c651b362500d0bdc68e560fba909f78eb67f87592e7bb83253"
+  }
+}

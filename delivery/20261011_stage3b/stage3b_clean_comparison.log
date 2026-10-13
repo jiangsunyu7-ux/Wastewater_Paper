@@ -1,0 +1,24 @@
+availability.csv: 3300 rows compared and passed
+daily_losses.csv.gz: 388938 rows compared and passed
+high_volume_block_intervals.csv: 2232 rows compared and passed
+high_volume_metrics_by_station.csv: 2640 rows compared and passed
+high_volume_paired_by_station.csv: 7440 rows compared and passed
+high_volume_summary.csv: 264 rows compared and passed
+metrics_by_station.csv: 2640 rows compared and passed
+missing_or_failed_predictions.csv.gz: 2101 rows compared and passed
+negative_transfer_summary.csv: 168 rows compared and passed
+paired_block_intervals.csv: 2232 rows compared and passed
+paired_comparisons_by_station.csv: 7440 rows compared and passed
+paired_evaluation_index.csv.gz: 6000 rows compared and passed
+predictions_all.csv.gz: 198000 rows compared and passed
+summary.csv: 264 rows compared and passed
+zero_reference_comparisons.csv: 0 rows compared and passed
+{
+  "status": "passed",
+  "stage3a_rows": {
+    "daily_losses": 424170,
+    "station_metrics": 1800
+  },
+  "stage3b_tables_compared": 15,
+  "receipt": "/workspace/Wastewater_Paper/validation/STAGE3B_CLEAN_METRIC_REPLAY.json"
+}

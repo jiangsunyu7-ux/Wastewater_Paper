@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "archives": 8,
+  "verified_files": 8827,
+  "crc_and_all_member_sha256_verified": true,
+  "version": "stage3b_20261011_v1",
+  "packages": [
+    {
+      "filename": "Wastewater_Stage3B_Quick_Review_20261011.zip",
+      "bytes": 3473547,
+      "sha256": "2448479d45902dbcbab91d6945106978d098529f29a46bc222b677c1f897dd0b",
+      "category": "Quick_Review",
+      "part": 1,
+      "parts": 1,
+      "payload_files": 137,
+      "crc_and_all_member_sha256_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3B_Code_and_Reproduce_20261011.zip",
+      "bytes": 1783649,
+      "sha256": "595112fc5b4582aeb2105e0e6ea59bcf4a1ac516e291123f7192e62acee0fd78",
+      "category": "Code_and_Reproduce",
+      "part": 1,
+      "parts": 1,
+      "payload_files": 151,
+      "crc_and_all_member_sha256_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3B_Predictions_and_Diagnostics_20261011_Part01.zip",
+      "bytes": 18139753,
+      "sha256": "4cbd56f74b7a54bfe5f4dd914fad295bebda484e7f45d5961fe55cd9298a10b6",
+      "category": "Predictions_and_Diagnostics",
+      "part": 1,
+      "parts": 6,
+      "payload_files": 14,
+      "crc_and_all_member_sha256_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3B_Predictions_and_Diagnostics_20261011_Part02.zip",
+      "bytes": 8725501,
+      "sha256": "c8a7f57121fcabf1e024d8261592b9d208a437b81d13402f93beb3d2bfcbed58",
+      "category": "Predictions_and_Diagnostics",
+      "part": 2,
+      "parts": 6,
+      "payload_files": 3,
+      "crc_and_all_member_sha256_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3B_Predictions_and_Diagnostics_20261011_Part03.zip",
+      "bytes": 16074516,
+      "sha256": "61574b5b94e853ae33cd350278a822410f7f03b1e1ee12ca33734638a002ae42",
+      "category": "Predictions_and_Diagnostics",
+      "part": 3,
+      "parts": 6,
+      "payload_files": 6,
+      "crc_and_all_member_sha256_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3B_Predictions_and_Diagnostics_20261011_Part04.zip",
+      "bytes": 21087907,
+      "sha256": "8d01838c7ba158216e9a8f78507fdc8ef8f99d202e031ac96e38965448218198",
+      "category": "Predictions_and_Diagnostics",
+      "part": 4,
+      "parts": 6,
+      "payload_files": 2063,
+      "crc_and_all_member_sha256_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3B_Predictions_and_Diagnostics_20261011_Part05.zip",
+      "bytes": 18179924,
+      "sha256": "d7f6c558aad01c065085e2da31ead913a170483e51378132a6baf92f604378d1",
+      "category": "Predictions_and_Diagnostics",
+      "part": 5,
+      "parts": 6,
+      "payload_files": 5159,
+      "crc_and_all_member_sha256_passed": true
+    },
+    {
+      "filename": "Wastewater_Stage3B_Predictions_and_Diagnostics_20261011_Part06.zip",
+      "bytes": 3798635,
+      "sha256": "a6a9f52694c1a335c2811ff396de39e55474d806218eea046159678e7a8eda3a",
+      "category": "Predictions_and_Diagnostics",
+      "part": 6,
+      "parts": 6,
+      "payload_files": 1270,
+      "crc_and_all_member_sha256_passed": true
+    }
+  ],
+  "all_zip_sizes_below_24_MiB": true,
+  "extraction_crc_and_all_member_hashes_passed": true,
+  "scientific_manifest_sha256": "849fb45a812c3bc883bf4fc8b1ec56698c50f7105426f2a89d0f8934e16c796d",
+  "protocol_sha256": "087f3d80a6b9fe0758dea97b85b5021649f66317f3d8b6c3fa6089ad5426068c",
+  "packaging_did_not_train_models": true,
+  "live_colab_drive_verified": false,
+  "full_stage3a_training_replay_not_claimed": true
+}

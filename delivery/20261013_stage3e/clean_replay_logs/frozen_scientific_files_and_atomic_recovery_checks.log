@@ -1,0 +1,25 @@
+{
+  "version": "stage3e_evidence_review_v1",
+  "status": "PASSED",
+  "generated_utc": "2026-10-13T05:31:03.465753+00:00",
+  "scope": "smoke",
+  "elapsed_seconds": 3.7349009239987936,
+  "original_full_tasks_read_only_verified": 0,
+  "smoke_tasks_reconstructed_or_cached": 12,
+  "scientific_files_byte_identical": 36,
+  "smoke_prediction_rows": 12960,
+  "original_frozen_scientific_code_unmodified": true,
+  "original_natural_anomaly": "NOT_REPRODUCED; root cause unconfirmed",
+  "controlled_fault_scenarios": 8,
+  "max_attempts": 2,
+  "scientific_replay_kind": "Historical interval-calibration reconstruction, not new model training",
+  "source_gamma_selection_recomputed": false,
+  "source_banks_only_read_verified_cache": true,
+  "original_gamma_freeze_sha256": "27e93942cbe61893bbbf3b5b3f0487c592152df1fe6b0786c2532c9a0abe103e",
+  "source_cache_artifact_hashes_verified": 21,
+  "code_sha256": {
+    "src/wastewater/stage3e_runtime.py": "cc78ae3ed41515e4720ee9e74a1738f1ab0648907e972a9626e474cb5b9b3164",
+    "tests/test_stage3e_runtime.py": "be600542df7edfc023ee290584fae693f1266c5ba25f4134962166375af9b2b2",
+    "scripts/check_stage3e_runtime.py": "f9e355d4ea9c74a0bd55c43ae5ff9d1cf028138b6e1650ece92a2acdb3e82025"
+  }
+}

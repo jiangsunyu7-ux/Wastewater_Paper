@@ -1,0 +1,31 @@
+Statistics: raw, all_dates, h=1, block=7, 5000 synchronized replicates; 1.02s
+Statistics: raw, all_dates, h=1, block=14, 5000 synchronized replicates; 0.82s
+Statistics: raw, all_dates, h=1, block=28, 5000 synchronized replicates; 0.72s
+Statistics: raw, all_dates, h=3, block=7, 5000 synchronized replicates; 1.01s
+Statistics: raw, all_dates, h=3, block=14, 5000 synchronized replicates; 0.81s
+Statistics: raw, all_dates, h=3, block=28, 5000 synchronized replicates; 0.71s
+Statistics: raw, historical_high_volume, h=1, block=7, 5000 synchronized replicates; 0.62s
+Statistics: raw, historical_high_volume, h=1, block=14, 5000 synchronized replicates; 0.42s
+Statistics: raw, historical_high_volume, h=1, block=28, 5000 synchronized replicates; 0.32s
+Statistics: raw, historical_high_volume, h=3, block=7, 5000 synchronized replicates; 0.64s
+Statistics: raw, historical_high_volume, h=3, block=14, 5000 synchronized replicates; 0.43s
+Statistics: raw, historical_high_volume, h=3, block=28, 5000 synchronized replicates; 0.33s
+Statistics: all_models_nonnegative, all_dates, h=1, block=7, 5000 synchronized replicates; 0.64s
+Statistics: all_models_nonnegative, all_dates, h=1, block=14, 5000 synchronized replicates; 0.42s
+Statistics: all_models_nonnegative, all_dates, h=1, block=28, 5000 synchronized replicates; 0.33s
+Statistics: all_models_nonnegative, all_dates, h=3, block=7, 5000 synchronized replicates; 0.62s
+Statistics: all_models_nonnegative, all_dates, h=3, block=14, 5000 synchronized replicates; 0.43s
+Statistics: all_models_nonnegative, all_dates, h=3, block=28, 5000 synchronized replicates; 0.34s
+Statistics: all_models_nonnegative, historical_high_volume, h=1, block=7, 5000 synchronized replicates; 0.63s
+Statistics: all_models_nonnegative, historical_high_volume, h=1, block=14, 5000 synchronized replicates; 0.43s
+Statistics: all_models_nonnegative, historical_high_volume, h=1, block=28, 5000 synchronized replicates; 0.33s
+Statistics: all_models_nonnegative, historical_high_volume, h=3, block=7, 5000 synchronized replicates; 0.65s
+Statistics: all_models_nonnegative, historical_high_volume, h=3, block=14, 5000 synchronized replicates; 0.43s
+Statistics: all_models_nonnegative, historical_high_volume, h=3, block=28, 5000 synchronized replicates; 0.32s
+ horizon reference_pool_id                           reference  mean_station_skill  lower_ci  upper_ci
+       1          baseline                         persistence            0.007044 -0.012046  0.020687
+       1          baseline       local_residual_ridge_selected           -0.006094 -0.048561  0.034388
+       1                K3 shared_residual_ridge_bias_selected            0.007044 -0.012046  0.020687
+       3          baseline                         persistence           -0.001888 -0.083090  0.053770
+       3          baseline       local_residual_ridge_selected            0.003823 -0.057437  0.042390
+       3                K3 shared_residual_ridge_bias_selected            0.006444 -0.001416  0.014480

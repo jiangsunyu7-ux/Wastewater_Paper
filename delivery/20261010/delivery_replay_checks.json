@@ -1,0 +1,138 @@
+{
+  "status": "passed",
+  "started_utc": "2026-10-10T08:14:19.525389+00:00",
+  "scope": "delivered-package interface/cache verification; excluded from scientific aggregate",
+  "real_Colab_Drive_mount_verified": false,
+  "GPU_execution_verified": false,
+  "verification_script_sha256": "d4b693f4f531bcfc131598fc19e3d949730e47e47df77f0b411e8f85d1ace63a",
+  "checks": {
+    "external_zip_sha256_and_sizes": {
+      "Wastewater_Stage2_Code_Data_20261010.zip": {
+        "filename": "Wastewater_Stage2_Code_Data_20261010.zip",
+        "bytes": 1018750,
+        "sha256": "9e1563811e35b0d9abafaf59e9d11342d4b507520f8009181b803ff71ec7c5ed",
+        "member_count": 89,
+        "crc_and_all_member_sha256_passed": true,
+        "payload_member_count": 87
+      },
+      "Wastewater_Stage2_Runs_20261010.zip": {
+        "filename": "Wastewater_Stage2_Runs_20261010.zip",
+        "bytes": 22073601,
+        "sha256": "2d234a71243574acd7ebd22720c340f299ead73a2cc579e4fb895cd8c71962c7",
+        "member_count": 5010,
+        "crc_and_all_member_sha256_passed": true,
+        "payload_member_count": 5008
+      },
+      "Wastewater_Stage2_Reports_Figures_20261010.zip": {
+        "filename": "Wastewater_Stage2_Reports_Figures_20261010.zip",
+        "bytes": 6417207,
+        "sha256": "fb833734ed1c34fcbf819fb997a3d2834dd08caa9ced61f6bc76494f5b203be3",
+        "member_count": 55,
+        "crc_and_all_member_sha256_passed": true,
+        "payload_member_count": 53
+      }
+    },
+    "importer_from_exact_delivered_notebook_sha256": "2583fc600acb2ba4fb2688cd1e7786305aece8186f4fd1f60c8fb998532ae78c",
+    "all_ZIPs_merged_into_one_fresh_ROOT": [
+      {
+        "archive": "/workspace/Wastewater_Paper/deliverables/stage2_20261010/Wastewater_Stage2_Code_Data_20261010.zip",
+        "sha256": "9e1563811e35b0d9abafaf59e9d11342d4b507520f8009181b803ff71ec7c5ed",
+        "crc_passed": true,
+        "new_files": 88,
+        "identical_files_preserved": 0,
+        "manifest_entries_checked": 88
+      },
+      {
+        "archive": "/workspace/Wastewater_Paper/deliverables/stage2_20261010/Wastewater_Stage2_Reports_Figures_20261010.zip",
+        "sha256": "fb833734ed1c34fcbf819fb997a3d2834dd08caa9ced61f6bc76494f5b203be3",
+        "crc_passed": true,
+        "new_files": 54,
+        "identical_files_preserved": 0,
+        "manifest_entries_checked": 54
+      },
+      {
+        "archive": "/workspace/Wastewater_Paper/deliverables/stage2_20261010/Wastewater_Stage2_Runs_20261010.zip",
+        "sha256": "2d234a71243574acd7ebd22720c340f299ead73a2cc579e4fb895cd8c71962c7",
+        "crc_passed": true,
+        "new_files": 5009,
+        "identical_files_preserved": 0,
+        "manifest_entries_checked": 5009
+      }
+    ],
+    "checksum_manifests_verified_without_copying": true,
+    "delivered_preflight": {
+      "status": "passed",
+      "config": "configs/shared_v3_20261009/smoke.json",
+      "config_sha256": "a10b67456d843a7dd85719c6896e3bc1113077169ae44b86b3bdbeea0dc81fd3",
+      "runtime_versions": {
+        "torch": "2.8.0+cpu",
+        "numpy": "2.3.5",
+        "pandas": "2.2.3",
+        "scipy": "1.17.0",
+        "sklearn": "1.8.0",
+        "matplotlib": "3.10.8"
+      },
+      "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "signature": "adc9114dd35076def2ac8b8694671a1eb37346ec0ea2f13233b8cc8a3fb105d6",
+      "source_ids": [
+        "13006",
+        "13008",
+        "13012"
+      ],
+      "development_ids": [
+        "13013",
+        "13015"
+      ],
+      "expected_jobs": 96,
+      "physical_facility_independence_verified": false,
+      "online_QA_availability_verified": false
+    },
+    "smoke_replay": {
+      "command": [
+        "/workspace/Wastewater_Paper/.venv-stage2/bin/python",
+        "-u",
+        "-m",
+        "wastewater.shared_experiment",
+        "--config",
+        "configs/shared_v3_20261009/smoke.json"
+      ],
+      "counts_this_call": {
+        "completed": 0,
+        "cached": 96,
+        "failed": 0
+      },
+      "prediction_files_byte_unchanged": 96,
+      "source_files_byte_unchanged": 12,
+      "target_models_retrained": false,
+      "source_ridge": "lightweight source Ridge reconstruction occurs; cached GRU checkpoints are unchanged",
+      "command_log": "validation/stage2_delivery_replay/smoke_cached_command.log"
+    },
+    "independent_saved_predictions_validation": {
+      "status": "passed",
+      "run": "runs/shared_v3_20261009/smoke",
+      "rows": 23040,
+      "stations": 2,
+      "seeds": [
+        20261009
+      ],
+      "all_completed_artifacts_sha256": true,
+      "same_features_and_scales_all_models": true,
+      "independent_budget_training_count_and_threshold": true,
+      "same_dates_across_models_seeds_budgets": true,
+      "evaluation_truth_matches_cleaned_original": true,
+      "final_period_excluded": true,
+      "source_target_disjoint": true,
+      "min_training_labels": 27,
+      "max_training_labels": 179,
+      "common_station_episode_horizon_origins": 912,
+      "possible_station_episode_horizon_origins": 960,
+      "negative_raw_predictions": 11,
+      "physical_facility_independence_verified": false,
+      "historical_QA_arrival_verified": false
+    },
+    "original_source_smoke_and_delivery_ZIPs_unchanged": true,
+    "original_source_and_smoke_files_preserved": 446,
+    "fresh_temporary_project_removed": true
+  },
+  "finished_utc": "2026-10-10T08:14:56.700939+00:00"
+}

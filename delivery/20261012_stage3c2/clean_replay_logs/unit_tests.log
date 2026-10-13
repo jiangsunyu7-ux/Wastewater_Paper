@@ -1,0 +1,22 @@
+test_equal_siteid_skill_and_five_episode_pooling (test_stage3c2_evaluation.Stage3C2EvaluationTests.test_equal_siteid_skill_and_five_episode_pooling) ... ok
+test_exact_lambda_zero_and_uniform_nonnegative (test_stage3c2_evaluation.Stage3C2EvaluationTests.test_exact_lambda_zero_and_uniform_nonnegative) ... ok
+test_fast_bootstrap_equals_original_calendar_algorithm (test_stage3c2_evaluation.Stage3C2EvaluationTests.test_fast_bootstrap_equals_original_calendar_algorithm) ... ok
+test_horizon_future_training_and_threshold_guards (test_stage3c2_evaluation.Stage3C2EvaluationTests.test_horizon_future_training_and_threshold_guards) ... ok
+test_incomplete_conditions_remain_visible (test_stage3c2_evaluation.Stage3C2EvaluationTests.test_incomplete_conditions_remain_visible) ... ok
+test_no_integrity_never_claims_completed (test_stage3c2_evaluation.Stage3C2EvaluationTests.test_no_integrity_never_claims_completed) ... ok
+test_reference_zero_is_explicitly_undefined (test_stage3c2_evaluation.Stage3C2EvaluationTests.test_reference_zero_is_explicitly_undefined) ... ok
+test_six_main_comparisons_correct_multiplicity (test_stage3c2_evaluation.Stage3C2EvaluationTests.test_six_main_comparisons_correct_multiplicity) ... ok
+test_missing_member_and_corruption_rejected (test_stage3c2_experiment.CompletionTests.test_missing_member_and_corruption_rejected) ... ok
+test_partial_with_no_failures_cannot_complete (test_stage3c2_experiment.CompletionTests.test_partial_with_no_failures_cannot_complete) ... ok
+test_completed_without_outputs_is_rejected (test_stage3c2_source.SourcePoolTests.test_completed_without_outputs_is_rejected) ... ok
+test_equal_site_weight_and_missing_placeholder_one (test_stage3c2_source.SourcePoolTests.test_equal_site_weight_and_missing_placeholder_one) ... ok
+test_future_source_records_do_not_change_features_or_fit (test_stage3c2_source.SourcePoolTests.test_future_source_records_do_not_change_features_or_fit) ... ok
+test_k3_arrays_are_exactly_stage3b (test_stage3c2_source.SourcePoolTests.test_k3_arrays_are_exactly_stage3b) ... ok
+test_partial_zero_failures_is_not_complete (test_stage3c2_source.SourcePoolTests.test_partial_zero_failures_is_not_complete) ... ok
+test_pseudo_grid_is_stage3b_exact_with_local_cache_reuse (test_stage3c2_source.SourcePoolTests.test_pseudo_grid_is_stage3b_exact_with_local_cache_reuse) ... ok
+test_related_links_are_undirected_and_transitive (test_stage3c2_source.SourcePoolTests.test_related_links_are_undirected_and_transitive) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 1.130s
+
+OK

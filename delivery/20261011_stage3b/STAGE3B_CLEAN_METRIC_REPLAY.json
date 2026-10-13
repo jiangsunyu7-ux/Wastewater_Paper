@@ -1,0 +1,1461 @@
+{
+  "status": "passed",
+  "completed_utc": "2026-10-11T05:15:42.060933+00:00",
+  "extracted_root": "/tmp/wastewater_stage3b_external_review",
+  "import": {
+    "status": "passed",
+    "archives": 8,
+    "verified_files": 8827,
+    "crc_and_all_member_sha256_verified": true,
+    "destination": "/tmp/wastewater_stage3b_external_review"
+  },
+  "stage3a_independent_arithmetic": {
+    "status": "passed",
+    "prediction_rows": 388800,
+    "common_origin_conditions": 4713,
+    "station_metrics": 1800,
+    "seed_aggregation": "Mean per-date absolute and squared losses, not a prediction ensemble",
+    "atol": 1e-08,
+    "rtol": 1e-12,
+    "checks": {
+      "daily": {
+        "absolute_error": 6.548361852765083e-11,
+        "squared_error": 7.62939453125e-06,
+        "truth_m3": 0.0,
+        "high_threshold_m3": 0.0,
+        "seed_count": 0.0
+      },
+      "station_metrics": {
+        "n_dates": 0.0,
+        "mae_m3": 7.275957614183426e-12,
+        "rmse_m3": 7.275957614183426e-12,
+        "skill_vs_persistence": 4.440892098500626e-16
+      }
+    },
+    "scope": "Independent arithmetic and date/mask checks only; no training or full trajectory replay claimed"
+  },
+  "stage3a_recomputed_rows": {
+    "daily_losses": 424170,
+    "station_metrics": 1800
+  },
+  "stage3a_independent_strict_skill_check": {
+    "metric_rows": 1800,
+    "atol": 1e-12,
+    "rtol": 1e-12,
+    "max_absolute_difference": 4.996003610813204e-16
+  },
+  "stage3b_independent_arithmetic": {
+    "status": "passed",
+    "prediction_rows": 198000,
+    "daily_losses": 388938,
+    "station_metric_checks": 2640,
+    "lambda_zero_exact_prediction_checks": 12480,
+    "linear_prediction_reconstruction_checks": 0,
+    "independent_source_normal_equation_checks": 0,
+    "completed_output_hash_checks": 0,
+    "arithmetic_only": true,
+    "arithmetic_tolerances": {
+      "atol_m3": 1e-08,
+      "rtol": 1e-12
+    },
+    "ridge_normalized_tolerances": {
+      "normalized_atol": 1e-10,
+      "rtol": 1e-10,
+      "scope": "deterministic Ridge small replay; archival GRU separate previously disclosed tolerances"
+    },
+    "predictions_sha256": "c8b477cc24cef7e075b1cd68f47e1e8a4ec35b9c5d0253f05ac9114d38a9ce63",
+    "daily_losses_sha256": "bd8a35046c889f565a7a8cb7f0be9ad724b7c37ffc33ffc0d2930d1aceaf1330",
+    "checker_sha256": "ad4f0c0d9a78e8638a12d15b38dacc0426f4a731b6b60fb694c17df5d64e5ff7",
+    "final_period_used": false
+  },
+  "stage3b_missing_or_unavailable_forecast_reasons": {
+    "missing_true_target": 1914,
+    "nonfinite_prediction": 187
+  },
+  "stage3b_saved_vs_recomputed_tables": {
+    "availability.csv": {
+      "rows": 3300,
+      "columns": 14,
+      "key_fields": [
+        "evaluation_set",
+        "site_id",
+        "episode",
+        "budget",
+        "horizon",
+        "model"
+      ],
+      "key_sets_identical": true,
+      "recomputed_sha256": "833489aa6c6b2f47755e62b57363f45a1e07d8c7f7783cd627aee7658ea88705",
+      "saved_sha256": "833489aa6c6b2f47755e62b57363f45a1e07d8c7f7783cd627aee7658ea88705",
+      "checks": {
+        "planned_origins": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "saved_prediction_rows": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "valid_truths": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "finite_predictions": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "common_dates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "negative_predictions": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "prediction_coverage": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "matched_evaluation_coverage": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        }
+      }
+    },
+    "daily_losses.csv.gz": {
+      "rows": 388938,
+      "columns": 15,
+      "key_fields": [
+        "evaluation_set",
+        "constraint",
+        "site_id",
+        "episode",
+        "horizon",
+        "origin",
+        "target_date",
+        "budget",
+        "model"
+      ],
+      "key_sets_identical": true,
+      "recomputed_sha256": "05249eaf91d0d45b340001f04f72872974930d9799e5a434651499590e19b997",
+      "saved_sha256": "bd8a35046c889f565a7a8cb7f0be9ad724b7c37ffc33ffc0d2930d1aceaf1330",
+      "checks": {
+        "seed": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "truth_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "high_threshold_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "absolute_error": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 6.548361852765083e-11
+        },
+        "squared_error": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 8.58306884765625e-06
+        },
+        "seed_count": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        }
+      }
+    },
+    "high_volume_block_intervals.csv": {
+      "rows": 2232,
+      "columns": 32,
+      "key_fields": [
+        "evaluation_set",
+        "constraint",
+        "subset",
+        "id",
+        "block_days"
+      ],
+      "key_sets_identical": true,
+      "recomputed_sha256": "d2ea5855cebe07013bdb7d9895fcaccb0808db404aa5423a1ab60260b9ec8474",
+      "saved_sha256": "24c32cf576a4a63b1606fa4808dcef3df2379315313e966dfcd0fa2bab67f5b3",
+      "checks": {
+        "model": {
+          "numeric": false,
+          "identical": true
+        },
+        "budget": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "reference": {
+          "numeric": false,
+          "identical": true
+        },
+        "reference_budget": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "horizon": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "kind": {
+          "numeric": false,
+          "identical": true
+        },
+        "replicates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "finite_replicates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "bootstrap_seed": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "mean_station_skill": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 2.220446049250313e-16
+        },
+        "lower_95": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.0408340855860843e-16
+        },
+        "upper_95": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.1102230246251565e-16
+        },
+        "lower_bonferroni_2": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": null
+        },
+        "upper_bonferroni_2": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": null
+        },
+        "lower_bonferroni_4": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": null
+        },
+        "upper_bonferroni_4": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": null
+        },
+        "lower_ci": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.0408340855860843e-16
+        },
+        "upper_ci": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.1102230246251565e-16
+        },
+        "confidence_level": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "co_primary": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "multiplicity_family": {
+          "numeric": false,
+          "identical": true
+        },
+        "winning_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "tied_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "negative_transfer_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "defined_skill_stations": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "zero_reference_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "minimum_paired_dates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        }
+      }
+    },
+    "high_volume_metrics_by_station.csv": {
+      "rows": 2640,
+      "columns": 12,
+      "key_fields": [
+        "evaluation_set",
+        "constraint",
+        "site_id",
+        "budget",
+        "horizon",
+        "model"
+      ],
+      "key_sets_identical": true,
+      "recomputed_sha256": "b7f5064b213a2679000246517c6337a3f470b3fcc4643e7446f3787a5faaeab6",
+      "saved_sha256": "599ae3ad42d5258e3cb9dcd6e81d0e08c37f7ba3533fc4f871b00f1d72b4622f",
+      "checks": {
+        "n_dates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "mae_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.4551915228366852e-11
+        },
+        "rmse_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 2.1827872842550278e-11
+        },
+        "persistence_mae": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "zero_reference_mae": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "skill_vs_persistence": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 2.983724378680108e-16
+        }
+      }
+    },
+    "high_volume_paired_by_station.csv": {
+      "rows": 7440,
+      "columns": 20,
+      "key_fields": [
+        "evaluation_set",
+        "constraint",
+        "subset",
+        "id",
+        "site_id"
+      ],
+      "key_sets_identical": true,
+      "recomputed_sha256": "0a82ba154627f4b418da9afd667f2797283dc7317464e1bd6f649585ab83a325",
+      "saved_sha256": "9b882dcc008eeba001ff35852bc98092fac7d0c8961632857c3867d2452f97f8",
+      "checks": {
+        "model": {
+          "numeric": false,
+          "identical": true
+        },
+        "budget": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "reference": {
+          "numeric": false,
+          "identical": true
+        },
+        "reference_budget": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "horizon": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "kind": {
+          "numeric": false,
+          "identical": true
+        },
+        "mae_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.4551915228366852e-11
+        },
+        "reference_mae_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.4551915228366852e-11
+        },
+        "skill": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 8.881784197001252e-16
+        },
+        "n_dates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "reference_n_dates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "zero_reference_mae": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "negative_transfer": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "win": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "tie": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        }
+      }
+    },
+    "high_volume_summary.csv": {
+      "rows": 264,
+      "columns": 21,
+      "key_fields": [
+        "evaluation_set",
+        "constraint",
+        "budget",
+        "horizon",
+        "model"
+      ],
+      "key_sets_identical": true,
+      "recomputed_sha256": "50b4b77e090adf3f35e613d876bed93c4bd2956b3db6921a388a798983523399",
+      "saved_sha256": "ee6a9d2de0aeb88cfd38a6b137d0f4fe6f505e8b452ebd7876628df7408d0292",
+      "checks": {
+        "stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "stations_with_dates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "equal_station_mae_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.3642420526593924e-12
+        },
+        "equal_station_rmse_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.8189894035458565e-12
+        },
+        "mean_skill": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.1102230246251565e-16
+        },
+        "median_skill": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.0408340855860843e-16
+        },
+        "winning_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "tied_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "worse_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "win_fraction": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "tie_fraction": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "loss_fraction": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "defined_skill_stations": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "zero_reference_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "min_dates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "max_dates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        }
+      }
+    },
+    "metrics_by_station.csv": {
+      "rows": 2640,
+      "columns": 12,
+      "key_fields": [
+        "evaluation_set",
+        "constraint",
+        "site_id",
+        "budget",
+        "horizon",
+        "model"
+      ],
+      "key_sets_identical": true,
+      "recomputed_sha256": "821c899e7672fbf0ff85e67fb5956051b95d986e01aed2bee7f7d3da36e74b47",
+      "saved_sha256": "9ceeafa78fc15e2d877067ecc807f34bf238ae5017e7a44014e7d1e723434706",
+      "checks": {
+        "n_dates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "mae_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 7.275957614183426e-12
+        },
+        "rmse_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 7.275957614183426e-12
+        },
+        "persistence_mae": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "zero_reference_mae": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "skill_vs_persistence": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 4.996003610813204e-16
+        }
+      }
+    },
+    "missing_or_failed_predictions.csv.gz": {
+      "rows": 2101,
+      "columns": 9,
+      "key_fields": [
+        "evaluation_set",
+        "site_id",
+        "episode",
+        "budget",
+        "horizon",
+        "model",
+        "origin",
+        "target_date"
+      ],
+      "key_sets_identical": true,
+      "recomputed_sha256": "ba1ba694c0f59b030c968f70554241c18a489bede8dbb323ec7fbdcf06339ad4",
+      "saved_sha256": "ba1ba694c0f59b030c968f70554241c18a489bede8dbb323ec7fbdcf06339ad4",
+      "checks": {
+        "prediction_failure_reason": {
+          "numeric": false,
+          "identical": true
+        }
+      }
+    },
+    "negative_transfer_summary.csv": {
+      "rows": 168,
+      "columns": 14,
+      "key_fields": [
+        "evaluation_set",
+        "constraint",
+        "model",
+        "budget",
+        "horizon",
+        "reference"
+      ],
+      "key_sets_identical": true,
+      "recomputed_sha256": "34f7b8874e51366ea9b7e6e531e3dfeee738fa0ff49a23f944d699aa85094db9",
+      "saved_sha256": "1808dd51658f85fcda1eeb5bf4099ba9b0be30ae3a6d8504c951360ec6fa7cd8",
+      "checks": {
+        "stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "defined_skill_stations": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "mean_skill_vs_local": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.1102230246251565e-16
+        },
+        "median_skill_vs_local": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.942890293094024e-16
+        },
+        "negative_transfer_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "winning_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "tied_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "negative_transfer_fraction": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        }
+      }
+    },
+    "paired_block_intervals.csv": {
+      "rows": 2232,
+      "columns": 32,
+      "key_fields": [
+        "evaluation_set",
+        "constraint",
+        "subset",
+        "id",
+        "block_days"
+      ],
+      "key_sets_identical": true,
+      "recomputed_sha256": "6431f2a01012186c4fd7c327a40e661bfab06e5e1c33f2e28c31ad6538bc988d",
+      "saved_sha256": "fe782d6d28703660c10ad51fca399c4e68775a7534286abc8eb93ec9aef0829a",
+      "checks": {
+        "model": {
+          "numeric": false,
+          "identical": true
+        },
+        "budget": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "reference": {
+          "numeric": false,
+          "identical": true
+        },
+        "reference_budget": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "horizon": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "kind": {
+          "numeric": false,
+          "identical": true
+        },
+        "replicates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "finite_replicates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "bootstrap_seed": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "mean_station_skill": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.1102230246251565e-16
+        },
+        "lower_95": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 2.220446049250313e-16
+        },
+        "upper_95": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.1102230246251565e-16
+        },
+        "lower_bonferroni_2": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "upper_bonferroni_2": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.0061396160665481e-16
+        },
+        "lower_bonferroni_4": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "upper_bonferroni_4": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "lower_ci": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 2.220446049250313e-16
+        },
+        "upper_ci": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.1102230246251565e-16
+        },
+        "confidence_level": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "co_primary": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "multiplicity_family": {
+          "numeric": false,
+          "identical": true
+        },
+        "winning_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "tied_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "negative_transfer_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "defined_skill_stations": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "zero_reference_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "minimum_paired_dates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        }
+      }
+    },
+    "paired_comparisons_by_station.csv": {
+      "rows": 7440,
+      "columns": 20,
+      "key_fields": [
+        "evaluation_set",
+        "constraint",
+        "subset",
+        "id",
+        "site_id"
+      ],
+      "key_sets_identical": true,
+      "recomputed_sha256": "42f1f19bc4452be5948b659f391c2403980b1542ca67d0991a682298471bbe26",
+      "saved_sha256": "effc3bff0edfea2124e9a3bd3c1e2fed9f1d6090529772c7e497591ccfac4d9b",
+      "checks": {
+        "model": {
+          "numeric": false,
+          "identical": true
+        },
+        "budget": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "reference": {
+          "numeric": false,
+          "identical": true
+        },
+        "reference_budget": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "horizon": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "kind": {
+          "numeric": false,
+          "identical": true
+        },
+        "mae_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 7.275957614183426e-12
+        },
+        "reference_mae_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 7.275957614183426e-12
+        },
+        "skill": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 4.996003610813204e-16
+        },
+        "n_dates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "reference_n_dates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "zero_reference_mae": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "negative_transfer": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "win": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "tie": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        }
+      }
+    },
+    "paired_evaluation_index.csv.gz": {
+      "rows": 6000,
+      "columns": 13,
+      "key_fields": [
+        "evaluation_set",
+        "site_id",
+        "episode",
+        "horizon",
+        "origin",
+        "target_date"
+      ],
+      "key_sets_identical": true,
+      "recomputed_sha256": "b82356729dfc8aa6ffd05c23ce51e329e337fb3d5b1e8cd384c4d2ec70243138",
+      "saved_sha256": "b82356729dfc8aa6ffd05c23ce51e329e337fb3d5b1e8cd384c4d2ec70243138",
+      "checks": {
+        "expected_condition_rows": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "common_evaluation": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "saved_rows": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "finite_predictions": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "truth_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "high_threshold_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "high_volume": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        }
+      }
+    },
+    "predictions_all.csv.gz": {
+      "rows": 198000,
+      "columns": 33,
+      "key_fields": [
+        "site_id",
+        "episode",
+        "horizon",
+        "origin",
+        "target_date",
+        "budget",
+        "model"
+      ],
+      "key_sets_identical": true,
+      "recomputed_sha256": "616923eef54763c28884987197b236f571db8ab0e3f5579ca343d5961104f3ac",
+      "saved_sha256": "c8b477cc24cef7e075b1cd68f47e1e8a4ec35b9c5d0253f05ac9114d38a9ce63",
+      "checks": {
+        "seed": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "truth_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "prediction_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "prediction_nonnegative_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "budget_start": {
+          "numeric": false,
+          "identical": true
+        },
+        "fit_end": {
+          "numeric": false,
+          "identical": true
+        },
+        "last_train_target": {
+          "numeric": false,
+          "identical": true
+        },
+        "latest_input_date": {
+          "numeric": false,
+          "identical": true
+        },
+        "scale_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "training_labels": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "high_threshold_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "threshold_observations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "threshold_start": {
+          "numeric": false,
+          "identical": true
+        },
+        "threshold_end": {
+          "numeric": false,
+          "identical": true
+        },
+        "alpha": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "shrinkage": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "bias_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "analysis_unit": {
+          "numeric": false,
+          "identical": true
+        },
+        "qa_mode": {
+          "numeric": false,
+          "identical": true
+        },
+        "window_class": {
+          "numeric": false,
+          "identical": true
+        },
+        "prediction_row_present": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "evaluation_set": {
+          "numeric": false,
+          "identical": true
+        },
+        "finite_truth": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "finite_prediction": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "common_evaluation": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "prediction_failure_reason": {
+          "numeric": false,
+          "identical": true
+        }
+      }
+    },
+    "summary.csv": {
+      "rows": 264,
+      "columns": 21,
+      "key_fields": [
+        "evaluation_set",
+        "constraint",
+        "budget",
+        "horizon",
+        "model"
+      ],
+      "key_sets_identical": true,
+      "recomputed_sha256": "c7286e261966beb5536c05a66ce28b1211ff5d4985c108a82e0572e468fd3be3",
+      "saved_sha256": "ecd68799da7e886af244b73f88d2296b61fa466c568915430837a6e408f96efd",
+      "checks": {
+        "stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "stations_with_dates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "equal_station_mae_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 9.094947017729282e-13
+        },
+        "equal_station_rmse_m3": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.8189894035458565e-12
+        },
+        "mean_skill": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.0061396160665481e-16
+        },
+        "median_skill": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 1.0061396160665481e-16
+        },
+        "winning_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "tied_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "worse_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "win_fraction": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "tie_fraction": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "loss_fraction": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "defined_skill_stations": {
+          "numeric": true,
+          "atol": 1e-12,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "zero_reference_stations": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "min_dates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        },
+        "max_dates": {
+          "numeric": true,
+          "atol": 1e-08,
+          "rtol": 1e-12,
+          "max_absolute_difference": 0.0
+        }
+      }
+    },
+    "zero_reference_comparisons.csv": {
+      "rows": 0,
+      "columns": 20,
+      "key_fields": [
+        "evaluation_set",
+        "constraint",
+        "subset",
+        "id",
+        "site_id"
+      ],
+      "key_sets_identical": true,
+      "recomputed_sha256": "4963604c6b43e4af259dc2df338c5109e5dc64b3b1878c3cea5b25cf7eacc61a",
+      "saved_sha256": "4963604c6b43e4af259dc2df338c5109e5dc64b3b1878c3cea5b25cf7eacc61a",
+      "checks": {
+        "model": {
+          "numeric": false,
+          "identical": true
+        },
+        "budget": {
+          "numeric": false,
+          "identical": true
+        },
+        "reference": {
+          "numeric": false,
+          "identical": true
+        },
+        "reference_budget": {
+          "numeric": false,
+          "identical": true
+        },
+        "horizon": {
+          "numeric": false,
+          "identical": true
+        },
+        "kind": {
+          "numeric": false,
+          "identical": true
+        },
+        "mae_m3": {
+          "numeric": false,
+          "identical": true
+        },
+        "reference_mae_m3": {
+          "numeric": false,
+          "identical": true
+        },
+        "skill": {
+          "numeric": false,
+          "identical": true
+        },
+        "n_dates": {
+          "numeric": false,
+          "identical": true
+        },
+        "reference_n_dates": {
+          "numeric": false,
+          "identical": true
+        },
+        "zero_reference_mae": {
+          "numeric": false,
+          "identical": true
+        },
+        "negative_transfer": {
+          "numeric": false,
+          "identical": true
+        },
+        "win": {
+          "numeric": false,
+          "identical": true
+        },
+        "tie": {
+          "numeric": false,
+          "identical": true
+        }
+      }
+    }
+  },
+  "all_recomputed_tables_compared": true,
+  "numeric_replay_claim": "Specified tolerance agreement, not bitwise identity.",
+  "python_executable": "/workspace/Wastewater_Paper/.venv-stage2/bin/python",
+  "pythonpath": "/tmp/wastewater_stage3b_external_review/src",
+  "data_and_source_are_from_extracted_packages": true,
+  "original_scientific_outputs_modified": false,
+  "scope_excludes": [
+    "Full Stage3A GRU training replay",
+    "Live Colab/Drive verification",
+    "Fresh Stage3B fitting (root performs separate Code-only smoke)",
+    "Any 2024-2025 prediction-performance computation"
+  ],
+  "commands_completed_exit_code_0": [
+    "scripts/import_stage3b_delivery.py --destination /tmp/wastewater_stage3b_external_review --sha256sums deliverables/stage3b_20261011_v1/SHA256SUMS deliverables/stage3b_20261011_v1/*.zip",
+    "scripts/recalculate_stage3a_delivery.py --output outputs/recomputed_stage3a",
+    "scripts/summarize_stage3b.py --config configs/stage3b_20261011_v1/full.json --predictions reports/stage3b_20261011_v1/results/predictions_all.csv.gz --output outputs/recomputed_stage3b",
+    "scripts/check_stage3b_results.py --arithmetic-only --output outputs/STAGE3B_ARITHMETIC_CHECK.json"
+  ]
+}

@@ -1,0 +1,39 @@
+packaging Quick_Review: 152 files
+packaging Code_and_Reproduce: 173 files
+packaging Diagnostics: 290 files
+clean replay new_E_software_tests
+clean replay cold_twelve_frozen_D_interval_software_reconstructions
+clean replay frozen_scientific_files_and_atomic_recovery_checks
+clean replay repeated_verified_twelve_cache_resume
+{
+  "status": "PASSED",
+  "output": "/workspace/Wastewater_Paper/delivery/20261013_stage3e",
+  "new_E_packages": [
+    {
+      "file": "Wessex_Stage3E_Quick_Review_20261013.zip",
+      "MiB": 6.382109642028809,
+      "sha256": "2bdac0a697dc17fccec95e3df16d4176a3f1dda53607886728401f4fa977e7cb"
+    },
+    {
+      "file": "Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "MiB": 20.333523750305176,
+      "sha256": "7f36d375b76908f8e4863ae8e34048f3a9be8229a76fe63c79e931fe5b282df8"
+    },
+    {
+      "file": "Wessex_Stage3E_Diagnostics_20261013_Part01.zip",
+      "MiB": 4.729970932006836,
+      "sha256": "2caff719905bbf1033f33e577817f777d419ef900c4c06fbc09b1f5944c883bd"
+    }
+  ],
+  "original_C2_parts": [
+    {
+      "file": "Wessex_Stage3C2_Original_Predictions_and_Diagnostics_Part01_Reissued_20261013.zip",
+      "sha256": "396662672038a7221f062c1f1e43aa56a26770379244db788a13a2cf1f0226a8"
+    },
+    {
+      "file": "Wessex_Stage3C2_Original_Predictions_and_Diagnostics_Part02_Reissued_20261013.zip",
+      "sha256": "4a81e3b7d7413008754f3d286606c51980700163830ee104f6027a13a2fbf805"
+    }
+  ],
+  "seconds": 22.225799944004393
+}
