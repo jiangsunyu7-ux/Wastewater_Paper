@@ -1,0 +1,24 @@
+{
+  "version": "stage3f_evidence_gate_v1",
+  "scope": "metadata request list only, not physical verification",
+  "sources": [
+    {
+      "source_path": "data/provenance/stage3c2_source_scale_v1/source_pool_definition.json",
+      "local_copy": "input_evidence/source_pool_definition.json",
+      "sha256": "db1ed7af6954ef6d819433ee977ba8638891a9eacc2db33ca733192be84c356e",
+      "role": "unchanged existing metadata only; not a new provider response"
+    },
+    {
+      "source_path": "data/provenance/stage3c2_source_scale_v1/association_edges.csv",
+      "local_copy": "input_evidence/association_edges.csv",
+      "sha256": "5b5817cf08a39c42cd4e48df796c553bf57f49dab5df72a4d3696e351b15a8d2",
+      "role": "unchanged existing metadata only; not a new provider response"
+    },
+    {
+      "source_path": "reports/stage3e_evidence_review_v1/FACILITY_MAPPING_STATUS.csv",
+      "local_copy": "input_evidence/FACILITY_MAPPING_STATUS.csv",
+      "sha256": "3786751afd3487fc5d1a31a18f8b81e6b0af22f9623de16b6df282d210ef880c",
+      "role": "unchanged existing metadata only; not a new provider response"
+    }
+  ]
+}

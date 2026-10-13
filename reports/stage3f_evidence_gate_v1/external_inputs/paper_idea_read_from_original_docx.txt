@@ -1,0 +1,48 @@
+Problem that we should solve:
+When an existing wastewater treatment plant only has a small amount of daily flow records available for modeling, is it possible to use historical records from other plants to quickly build useful predictions for treated effluent, and clearly indicate when the predictions are unreliable?
+
+Three limitation:
+1.The modeling data for the existing plant is insufficient.** Taking 90 days from a ten-year history can only simulate limited historical conditions and cannot prove that the model is applicable to a newly built plant where the process is not yet stable.  
+2.The prediction target is the processed daily discharge volume.** Wessex data is neither influent load nor pollutant concentration.  
+3.The direct use is for emission prediction and monitoring support.** It might help determine whether future water volumes are abnormal or need manual attention; currently, it cannot be proven to optimize aeration, reduce overflow, or save electricity.
+
+Real measurable engineering benefits:
+Reduce the amount of local historical data needed to build predictive models, and lower the risk of unreliable predictions being misused
+
+The gap worth testing is:
+ under the conditions of unified, reproducible, and strictly controlled local data budgets, how much historical modeling can cross-factory learning actually save, and in which factories will it fail? This is the research opportunity that current retrieval supports, not a confirmed 'world first' yet.
+
+
+
+3. Which questions can the current data support, and which can't?
+
+Preliminary audit after downloading confirms: the Wessex research-related subset has 261 site IDs and 936,637 records; however, the independence of physical facilities still needs verification. There are also negative values under the 'Good' label and conflicting records on the same day.
+
+The current data can support (with required boundaries):
+- Predicting daily discharge volume for Day 1 and Day 3. The Day 3 prediction should clearly be the volume for that day, not mixed with cumulative volume of the next three days.
+- Simulating historical modeling for 30, 90, 180 days—this is short-term simulation for existing plants, not representative of new plant startups.
+- Comparing local models, cross-plant shared models, and simple adaptation—must isolate by physical facility and unify information budget.
+- Analyzing improvements and negative transfers across different plants—can analyze statistical correlations, but cannot yet interpret as causal mechanisms.
+- Checking prediction intervals and sensitivity to missing data—this is historical playback; naturally missing days usually have no reliable true value.
+- Studying periods of high water volume in historical terms—high percentile thresholds are not permit limits or design capacity.
+
+
+
+
+
+
+
+
+The current data cannot directly support:
+- Pollutant removal efficiency, effluent quality compliance, or pollution load prediction;
+- Aeration, chemical dosing, pumping station control, or energy-saving benefits;
+- Overflow risk or treatment capacity exceedance assessment;
+- Causal analysis of rainfall-induced water volume changes;
+- Actual real-time deployment effects;
+- Cross-country generalizability—Hong Kong flow definitions and process grouping are not yet aligned.
+
+One easily overlooked point: **the prediction intervals cover observed values in the released data, not the true water volume.** There is currently no independent ground truth, so measurement errors and model errors cannot be fully separated.
+
+
+
+

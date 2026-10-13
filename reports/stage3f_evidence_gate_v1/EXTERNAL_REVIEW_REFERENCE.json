@@ -1,0 +1,20 @@
+{
+  "source": "User Stage3F request dated2026-10-13",
+  "status": "USER_REPORTED_REFERENCE_NOT_NEW_EXECUTION",
+  "original_reviewer_attachment_received": false,
+  "reference_counts": {
+    "Stage3E_member_SHA_records": 621,
+    "software_tests": 20,
+    "cold_conditions": 12,
+    "science_files_sameSHA": 36,
+    "controlled_scenarios": 8,
+    "resume_cached": 12,
+    "resume_recomputed": 0,
+    "diagnostic_CSV": 21,
+    "parsed_table_rows": 59299,
+    "bootstrap_groups": 6,
+    "bootstrap_replicates_each": 5000
+  },
+  "use": "Attributed external review summary only; no hardcoded new pass markers or repeated scientific audit",
+  "natural_nine_RUNNING_issue": "Not naturally reproduced, cause unknown; safeguards limited to previously tested small single-process scope"
+}

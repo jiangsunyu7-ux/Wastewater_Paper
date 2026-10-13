@@ -1,0 +1,67 @@
+{
+  "stage": "stage3f_evidence_gate_v1",
+  "generated_at_utc": "2026-10-13T06:18:19.306306+00:00",
+  "review_date_local": "2026-10-13 Asia/Shanghai",
+  "sources": [
+    {
+      "id": "KIM_HTML",
+      "original_repository_path": "reports/stage3e_evidence_review_v1/literature/L04_publisher_fulltext_capture.html",
+      "package_path": "evidence/L04_publisher_fulltext_capture.html",
+      "sha256": "84983c15b48876207f8a92055d85c27025b9d3fdac7110d2aaeeb297c1ac8bc0",
+      "bytes": 118296,
+      "source_url": "https://jksee.or.kr/journal/view.php?doi=10.4491/KSEE.2024.46.3.111",
+      "original_capture_date": "2026-10-09",
+      "stage3f_activity": "byte-identical reuse, no network retrieval"
+    },
+    {
+      "id": "KIM_VISIBLE",
+      "original_repository_path": "reports/stage3e_evidence_review_v1/literature/L04_publisher_visible_text.txt",
+      "package_path": "evidence/L04_publisher_visible_text.txt",
+      "sha256": "279a68eb4d4f3183a7eb316fd4a1fef3d10bbb2d2ddec99a5b5cde5a69a12e66",
+      "bytes": 33897,
+      "source_url": "https://jksee.or.kr/journal/view.php?doi=10.4491/KSEE.2024.46.3.111",
+      "original_capture_date": "2026-10-09",
+      "stage3f_activity": "byte-identical reuse, no network retrieval"
+    },
+    {
+      "id": "YU_CROSSREF",
+      "original_repository_path": "reports/stage3e_evidence_review_v1/literature/L01_crossref_metadata.json",
+      "package_path": "evidence/L01_crossref_metadata.json",
+      "sha256": "7880b4a1a62fc72c850d45ca036984e75a5d079badf899d69c6ae4659ff0909c",
+      "bytes": 16122,
+      "source_url": "https://api.crossref.org/works/10.1016/j.jwpe.2024.105267",
+      "original_capture_date": "2026-10-09",
+      "stage3f_activity": "byte-identical reuse, no network retrieval"
+    },
+    {
+      "id": "YU_OPENALEX",
+      "original_repository_path": "literature/access_attempts/20261009_followup/jwpe_openalex.txt",
+      "package_path": "evidence/jwpe_openalex.txt",
+      "sha256": "52ac02edb1a8725f953095d4ba35447ad4e92d0c1affb8ba3fa0f810b51e7072",
+      "bytes": 19441,
+      "source_url": "https://api.openalex.org/works/https://doi.org/10.1016/j.jwpe.2024.105267",
+      "original_capture_date": "2026-10-09",
+      "stage3f_activity": "byte-identical reuse, no network retrieval"
+    },
+    {
+      "id": "WRR_CROSSREF",
+      "original_repository_path": "reports/stage3e_evidence_review_v1/literature/L03_crossref_metadata.json",
+      "package_path": "evidence/L03_crossref_metadata.json",
+      "sha256": "2965daa4ebf5d5664e39b73ad604ae4c57b51007a33dbd65a3b29e9510757620",
+      "bytes": 11471,
+      "source_url": "https://api.crossref.org/works/10.1029/2022WR033826",
+      "original_capture_date": "2026-10-09",
+      "stage3f_activity": "byte-identical reuse, no network retrieval"
+    },
+    {
+      "id": "WRR_AUTHOR_PREPRINT_METADATA",
+      "original_repository_path": null,
+      "package_path": "wr_author_preprint_crossref.json",
+      "sha256": "78dd645f8acf2a9b28e8de10ec2a9b86149cfceee859eba8a86addb21de2e723",
+      "bytes": 2002,
+      "source_url": "https://api.crossref.org/works/10.1002/essoar.10512603.1",
+      "original_capture_date": "2026-10-13",
+      "stage3f_activity": "new metadata only; PDF request failed; no original-methods upgrade"
+    }
+  ]
+}

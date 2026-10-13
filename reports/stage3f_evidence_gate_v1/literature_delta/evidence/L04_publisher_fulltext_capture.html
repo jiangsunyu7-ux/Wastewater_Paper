@@ -1,0 +1,1842 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+<meta name ="format-detection" content ="telephone=no">
+<meta property='og:image' content='https://jksee.or.kr/image/sns_logo.jpg'/>
+<meta property='og:title' content='Assessing the Performance of Deep Learning Algorithms With and Without Transfer Learning in Similar or Identical Wastewater Treatment Processes'/>
+<meta property='og:description' content='Assessing the Performance of Deep Learning Algorithms With and Without Transfer Learning in Similar or Identical Wastewater Treatment Processes'/>
+<meta property='og:url' content='//jksee.or.kr/journal/view.php?doi=10.4491/KSEE.2024.46.3.111'/>
+<meta property='og:type' content='article'/>
+
+<meta name="citation_journal_title" content="Journal of Korean Society of Environmental Engineers"/>
+<meta name="citation_title" content="Assessing the Performance of Deep Learning Algorithms With and Without Transfer Learning in Similar or Identical Wastewater Treatment Processes"/>
+<script type="text/javascript">
+	function showBox(obj) {
+		if(reviewLayer.style.display == "block") return;
+		reviewLayer.innerText=document.getElementById(obj.href.split("#")[1]).textContent;
+		reviewLayer.style.top = (event.pageY ? event.pageY : (document.documentElement.scrollTop + event.clientY )) + "px";
+		reviewLayer.style.left = (document.body.clientWidth <= (event.clientX + 310) ? -310 : 10)+ event.clientX + "px";
+		reviewLayer.style.display = "block";
+	}
+	//altmetric-embed 새창연결
+	function blank_action(){
+		$(".altmetric-embed").find('a').attr('target','_blank');
+	}
+</script>
+
+<meta name="citation_publisher" content="Korean Society of Environmental Engineers"/>
+<meta name="citation_journal_title" content="Journal of Korean Society of Environmental Engineers">
+<meta name="citation_author" content="Kim, Jaeil"/>
+<meta name="citation_author_institution" content=""/>
+<meta name="citation_author" content="Suh, Sang-Ik"/>
+<meta name="citation_author_institution" content=""/>
+<meta name="citation_author" content="Ahn, Yongtae"/>
+<meta name="citation_author_institution" content=""/>
+<meta name="citation_author" content="Ki, Seo Jin"/>
+<meta name="citation_author_institution" content=""/>
+<meta name="dc.identifier" content="doi:10.4491/KSEE.2024.46.3.111" />
+<meta name="citation_fulltext_html_url" content="https://jksee.or.kr/journal/view.php?doi=10.4491/KSEE.2024.46.3.111"/>
+<meta name="citation_publisher" content=""/>
+<meta name="citation_journal_title" content="Journal of Korean Society of Environmental Engineers"/>
+<meta name="citation_journal_abbrev" content="J Korean Soc Environ Eng"/>
+<meta name="citation_title" content=""/>
+
+<meta name="citation_publication_date" content=""/>
+<meta name="citation_volume" content=""/>
+<meta name="citation_pdf_url" content="https://jksee.or.kr/upload/pdf/KSEE-2024-46-3-111.pdf"/>
+<meta name="citation_language" content="English"/>
+
+<title>Assessing the Performance of Deep Learning Algorithms With and Without Transfer Learning in Similar or Identical Wastewater Treatment Processes</title>
+
+<link rel="stylesheet" href="/include/style.css?1791527831" type="text/css">
+<link rel="shortcut icon" href="/image/favicon.ico">
+<script type="text/javascript" src="/include/common.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53418061-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript" src="/script/jquery.js"></script>
+<script type="text/javascript">
+<!--
+	var acIdx = -1;
+	function autoCompleteHead(v) {
+		if(event.keyCode >= 37 && event.keyCode <= 40) {
+			if(event.keyCode % 2) return;
+			var max = $(".autoKeywords").size();
+			if(event.keyCode == 38) acIdx--;
+			else if(event.keyCode == 40) acIdx++;
+			if(acIdx < 0) acIdx = max-1;
+			if(acIdx > max-1) acIdx = 0;
+			$(".autoKeywords").css("background","#ffffff");
+			$(".autoKeywords").eq(acIdx).css("background","#e9e9e9");
+			$("input[name='term_all']").val($(".autoKeywords").eq(acIdx).text());
+			return;
+		}
+		acIdx = -1;
+		$.post("/func/autoComplete.php", "value="+v, function (d, s) {
+			if(s == "success") {
+				if(d != "" && v.length > 1) {
+					$("#autoCompleteLayerHead").attr("class", "");
+					$("#autoCompleteLayerHead").html(d);
+				} else {
+					$("#autoCompleteLayerHead").attr("class", "none");
+					$("#autoCompleteLayerHead").html("");
+				}
+			}
+		});
+	}
+	var autoComplete_ck = 0;
+	function term_all_onblur(){
+		if(autoComplete_ck == 0){
+			$("#autoCompleteLayerHead").html("");
+			$("#autoCompleteLayerHead").attr("class", "none");
+		}
+	}
+	function transText(f) {
+		if(!f.term_all.value) return false;
+	}
+//-->
+</script>
+
+<script language="JavaScript">
+<!--
+function journal_download(type, sid, filename) {
+
+	var increase_column;
+
+	if(type == "pdf") {
+		var openWindow = window.open("about:blank");
+		openWindow.location.href = '/upload/pdf/' + filename;
+
+		increase_column = "pdf_down";
+
+	} else if(type == "epub") {		
+		location.href = '/func/download.php?' + filename;		
+		increase_column = "epub_down";
+	}
+
+	$.ajax({
+		type: 'POST',
+		data: {table: 'journal_tbl', column: increase_column, count: 1, condition_column: 'sid', condition_value: sid},
+		url: '/func/count_increase.php'
+	});
+}
+//-->
+
+
+</script>
+
+<script type="text/x-mathjax-config">  
+  MathJax.Hub.Config({ 
+	SVG: { 
+	  scale: 90, 
+	  linebreaks: {
+		automatic: true, 
+		width: "container" 
+	  } 
+	}, 
+	showProcessingMessages: false, 
+	messageStyle: "none"
+  }); 
+
+
+</script><script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG"></script>
+
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B62L3WSQRZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B62L3WSQRZ');
+</script><body>
+
+
+<!-- 고정될 GNB 영역을 감싸는 div 추가 -->
+<div class="headerWrap" style="z-index:100;position:fixed;left:0;top:0;width:100%;;min-width:980px;background:url('/image/top_bg.gif') left bottom repeat-x;">
+
+	<div style="background:#EEEEEE">
+		<div style="width:990px;margin:auto;text-align:right;padding:10px 0px">
+		| <a href="/">Home</a> 
+		| <a href=" http://submit.kosenv.or.kr" target="_blank">E-Submission</a> 
+		| <a href="/about/sitemap.php">Sitemap</a> 
+		| <a href="/about/contact.php">Contact Us</a>
+		| &nbsp;<div id="google_translate_element" style='padding-top:0;height:20px;float:right;'></div>
+		<script type="text/javascript">
+		function googleTranslateElementInit() {
+		  new google.translate.TranslateElement({pageLanguage: '', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+		}
+		</script>
+		<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+		</div>
+	</div>
+
+	<!--<div style="background-image:url('/image/top_bg.gif');background-repeat:repeat-x;">-->
+
+	<div style="width:980px; margin:auto;">
+
+		<div style="width:980px;">	
+			<div>
+				<div style="float:left;margin-left:5px;">
+					<a href="/">
+						<img src="/image/top_logo.gif" title="Journal of Korean Society of Environmental Engineers" />
+					</a>
+				</div>
+				<div style="float:right;">
+					<img src="/image/top_img.gif" alt="top_img" />
+				</div>
+				<div style="clear:both;height:0">
+				</div>
+			</div>
+
+			<table border="0" cellpadding="0" cellspacing="0" width="970px" align="center" class="lm10" style="display:block;">
+			<tr>
+				<td width="690px" style="padding:0px">
+					<div>					<a onMouseOut="MM_swapImgRestore();MM_showHideLayers('Layer1','','hide','Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide')" onMouseOver="MM_swapImage('menu5','','/image/menu2_o.gif',1);MM_showHideLayers('Layer1','','hide','Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','show')"><IMG SRC="/image/menu2.gif" BORDER="0" NAME="menu5" class="vertical_middle"></A><!-- 			--><a onMouseOut="MM_swapImgRestore();MM_showHideLayers('Layer1','','hide','Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide')" onMouseOver="MM_swapImage('menu2','','/image/menu3_o.gif',1);MM_showHideLayers('Layer1','','hide','Layer2','','show','Layer3','','hide','Layer4','','hide','Layer5','','hide')"><IMG SRC="/image/menu3.gif" BORDER="0" NAME="menu2" class="vertical_middle"></A><!-- 			--><a href="/current/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('menu3','','/image/menu4_o.gif',1);MM_showHideLayers('Layer1','','hide','Layer2','','hide','Layer3','','show','Layer4','','hide','Layer5','','hide')"><IMG SRC="/image/menu4.gif" BORDER="0" NAME="menu3" class="vertical_middle"></A><!-- 			--><a onMouseOut="MM_swapImgRestore();MM_showHideLayers('Layer1','','hide','Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide')" onMouseOver="MM_swapImage('menu4','','/image/menu5_o.gif',1);MM_showHideLayers('Layer1','','hide','Layer2','','hide','Layer3','','hide','Layer4','','show','Layer5','','hide')"><IMG SRC="/image/menu5.gif" BORDER="0" NAME="menu4" class="vertical_middle"></A>
+					</div>
+
+
+				</td>
+				<td width="220px" align="center">
+					<form name="searformform" method="post" action="/articles/search_result.php" onsubmit="return transText(this);">
+					<table cellpadding=0 cellspacing=0 border=0 >
+					<tr>
+						<td style="border:1px solid #efefef;background:white;position: relative;">
+							<input type="text" name="term_all" autocomplete="off" style="width:150px;height:19px;border:0px" class="vertical_middle" onkeyup="autoCompleteHead(this.value);" onfocus="autoCompleteHead(this.value);" onblur="term_all_onblur();"/>
+							<input type="image" src="/image/icon/search.gif" alt="Search" class="vertical_middle"/>
+							<div id="autoCompleteLayerHead" class="none"></div>
+						</td>
+					</table>
+					</form>
+				</td>
+				<td>
+					<a href="/articles/search.php" style="color:white;display:block;"><img src="/image/b_advanced.gif" alt="" /></a>
+				</td>
+			</tr>
+			</table>
+
+			<div style="position:relative;margin:auto;z-index:999;">
+				<div id="Layer5" style="position:absolute; left:-3px; z-index:999;visibility: hidden" onMouseOut="MM_swapImgRestore();MM_showHideLayers('Layer1','','hide','Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide')" onMouseOver="MM_swapImage('menu5','','/image/menu2_o.gif',1);MM_showHideLayers('Layer1','','hide','Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','show')">
+					<div  style="line-height:25px; background:url('/image/sub_m1.png');background-repeat:repeat-y;width:200px;">
+					<table cellpadding="0" cellspacing="0" border="0"  style="margin-left:2px;width:186px">
+					<tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/about/index.php"><font style="vertical-align:middle;color:#7D7D7D"> Aims and Scope</B></font></a></td></tr><tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/about/about.php"><font style="vertical-align:middle;color:#7D7D7D"> Abstracting and Indexing</B></font></a></td></tr><tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/about/editorial.php"><font style="vertical-align:middle;color:#7D7D7D"> Editorial Board</B></font></a></td></tr><tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/about/best_practice.php"><font style="vertical-align:middle;color:#7D7D7D"> Best Practice</B></font></a></td></tr><tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/about/contact.php"><font style="vertical-align:middle;color:#7D7D7D"> Editorial Office</B></font></a></td></tr><tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/about/e-journal.php"><font style="vertical-align:middle;color:#7D7D7D"> Newsletter</B></font></a></td></tr>		
+					</table>		
+					</div>
+					<div><img src="/image/sub_m3.png" alt="" /></div>
+				</div>
+
+				<div id="Layer4" style="position:absolute; left:500px; z-index:1;visibility: hidden" onMouseOut="MM_swapImgRestore();MM_showHideLayers('Layer1','','hide','Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide')" onMouseOver="MM_swapImage('menu4','','/image/menu5_o.gif',1);MM_showHideLayers('Layer1','','hide','Layer2','','hide','Layer3','','hide','Layer4','','show','Layer5','','hide')">
+					<div style="line-height:25px; background:url('/image/sub_m1.png');background-repeat:repeat-y;width:200px;">
+						<table cellpadding="0" cellspacing="0" border="0"  style="margin-left:2px;width:186px">
+						<tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/authors/authors.php"><font style="vertical-align:middle;color:#7D7D7D"> Guide for Authors</B></font></a></td></tr><tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/authors/review.php"><font style="vertical-align:middle;color:#7D7D7D"> Review Regulations</B></font></a></td></tr><tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/authors/ethics.php"><font style="vertical-align:middle;color:#7D7D7D"> Research and Publication Ethics</B></font></a></td></tr><tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/authors/checklist.php"><font style="vertical-align:middle;color:#7D7D7D"> Checklist</B></font></a></td></tr><tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="http://submit.kosenv.or.kr"><font style="vertical-align:middle;color:#7D7D7D"> E-Submission</B></font></a></td></tr><tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/file/copyright_transfer_form.pdf"><font style="vertical-align:middle;color:#7D7D7D"> Copyright Transfer Agreement</B></font></a></td></tr>		
+						</table>		
+					</div>
+					<div><img src="/image/sub_m3.png" alt="" /></div>
+				</div>
+
+				<div id="Layer2" style="position:absolute; left:160px; z-index:1;visibility: hidden" onMouseOut="MM_swapImgRestore();MM_showHideLayers('Layer1','','hide','Layer2','','hide','Layer3','','hide','Layer4','','hide','Layer5','','hide')" onMouseOver="MM_swapImage('menu2','','/image/menu3_o.gif',1);MM_showHideLayers('Layer1','','hide','Layer2','','show','Layer3','','hide','Layer4','','hide','Layer5','','hide')">
+					<div style="line-height:25px; background:url('/image/sub_m1.png');background-repeat:repeat-y;width:200px;">
+						<table cellpadding="0" cellspacing="0" border="0"  style="margin-left:2px;width:186px">
+						<tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/articles/archive.php"><font style="vertical-align:middle;color:#7D7D7D"> All issues</B></font></a></td></tr><tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/articles/current.php"><font style="vertical-align:middle;color:#7D7D7D"> Current Issue</B></font></a></td></tr><tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/articles/mostread.php"><font style="vertical-align:middle;color:#7D7D7D"> Most Read Articles</B></font></a></td></tr><tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/articles/mostcited.php"><font style="vertical-align:middle;color:#7D7D7D"> Most Cited Articles</B></font></a></td></tr><tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/articles/search.php"><font style="vertical-align:middle;color:#7D7D7D"> <i>J Kor Soc Environ Eng</i> Search</B></font></a></td></tr><tr><td style="padding-top:5px;padding-bottom:5px;padding-left:20px;text-align:left;border-bottom:1px solid #efefef"><a href="/articles/author_index.php?index_key=c"><font style="vertical-align:middle;color:#7D7D7D"> Author Index</B></font></a></td></tr>		
+						</table>		
+					</div>
+					<div><img src="/image/sub_m3.png" alt="" /></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //gnb -->
+
+<div class="container">
+
+	<table border="0" cellpadding="0" cellspacing="0" width="980" align="center" class="lm10 ">
+	<tr>
+		<td width=755 class="tp30 rp25" valign="top" style="padding-bottom: 30px;">
+
+<style>
+@media print {
+div.headerWrap,
+div.aside,
+div.siteMap,
+div.footerWrap {display:none;}
+.crossmark, .admin_menu {display:none;}  
+div.wrapper {padding-top:0 !important;}
+div.container {background:none;width:980px; padding-top:0px;margin:0;}
+div.printArea {display:block;float:none;margin:auto;padding-top:10px;}
+}
+</style>
+
+
+
+<div class="contents printArea">
+
+<p style='padding-bottom:5px;font-size:1.1em;color:#046eb8;'><b>The Korean text of this paper can be translated into multiple languages on the website of <a href='http://jksee.or.kr' style='color:#046eb8;'><u>http://jksee.or.kr</u></a> through Google Translator.</b>
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+	<td valign="top" style="font-family:georgia;">
+			<a href="/articles/archive.php">J Korean Soc Environ Eng</a> &gt; <a href="/current/?vol=46&no=3">Volume 46(3); 2024</a> &gt; Article</font>
+		</td>
+				<td align="right" valign="top" style="padding-right:10px;position: relative;">
+
+			<script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+			<a data-target="crossmark">
+			<div style="width:150px;">
+				<img src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg" style="width:100%;" class="crossmark"/>
+			</div>
+			</a>
+		</td>
+		</tr>
+</table>
+
+<style>
+<!--
+.panel .label,.caption,.artCat {
+	color: ;
+}
+
+.main-title,.section-title,.callout-title {
+	color: ;
+	font-weight: bold;
+}
+/* jats start */
+table h2 {
+	font-size: 16px;
+}
+
+table h3 {
+	font-size: 15px;
+}
+
+.article-body table h3.title {
+	font-size: 10pt;
+	font-weight: lighter;
+	margin: 0;
+}
+
+h5 {
+	font-size: 15px;
+}
+
+.PubTitle {
+	line-height: normal;
+}
+
+.abstract {
+	margin-top: 10px;
+}
+
+a[name='appLink'] {
+	color: #046eb8;
+}
+
+a[name='bibrLink'] {
+	color: #046eb8;
+}
+
+a[name='figLink'] {
+	color: #046eb8;
+}
+
+a[name='tableLink'] {
+	color: #046eb8;
+}
+
+#article-body div {
+	text-indent:20px;
+	padding-bottom:10px; 
+	word-break:keep-all;
+	word-wrap:break-word;
+}
+
+#article-body div > h2, #article-body div > h3, #article-body div > h4 {
+	text-indent:0px;
+	padding-bottom:0px; 
+}
+
+.abstract {
+	border-top: 1px solid #0072BC;
+	border-bottom: 1px solid #0072BC;
+}
+
+h3.title {
+	font-weight:bold;
+}
+
+div.panel {
+	cursor: pointer;
+	background:#f5f5f5;
+	padding:25px;
+}
+
+.section-title {
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+
+.subsection-title {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.metadata-entry {
+	margin: 2px 0px;
+}
+
+p.address-line {
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-left: 2em
+}
+
+ul,ol {
+	margin-bottom: 1em
+}
+
+li {
+	margin-top: 0.2em;
+	margin-bottom: 0em;
+	font-size: 9pt
+}
+
+li>p {
+	margin-top: 0.1em;
+	margin-bottom: 0em
+}
+
+div.def-list {
+	border-spacing: 0.25em
+}
+
+div.def-list p {
+	margin:0px; padding:0px;
+}
+
+.disp-formula.panel {
+	width: 700px; 
+	overflow: auto;
+}
+
+.ref_layer {
+	margin-bottom: 10px;
+	word-wrap: break-word;
+	word-break: keep-all;
+	width:760px;
+}
+
+.apStyle {
+	text-indent: 10px;
+}
+
+.main-title,.callout-title{
+	color:#0072BC;
+}
+
+div.section { margin: 10px 0; }
+
+#inThisPage { background:#fff; border:2px solid #0072BC; }
+.newITP { border: #0072BC }
+.newITP a{ color: #000; }
+
+/* jats end */
+-->
+</style>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:mml="http://www.w3.org/1998/Math/MathML">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>유사하거나 동일한 폐수처리공정에서의 전이학습 적용 유무에 따른 심층학습 알고리즘의 성능 평가</title>
+</head>
+<body>
+<div id="article-front" class="front">
+<div class="metadata"><div class="metadata-group"><div class="artCat" style="font-weight:bold;">Research Paper</div></div></div>
+<div class="metadata"><div class="metadata-group"></div></div>
+<div class="metadata two-column table"><div class="row">
+<div class="metadata-group" style="font-size:15px;"><p class="metadata-entry">Journal of Korean Society of Environmental Engineers 2024; 46(3): 111-117.</p></div>
+<div class="metadata-group" style="font-size:15px;">
+<div class="metadata-group"><p class="metadata-entry"><span class="generated">Published online: </span>March 31, 2024 </p></div>
+<p class="metadata-entry"><span class="generated">DOI: </span><a href="https://doi.org/10.4491/KSEE.2024.46.3.111">https://doi.org/10.4491/KSEE.2024.46.3.111</a></p>
+</div>
+<div class="metadata centered"><h3 class="PubTitle">유사하거나 동일한 폐수처리공정에서의 전이학습 적용 유무에 따른 심층학습 알고리즘의 성능 평가</h3></div>
+<div class="metadata-group author_layer" style="margin-bottom:10px;">
+<a href="/articles/search_result.php?term=authork&amp;name=%EA%B9%80%EC%9E%AC%EC%9D%BC">김재일</a><sup>1,</sup><sup>2</sup><a href="http://orcid.org/0009-0000-8276-1636" alt="http://orcid.org/0009-0000-8276-1636" title="http://orcid.org/0009-0000-8276-1636" target="_blank"><img src="/image/icon/orcid.gif" valign="middle"></a>, <a href="/articles/search_result.php?term=authork&amp;name=%EC%84%9C%EC%83%81%EC%9D%B5">서상익</a><sup>3</sup><a href="http://orcid.org/0000-0002-9893-0358" alt="http://orcid.org/0000-0002-9893-0358" title="http://orcid.org/0000-0002-9893-0358" target="_blank"><img src="/image/icon/orcid.gif" valign="middle"></a>, <a href="/articles/search_result.php?term=authork&amp;name=%EC%95%88%EC%9A%A9%ED%83%9C">안용태</a><sup>1,</sup><sup>4</sup><a href="http://orcid.org/0000-0001-6294-710X" alt="http://orcid.org/0000-0001-6294-710X" title="http://orcid.org/0000-0001-6294-710X" target="_blank"><img src="/image/icon/orcid.gif" valign="middle"></a>, <a href="/articles/search_result.php?term=authork&amp;name=%EA%B8%B0%EC%84%9C%EC%A7%84">기서진</a><sup>4,</sup><sup>5,</sup><sup>†</sup><a href="http://orcid.org/0000-0001-7056-9217" alt="http://orcid.org/0000-0001-7056-9217" title="http://orcid.org/0000-0001-7056-9217" target="_blank"><img src="/image/icon/orcid.gif" valign="middle"></a>
+</div>
+<div class="metadata-group">
+<p class="metadata-entry"><a id="idm140468196437200"><!-- named anchor --></a><sup>1</sup>경상국립대학교 에너지공학과</p>
+<p class="metadata-entry"><a id="idm140468196433840"><!-- named anchor --></a><sup>2</sup>환경시설관리주식회사</p>
+<p class="metadata-entry"><a id="idm140468196430448"><!-- named anchor --></a><sup>3</sup>경상국립대학교 에너지시스템공학과</p>
+<p class="metadata-entry"><a id="idm140468196427040"><!-- named anchor --></a><sup>4</sup>경상국립대학교 미래융복합기술연구소</p>
+<p class="metadata-entry"><a id="idm140468196423632"><!-- named anchor --></a><sup>5</sup>경상국립대학교 환경공학과</p>
+</div>
+<div class="metadata centered"><h3 class="PubTitle">Assessing the Performance of Deep Learning Algorithms With and Without Transfer Learning in Similar or Identical Wastewater Treatment Processes</h3></div>
+<div class="metadata-group author_layer" style="margin-bottom:10px;">
+<a href="/articles/search_result.php?term=author&amp;f_name=Jaeil&amp;l_name=Kim">Jaeil Kim</a><sup>1,</sup><sup>2</sup><a href="http://orcid.org/0009-0000-8276-1636" alt="http://orcid.org/0009-0000-8276-1636" title="http://orcid.org/0009-0000-8276-1636" target="_blank"><img src="/image/icon/orcid.gif" valign="middle"></a>, <a href="/articles/search_result.php?term=author&amp;f_name=Sang-Ik&amp;l_name=Suh">Sang-Ik Suh</a><sup>3</sup><a href="http://orcid.org/0000-0002-9893-0358" alt="http://orcid.org/0000-0002-9893-0358" title="http://orcid.org/0000-0002-9893-0358" target="_blank"><img src="/image/icon/orcid.gif" valign="middle"></a>, <a href="/articles/search_result.php?term=author&amp;f_name=Yongtae&amp;l_name=Ahn">Yongtae Ahn</a><sup>1,</sup><sup>4</sup><a href="http://orcid.org/0000-0001-6294-710X" alt="http://orcid.org/0000-0001-6294-710X" title="http://orcid.org/0000-0001-6294-710X" target="_blank"><img src="/image/icon/orcid.gif" valign="middle"></a>, <a href="/articles/search_result.php?term=author&amp;f_name=Seo%20Jin&amp;l_name=Ki">Seo Jin Ki</a><sup>4,</sup><sup>5,</sup><sup>†</sup><a href="http://orcid.org/0000-0001-7056-9217" alt="http://orcid.org/0000-0001-7056-9217" title="http://orcid.org/0000-0001-7056-9217" target="_blank"><img src="/image/icon/orcid.gif" valign="middle"></a>
+</div>
+<div class="metadata-group" style="margin-bottom:10px;">
+<p class="metadata-entry"><a id="af1-KSEE-2024-46-3-111"><!-- named anchor --></a><sup>1</sup>Department of Energy Engineering, Gyeongsang National University, Republic of Korea</p>
+<p class="metadata-entry"><a id="af2-KSEE-2024-46-3-111"><!-- named anchor --></a><sup>2</sup>Environmental Management Corporation, Republic of Korea</p>
+<p class="metadata-entry"><a id="af3-KSEE-2024-46-3-111"><!-- named anchor --></a><sup>3</sup>Department of Energy System Engineering, Gyeongsang National University, Republic of Korea</p>
+<p class="metadata-entry"><a id="af4-KSEE-2024-46-3-111"><!-- named anchor --></a><sup>4</sup>Future Convergence Technology Research Institute, Gyeongsang National University, Republic of Korea</p>
+<p class="metadata-entry"><a id="af5-KSEE-2024-46-3-111"><!-- named anchor --></a><sup>5</sup>Department of Environmental Engineering, Gyeongsang National University, Republic of Korea</p>
+</div>
+<div class="metadata-group" style="font-size:15px;">
+<p class="metadata-entry"><div class="corresp">
+<sup>†</sup>Corresponding author E-mail: <a href="mailto:seojinki@gnu.ac.kr">seojinki@gnu.ac.kr</a> Tel: 055-772-3341 Fax: 055-772-3484</div> </p> Received March 12, 2024       Revised March 24, 2024       Accepted March 25, 2024<p class="metadata-entry">© Copyright 2024Korean Society of Environmental Engineers </p>
+</div>
+</div></div>
+<div id="before_abstract"></div>
+<div class="abstract-layer">
+<h3 class="callout-title" id="__abstract" style="margin:15px 0 0 0;">Abstract</h3>
+<div class="abstract">
+<p><div class="first" id="idm140468201121360">This study assessed the feasibility of transfer learning from one wastewater treatment process to another using two popular deep learning algorithms. Specifically, convolutional neural network (CNN) and long short-term memory (LSTM), which consisted of four and three hidden layers, respectively, were used as benchmark algorithms for transfer learning. Input data for both deep learning and transfer learning were provided from two wastewater treatment plants with identical treatment trains in series (located in Jinju and Cheongju City) over the five-year period from 2018 to 2022. Performance evaluation was also done not only against two deep learning algorithms but also against those adopting two transfer learning strategies, one for freezing all hidden layers developed from the pre-trained model and the other for training the last hidden layer only among multiple ones, with respect to Mean Squared Error (MSE). We found that the performance of both CNN and LSTM was relatively comparative regardless of dependent variables, discharge and biochemical oxygen demand (BOD), whereas the prediction accuracy of both algorithms was slightly higher for discharge than for BOD due to its low variability. When transfer learning which froze all hidden layers of the existing model was applied to two benchmark algorithms, the predictive performance of both algorithms was found to slightly improved only for discharge. Also, there was no measurable variation in the prediction accuracy of benchmark algorithms using the other transfer learning approach. Potential applications of transfer learning include the rapid reuse of the existing models (developed from source domains) for target domains which are hard to develop new prediction models due to the lack of data in deep learning.</div></p>
+<p class="metadata-entry"><span class="generated"><b>Key words</b>: </span><i><a href="/articles/search_result.php?term=4&amp;key=Transfer%20learning">Transfer learning</a>, <a href="/articles/search_result.php?term=4&amp;key=Deep%20learning">Deep learning</a>, <a href="/articles/search_result.php?term=4&amp;key=Convolutional%20neural%20network">Convolutional neural network</a>, <a href="/articles/search_result.php?term=4&amp;key=Long%20short-term%20memory">Long short-term memory</a>, <a href="/articles/search_result.php?term=4&amp;key=Wastewater%20treatment%20process">Wastewater treatment process</a></i> </p>
+</div>
+</div>
+<div class="abstract-layer">
+<h3 class="callout-title" id="__abstract" style="margin:15px 0 0 0;">요약</h3>
+<div class="abstract">
+<p><div class="first" id="idm140468196406208">본 연구에서는 두 개의 인지도가 높은 심층학습 알고리즘을 사용하여 하나의 폐수처리공정에서 다른 폐수처리공정으로의 전이학습의 적용 가능성을 평가하였다. 구체적으로는, 전이학습을 위한 벤치마크 알고리즘으로4개 및 3개의 은닉층으로 각각 구성된 합성곱 신경망과 장단기 메모리를 사용하였다. 심층학습과 전이학습을 위해 (진주와 청주시에 위치한) 동일한 처리공정을 가지는 2개의 폐수처리시설로부터 2018년부터 2022년까지 총 5년간의 입력 데이터가 제공되었다. 모델의 성능 평가는 평균제곱오차를 기준으로 2개 심층학습과 더불어 2개의 다른 전이 학습 적용 방법(사전 훈련된 모델에서 개발된 모든 은닉층을 사용하는 방법과 다수의 은닉층 중 마지막 은닉층만을 훈련에 사용하는 방법)을 채택하여 수행되었다. 평가 결과, 유량 및 생물화학적 산소요구량과 같은 종속 변수에 관계없이 합성곱 신경망과 장단기 메모리의 성능은 상대적으로 유사한 것으로 조사되었으며, 다만 유량 변수의 낮은 변동성으로 인하여 생물화학적 산소요구량에 비해 유량 예측의 정확도가 다소 높은 것으로 평가되었다. 기존 모델의 모든 은닉층을 사용한 전이학습 기법을 두 가지 벤치마크 알고리즘에 적용한 결과 두 알고리즘 모두 유량에 한정하여 예측 성능이 다소 향상되는 것으로 조사되었다. 또한, 다른 전이학습 기법을 사용한 경우에도 벤치마크 알고리즘의 예측 정확도에는 큰 변화가 없는 것으로 평가되었다. 전이학습의 잠재적인 활용 방안으로는 데이터 부족으로 인해 심증학습 기반의 신규 예측 모델 개발이 어려운 타겟 도메인에 (소스 도메인에서 개발된) 기존 모델의 신속한 재사용이 포함될 수 있을 것으로 판단된다.</div></p>
+<p class="metadata-entry"><span class="generated"><b>주제어</b>: </span><a href="/articles/search_result.php?term=4&amp;key=%EC%A0%84%EC%9D%B4%ED%95%99%EC%8A%B5">전이학습</a>, <a href="/articles/search_result.php?term=4&amp;key=%EC%8B%AC%EC%B8%B5%ED%95%99%EC%8A%B5">심층학습</a>, <a href="/articles/search_result.php?term=4&amp;key=%ED%95%A9%EC%84%B1%EA%B3%B1%20%EC%8B%A0%EA%B2%BD%EB%A7%9D">합성곱 신경망</a>, <a href="/articles/search_result.php?term=4&amp;key=%EC%9E%A5%EB%8B%A8%EA%B8%B0%20%EB%A9%94%EB%AA%A8%EB%A6%AC">장단기 메모리</a>, <a href="/articles/search_result.php?term=4&amp;key=%ED%8F%90%EC%88%98%EC%B2%98%EB%A6%AC%EA%B3%B5%EC%A0%95">폐수처리공정</a> </p>
+</div>
+</div>
+</div>
+<div id="article-body" class="body">
+<div class="section" id="intro">
+<a id="idm140468197730544"><!-- named anchor --></a><h3 class="main-title">1. 서 론</h3>
+<div id="idm140468197710768">현대 도시 운영에 필요한 물 인프라 중 하나인 폐수처리시설은 공중 보건을 유지하고 인근 하천으로 방류되는 다양한 유해 화학물질을 정화하여 환경 및 수자원 보존을 위해 중요한 역할을 하고 있다[<a href="#b1-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb1">1</a>]. 폐수처리시설의 방류수는 물환경보전법 시행규칙 제26조에 따라 엄격한 수질관리가 이루어지고 있으며, 특히 수질원격감시체계(Tele-Monitoring System)를 통해 수질오염물질의 배출상태에 대한 상시 모니터링이 수행되고 있다[<a href="#b2-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb2">2</a>]. 참고로, 현재 국내에는 2023년 기준으로 전국에서 56,430개소의 폐수처리시설이 운영 되어 매일 5,006톤의 폐수를 방류 중에 있다. 한편, 폐수처리시설의 방류수에서 수집되는 실시간 모니터링 데이터는 방류수질기준 초과에 따른 배출부과금의 산정 목적 이외에 향후 스마트 폐수처리 시스템 개발, 디지털 기반 물관리 분야 등에 다양하게 활용될 수 있을 것으로 기대되고 있다[<a href="#b3-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb3">3</a>,<a href="#b4-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb4">4</a>].</div>
+<div id="idm140468196399216">최근 상수 및 하폐수 처리공정을 모사하기 위해 인공지능(기계학습 및 심층학습) 기반 알고리즘 적용이 증가하고 있으며[<a href="#b5-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb5">5</a>,<a href="#b6-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb6">6</a>], 이는 기존 지배방정식 기반의 모델에 비해 모델 예측에 필요한 입력 데이터 및 시간 소요가 적고 정확성이 다소 우수한 장점이 있기 때문이다. Li 등[<a href="#b7-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb7">7</a>] 및 Jiang 등[<a href="#b8-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb8">8</a>]은 시계열 데이터의 (고차원) 시간 종속적인 패턴을 효과적으로 해석할 수 있는 순환신경망(Recurrent neural network, RNN)을 활용하여 상수 처리 공정을 우수한 성능으로 모사하는 방법을 개발하였다. Fahri 등[<a href="#b9-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb9">9</a>]은 장단기 메모리(Long short-term memory, LSTM) 알고리즘을 이용하여 하폐수 처리공정을 모사하는 방법을 개발하여 모델의 예측 성능은 최소 90% 이상의 정확도를 가지는 것으로 평가되었다. 이 외에도 상수 및 하폐수 처리 공정을 모사하기 위하여 양방향 LSTM(Bidirectional LSTM, Bi-LSTM), 어텐션 매커니즘(Attention mchanism), 합성곱 신경망(Convolutional neural network, CNN) 등을 활용한 하이브리드 모델들을 이용하여 기존의 인공지능 기반 예측 모델의 성능을 보다 향상한 연구들이 다양하게 제시된 바 있다[<a href="#b10-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb10">10</a>,<a href="#b11-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb11">11</a>,<a href="#b12-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb12">12</a>]. 다만, 이러한 인공지능 기반 예측 모델은 기존 공정이 아닌 신규 공정에서의 예측 성능은 크게 저하될 수 있을 것으로 예측되고 있다.</div>
+<div id="idm140468196388848">전이학습은 기존 시스템(소스 도메인)에서 개발된 인공지능 기반 예측 모델을 신규 시스템(타겟 도메인)에 추가적인 모델 개발 없이 즉각적으로 사용하는 기술로서, 예측 모델 개발에 필요한 시간과 노력을 단축할 수 있는 장점이 있다[<a href="#b13-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb13">13</a>]. 또한, 전이학습 기법은 신규 시스템에서 모델 예측에 필요한 충분한 데이터가 부재할 때에도 활용될 수 있으며, 즉 데이터가 풍부한 기존 시스템에서 모델을 개발한 이후 신규 시스템에서 미세 조정(입력, 은닉 및 출력 레이어 고정 또는 변경 등)을 통해 예측 정확도를 개선할 수 있다[<a href="#b14-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb14">14</a>]. 다만, 전이학습을 적용을 위해서는 기존 및 신규 시스템이 유사하다는 전제조건이 요구된다. 전이학습의 대표적인 적용 사례로, Lv 등[<a href="#b15-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb15">15</a>]은 도시 지역에서 학습한 모델을 이용하여 시골 지역의 대기질을 예측하였으며, Ma 등[<a href="#b16-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb16">16</a>]은 기존 관측소를 기반으로 훈련한 Bi-LSTM 모델을 새 관측소에서 대기질 예측 연구에 적용하였다. 또한, 전이학습은 최근 교통 흐름 예측 및 국가 환율 예측의 데이터 부족 문제를 해결하는 연구 등에도 적용된 바 있다[<a href="#b17-KSEE-2024-46-3-111" name="bibrLink" class="bibrClassb17">17</a>].</div>
+<div id="idm140468196382064">한편, 전이학습의 이러한 우수한 확장성에도 불구하고 현재까지 폐수처리공정에 전이학습을 직접적으로 적용한 국내외 사례는 매우 제한적인 것으로 판단된다. 따라서, 본 연구는 시스템 특성이 매우 유사한 2개의 폐수처리공정(진주시 및 청주시)에서 전이학습의 적용 가능성을 평가하고자 수행되었다. 보다 구체적으로는 본 연구에서는 1) 폐수처리공정의 유량 및 수질 예측을 위해 2개 심층학습 알고리즘의 성능을 우선적으로 평가하고, 전이학습 적용 시나리오 변화 즉, 2) 기존 은닉층 전체 사용 및 3) 부분 사용에 따른 전이학습 기법의 성능 변화를 비교, 분석하였다. 본 연구는 향후 학습 데이터(저해상도 모니터링 자료 등)의 제약으로 인해 인공지능 기반 예측 모델 개발이 직접적으로 어려운 시스템에 유용하게 활용될 수 있을 것으로 기대된다.</div>
+</div>
+<div class="section" id="">
+<a id="idm140468196380448"><!-- named anchor --></a><h3 class="main-title">2. 실험 방법</h3>
+<div class="section" id="">
+<a id="idm140468196379648"><!-- named anchor --></a><h3 class="section-title"> 2.1. 폐수처리공정 선정 및 입력 데이터 구축</h3>
+<div id="idm140468196378880">본 연구에서는 전이학습 적용을 위해 시스템 구성이 동일한 2개의 폐수처리공정(진주시 상평산업단지에 위치한 폐수종말처리장 및 청주시 국가산업단지에 위치한 폐수종말처리장)을 선정하였다. 참고로, 2개의 폐수처리공정은 모두 1차 침전공정과 2차 생물학적 처리공정으로 구성되어 있다. 본 연구에서는 2개의 폐수처리공정의 유출수로부터 측정되는 최근 5년간(2018년 1월 1일 ~ 2022년 12월 31일)의 모니터링 데이터를 심층학습 및 전이학습 모델의 입력 자료로 사용하였다(<a href="#t1-KSEE-2024-46-3-111" name="tableLink" class="tableClasst1">Tables 1</a> 및 <a href="#t2-KSEE-2024-46-3-111" name="tableLink" class="tableClasst2">2</a>). 모니터링 데이터는 총 9개의 항목으로 구성되어 있으며, (전이학습의 적용성을 시범적으로 평가하기 위한) 예측을 위한 변수로 유량(Discharge)과 생물화학적 산소 요구량(Biochemical oxygen demand, BOD)을 선정하였다. 모니터링 데이터 내 결측값(Missing value)이 부분적으로 발생함에 따라 특정 항목에 결측값이 발생한 경우 보간 없이 모든 데이터를 제외하여 평가를 수행하였으며, 이상치(Outlier)의 경우 사분범위(Interquartile range, IQR)의3배 범위를 이용하여 특정 항목에 이상치가 발생한 경우 결측값과 동일하게 모든 데이터를 제외하여 평가를 수행하였다. 그 결과 진주시 및 청주시 폐수종말처리장에서 총 1,139 및 1,121의 데이터가 각각 사용되었다.</div>
+</div>
+<div class="section" id="">
+<a id="idm140468196374624"><!-- named anchor --></a><h3 class="section-title"> 2.2. 벤치마크 알고리즘</h3>
+<div id="idm140468196373856">본 연구에서는 전이학습을 적용을 위한 심층학습 기반의 벤치마크 알고리즘으로 연구자들에게 활용도가 높은 (비시계열 기반) 합성곱 신경망(CNN)과 (시계열 기반) 장단기 메모리(LSTM)를 사용하였다. 합성곱 신경망(CNN)은 하나 또는 여러 개의 합성곱 계층(Convolutional layer)과 통합 계층(Pooling layer), 그리고 완전하게 연결된 계층(Fully connected layer)으로 구성되어 있다. 합성곱 신경망(CNN)의 주요 장점으로는 다른 비시계열 기반 유사 심층학습 알고리즘에 비해 파라미터 가중치 공유를 통한 학습 파라미터의 개수를 감소시켜 효율적인 학습 속도를 제공하는 장점이 있다. 한편, 장단기 메모리(LSTM)는 은닉층의 메모리 셀에 입력 층, 망각 층, 출력 층으로 구성된 알고리즘으로서, 기존의 시계열 모델인 순환신경망(RNN)의 (학습과 예측 시점 간의 차이가 커짐에 따라 학습 능력 저하의) 단점을 극복하기 위해 제안된 알고리즘으로 알려져 있다. 장단기 메모리(LSTM)의 주요 장점으로는 다른 시 계열 기반 유사 알고리즘에 비하여 비교적 긴 시퀀스의 입력을 처리하는 데에 유용한 것으로 알려져 있으며, 특히 데이터의 크기가 클수록 보다 정확한 예측 성능을 나타내는 것으로 평가되고 있다. 본 연구에서는 다양한 전이학습 적용(은닉층 레이어 전체 사용 및 부분 사용)에 따른 벤치마크 심층학습 알고리즘의 성능 변화를 평가하기 위하여 2개 알고리즘에 단일 은닉층이 아닌 다중 은닉층을 사용하였다. 즉, 합성곱 신경망(CNN)의 경우 4개의 은닉층을, 장단기 메모리(LSTM)의 경우 3개의 은닉층을 각각 사용하였으며, (시범 연구로서 심층학습과 전이학습의 단순한 성능을 비교하기 위하여) 별도의 초매개변수 최적화는 수행하지 않았다. 본 연구에서 사용한 보다 자세한 2개 심층학습의 알고리즘 구조는 <a href="#f1-KSEE-2024-46-3-111" name="figLink" class="figClassf1">Fig. 1</a>에 제시되어 있다.</div>
+</div>
+<div class="section" id="">
+<a id="idm140468201397232"><!-- named anchor --></a><h3 class="section-title"> 2.3 전이학습</h3>
+<div id="idm140468201385680">전이학습은 우선 1) 구축된 모델의 활용 측면 또는 2) 데이터의 크기 및 유사성 측면에 따라 적용 방법을 달리 할 수 있다. 본 연구에서는 2개 폐수처리공정의 데이터의 크기 및 유사성을 평가하기 위한 명확한 판단 기준이 부재하여 구축된 모델의 활용 측면을 단순히 고려하여 평가에 활용하였다. 구축된 모델의 활용 측면에서 전이학습은 다음과 같은 3가지 방식이 주로 적용되고 있다. 즉, 기존 은닉층 전부를 사용하고 출력층만 훈련하는 경우(Case A), 기존 은닉층을 일부를 사용하고 나머지 은닉층을 훈련하는 경우(Case B), 모델의 구조(기존 은닉층 및 출력층 모두 훈련)만 활용하는 경우(Case C)로 구분할 수 있다. 본 연구에서는 폐수처리공정에 전이학습의 적용성을 시범적으로 평가하기 위하여 단순히 Case A(3.2 섹션)와 Case B(3.3 섹션)를 사용하여 성능 변화를 분석하였다. 참고로, 전이학습 방식 중 Case B의 경우 기존 모델의 다양한 은닉층 중 말단의 최종 은닉층(레이어)만을 훈련에 사용하였다. 또한, 전이학습을 통해 청주시 폐수처리공정의 유량 및 수질을 예측하는 경우 진주시 폐수처리공정에서 개발한 유량 및 수질 예측 모델을 활용하였으며, 전이학습을 통해 진주시 폐수처리공정의 유량 및 수질을 예측하는 경우 정반대의 방향으로 예측 모델들을 활용하였다.</div>
+</div>
+<div class="section" id="">
+<a id="idm140468201377760"><!-- named anchor --></a><h3 class="section-title"> 2.4. 모델 개발 및 평가 환경</h3>
+<div id="idm140468201375584">심층학습 및 전이학습은 모두 파이썬(Python, Version 3.7.9) 환경에서 범용성이 뛰어난 케라스(Keras, Version 2.4.3) 패키지를 사용하다. 심층학습 및 전이학습의 입력 데이터는 최소값 및 최대값을 통해 정규화(Min-max scaling) 되었으며, 손실 함수의 최적화 함수로 RMSProp과 성능 평가 지표로 평균제곱오차(Mean squared error, MSE)를 각각 사용하였다. 본 연구에서 훈련 및 테스트 데이터는 7:3의 비율로 구분하여 평가를 수행하였으나, 단순화된 평가 결과를 제시하기 위하여 테스트 결과만을 제시하였다.</div>
+</div>
+</div>
+<div class="section" id="">
+<a id="idm140468196368784"><!-- named anchor --></a><h3 class="main-title">3. 결과 및 고찰</h3>
+<div class="section" id="">
+<a id="idm140468196367984"><!-- named anchor --></a><h3 class="section-title"> 3.1. 심층학습 알고리즘 성능</h3>
+<div id="idm140468196367168">
+<a href="#t3-KSEE-2024-46-3-111" name="tableLink" class="tableClasst3">Table 3</a>은 진주시 및 청주시 폐수처리공정에서의 2개 벤치마크 심층학습 알고리즘에 대한 유량 및 생물화학적 산소요구량의 예측 성능을 나타내고 있다. 우선, 진주시 폐수처리공정의 유량을 예측하는 경우 평균제곱오차(MSE)를 기준으로 장단기 메모리(LSTM)의 예측 성능이 합성곱 신경망(CNN)에 비해 우수한 것으로 조사되었으며, 이와는 반대로 청주시 폐수처리공정의 유량 예측 시 합성곱 신경망(CNN)의 장단기 메모리(LSTM)에 비해 성능이 보다 우수한 것으로 평가되었다. 또한, 진주시 및 청주시 폐수처리공정의 생물화학적 산소요구량을 예측하는 경우 각각 장단기 메모리(LSTM) 및 합성곱 신경망(CNN)이 상대적으로 우수하여, 유량 예측과 동일한 성능 우선순위가 도출되었다. 다만, 진주시 및 청주시 폐수처리 공정 모두 유량의 예측 성능이 생물화학적 산소요구량에 비해 보다 우수한 것으로 조사되었으며, 이러한 원인은 폐수처리공정 유출수에서 유량의 변동성(변동 계수=표준 편차/평균, 진주시 7.90, 청주시 32.38)이 생물화학적 산소요구량의 변동성(진주시 16.86, 청주시 55.55)에 비해 상대적으로 낮기 때문인 것으로 판단된다.</div>
+</div>
+<div class="section" id="">
+<a id="idm140468201370992"><!-- named anchor --></a><h3 class="section-title"> 3.2 전이학습 알고리즘 성능</h3>
+<div id="idm140468201361936">
+<a href="#f2-KSEE-2024-46-3-111" name="figLink" class="figClassf2">Fig. 2</a>는 진주시 및 청주시 폐수처리공정에서의 전이학습 적용 전과 후의 a) 유량 및 b) 생물화학적 산소요구량의 예측 성능을 비교하고 있다. 평가 결과, 유량 예측 시 전이학습을 적용할 경우 평균제곱오차(MSE)를 기준으로 적용된 벤치마크 알고리즘에 관계없이 예측 성능이 모두 향상되는 것으로 조사되었다. 다만, 유량 예측 시 장단기 메모리(LSTM)의 경우 전이학습 적용에 따른 예측 성능 개선 정도는 기존 공정(소스 도메인)에서 신규 공정(타겟 도메인)으로의 적용 방향(진주시 → 청주시 vs 청주시 → 진주시)에 따라 큰 차이가 발생하는 것으로 조사되었다. 한편, 생물화학적 산소요구량 예측 시 전이학습을 적용할 경우 합성곱 신경망(CNN)에 한하여 예측 성능이 유지되거나 개선되었으며, 장단기 메모리(LSTM)의 경우 오히려 예측 성능이 감소하는 것으로 조사되었다. 다만, 예측 변수에 관계없이 전이학습 적용 전과 후의 예측 성능이 크게 상이하지 않아 동일하거나 유사한 폐수처리공정에서 전이학습 기법의 적용 가능성은 다소 높은 것으로 평가되었다.</div>
+</div>
+<div class="section" id="">
+<a id="idm140468201354944"><!-- named anchor --></a><h3 class="section-title"> 3.3. 전이학습 적용 방법 변화에 따른 성능</h3>
+<div id="idm140468201352192">
+<a href="#t4-KSEE-2024-46-3-111" name="tableLink" class="tableClasst4">Table 4</a>는 진주시 및 청주시 폐수처리공정에서의 전이학습 적용 방법 변화(기존 은닉층 전체 사용(Case A) 및 부분 사용(Case B))에 따른 유량 및 생물화학적 산소요구량의 예측 성능을 비교하고 있다. 진주시 및 청주시 폐수처리공정에서 유량 예측의 경우 평균제곱오차(MSE)를 기준으로 전이학습 적용 방법 변화에 따른 (적용된 벤치마크 알고리즘에 관계없이) 예측 성능에 큰 차이가 없는 것으로 조사되었다. 다만, 청주시 폐수처리공정에서 유량 예측 시 장단기 메모리(LSTM)의 경우 전이학습 적용 방법 변화(Case A → Case B)에 따라 예측 성능이 소폭 감소하는 것으로 평가되었다. 또한, 생물화학적 산소요구량 예측 시에도 진주시 및 청주시 폐수처리공정에서 모두 전이학습 적용 방법 변화에 따른 (적용된 벤치마크 알고리즘에 관계없이) 예측 성능에 큰 차이가 없는 것으로 조사되었다. 따라서, 향후 전이학습 적용 방법에 따른 예측 성능의 보다 구체적인 조사가 필요할 것으로 판단되지만, 본 연구 결과는 폐수처리공정에서 전이학습 기법의 적용 가능성을 뒷받침하는 중요한 기초자료로 활용될 수 있을 것으로 판단된다.</div>
+</div>
+</div>
+<div class="section" id="">
+<a id="idm140468201340656"><!-- named anchor --></a><h3 class="main-title">4. 결 론</h3>
+<div id="idm140468201335760">본 연구에서는 폐수처리공정에서 전이학습 기법의 적용 가능성을 평가하고자 수행되었다. 전이학습 적용을 위한 벤치마크 알고리즘으로는 비시계열(합성곱 신경망, CNN) 및 시계열 기반 알고리즘(장단기 메모리, LSTM)을 사용하였으며, 벤치마크 시스템으로는 동일한 처리공정으로 구성된 2개(진주시 및 청주시)의 폐수처리공정을 선정하였다. 2개 폐수처리공정의 유출수로부터 총 5년(2018년 1월 ~ 2022년 12월) 기간의 모니터링 자료를 모델의 입력 자료로 사용하였으며, 벤치마크 알고리즘 대비 전이학습 적용 전후(기존 은닉층 전체 사용 유무) 및 방법 변화(기존 은닉층 전체 vs 부분 사용)에 따른 성능 변화를 평가하였다. 본 연구를 통해 도출된 주요 연구결과는 다음과 같다.</div>
+<div id="idm140468196360912">• 합성곱 신경망(CNN) 및 장단기 메모리(LSTM)의 성능은 예측 항목(유량 vs 생물화학적 산소요구량) 및 폐수처리공정(진주시 vs 청주시)에 따라 소폭 상이하였으나 대체로 유사한 것으로 조사되었다. 다만, 생물화학적 산소요구량 대비 유량의 변동성이 낮아 (적용 알고리즘에 관계없이) 유량에 대한 예측 성능이 보다 우수한 것으로 조사 되었다.</div>
+<div id="idm140468196360000">• 2개의 벤치마크 알고리즘에 전이학습(기존 은닉층 전체 사용 유무)을 적용한 결과 유량 예측 시 예측 성능이 개선되는 것으로 조사되었으며, 생물화학적 산소요구량 예측 시 예측 성능이 유지되거나 소폭 감소하는 것으로 평가되었다. 이를 통해 동일하거나 유사한 폐수처리공정에서(모델 적용 방향에 관계없이) 전이학습의 적용 가능성은 다소 높은 것으로 평가되었다.</div>
+<div id="idm140468196359040">• 전이학습 기법의 적용 방법 변화(기존 은닉층 전체 vs 부분 사용)에 따른 성능 변화를 평가한 결과 전이학습의 예측 성능에는 큰 변화가 없는 것으로 평가되었다. 다만, 1) 데이터의 크기 및 유사성에 기반한 상이한 전이학습 기법의 적용과 2) 대상 시스템(공정), 벤치마크 알고리즘, 예측 항목 및 초매개변수 최적화 등에 따라 벤치마크 알고리즘의 예측 성능이 다양하게 변화할 수 있을 것으로 예측됨에 따라 향후 전이학습에 대한 심도 있는 후속 연구가 지속적으로 수행될 필요가 있을 것으로 판단된다.</div>
+</div>
+</div>
+<div id="article-back" class="back">
+<div class="back-section">
+<a id="idm140468196357264"><!-- named anchor --></a><h3 class="main-title">Acknowledgments</h3>
+<div class="first" id="idm140468196357104">본 논문은 농촌진흥청 연구사업(세부과제번호: PJ015845)의 지원에 의해 이루어진 것임.</div>
+</div>
+<div class="back-section">
+<a id="idm140468196356528"><!-- named anchor --></a><h3 class="main-title">Notes</h3>
+<div class="footnote">
+<a id="idm140468196356208"><!-- named anchor --></a><p id="idm140468196355744"><sup></sup> <b>Declaration of Competing Interest</b></p>
+<p id="idm140468196355088">The authors declare that they have no known competing interests or personal relationships that could have appeared to influence the work reported in this paper.</p>
+</div>
+</div>
+<div class="section" id="display-objects">
+<a id="idm140468196174336"><!-- named anchor --></a><h3 class="main-title"></h3>
+<div class="fig panel" style="display: float; clear: both; overflow-x: auto;">
+<h5 class="label" style="margin:0px 0px 0px 0px;">Fig. 1.</h5>
+<a id="f1-KSEE-2024-46-3-111"><!-- named anchor --></a><div class="caption"><div class="first" id="idm140468196171824">Model structure of two benchmark deep learning algorithms adopted in this study: (a) CNN and (b) LSTM.</div></div>
+<img alt="KSEE-2024-46-3-111f1.jpg" width="200" src="/upload//thumbnails/KSEE-2024-46-3-111f1.jpg">
+</div>
+<div class="fig panel" style="display: float; clear: both; overflow-x: auto;">
+<h5 class="label" style="margin:0px 0px 0px 0px;">Fig. 2.</h5>
+<a id="f2-KSEE-2024-46-3-111"><!-- named anchor --></a><div class="caption"><div class="first" id="idm140468196169216">The prediction accuracy of two benchmark algorithms (CNN and LSTM) with and without transfer learning for two dependent variables (discharge and BOD) in terms of MSE. Note that JJ and CJ indicate the wastewater treatment plants in Jinju and Cheongju, respectively.</div></div>
+<img alt="KSEE-2024-46-3-111f2.jpg" width="200" src="/upload//thumbnails/KSEE-2024-46-3-111f2.jpg">
+</div>
+<div class="table-wrap panel" style="display: float; clear: both; overflow-x: auto;">
+<h5 class="label" style="margin:0px 0px 0px 0px;">Table 1.</h5>
+<a id="t1-KSEE-2024-46-3-111"><!-- named anchor --></a><div class="caption"><div class="first" id="idm140468196166272">Summary statistics for 9 effluent quality parameters observed on a daily basis between 2018 and 2022 at wastewater treatment plant in Jinju City.</div></div>
+<table rules="groups" frame="hsides">
+<a id="idm140468196165664"><!-- named anchor --></a><thead>
+<a id="idm140468196164736"><!-- named anchor --></a><tr>
+<a id="idm140468196164576"><!-- named anchor --></a><th align="left" valign="top">
+<a id="idm140468196164256"><!-- named anchor --></a>Input variables<sup><a href="#tfn1-KSEE-2024-46-3-111" name="table-fnLink" class="table-fnClasstfn1">a)</a></sup>
+</th>
+<th align="center" valign="top">
+<a id="idm140468196162080"><!-- named anchor --></a><i>n</i>
+</th>
+<th align="center" valign="top">
+<a id="idm140468196160832"><!-- named anchor --></a>Missing data</th>
+<th align="center" valign="top">
+<a id="idm140468196159744"><!-- named anchor --></a>Mean</th>
+<th align="center" valign="top">
+<a id="idm140468196158656"><!-- named anchor --></a>Standard deviation</th>
+<th align="center" valign="top">
+<a id="idm140468196157568"><!-- named anchor --></a>p0</th>
+<th align="center" valign="top">
+<a id="idm140468196156480"><!-- named anchor --></a>p25</th>
+<th align="center" valign="top">
+<a id="idm140468196155392"><!-- named anchor --></a>p50</th>
+<th align="center" valign="top">
+<a id="idm140468196154304"><!-- named anchor --></a>p75</th>
+<th align="center" valign="top">
+<a id="idm140468196153216"><!-- named anchor --></a>p100</th>
+</tr>
+</thead>
+<tbody>
+<a id="idm140468196151968"><!-- named anchor --></a><tr>
+<a id="idm140468196151648"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468196151328"><!-- named anchor --></a>Discharge</td>
+<td valign="top" align="center">
+<a id="idm140468196150240"><!-- named anchor --></a>1,252</td>
+<td valign="top" align="center">
+<a id="idm140468196149152"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468196148064"><!-- named anchor --></a>21,190</td>
+<td valign="top" align="center">
+<a id="idm140468196146976"><!-- named anchor --></a>1,675</td>
+<td valign="top" align="center">
+<a id="idm140468196145888"><!-- named anchor --></a>11,544</td>
+<td valign="top" align="center">
+<a id="idm140468196144800"><!-- named anchor --></a>20,229</td>
+<td valign="top" align="center">
+<a id="idm140468196143712"><!-- named anchor --></a>21,226</td>
+<td valign="top" align="center">
+<a id="idm140468196142624"><!-- named anchor --></a>22,294</td>
+<td valign="top" align="center">
+<a id="idm140468196141536"><!-- named anchor --></a>25,930</td>
+</tr>
+<tr>
+<a id="idm140468196140288"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468196139968"><!-- named anchor --></a>W-temp</td>
+<td valign="top" align="center">
+<a id="idm140468196138880"><!-- named anchor --></a>1,252</td>
+<td valign="top" align="center">
+<a id="idm140468196137792"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468196136704"><!-- named anchor --></a>23.9</td>
+<td valign="top" align="center">
+<a id="idm140468196135616"><!-- named anchor --></a>5.26</td>
+<td valign="top" align="center">
+<a id="idm140468196134528"><!-- named anchor --></a>13.2</td>
+<td valign="top" align="center">
+<a id="idm140468196133440"><!-- named anchor --></a>19.7</td>
+<td valign="top" align="center">
+<a id="idm140468196132352"><!-- named anchor --></a>23.8</td>
+<td valign="top" align="center">
+<a id="idm140468196131264"><!-- named anchor --></a>28.4</td>
+<td valign="top" align="center">
+<a id="idm140468196130176"><!-- named anchor --></a>36.6</td>
+</tr>
+<tr>
+<a id="idm140468196128928"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468196128608"><!-- named anchor --></a>pH</td>
+<td valign="top" align="center">
+<a id="idm140468196127520"><!-- named anchor --></a>1,252</td>
+<td valign="top" align="center">
+<a id="idm140468196126432"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468196125344"><!-- named anchor --></a>7.18</td>
+<td valign="top" align="center">
+<a id="idm140468196124256"><!-- named anchor --></a>0.184</td>
+<td valign="top" align="center">
+<a id="idm140468196123168"><!-- named anchor --></a>6.5</td>
+<td valign="top" align="center">
+<a id="idm140468196122080"><!-- named anchor --></a>7</td>
+<td valign="top" align="center">
+<a id="idm140468196120992"><!-- named anchor --></a>7.2</td>
+<td valign="top" align="center">
+<a id="idm140468196119904"><!-- named anchor --></a>7.3</td>
+<td valign="top" align="center">
+<a id="idm140468196118816"><!-- named anchor --></a>7.8</td>
+</tr>
+<tr>
+<a id="idm140468196117568"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468196117248"><!-- named anchor --></a>BOD</td>
+<td valign="top" align="center">
+<a id="idm140468196116160"><!-- named anchor --></a>1,252</td>
+<td valign="top" align="center">
+<a id="idm140468196115072"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468196113984"><!-- named anchor --></a>1.93</td>
+<td valign="top" align="center">
+<a id="idm140468196112896"><!-- named anchor --></a>0.625</td>
+<td valign="top" align="center">
+<a id="idm140468196111808"><!-- named anchor --></a>0.5</td>
+<td valign="top" align="center">
+<a id="idm140468196110720"><!-- named anchor --></a>1.4</td>
+<td valign="top" align="center">
+<a id="idm140468196109632"><!-- named anchor --></a>2</td>
+<td valign="top" align="center">
+<a id="idm140468196108544"><!-- named anchor --></a>2.4</td>
+<td valign="top" align="center">
+<a id="idm140468196107456"><!-- named anchor --></a>3.9</td>
+</tr>
+<tr>
+<a id="idm140468196106208"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468196105888"><!-- named anchor --></a>COD</td>
+<td valign="top" align="center">
+<a id="idm140468196104800"><!-- named anchor --></a>1,252</td>
+<td valign="top" align="center">
+<a id="idm140468196103712"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468196102624"><!-- named anchor --></a>13</td>
+<td valign="top" align="center">
+<a id="idm140468196101536"><!-- named anchor --></a>2.46</td>
+<td valign="top" align="center">
+<a id="idm140468196100448"><!-- named anchor --></a>3.5</td>
+<td valign="top" align="center">
+<a id="idm140468196099360"><!-- named anchor --></a>11.3</td>
+<td valign="top" align="center">
+<a id="idm140468196098272"><!-- named anchor --></a>13.2</td>
+<td valign="top" align="center">
+<a id="idm140468196097184"><!-- named anchor --></a>14.8</td>
+<td valign="top" align="center">
+<a id="idm140468196096096"><!-- named anchor --></a>19</td>
+</tr>
+<tr>
+<a id="idm140468196094848"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468196094528"><!-- named anchor --></a>SS</td>
+<td valign="top" align="center">
+<a id="idm140468196093440"><!-- named anchor --></a>1,252</td>
+<td valign="top" align="center">
+<a id="idm140468196092352"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468196091264"><!-- named anchor --></a>2.07</td>
+<td valign="top" align="center">
+<a id="idm140468196090176"><!-- named anchor --></a>0.971</td>
+<td valign="top" align="center">
+<a id="idm140468196089088"><!-- named anchor --></a>0.2</td>
+<td valign="top" align="center">
+<a id="idm140468196088000"><!-- named anchor --></a>1.4</td>
+<td valign="top" align="center">
+<a id="idm140468196086912"><!-- named anchor --></a>2</td>
+<td valign="top" align="center">
+<a id="idm140468196085824"><!-- named anchor --></a>2.6</td>
+<td valign="top" align="center">
+<a id="idm140468201326320"><!-- named anchor --></a>6.6</td>
+</tr>
+<tr>
+<a id="idm140468201321520"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468201317680"><!-- named anchor --></a>T-N</td>
+<td valign="top" align="center">
+<a id="idm140468201305504"><!-- named anchor --></a>1,252</td>
+<td valign="top" align="center">
+<a id="idm140468201295776"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468201285504"><!-- named anchor --></a>8.72</td>
+<td valign="top" align="center">
+<a id="idm140468201278688"><!-- named anchor --></a>2.68</td>
+<td valign="top" align="center">
+<a id="idm140468196946784"><!-- named anchor --></a>2.1</td>
+<td valign="top" align="center">
+<a id="idm140468205007616"><!-- named anchor --></a>6.85</td>
+<td valign="top" align="center">
+<a id="idm140468205006640"><!-- named anchor --></a>8.49</td>
+<td valign="top" align="center">
+<a id="idm140468205005552"><!-- named anchor --></a>10.5</td>
+<td valign="top" align="center">
+<a id="idm140468205004464"><!-- named anchor --></a>19.9</td>
+</tr>
+<tr>
+<a id="idm140468205003216"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468205002896"><!-- named anchor --></a>T-P</td>
+<td valign="top" align="center">
+<a id="idm140468205001808"><!-- named anchor --></a>1,252</td>
+<td valign="top" align="center">
+<a id="idm140468205000720"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468204999632"><!-- named anchor --></a>0.0685</td>
+<td valign="top" align="center">
+<a id="idm140468204998544"><!-- named anchor --></a>0.0306</td>
+<td valign="top" align="center">
+<a id="idm140468204997456"><!-- named anchor --></a>0.01</td>
+<td valign="top" align="center">
+<a id="idm140468204996368"><!-- named anchor --></a>0.047</td>
+<td valign="top" align="center">
+<a id="idm140468204995280"><!-- named anchor --></a>0.067</td>
+<td valign="top" align="center">
+<a id="idm140468204994192"><!-- named anchor --></a>0.088</td>
+<td valign="top" align="center">
+<a id="idm140468204993104"><!-- named anchor --></a>0.266</td>
+</tr>
+<tr>
+<a id="idm140468204991856"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468204991536"><!-- named anchor --></a>TC</td>
+<td valign="top" align="center">
+<a id="idm140468204990448"><!-- named anchor --></a>1,252</td>
+<td valign="top" align="center">
+<a id="idm140468204989360"><!-- named anchor --></a>18</td>
+<td valign="top" align="center">
+<a id="idm140468204988272"><!-- named anchor --></a>16.1</td>
+<td valign="top" align="center">
+<a id="idm140468204987184"><!-- named anchor --></a>19.7</td>
+<td valign="top" align="center">
+<a id="idm140468204986096"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468204985008"><!-- named anchor --></a>5</td>
+<td valign="top" align="center">
+<a id="idm140468204983920"><!-- named anchor --></a>8</td>
+<td valign="top" align="center">
+<a id="idm140468204982832"><!-- named anchor --></a>20</td>
+<td valign="top" align="center">
+<a id="idm140468204981744"><!-- named anchor --></a>170</td>
+</tr>
+</tbody>
+</table>
+<div class="table-wrap-foot">
+<a id=""></a><div class="footnote">
+<a id="tfn1-KSEE-2024-46-3-111"><!-- named anchor --></a><p id="idm140468204979232"><sup>a)</sup> Abbreviations: Water temperature (W-temp), Biochemical oxygen demand (BOD), Chemical oxygen demand (COD), Suspended solids (SS), Total nitrogen (T-N), Total phosphorus (T-P), and Total coliforms (TC)</p>
+</div>
+</div>
+</div>
+<div class="table-wrap panel" style="display: float; clear: both; overflow-x: auto;">
+<h5 class="label" style="margin:0px 0px 0px 0px;">Table 2.</h5>
+<a id="t2-KSEE-2024-46-3-111"><!-- named anchor --></a><div class="caption"><div class="first" id="idm140468204976688">Summary statistics for 9 effluent quality parameters observed on a daily basis between 2018 and 2022 at wastewater treatment plant in Cheongju City.</div></div>
+<table rules="groups" frame="hsides">
+<a id="idm140468204976080"><!-- named anchor --></a><thead>
+<a id="idm140468204975152"><!-- named anchor --></a><tr>
+<a id="idm140468204974992"><!-- named anchor --></a><th align="left" valign="top">
+<a id="idm140468204974672"><!-- named anchor --></a>Input variables</th>
+<th align="center" valign="top">
+<a id="idm140468204973584"><!-- named anchor --></a><i>n</i>
+</th>
+<th align="center" valign="top">
+<a id="idm140468204972336"><!-- named anchor --></a>Missing data</th>
+<th align="center" valign="top">
+<a id="idm140468204971248"><!-- named anchor --></a>Mean</th>
+<th align="center" valign="top">
+<a id="idm140468204970160"><!-- named anchor --></a>Standard deviation</th>
+<th align="center" valign="top">
+<a id="idm140468204969072"><!-- named anchor --></a>p0</th>
+<th align="center" valign="top">
+<a id="idm140468204967984"><!-- named anchor --></a>p25</th>
+<th align="center" valign="top">
+<a id="idm140468204966896"><!-- named anchor --></a>p50</th>
+<th align="center" valign="top">
+<a id="idm140468204965808"><!-- named anchor --></a>p75</th>
+<th align="center" valign="top">
+<a id="idm140468204964720"><!-- named anchor --></a>p100</th>
+</tr>
+</thead>
+<tbody>
+<a id="idm140468204963472"><!-- named anchor --></a><tr>
+<a id="idm140468204963152"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468204962832"><!-- named anchor --></a>Discharge</td>
+<td valign="top" align="center">
+<a id="idm140468204961744"><!-- named anchor --></a>1,256</td>
+<td valign="top" align="center">
+<a id="idm140468204960656"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468204959568"><!-- named anchor --></a>21,661</td>
+<td valign="top" align="center">
+<a id="idm140468204958480"><!-- named anchor --></a>3,652</td>
+<td valign="top" align="center">
+<a id="idm140468204957392"><!-- named anchor --></a>9,636</td>
+<td valign="top" align="center">
+<a id="idm140468204956304"><!-- named anchor --></a>18,871</td>
+<td valign="top" align="center">
+<a id="idm140468204955216"><!-- named anchor --></a>20,866</td>
+<td valign="top" align="center">
+<a id="idm140468204954128"><!-- named anchor --></a>24,848</td>
+<td valign="top" align="center">
+<a id="idm140468204953040"><!-- named anchor --></a>36,374</td>
+</tr>
+<tr>
+<a id="idm140468204951792"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468204951472"><!-- named anchor --></a>W-temp</td>
+<td valign="top" align="center">
+<a id="idm140468204950384"><!-- named anchor --></a>1,256</td>
+<td valign="top" align="center">
+<a id="idm140468204949296"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468204948208"><!-- named anchor --></a>23.6</td>
+<td valign="top" align="center">
+<a id="idm140468204947120"><!-- named anchor --></a>4.96</td>
+<td valign="top" align="center">
+<a id="idm140468204946032"><!-- named anchor --></a>7</td>
+<td valign="top" align="center">
+<a id="idm140468204944944"><!-- named anchor --></a>19.6</td>
+<td valign="top" align="center">
+<a id="idm140468204943856"><!-- named anchor --></a>23.8</td>
+<td valign="top" align="center">
+<a id="idm140468204942768"><!-- named anchor --></a>28.1</td>
+<td valign="top" align="center">
+<a id="idm140468204941680"><!-- named anchor --></a>32.8</td>
+</tr>
+<tr>
+<a id="idm140468204940432"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468204940112"><!-- named anchor --></a>pH</td>
+<td valign="top" align="center">
+<a id="idm140468204939024"><!-- named anchor --></a>1,256</td>
+<td valign="top" align="center">
+<a id="idm140468204937936"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468204936848"><!-- named anchor --></a>6.85</td>
+<td valign="top" align="center">
+<a id="idm140468204935760"><!-- named anchor --></a>0.383</td>
+<td valign="top" align="center">
+<a id="idm140468204934672"><!-- named anchor --></a>6.1</td>
+<td valign="top" align="center">
+<a id="idm140468204933584"><!-- named anchor --></a>6.6</td>
+<td valign="top" align="center">
+<a id="idm140468204932496"><!-- named anchor --></a>6.8</td>
+<td valign="top" align="center">
+<a id="idm140468204931408"><!-- named anchor --></a>7</td>
+<td valign="top" align="center">
+<a id="idm140468204930320"><!-- named anchor --></a>16</td>
+</tr>
+<tr>
+<a id="idm140468204929072"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468204928752"><!-- named anchor --></a>BOD</td>
+<td valign="top" align="center">
+<a id="idm140468204927664"><!-- named anchor --></a>1,256</td>
+<td valign="top" align="center">
+<a id="idm140468204926576"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468204925488"><!-- named anchor --></a>2.79</td>
+<td valign="top" align="center">
+<a id="idm140468204924400"><!-- named anchor --></a>1.55</td>
+<td valign="top" align="center">
+<a id="idm140468204923312"><!-- named anchor --></a>0.1</td>
+<td valign="top" align="center">
+<a id="idm140468204922224"><!-- named anchor --></a>1.6</td>
+<td valign="top" align="center">
+<a id="idm140468204921136"><!-- named anchor --></a>2.5</td>
+<td valign="top" align="center">
+<a id="idm140468204920048"><!-- named anchor --></a>3.9</td>
+<td valign="top" align="center">
+<a id="idm140468204918960"><!-- named anchor --></a>8.6</td>
+</tr>
+<tr>
+<a id="idm140468204917712"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468204917392"><!-- named anchor --></a>COD</td>
+<td valign="top" align="center">
+<a id="idm140468204916304"><!-- named anchor --></a>1,256</td>
+<td valign="top" align="center">
+<a id="idm140468204915216"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468204914128"><!-- named anchor --></a>11.2</td>
+<td valign="top" align="center">
+<a id="idm140468204913040"><!-- named anchor --></a>3.18</td>
+<td valign="top" align="center">
+<a id="idm140468204911952"><!-- named anchor --></a>4.3</td>
+<td valign="top" align="center">
+<a id="idm140468204910864"><!-- named anchor --></a>8.3</td>
+<td valign="top" align="center">
+<a id="idm140468204909776"><!-- named anchor --></a>11.4</td>
+<td valign="top" align="center">
+<a id="idm140468204908688"><!-- named anchor --></a>13.7</td>
+<td valign="top" align="center">
+<a id="idm140468204907600"><!-- named anchor --></a>19.2</td>
+</tr>
+<tr>
+<a id="idm140468204906352"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468204906032"><!-- named anchor --></a>SS</td>
+<td valign="top" align="center">
+<a id="idm140468204904944"><!-- named anchor --></a>1,256</td>
+<td valign="top" align="center">
+<a id="idm140468204903856"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468204902768"><!-- named anchor --></a>3.13</td>
+<td valign="top" align="center">
+<a id="idm140468204901680"><!-- named anchor --></a>0.822</td>
+<td valign="top" align="center">
+<a id="idm140468204900592"><!-- named anchor --></a>0.8</td>
+<td valign="top" align="center">
+<a id="idm140468204899504"><!-- named anchor --></a>2.7</td>
+<td valign="top" align="center">
+<a id="idm140468204898416"><!-- named anchor --></a>3.1</td>
+<td valign="top" align="center">
+<a id="idm140468204897328"><!-- named anchor --></a>3.5</td>
+<td valign="top" align="center">
+<a id="idm140468204896240"><!-- named anchor --></a>7.6</td>
+</tr>
+<tr>
+<a id="idm140468204894992"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468204894672"><!-- named anchor --></a>T-N</td>
+<td valign="top" align="center">
+<a id="idm140468204893584"><!-- named anchor --></a>1,256</td>
+<td valign="top" align="center">
+<a id="idm140468204892496"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468204891408"><!-- named anchor --></a>10.5</td>
+<td valign="top" align="center">
+<a id="idm140468204890320"><!-- named anchor --></a>5.35</td>
+<td valign="top" align="center">
+<a id="idm140468204889232"><!-- named anchor --></a>1.36</td>
+<td valign="top" align="center">
+<a id="idm140468204888144"><!-- named anchor --></a>7.07</td>
+<td valign="top" align="center">
+<a id="idm140468204887056"><!-- named anchor --></a>9.15</td>
+<td valign="top" align="center">
+<a id="idm140468204885968"><!-- named anchor --></a>11.9</td>
+<td valign="top" align="center">
+<a id="idm140468204884880"><!-- named anchor --></a>32.3</td>
+</tr>
+<tr>
+<a id="idm140468204883632"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468204883312"><!-- named anchor --></a>T-P</td>
+<td valign="top" align="center">
+<a id="idm140468204882224"><!-- named anchor --></a>1,256</td>
+<td valign="top" align="center">
+<a id="idm140468204881136"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468204880048"><!-- named anchor --></a>0.0696</td>
+<td valign="top" align="center">
+<a id="idm140468204878960"><!-- named anchor --></a>0.0366</td>
+<td valign="top" align="center">
+<a id="idm140468204877872"><!-- named anchor --></a>0.01</td>
+<td valign="top" align="center">
+<a id="idm140468204876784"><!-- named anchor --></a>0.044</td>
+<td valign="top" align="center">
+<a id="idm140468204875696"><!-- named anchor --></a>0.061</td>
+<td valign="top" align="center">
+<a id="idm140468204874608"><!-- named anchor --></a>0.085</td>
+<td valign="top" align="center">
+<a id="idm140468204873520"><!-- named anchor --></a>0.246</td>
+</tr>
+<tr>
+<a id="idm140468204872272"><!-- named anchor --></a><td valign="top" align="left">
+<a id="idm140468204871952"><!-- named anchor --></a>TC</td>
+<td valign="top" align="center">
+<a id="idm140468204870864"><!-- named anchor --></a>1,256</td>
+<td valign="top" align="center">
+<a id="idm140468204869776"><!-- named anchor --></a>0</td>
+<td valign="top" align="center">
+<a id="idm140468204868688"><!-- named anchor --></a>351</td>
+<td valign="top" align="center">
+<a id="idm140468204867600"><!-- named anchor --></a>314</td>
+<td valign="top" align="center">
+<a id="idm140468204866512"><!-- named anchor --></a>31</td>
+<td valign="top" align="center">
+<a id="idm140468204865424"><!-- named anchor --></a>200</td>
+<td valign="top" align="center">
+<a id="idm140468204864336"><!-- named anchor --></a>240</td>
+<td valign="top" align="center">
+<a id="idm140468204863248"><!-- named anchor --></a>330</td>
+<td valign="top" align="center">
+<a id="idm140468204862160"><!-- named anchor --></a>2,100</td>
+</tr>
+</tbody>
+</table>
+<div class="table-wrap-foot">
+<a id=""></a><div class="footnote">
+<a id="tfn2-KSEE-2024-46-3-111"><!-- named anchor --></a><p id="idm140468204859648"><sup>a)</sup> Abbreviations: Water temperature (W-temp), Biochemical oxygen demand (BOD), Chemical oxygen demand (COD), Suspended solids (SS), Total nitrogen (T-N), Total phosphorus (T-P), and Total coliforms (TC)</p>
+</div>
+</div>
+</div>
+<div class="table-wrap panel" style="display: float; clear: both; overflow-x: auto;">
+<h5 class="label" style="margin:0px 0px 0px 0px;">Table 3.</h5>
+<a id="t3-KSEE-2024-46-3-111"><!-- named anchor --></a><div class="caption"><div class="first" id="idm140468204857104">The prediction accuracy of two benchmark deep learning algorithms (CNN and LSTM) for two dependent variables (discharge and BOD) in terms of MSE.</div></div>
+<table rules="groups" frame="hsides">
+<a id="idm140468204856496"><!-- named anchor --></a><thead>
+<a id="idm140468204855568"><!-- named anchor --></a><tr>
+<a id="idm140468204855408"><!-- named anchor --></a><th align="center" valign="middle" rowspan="2">
+<a id="idm140468204855088"><!-- named anchor --></a>Wastewater treatment plants</th>
+<th align="center" valign="middle" colspan="2">
+<a id="idm140468204853680"><!-- named anchor --></a>Discharge<hr class="hr">
+</th>
+<th align="center" valign="middle" colspan="2">
+<a id="idm140468204852128"><!-- named anchor --></a>BOD<hr class="hr">
+</th>
+</tr>
+<tr>
+<a id="idm140468204850576"><!-- named anchor --></a><th align="center" valign="middle">
+<a id="idm140468204850256"><!-- named anchor --></a>CNN</th>
+<th align="center" valign="middle">
+<a id="idm140468204849168"><!-- named anchor --></a>LSTM</th>
+<th align="center" valign="middle">
+<a id="idm140468204848080"><!-- named anchor --></a>CNN</th>
+<th align="center" valign="middle">
+<a id="idm140468204846992"><!-- named anchor --></a>LSTM</th>
+</tr>
+</thead>
+<tbody>
+<a id="idm140468204845744"><!-- named anchor --></a><tr>
+<a id="idm140468204845424"><!-- named anchor --></a><td valign="top" align="center">
+<a id="idm140468204845104"><!-- named anchor --></a>Jinju</td>
+<td valign="top" align="center">
+<a id="idm140468204844016"><!-- named anchor --></a>0.0276</td>
+<td valign="top" align="center">
+<a id="idm140468204842928"><!-- named anchor --></a>0.0162</td>
+<td valign="top" align="center">
+<a id="idm140468204841840"><!-- named anchor --></a>0.0754</td>
+<td valign="top" align="center">
+<a id="idm140468204840752"><!-- named anchor --></a>0.0559</td>
+</tr>
+<tr>
+<a id="idm140468204839504"><!-- named anchor --></a><td valign="top" align="center">
+<a id="idm140468204839184"><!-- named anchor --></a>Cheongju</td>
+<td valign="top" align="center">
+<a id="idm140468204838096"><!-- named anchor --></a>0.0278</td>
+<td valign="top" align="center">
+<a id="idm140468204837008"><!-- named anchor --></a>0.0337</td>
+<td valign="top" align="center">
+<a id="idm140468204835920"><!-- named anchor --></a>0.0366</td>
+<td valign="top" align="center">
+<a id="idm140468204834832"><!-- named anchor --></a>0.0371</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="table-wrap panel" style="display: float; clear: both; overflow-x: auto;">
+<h5 class="label" style="margin:0px 0px 0px 0px;">Table 4.</h5>
+<a id="t4-KSEE-2024-46-3-111"><!-- named anchor --></a><div class="caption"><div class="first" id="idm140468204831696">The prediction accuracy of two benchmark algorithms (CNN and LSTM) with two different transfer learning approaches (Cases A and B) for two dependent variables (discharge and BOD) in terms of MSE.</div></div>
+<table rules="groups" frame="hsides">
+<a id="idm140468204831040"><!-- named anchor --></a><thead>
+<a id="idm140468204830112"><!-- named anchor --></a><tr>
+<a id="idm140468204829952"><!-- named anchor --></a><th align="center" valign="middle" rowspan="2">
+<a id="idm140468204829632"><!-- named anchor --></a>Wastewater treatment plants</th>
+<th align="center" valign="middle" rowspan="2">
+<a id="idm140468204828224"><!-- named anchor --></a>Transfer learning approaches</th>
+<th align="center" valign="middle" colspan="2">
+<a id="idm140468204826816"><!-- named anchor --></a>Discharge<hr class="hr">
+</th>
+<th align="center" valign="middle" colspan="2">
+<a id="idm140468204825264"><!-- named anchor --></a>BOD<hr class="hr">
+</th>
+</tr>
+<tr>
+<a id="idm140468204823712"><!-- named anchor --></a><th align="center" valign="middle">
+<a id="idm140468204823392"><!-- named anchor --></a>CNN</th>
+<th align="center" valign="middle">
+<a id="idm140468204822304"><!-- named anchor --></a>LSTM</th>
+<th align="center" valign="middle">
+<a id="idm140468204821216"><!-- named anchor --></a>CNN</th>
+<th align="center" valign="middle">
+<a id="idm140468204820128"><!-- named anchor --></a>LSTM</th>
+</tr>
+</thead>
+<tbody>
+<a id="idm140468204818880"><!-- named anchor --></a><tr>
+<a id="idm140468204818560"><!-- named anchor --></a><td valign="middle" align="center" rowspan="2">
+<a id="idm140468204818240"><!-- named anchor --></a>Jinju</td>
+<td valign="middle" align="center">
+<a id="idm140468204816848"><!-- named anchor --></a>Case A</td>
+<td valign="middle" align="center">
+<a id="idm140468204815760"><!-- named anchor --></a>0.0133</td>
+<td valign="middle" align="center">
+<a id="idm140468204814672"><!-- named anchor --></a>0.0146</td>
+<td valign="middle" align="center">
+<a id="idm140468204813584"><!-- named anchor --></a>0.0168</td>
+<td valign="middle" align="center">
+<a id="idm140468204812496"><!-- named anchor --></a>0.0195</td>
+</tr>
+<tr>
+<a id="idm140468204811248"><!-- named anchor --></a><td valign="middle" align="center">
+<a id="idm140468204810928"><!-- named anchor --></a>Case B</td>
+<td valign="middle" align="center">
+<a id="idm140468204809840"><!-- named anchor --></a>0.0137</td>
+<td valign="middle" align="center">
+<a id="idm140468204808752"><!-- named anchor --></a>0.0145</td>
+<td valign="middle" align="center">
+<a id="idm140468204807664"><!-- named anchor --></a>0.0168</td>
+<td valign="middle" align="center">
+<a id="idm140468204806576"><!-- named anchor --></a>0.0205</td>
+</tr>
+<tr>
+<a id="idm140468204805328"><!-- named anchor --></a><td valign="middle" align="center" rowspan="2">
+<a id="idm140468204805008"><!-- named anchor --></a>Cheongju</td>
+<td valign="middle" align="center">
+<a id="idm140468204803616"><!-- named anchor --></a>Case A</td>
+<td valign="middle" align="center">
+<a id="idm140468204802528"><!-- named anchor --></a>0.0132</td>
+<td valign="middle" align="center">
+<a id="idm140468204801440"><!-- named anchor --></a>0.0151</td>
+<td valign="middle" align="center">
+<a id="idm140468204800352"><!-- named anchor --></a>0.0212</td>
+<td valign="middle" align="center">
+<a id="idm140468204799264"><!-- named anchor --></a>0.0245</td>
+</tr>
+<tr>
+<a id="idm140468204798016"><!-- named anchor --></a><td valign="middle" align="center">
+<a id="idm140468204797696"><!-- named anchor --></a>Case B</td>
+<td valign="middle" align="center">
+<a id="idm140468204796608"><!-- named anchor --></a>0.0131</td>
+<td valign="middle" align="center">
+<a id="idm140468204795520"><!-- named anchor --></a>0.0195</td>
+<td valign="middle" align="center">
+<a id="idm140468204794432"><!-- named anchor --></a>0.0211</td>
+<td valign="middle" align="center">
+<a id="idm140468204793344"><!-- named anchor --></a>0.0240</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="back-section">
+<a id="idm140468196354304"><!-- named anchor --></a><div class="section ref-list">
+<a id="idm140468196354304"><!-- named anchor --></a><h3 class="main-title">References</h3>
+<div class="ref-list table">
+<div id="b1-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">1. A. Marin-Ramirez, T. Mahoney, T. Smith, R. H. Holm, Predicting wastewater treatment plant influent in mixed, separate, and combined sewers using nearby surface water discharge for better wastewater-based epidemiology sampling design, Science of The Total Environment., 906, 167375(2024).<br/> <a href='https://doi.org/10.1016/j.scitotenv.2023.167375' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a> <br/></div>
+<div id="b2-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">2. K. H.. Park, B. J.. Kang, J. C.. Kim, I. H.. Choi, Feasibility Study on Statistical Consideration of Effluent Quality Limits in Sewage Treatment Plants, Journal of Korean Society of Water and Wastewater., 24(3), 253-264(2010).<br/><br/></div>
+<div id="b3-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">3. A. L.. Karn, S.. Pandya, A.. Mehbodniya, F.. Arslan, D. K.. Sharma, K.. Phasinam, ..., S.. Sengan, An integrated approach for sustainable development of wastewater treatment and management system using IoT in smart cities, Soft Computing., 27, 5159-5175(2023).<br/> <a href='https://doi.org/10.1007/s00500-021-06244-9' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='https://link.springer.com/content/pdf/10.1007/s00500-021-06244-9.pdf' target='_blank'><img src='/image/icon/bnr_ref_pdf.gif' alt='pdf' border='0'/></a> <br/></div>
+<div id="b4-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">4. W.. Liu, S.. He, J.. Mou, T.. Xue, H.. Chen, W.. Xiong, Digital twins-based process monitoring for wastewater treatment processes, Reliability Engineering &amp; System Safety., 238, 109416(2023).<br/> <a href='https://doi.org/10.1016/j.ress.2023.109416' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a> <br/></div>
+<div id="b5-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">5. J.. Yu, Y.. Tian, H.. Jing, T.. Sun, X.. Wang, C. B.. Andrews, C.. Zheng, Predicting regional wastewater treatment plant discharges using machine learning and population migration big data, ACS ES&amp;T Water., 3(5), 1314-1328(2023).<br/> <a href='https://doi.org/10.1021/acsestwater.2c00639' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='https://pubs.acs.org/doi/pdf/10.1021/acsestwater.2c00639' target='_blank'><img src='/image/icon/bnr_ref_pdf.gif' alt='pdf' border='0'/></a> <br/></div>
+<div id="b6-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">6. F.-J.. Chang, L.-s.. Kao, Y.-M.. Kuo, C.-W.. Liu, Artificial neural networks for estimating regional arsenic concentrations in a blackfoot disease area in taiwan, Journal of hydrology., 388(1-2), 65-76(2010).<br/> <a href='https://doi.org/10.1016/j.jhydrol.2010.04.029' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a> <br/></div>
+<div id="b7-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">7. L.. Li, P.. Jiang, H.. Xu, G.. Lin, D.. Guo, H.. Wu, Water quality prediction based on recurrent neural network and improved evidence theory: a case study of qiantang river, china, Environmental Science and Pollution Research., 26(19), 19879-19896(2019).<br/> <a href='https://doi.org/10.1007/s11356-019-05116-y' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='http://link.springer.com/content/pdf/10.1007/s11356-019-05116-y.pdf' target='_blank'><img src='/image/icon/bnr_ref_pdf.gif' alt='pdf' border='0'/></a> <br/></div>
+<div id="b8-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">8. Y.. Jiang, C.. Li, Y.. Zhang, R.. Zhao, K.. Yan, W.. Wang, Data-driven method based on deep learning algorithm for detecting fat, oil, and grease (fog) of sewer networks in urban commercial areas, Water Research., 207, 117797(2021).<br/> <a href='https://doi.org/10.1016/j.watres.2021.117797' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a> <br/></div>
+<div id="b9-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">9. N.. Farhi, E.. Kohen, H.. Mamane, Y.. Shavitt, Prediction of wastewater treatment quality using LSTM neural network, Environmental Technology &amp; Innovation., 23, 101632(2021).<br/> <a href='https://doi.org/10.1016/j.eti.2021.101632' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a> <br/></div>
+<div id="b10-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">10. Q.. Zou, Q.. Xiong, Q.. Li, H.. Yi, Y.. Yu, C.. Wu, A water quality prediction method based on the multi-time scale bidirectional long short-term memory network, Environmental Science and Pollution Research., 27(14), 16853-16864(2020).<br/> <a href='https://doi.org/10.1007/s11356-020-08087-7' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='http://link.springer.com/content/pdf/10.1007/s11356-020-08087-7.pdf' target='_blank'><img src='/image/icon/bnr_ref_pdf.gif' alt='pdf' border='0'/></a> <br/></div>
+<div id="b11-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">11. Y.. Yu, X.. Si, C.. Hu, J.. Zhang, A review of recurrent neural networks: lstm cells and network architectures, Neural Computation., 37(7), 1235-1270(2019).<br/> <a href='https://doi.org/10.1162/neco_a_01199' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a> <br/></div>
+<div id="b12-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">12. Y.. Yang, Q.. Xiong, C.. Wu, Q.. Zou, Y.. Yu, H.. Yi, M.. Gao, A study on water quality prediction by a hybrid CNN-LSTM model with attention mechanism, Environmental Science and Pollution Research., 28(39), 55129-55139(2021).<br/> <a href='https://doi.org/10.1007/s11356-021-14687-8' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='https://link.springer.com/content/pdf/10.1007/s11356-021-14687-8.pdf' target='_blank'><img src='/image/icon/bnr_ref_pdf.gif' alt='pdf' border='0'/></a> <br/></div>
+<div id="b13-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">13. S.. Minami, S.. Liu, S.. Wu, K.. Fukumizu, R.. Yoshida, A general class of transfer learning regression without implementation cost, In Proceedings of the AAAI Conference on Artificial Intelligence., 35(10), 8992-8999(2021).<br/> <a href='https://doi.org/10.1609/aaai.v35i10.17087' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='https://ojs.aaai.org/index.php/AAAI/article/download/17087/16894' target='_blank'><img src='/image/icon/bnr_ref_pdf.gif' alt='pdf' border='0'/></a> <br/></div>
+<div id="b14-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">14. K.. Weiss, T. M.. Khoshgoftaar, D.. Wang, A survey of transfer learning, Journal of Big data., 3, 1-40(2016).<br/> <a href='https://doi.org/10.1186/s40537-016-0043-6' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a>  <a href='http://link.springer.com/content/pdf/10.1186/s40537-016-0043-6.pdf' target='_blank'><img src='/image/icon/bnr_ref_pdf.gif' alt='pdf' border='0'/></a> <br/></div>
+<div id="b15-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">15. M.. Lv, Y.. Li, L.. Chen, T.. Chen, Air quality estimation by exploiting terrain features and multi-view transfer semi-supervised regression, Information Sciences., 483, 82-95(2019).<br/> <a href='https://doi.org/10.1016/j.ins.2019.01.038' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a> <br/></div>
+<div id="b16-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">16. J.. Ma, Z.. Li, J. C.. Cheng, Y.. Ding, C.. Lin, Z.. Xu, Air quality prediction at new stations using spatially transferred bi-directional long short-term memory network, Science of The Total Environment., 705, 135771(2020).<br/> <a href='https://doi.org/10.1016/j.scitotenv.2019.135771' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a> <br/></div>
+<div id="b17-KSEE-2024-46-3-111" name="jats-ref-pub" class="ref_layer">17. R.. Ye, Q.. Dai, A relationship-aligned transfer learning algorithm for time series forecasting, Information Sciences., 593, 17-34(2022).<br/> <a href='https://doi.org/10.1016/j.ins.2022.01.071' target='_blank'><img src='/image/icon/bnr_ref_cross.gif' alt='crossref' border='0'/></a> <br/></div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+<div id="inThisPage" style="padding-top:0px;padding-left:0px;display:none;"></div></div><script type="text/javascript">
+<!--
+function _ajax(url, data, func, sync, type) {
+	var xmlhttp = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+	xmlhttp.onreadystatechange = function() {
+		if (xmlhttp.readyState == 4) func(xmlhttp.responseText, xmlhttp.status == 200);
+	};
+	xmlhttp.open(type ? type : 'POST', url, !sync ? true : false);
+	xmlhttp.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+	xmlhttp.send(data);
+}
+jColor = "#0072BC";
+$(function () {
+	abs_flag = true;
+	if($("#__abstract").html()) {
+		$("#inThisPage").append("<div style='border-bottom:1px dotted silver;padding:5px 0px;'><a href='#__abstract' style='text-decoration:none;'>Abstract</a></div>");
+		abs_flag = false;
+	}
+	var len = $(".main-title").size();
+	for(var i  = 0; i < len; i++) {
+		if($(".main-title").eq(i).html()) {
+			$(".main-title").eq(i).attr("id", "__sec"+i+"title");
+			if(i == len-1) {
+				$("#inThisPage").append("<div style='padding:5px 0px;'><a href='#__sec"+i+"title' style='text-decoration:none;'>"+$(".main-title").eq(i).html()+"</a></div>");
+			} else {
+				$("#inThisPage").append("<div style='border-bottom:1px dotted silver;padding:5px 0px;'><a href='#__sec"+i+"title' style='text-decoration:none;'>"+$(".main-title").eq(i).html()+"</a></div>");
+			}
+		}
+	}
+
+	// insert goto buttons
+	{ 
+		var html = "<div onclick='openITP(this, false);' style='color:"+jColor+";position:absolute;text-align:right;top:0;right:0;cursor:pointer;'>Go to : <img src='/image/button/goto.gif' alt='Goto' title='Goto' border='0' align='bottom'/><div class='ITPArrow' style=\"display:none;width:0;height:0;border:5px solid transparent;border-top-color:"+jColor+";border-bottom-color:"+jColor+";border-bottom-width:0;\"></div></div>";
+
+		var sc = $(".abstract-layer");
+		sc.css('position','relative');
+		sc.append(html);
+		
+		var size1 = $(".body > .section").size();
+		for(var i = 0; i < size1; i++) {
+			var sc = $(".body > .section").eq(i);
+			if($(".body > .section:eq("+i+") .main-title").html()) {
+				sc.css('position','relative');
+				sc.append(html);
+			}
+		}
+		var size2 = $(".back > .back-section").size();
+		for(var i = 0; i < size2; i++) {
+			var sc = $(".back > .back-section").eq(i);
+			sc.css('position','relative');
+			sc.append(html);
+		}
+	}
+	/*
+	_ajax("/cited/getCitedBy.php", "doi=10.4491/KSEE.2024.46.3.111", function(s,f) {
+		if(!s.indexOf('OK')) {
+			s = s.split(':');
+			if(s[1] > 0) {
+				$("#cited_wrap").css("display","block");
+				$(".CitedNum a").eq(0).html(s[1]);
+			}
+		}
+	});
+	*/
+});
+$("#body").click(function() {if(new_node_obj)openITP(null, true);});
+var new_node = null, new_node_see = false, new_node_obj = null;
+function openITP(o, f) {
+	if(new_node_see || f) {
+		new_node_see = false;
+		$(".newITP").css("display","none");
+		$(".ITPArrow").css("border-bottom-width", "0");
+		$(".ITPArrow").css("border-top-width", "5px");
+		if(new_node_obj != o && !f) openITP(o, false);
+	} else {
+		event.cancelBubble = true;       //for IE
+		if(event.stopPropagation) event.stopPropagation();
+		new_node_obj = o;
+		if(!new_node) {
+			new_node = inThisPage.cloneNode(true);
+			o.appendChild(new_node);
+			new_node.className='newITP';
+			$(".newITP").css("position","absolute");
+			$(".newITP").css("background","#fff");
+			$(".newITP").css("border-radius","7px");
+			$(".newITP").css("padding","5px");
+			$(".newITP").css("text-align","left");
+			$(".newITP").css("white-space","nowrap");
+			$(".newITP").css("z-index","999");
+		}
+		$(".newITP").css("display","block");
+		$(".ITPArrow").css("border-bottom-width", "0");
+		$(".ITPArrow").css("border-top-width", "5px");
+		o.appendChild(new_node);
+		$(".newITP").prev().css("border-bottom-width", "5px");
+		$(".newITP").prev().css("border-top-width", "0");
+		new_node_see = true;
+	}
+}
+// Array에 inArray 메서드 추가
+Array.prototype.inArray = function(obj) {
+	if(this==null) return false;
+	for (var i = 0, length = this.length; i < length; i++)
+		if (this[i] == obj) return true;
+	return false;
+};
+Array.prototype.indexOf = function(obj) {
+	if(this==null) return -1;
+    for (var i = 0, length = this.length; i < length; i++)
+        if (this[i] == obj) return i;
+    return -1;
+};
+
+// 팝업 레이어 관리
+	function getPopupLayer() {
+		var POPUP = {
+			lr : null,
+			ot : 0,
+			ol : 0,
+			show : function () {
+				if(this.lr) return this. lr;
+				var w;
+				w = document.getElementById("article-body").appendChild(document.createElement("div"));
+				ot = document.getElementById("article-body").offsetTop;
+				ol = document.getElementById("article-body").offsetLeft;
+				this. lr = w;
+				with(w.style) {
+					background = "#ffffff";
+					position = "absolute";
+					cursor = "pointer";
+					borderColor = "#1381ce";
+					padding = "10px";
+					margin = "0px";
+					border = "2px solid #d0d0d0";
+					clear = "both";
+					zIndex = "99";
+				};
+				return w;
+			},
+			hide : function () {
+				if(!this.lr) return;
+				this.lr.parentNode.removeChild(this.lr);
+				this.lr = null;
+			},
+			resize : function (w, h) {
+				if(!this.lr) return;
+				this.lr.style.width = w==0?"":(w+"px");
+				this.lr.style.height = h==0?"":(h+"px");
+			},
+			moveTo : function (x, y) {
+				if(!this.lr) return;
+				this.lr.style.left = x-2+"px";
+				this.lr.style.top = y-14+"px";
+			},
+			setHTML : function (html) {
+				if(!this.lr) return;
+				this.lr.innerHTML = html;
+			}
+		};
+		return POPUP;
+	}
+
+	var popup = new getPopupLayer();
+
+// 레퍼런스 마우스오버 이벤트 추가
+	var bibrLink = document.getElementsByName("bibrLink");
+	var rLen = bibrLink.length;
+	for(var i = 0; i < rLen; i++) {
+		bibrLink[i].onmouseover = function() {
+			var referId = this.getAttribute("href").split("#")[1];
+			var referElement = document.getElementById(referId);/*.parentNode;
+			var referText = referElement.firstChild.textContent + ". ";
+			referElement = referElement.parentNode;
+			while(referElement = referElement.nextSibling) if(referElement.nodeName=="DIV") break;*/
+			referText = referElement.textContent;
+			var ll = popup.show();
+			ll.onmouseout = function () {
+				popup.hide();
+			};
+			popup.resize(400, 0);
+			var bd = document.body.firstChild;
+			do {
+				if(bd.nodeName=="DIV") {
+					bd = bd.offsetLeft;
+					break;
+				}
+			} while(bd = bd.nextSibling) 
+			var scrollLeft = document.documentElement.scrollLeft | document.body.scrollLeft;
+			var scrollTop = document.documentElement.scrollTop | document.body.scrollTop;
+			popup.moveTo(this.getBoundingClientRect().left+scrollLeft-10, this.getBoundingClientRect().top+scrollTop);
+			
+			popup.setHTML(referText);
+
+			ll.setAttribute("title", referId); 
+			
+			ll.onclick = function () {
+				//location.href = "#"+this.title;
+				event.preventDefault();
+				var target = $("#"+this.title);
+				var header_height = $('.headerWrap').height()+20;
+				var offset_top = target.offset().top - header_height; 
+	
+				$('html, body').animate({scrollTop: offset_top}, 1);
+			};
+		};
+	}
+
+window.name = "0337_4506";
+
+// 피겨를 문단 사이에 끼워넣기
+	var figureArr = new Array();
+	var figLink = document.getElementsByName("figLink");
+	var fLen = figLink.length;
+
+	for(var i = 0; i < fLen; i++) {
+		var clsName = figLink[i].className;
+		if(!figureArr.inArray(clsName)) {
+			try {
+			figureArr.push(clsName);
+			var figureId = figLink[i].getAttribute("href").split("#")[1];
+			var figureElement = document.getElementById(figureId).parentNode;
+			figLink[i].parentNode.appendChild(figureElement);
+			var dLink = document.createElement("P");
+			dLink.setAttribute("align", "right");
+			dLink.innerHTML = "<a href=\"./Figure.php?xn=KSEE-2024-46-3-111.xml&id="+figureId+"&mode=export\"><img src=\"/image/icon/down_figure.gif\" align=\"bottom\" alt=\"Download Figure\" title=\"Download Figure\" border=\"0\"/></a>";
+			figureElement.appendChild(dLink);
+			} catch (e) { }
+		}
+	}
+
+// 앱 피겨 다운로드
+	$(".app img").each(function( index ) {
+		  var figureId = $(this).parent().find("a").eq(0).attr("id");
+		  $(this).after("<p align=\"right\"><a href=\"./Figure.php?xn=KSEE-2024-46-3-111.xml&id="+figureId+"&mode=export\"><img src=\"/image/icon/down_figure.gif\" align=\"bottom\" alt=\"Download Figure\" title=\"Download Figure\" border=\"0\"/></a></p>");
+	});
+
+// 테이블을 문단 사이에 끼워넣기
+	var tableArr = new Array();
+	var tableLink = document.getElementsByName("tableLink");
+	var tLen = tableLink.length;
+	for(var i = 0; i < tLen; i++) {
+		var clsName = tableLink[i].className;
+		if(!tableArr.inArray(clsName)) {
+			try {
+			tableArr.push(clsName);
+			var tableId = tableLink[i].getAttribute("href").split("#")[1];
+			if(/^t[0-9]+a/.test(tableId)) continue;
+			var tableElement = document.getElementById(tableId).parentNode;
+			if(tableElement.getElementsByTagName('TABLE')[0]) {
+				tableElement.getElementsByTagName('TABLE')[0].onclick = function () {
+					var chd = this.parentNode.firstChild;
+					while(!chd.id) {
+						chd = chd.nextSibling;
+					}
+					var tid = chd.id;
+					window.open("/journal/Table.php?xn=KSEE-2024-46-3-111.xml&id="+tid+"&number=4506&p_name="+window.name, "tableView", "width=800,height=600,scrollbars=yes");
+				};
+				var dLink = document.createElement("P");
+				dLink.setAttribute("align", "right");
+				dLink.innerHTML = "<a href=\"./Table.php?xn=KSEE-2024-46-3-111.xml&id="+tableId+"&mode=export\"><img src=\"/image/icon/down_table.gif\" border=\"0\" alt=\"Download Table\" title=\"Download Table\"></a>";
+				tableElement.appendChild(dLink);
+			} else {
+				tableElement.onclick = function () {
+					var chd = this.firstChild;
+					while(!chd.id) {
+						chd = chd.nextSibling;
+					}
+					var tid = chd.id;
+					window.open("/journal/Table.php?xn=KSEE-2024-46-3-111.xml&id="+tid+"&number=4506&p_name="+window.name, "tableView", "width=800,height=600,scrollbars=yes");
+				};
+			}
+			tableLink[i].parentNode.appendChild(tableElement);			
+			} catch (e) { }
+		}
+	}
+
+	function layoutFix() {
+		/*$(".artCat").html(" : "+$(".artCat").html());*/
+		
+		var div = document.getElementsByTagName("DIV");
+		for(var i = 0; i < div.length; i++)
+		if(div[i].className == "ref_layer") {
+			if(/^[^0-9]/.test(div[i].textContent)) {
+				div[i].style.padding = "0px 0px 0px 30px";
+				div[i].style.textIndent = "-30px";
+			}
+		} else if(div[i].className == "fig panel") {
+			var aid, img, h5, cap, dp;
+			var fc = div[i].firstChild;
+			do {
+				if(fc.nodeName == "A") aid = fc.outerHTML;
+				if(fc.nodeName == "IMG") img = fc.outerHTML;
+				if(fc.nodeName == "H5") h5 = fc.outerHTML;
+				if(fc.nodeName == "P") dp = fc.outerHTML;
+				if(fc.nodeName == "DIV" && fc.className == "caption") cap = fc.outerHTML;
+			}while(fc = fc.nextSibling);
+			var nHTML;
+			if(!h5 && !cap) {
+				nHTML = aid+"<CENTER>"+img+"</CENTER>";
+			} else {
+				nHTML = aid+"<TABLE><TR><TD width='30%'>"+img+"</TD><TD valign='top' style='padding-left:10px;'>"+h5+cap+dp+"</TD></TR></TABLE>";
+			}
+			div[i].innerHTML = nHTML;
+			div[i].getElementsByTagName('IMG')[0].onclick = function () {
+				var chd = this.parentNode;
+				while(chd.className != "fig panel") chd = chd.parentNode;
+				chd = chd.firstChild;
+				while(!chd.id) {
+					chd = chd.nextSibling;
+				}
+				var fid = chd.id;
+				window.open("/journal/Figure.php?xn=KSEE-2024-46-3-111.xml&id="+fid+"&number=4506&p_name="+window.name, "figureView","width=1000,height=1000,scrollbars=yes");
+			};
+		}
+		
+		$(".panel").css("margin-bottom","25px");
+
+
+		$('a[href*="#"]:not([href="#"])').click(function() {
+			event.preventDefault();
+			var target = $(this.hash);
+			var header_height = $('.headerWrap').height()+20;
+			var offset_top = target.offset().top - header_height; 
+
+			$('html, body').animate({scrollTop: offset_top}, 1);
+		});
+	}
+	var ll = $("a[target='xrefwindow']");
+	for(var i = 0; i < ll.size(); i++) {
+		if(ll.eq(i).attr("href").indexOf("https://")==-1){
+			if(ll.eq(i).attr("href").indexOf("http://")==-1){
+				ll.eq(i).attr("href","http://"+ll.eq(i).attr("href"));
+			}
+		}
+	}
+	setTimeout("layoutFix()", 1);
+//-->
+</script>
+
+</div>
+
+</td>
+
+<td width="195" id="rightBar" valign="top" style="background:url('/image/left_bg.gif') left top repeat-y;">
+
+	<div style="width: 174px; margin: auto; padding:0px 10px 50px 10px;" class="aside">
+
+		
+			<table width="174" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td style="padding-top:30px;padding-left:10px;padding-bottom:10px" class="PubTool">TOOLS</td>
+			</tr>
+
+
+						<tr>
+				<td style="padding-left:10px;"><img src="/image/left_dotline.gif"></td>
+			</tr>
+
+			<tr>
+				<td style="padding-left:10px;padding-top:6px"><a style='cursor: pointer;' onclick='journal_download("pdf", "4506", "KSEE-2024-46-3-111.pdf")'><img src="/image/icon/pdf.gif" alt="PDF Links" border="0" class="vertical_middle"/>&nbsp;&nbsp;<font class='PubLink'>PDF Links</font></a>				</td>
+			</tr>
+
+						<tr>
+				<td style="padding-left:10px;padding-top:6px"><img src="/image/left_dotline.gif"></td>
+			</tr>
+
+			<tr>
+				<td style="padding-left:10px;padding-top:6px">
+					<a href="view.php?viewtype=pubreader&number=4506"><img src="/image/icon/pubreader.gif" alt="PubReader" border="0" class="vertical_middle"/>&nbsp;&nbsp;<font class='PubLink'>PubReader</font></a>				</td>
+			</tr>
+			
+			<tr>
+				<td style="padding-left:10px;padding-top:6px"><img src="/image/left_dotline.gif"></td>
+			</tr>
+
+							<tr>
+					<td style="padding-left:12px;padding-top:6px">
+						<a style='cursor: pointer;' onclick='journal_download("epub", "4506", "path=L2hvbWUvdmlydHVhbC9lZWVyL2stam91cm5hbC91cGxvYWQvcGRmLy4uL2VwdWIva3NlZS00NTA2LmVwdWI=&filename=a3NlZS00NTA2LmVwdWI=")'><img src="/image/icon_ePub.gif" alt="ePub Link" border="0" class="vertical_middle"/>&nbsp;&nbsp;<font class='PubLink'>ePub Link</font></a>					</td>
+				</tr>
+				<tr>
+					<td style="padding-left:10px;padding-top:6px"><img src="/image/left_dotline.gif"></td>
+				</tr>
+			
+			<tr>
+				<td style="padding-left:10px;padding-top:6px"><a href="https://doi.org/10.4491/KSEE.2024.46.3.111"><img src="/image/icon/doi.gif" alt="Full text via DOI" border="0" class="vertical_middle"/>&nbsp;&nbsp;<font class='PubLink'>Full text via DOI</font></a>				</td>
+			</tr>
+
+			
+			<tr>
+				<td style="padding-left:10px;padding-top:6px"><img src="/image/left_dotline.gif"></td>
+			</tr>
+
+			<tr>
+				<td style="padding-left:10px;padding-top:6px"><a onclick="window.open('/journal/CitationForm.php?number=4506','CitationDownload','width=800,height=600,scrollbars=yes')" style="cursor:pointer"><img src="/image/icon/citation.gif" alt="Download Citation" border=0 class="vertical_middle"/>&nbsp;&nbsp;<font class='PubLink'>Download Citation </font></a>
+				</td>
+			</tr>
+			
+
+
+			<tr>
+				<td style="padding-left:10px;padding-top:6px"><img src="/image/left_dotline.gif"></td>
+			</tr>
+			
+			
+			
+
+			<!--tr>
+				<td style="padding-left:10px;padding-top:6px"><a href="mailto:seojinki@gnu.ac.kr"><img src="/image/icon/mail.gif" border=0 class="vertical_middle">&nbsp;&nbsp;<font class='PubLink'>E-Mail  </font></a>
+				</td>
+			</tr>
+
+			<tr>
+				<td style="padding-left:10px;padding-top:6px"><img src="/image/left_dotline.gif"></td>
+			</tr-->
+
+
+			
+			
+
+
+						<tr>
+				<td style="padding-left:10px;padding-top:6px"><img src="/image/left_dotline.gif"></td>
+			</tr>
+
+
+			<tr>
+				<td style="padding-left:10px;padding-top:6px"><a href="javascript:window.print();"><img src="/image/icon/print_icon.png" border=0 class="vertical_middle">&nbsp;&nbsp;<font class='PubLink'>Print  </font></a>
+				</td>
+			</tr>
+						
+
+			
+
+			<!--- SNS Share -->
+			<tr>
+				<td style="padding-left:10px;padding-top:6px">
+				Share: <a href="http://www.facebook.com/sharer.php?u=%0Dhttp%3A%2F%2Fjksee.or.kr%2Fjournal%2Fview.php%3Fdoi%3D10.4491%2FKSEE.2024.46.3.111&t=Assessing the Performance of Deep Learning Algorithms With and Without Transfer Learning in Similar or Identical Wastewater Treatment Processes" onclick="window.open(this.href, 'Facebook', 'width=800,height=500,scrollbars=yes');return false;"><img src="/image/facebook_icon.png" border=0 style="width:16px;" class="vertical_middle" title="Facebook"></a>&nbsp;
+
+
+				<a href="https://x.com/intent/post?url=%0Dhttp%3A%2F%2Fjksee.or.kr%2Fjournal%2Fview.php%3Fdoi%3D10.4491%2FKSEE.2024.46.3.111&text=Assessing+the+Performance+of+Deep+Learning+Algorithms+With+and+Without+Transfer+Learning+in+Similar+or+Identical+Wastewater+Treatment+Processes" onclick="window.open(this.href, 'Twitter', 'width=750,height=500,scrollbars=yes');return false;"><img src="/image/Twitter_icon.png" border=0 style="width:16px;" class="vertical_middle" title="Twitter"></a>&nbsp;
+				
+				<a href="https://www.linkedin.com/shareArticle?mini=true&url=%0Dhttp%3A%2F%2Fjksee.or.kr%2Fjournal%2Fview.php%3Fdoi%3D10.4491%2FKSEE.2024.46.3.111&title=Assessing+the+Performance+of+Deep+Learning+Algorithms+With+and+Without+Transfer+Learning+in+Similar+or+Identical+Wastewater+Treatment+Processes" onclick="window.open(this.href, 'LinkedIn', 'width=750,height=500,scrollbars=yes');return false;"><img src="/image/Linkedin_icon.png" border=0 style="width:16px;" class="vertical_middle" title="LinkedIn"></a>&nbsp;
+
+				<a href="https://plus.google.com/share?url=http://jksee.or.kr/journal/view.php?doi=10.4491/KSEE.2024.46.3.111&t=Assessing+the+Performance+of+Deep+Learning+Algorithms+With+and+Without+Transfer+Learning+in+Similar+or+Identical+Wastewater+Treatment+Processes" onclick="window.open(this.href, 'Google', 'width=750,height=500,scrollbars=yes');return false;"><img src="/image/google_plus_icon.png" border=0 style="width:16px;" class="vertical_middle" title="Google+"></a>
+				</td>
+			</tr>
+			<tr>
+				<td style="padding-left:10px;padding-top:6px"><img src="/image/left_dotline.gif"></td>
+			</tr>
+
+			<tr>
+				<td style="padding-top:30px;padding-left:10px;padding-bottom:10px" class="PubTool">METRICS <a href="/metrics/metrics_down_ref.php?number=4506" onclick="window.open(this.href, 'Metrics View', 'width=710, height=800,scrollbars=yes');return false;" style="cursor:pointer;"><img src="/image/button/metrics_btn.png" border=0 title="More information" class="vertical_middle" style="padding-left:5px;"></a></td>
+			</tr>
+			
+			<tr>
+				<td style="padding-left:10px;padding-top:0px;">
+				<table border=0 cellpadding=0 cellspacing=0 style="border:1px solid #cecece;">
+
+				<tr>
+					<td>
+						
+						<table border=0 style="width:75px;height:50px;background-color:#F2F3F8;color:#FFFFFF;border:0px;border-color:#C2C2C2;padding:4px;border-radius:3px;">
+						<tr>
+							<td  align="center" style="color:#324C96;font-size:14pt;font-weight:bold;">
+								0							</td>
+						</tr>
+						
+						<tr>
+							<td align="center" style="color:#666769;font-size:9pt;">Crossref</td>
+						</tr>
+						</table>
+						
+					</td>
+
+					<td style="background-color:#F2F3F8;">
+
+						<!-- <table border=0 style="width:75px;height:50px;color:#FFFFFF;border:0px;border-color:#C2C2C2;border-left:1px solid #cecece;margin:4px;border-radius:3px;">
+						<tr>
+							<td  align="center" style="color:#324C96;font-size:14pt;font-weight:bold;">
+								<span id="scopus_citedval">0</span>							</td>
+						</tr>
+						
+						<tr>
+							<td align="center" style="color:#666769;font-size:9pt;">Scopus</td>
+						</tr>
+						</table> -->
+					</td>
+					</tr>
+					<tr>
+					<td style="border-top: solid 1px #CECECE">
+						<table border=0 style="width:75px;height:50px;background-color:#F2F3F8;color:#FFFFFF;border:0px;border-color:#C2C2C2;padding:4px;border-radius:3px;">
+						<tr>
+							<td  align="center" style="color:#324C96;font-size:14pt;font-weight:bold;">3,401</td>
+						</tr>
+						
+						<tr>
+							<td align="center" style="color:#666769;font-size:9pt;">View</td>
+						</tr>
+						</table>
+					</td>
+
+					<td style="background-color:#F2F3F8; border-top: solid 1px #CECECE">
+
+						<table border=0 style="width:75px;height:50px;color:#FFFFFF;border:0px;border-color:#C2C2C2;border-left:1px solid #cecece;margin:4px;border-radius:3px;">
+						<tr>
+							<td  align="center" style="color:#324C96;font-size:14pt;font-weight:bold;">
+								91							</td>
+						</tr>
+						
+						<tr>
+							<td align="center" style="color:#666769;font-size:9pt;">Download</td>
+						</tr>
+						</table>
+					</td>
+					</tr>					
+											 <tr>
+							<td align="center" colspan=2 style="padding-top:5px;padding-bottom:5px;background-color:#F2F3F8;border-top: solid 1px #CECECE">
+							<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+							<div class='altmetric-embed' -data-badge-type='medium-donut' -data-badge-details='right' data-doi='10.4491/KSEE.2024.46.3.111' onclick="blank_action()"></div>
+							</td>
+						</tr>
+										
+				</table>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<table width="174" border=0 cellpadding=0 cellspacing=0>
+						<tr>
+							<td class="bp8"></td>
+						</tr>
+												<tr>
+							<td style="border-bottom:1px solid black;font-weight: bold;">Related articles</td>
+						</tr>
+						<tr><td style="padding-left:2px;border-bottom:1px solid #cecece;padding-bottom:5px;font-size:9pt;" valign="top"><a href="/journal/view.php?number=4553">Restoration of the Performance of Membranes Fouled and Wetted in a Pilot-scale Membrane Distillation Process</a><font style="font-size:8pt;">&nbsp;&nbsp;2024 November;46(11)</font></td></tr>
+<tr><td style="padding-left:2px;border-bottom:1px solid #cecece;padding-bottom:5px;font-size:9pt;" valign="top"><a href="/journal/view.php?number=4490">Comparing the Performance of Machine Learning and Deep Learning Algorithms in Wastewater Treatment Process</a><font style="font-size:8pt;">&nbsp;&nbsp;2023 December;45(12)</font></td></tr>
+					</table>
+
+				</td>
+			</tr>
+			</table>
+
+		
+	</div>
+</td>
+
+
+		<!---------- RIGHT END ------------>
+
+
+		</td>
+	</tr>
+</table>
+
+	</td>
+</tr>
+</table>
+
+</div>
+<div class="footerWrap">
+
+	<table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" background="/image/copy_bg.gif">
+	<tr>	
+		<td style="padding-left:20px;" align="center">
+			<table border="0" cellpadding="0" cellspacing="0" width="980">
+				<tr>
+					<!-- <td align="left" style="padding-right:20px;" rowspan="2"><img src="/image/bottom_logo.gif" /></td> -->
+					<td style="padding-top:10px;color:#ffffff;line-height:140%;font-size:10pt;" align="left">
+					<B>Editorial Office</B><br/>
+						464 Cheongpa-ro, #726, Jung-gu, Seoul 04510, Republic of Korea<br/>
+						TEL : +82-2-383-9653&nbsp;&nbsp;&nbsp;FAX : +82-2-383-9654&nbsp;&nbsp;&nbsp;E-mail : <a href="mailto:ksee@kosenv.or.kr" style="color: inherit;">ksee@kosenv.or.kr</a>
+					</td>
+					<td width="400" align="right" valign="top" style="padding-top:5px">
+						<table border="0" width="100%"align="center">
+						<tr>
+							<td height=25 bgcolor="#BBBBBB" style="color:#ffffff;line-height:140%;font-size:8pt;" align="center">
+							<a href="/about/"><font color="#FFFFFF"><U>About</U></a>&nbsp;|&nbsp;
+							<a href="/articles/archive.php"><font color="#FFFFFF"><U>Browse Articles</U></a>&nbsp;|&nbsp;
+							<a href="/current/"><font color="#FFFFFF"><U>Current Issue</U></a>&nbsp;|&nbsp;
+							<a href="/authors/authors.php"><font color="#FFFFFF"><U>For Authors and Reviewers</U></a>
+							</td>
+						</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td style="color:#ffffff;line-height:160%;font-size:10pt;padding:10px 0px;" align="left" colspan="2">
+						Copyright &copy; Korean Society of Environmental Engineers.
+						
+						<script>
+							document.addEventListener('DOMContentLoaded', function() {
+								document.getElementById('view_mobile_site').addEventListener('click', function(event) {
+									event.preventDefault();
+									var url = '/journal/view.php?doi=10.4491/KSEE.2024.46.3.111';
+									document.cookie = "mobileView=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+									window.location.href = url;
+								});
+							});
+						</script>
+
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="https://www.m2-pi.com" target="_blank"><img src="https://www.m2-pi.com/images/developed_m2pi.png" style="vertical-align:middle;margin-top:2px;" alt="Developed in M2PI" /></a>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+</div>
+
+</body>
+</html>

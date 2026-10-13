@@ -1,0 +1,1285 @@
+{
+  "stage": "stage3f_evidence_gate_v1",
+  "generated_utc": "2026-10-13T06:21:49.938401+00:00",
+  "input_status": "WAITING_FOR_EXTERNAL_EVIDENCE",
+  "scope_limitation": "Finite inventory of actual attachment/material roots and repository metadata/document filenames; no claim about email accounts, inaccessible external drives or documents not uploaded to this workspace.",
+  "received_roots_scanned": [
+    "/workspace/attachments",
+    "/workspace/Wastewater_Paper/materials"
+  ],
+  "received_file_instances": 80,
+  "actual_attachment_files": 4,
+  "repository_copies_include_extracted_original_members": true,
+  "unique_received_content_sha256_count": 76,
+  "received_files": [
+    {
+      "path": "/workspace/attachments/6d579c29-6959-4215-9737-9f99a17543e3/Wastewater_Part3_Codex_Handoff.zip",
+      "bytes": 30226,
+      "sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original user attachment"
+    },
+    {
+      "path": "/workspace/attachments/b02a1275-d7c1-48dc-b4d4-c230711a8ec1/Wastewater_Part2_Derived.zip",
+      "bytes": 22844102,
+      "sha256": "bd9fe8cc879937903a191ec9d0d2aed385c211e51d74402126d0c9c0b740d55b",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original user attachment"
+    },
+    {
+      "path": "/workspace/attachments/e0abab83-c521-406e-8e3e-0d218773f23f/Wastewater_Part1_Plan_and_Raw.zip",
+      "bytes": 22422564,
+      "sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original user attachment"
+    },
+    {
+      "path": "/workspace/attachments/e35c84bb-f908-42ae-8dca-f9cfac5c21b1/paper idea.docx",
+      "bytes": 18060,
+      "sha256": "e698f0c07c3e73baf16c2b88d873675405443b2186dfe6746f55a50e33c818b1",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original user attachment"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/plan 2.0.docx",
+      "bytes": 43258,
+      "sha256": "dc067caa9cbbe2d258ea595d77dd43fdb38149a0afd59d8ad5f928d6062fe1ff",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/README_中文.md",
+      "bytes": 8023,
+      "sha256": "8fc33554f174a817343c1a92f4fe3b66d9777d2a9e17fd6f02042518db9c679e",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/SHA256SUMS.txt",
+      "bytes": 5262,
+      "sha256": "ff4e3384b90f8a6daa39f05f81e02e1718756bc83aac0b8ba49ea9267717af95",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/audit/hk_series_audit.csv",
+      "bytes": 660,
+      "sha256": "c4ee493ef8c76d8e53e11349785ad38e1e2096f8b05d8607aa93f943576bf2cb",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/audit/summary.json",
+      "bytes": 621,
+      "sha256": "7bd06da0c96382035d8924190f85a037d98a3d05689da4b0bd3fd97226cabe49",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/audit/wessex_duplicate_records.csv",
+      "bytes": 587,
+      "sha256": "5245301e520ca8360e1c344be7c7d3c688d849899759b09c1e3714b9778af37c",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/audit/wessex_provisional_50.csv",
+      "bytes": 6257,
+      "sha256": "34dc2fce8457aa5d44c081eacc793cfed7fd5a4317991d3b30abba45f4ff48e1",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/audit/wessex_site_audit.csv",
+      "bytes": 31745,
+      "sha256": "4cdb7ebc77c8f45357784dbd86d76165696563a3bd80bec75c50d13a1699d3ba",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/audit/wessex_year_coverage.csv",
+      "bytes": 171213,
+      "sha256": "9092726fde0a520a7d933fca5a6d06183c6997f0adde81ca8f1ca98c8a93982d",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/audit_data.py",
+      "bytes": 4485,
+      "sha256": "5f84efde22526563502fad9c4b9ca2b23cede82a1ff90e45c4dcd42acdf22a52",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/download_external.py",
+      "bytes": 893,
+      "sha256": "efc132b22818d403e8efbf13ebdcb1738515488930683925a37cff1fb54c2cf8",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/download_wessex.py",
+      "bytes": 1809,
+      "sha256": "1875e35d34389a9d2199089dd3a2c8570a8d4cac7b23071531abc339b7dd1d2c",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/metadata/download_status.json",
+      "bytes": 242,
+      "sha256": "6685f4649791415e9ac07e2e78af21080f1fdb919769559b70de7c0b490866df",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/metadata/expected_count.json",
+      "bytes": 17,
+      "sha256": "8fa84226fff8a4724521b1571207eccfc5ba788dfd5d8299dc47efa7274eda1d",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/metadata/thames_urls.json",
+      "bytes": 305,
+      "sha256": "bb1ba2b3cbf1bf476eef6e8f33514ce8c7d766587294349aa7d1407e8f7cd9fc",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/metadata/wessex_description.txt",
+      "bytes": 8815,
+      "sha256": "e4ceec0b6f4e473e1d0726b6e9fbfa679b7bd26b70d84eb518e58c174af31df3",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/metadata/wessex_item.json",
+      "bytes": 199334,
+      "sha256": "895e4b0605dded3b0c73b5b2d6f1b9f5866e13fabf04f3805ef36a16e8d05652",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/metadata/wessex_layer.json",
+      "bytes": 6944,
+      "sha256": "5827ec91e7a626f8952d5a2231ee7fe24fcb6bc083b6e5bdd0101ebc048d0694",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/metadata/wessex_service.json",
+      "bytes": 2656,
+      "sha256": "c51f33749b7c3d6c7fd5f7055a62d4c17969b664eba00f8fbda19bbbae311102",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/hk.csv",
+      "bytes": 5073174,
+      "sha256": "67822745cf61beee87d6c1c501ec0da45c3f797840a0a6a45a2bd17e5971304e",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/hk_dictionary.pdf",
+      "bytes": 269491,
+      "sha256": "831a2c6652896f9f1257675620fe129a082bd70358eb35b991ddfa60704573c3",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_all_2016_2025.csv",
+      "bytes": 73570225,
+      "sha256": "22f494e2b96fe6fa9550c68971d50c752ddd291793fdc60334d64b2ef089f518",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000000000.json",
+      "bytes": 5550657,
+      "sha256": "a199f6cd49b764488a81d0dab7c862a3a374f10a8c073a199e025d4e97eff50c",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000032000.json",
+      "bytes": 5565094,
+      "sha256": "3b65a283e4b409330171e78977776e80277e1e655a301a1213e519ce307389f9",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000064000.json",
+      "bytes": 5589516,
+      "sha256": "3fa7e692bcaa522b7b69ceddafd905e717a931a1fe65cb1339827b7179d54e67",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000096000.json",
+      "bytes": 5516484,
+      "sha256": "17da80f6e4eca1fdbf9868d9c9845c11d683aeaa79a1a9339be3040648067b64",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000128000.json",
+      "bytes": 5547727,
+      "sha256": "3079e96610fb0d8d19a3857f57a5ecbe39fe504b8d1d7a70c80983123a9f9267",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000160000.json",
+      "bytes": 5588759,
+      "sha256": "f2de5235668a7dad9c554d18604757975d5f026f68117f4095ef045dbee7d03c",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000192000.json",
+      "bytes": 5588771,
+      "sha256": "a172eb22fc934bfddf2f5d5b28bda9e35d2d5370824014ef1da5fbbf0aae1971",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000224000.json",
+      "bytes": 5567295,
+      "sha256": "0a50d5eac890e1c18e10523599481954746271c6aee1bf376583b80dbabd9b16",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000256000.json",
+      "bytes": 5547361,
+      "sha256": "a8db00b3b07a8ff84452f13a14984167c0060e10f6970595e4cc17d2ad0ef771",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000288000.json",
+      "bytes": 5522430,
+      "sha256": "71ff9d3e34d00f7815066ef19132640064c9c94956f11539a2015315c6d423eb",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000320000.json",
+      "bytes": 5573362,
+      "sha256": "843e3c9600afb4febe7b2219745d6e74fb159bf8fc2cff8de103f03519cd39d0",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000352000.json",
+      "bytes": 5566482,
+      "sha256": "25688057fdd8ebc34fd228990e96c4717c1b6ad9f4665ce0e25893726dd53c25",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000384000.json",
+      "bytes": 5650344,
+      "sha256": "38228150f37267c4647a1070f0046057c2e06c37d5854ab3eb41069ae2dba7ba",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000416000.json",
+      "bytes": 5509536,
+      "sha256": "ed8c19b0dc7b29f347b4a8e673ef2bb1b8ec1c17c6858818a44efdaac2c0e98b",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000448000.json",
+      "bytes": 5634039,
+      "sha256": "9a7a346e131deac43193b88e82e096000aadb9f3d21edbe16d41e5e6de39396f",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000480000.json",
+      "bytes": 5586160,
+      "sha256": "4f9978a8227bab3ed2561708c2d6c7f845596f053f1f3f46199386a7fa608b7b",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000512000.json",
+      "bytes": 5458518,
+      "sha256": "3685f7dc40a19d64282fd98fd7a1768d76ee9eada13b06b0e2f75760cfa80eab",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000544000.json",
+      "bytes": 5604782,
+      "sha256": "08b47e7a099cc8da56cd852df1a15008c61491f1f238486e92b054146af3e736",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000576000.json",
+      "bytes": 5600843,
+      "sha256": "95ddda693961c1411e7543780a67583ac9365882bee5d866b297883d54ffd2f7",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000608000.json",
+      "bytes": 5520208,
+      "sha256": "80fdcdf0ba21bc6f1ba08db46e8d467b1965b77dcc7b8d1bcea61cfbae8c6e2a",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000640000.json",
+      "bytes": 5504483,
+      "sha256": "b3cd9c87c59a8a7a7e883012b930f823178f92eea73e53054b5b9531ebfdd5c9",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000672000.json",
+      "bytes": 5596749,
+      "sha256": "dc626c74caee2273f620edafa4ec29a41a22a4e3d1af847db47ba176bb9c29d9",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000704000.json",
+      "bytes": 5561770,
+      "sha256": "2c1e47b098ac14b76fd5d4b6f456fe1b957b2663b8e072d2fcbba74206435620",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000736000.json",
+      "bytes": 5651559,
+      "sha256": "519456e7922de9bf27ddbad95f9b95f11259befd4d8451f023b5e48cbeb9cf54",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000768000.json",
+      "bytes": 5626439,
+      "sha256": "d57a3cb7e33384e1a36b5c64f8a40a6de82d99bed4003fa24a34cf87da69a637",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000800000.json",
+      "bytes": 5527172,
+      "sha256": "234c159d7718d9f02cfdfa1070de71fc952bb6534d2976250dc16b9175403468",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000832000.json",
+      "bytes": 5482060,
+      "sha256": "a107eadda34e9c00be820fffc618e30ba76b1be57a7c85237ecce81b8d8584db",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000864000.json",
+      "bytes": 5556968,
+      "sha256": "c09d6ff715dc483be782263e8f95d788b3aa40cd42fa62b32cb4c259fc477475",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000896000.json",
+      "bytes": 5538307,
+      "sha256": "310b513ef3dbf2b860f11b7b9cf84581926ddb57fce63b6cf01d653f10de4973",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000928000.json",
+      "bytes": 5650033,
+      "sha256": "8175c6ed9caf8c41b9809fa9b92ce379f74aef2608f6476a55539b3fa679d315",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/wessex_pages/000960000.json",
+      "bytes": 1565305,
+      "sha256": "fb4f933c8799db6a59b85cdea103dfcfa5efcc2773d0cd8775dbde5fac05c865",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/开始阅读.txt",
+      "bytes": 924,
+      "sha256": "9b4d312a19be324110c573c2e954a55769633bbe719000bd94de83140bfb7b80",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "bytes": 22422564,
+      "sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part2_Derived/Wastewater_Paper/wastewater_data/derived/hk_flow_unverified.csv",
+      "bytes": 2790953,
+      "sha256": "412c94c808f9a277f317f6c05a6c759c64db8f9a8d62744d3791dc61e065943b",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part2_Derived/Wastewater_Paper/wastewater_data/derived/hk_original_values_utf8.csv",
+      "bytes": 2487247,
+      "sha256": "b2548b437d9e801ef5ca3d9460786e69a2cf1ddbad13ebb45ad20e2413ff241b",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part2_Derived/Wastewater_Paper/wastewater_data/derived/wessex_wrc_flagged.csv",
+      "bytes": 105322314,
+      "sha256": "f32ecd678da4059c833247d97ed21cf745120184d734b94860005d50271cdd7d",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part2_Derived/Wastewater_Paper/wastewater_data/derived/wessex_wrc_original_values.csv",
+      "bytes": 70367891,
+      "sha256": "13b91058a9e85df9b76afe5e3b4da1ce7a8a361d1115380a5d7d13a39aae87d0",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part2_Derived.zip",
+      "bytes": 22844102,
+      "sha256": "bd9fe8cc879937903a191ec9d0d2aed385c211e51d74402126d0c9c0b740d55b",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part3_Codex_Handoff/Codex_Handoff_2026-10-09/DATA_SEMANTICS.md",
+      "bytes": 3815,
+      "sha256": "535e662d68a0cd7f7b4050c72a10f1ad09f6dfac7b51f9a4d1f34bbd0f8ca2d2",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part3_Codex_Handoff/Codex_Handoff_2026-10-09/DELIVERY_GAPS.md",
+      "bytes": 2567,
+      "sha256": "e9c78610441a90ba088ba992611af1fe99ae71b3b664252ba1c3b4ece31799a7",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part3_Codex_Handoff/Codex_Handoff_2026-10-09/EXPERIMENT_NEXT.md",
+      "bytes": 5539,
+      "sha256": "73babb72cf0300ad90d3815d7584e8ed9896162585d29c48e266eec2cc0f3842",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part3_Codex_Handoff/Codex_Handoff_2026-10-09/FINAL_DELIVERABLES.md",
+      "bytes": 3327,
+      "sha256": "f3404c83179008c539667cc09f395053a2a514327c7acf7760ed48edf1b31c31",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part3_Codex_Handoff/Codex_Handoff_2026-10-09/JOURNAL_AND_LITERATURE.md",
+      "bytes": 5893,
+      "sha256": "d508b18d79380f35894a7d92838ecc0154ea212a4c97de54e606f8d882f68de5",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part3_Codex_Handoff/Codex_Handoff_2026-10-09/LOCAL_REAUDIT.json",
+      "bytes": 941,
+      "sha256": "5c83c1c659c2fa2f19800151e4344b87f1a64b80bcccd78f4c79860134a6a72a",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part3_Codex_Handoff/Codex_Handoff_2026-10-09/PACKAGE_VALIDATION.json",
+      "bytes": 554,
+      "sha256": "870504d322ba82aacb7af4ee3528c8f6b3040ef5cc6a429b5ffc7ca22c73ad4c",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part3_Codex_Handoff/Codex_Handoff_2026-10-09/RESUME_INSTRUCTIONS.txt",
+      "bytes": 3739,
+      "sha256": "d1871d2c69e101e48b2fddbb47964d39a012d693ae67e98d5937f8b4b490b356",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part3_Codex_Handoff/Codex_Handoff_2026-10-09/SHA256SUMS_HANDOFF.txt",
+      "bytes": 1141,
+      "sha256": "aed14de1611e45b3e01d44a127fd1b6ceb1885780121ed69699ac054e1bf5e48",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part3_Codex_Handoff/Codex_Handoff_2026-10-09/START_HERE.md",
+      "bytes": 3006,
+      "sha256": "24a7dd0cec5260317082ba1cae378ebb9420e4a3955060dc06538a7bed1ac0f0",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part3_Codex_Handoff/Codex_Handoff_2026-10-09/facility_mapping_pending.json",
+      "bytes": 100309,
+      "sha256": "dd1fd929b68f495937781b5d4b3707cd909327c46f60f3929326768f7e027a22",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part3_Codex_Handoff/Codex_Handoff_2026-10-09/import_and_verify.py",
+      "bytes": 5007,
+      "sha256": "f6b7c013ad1b664bae2944b5188de21976e812f54061979f3ec84bdbb2c16e83",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part3_Codex_Handoff/Codex_Handoff_2026-10-09/manifest_archives.json",
+      "bytes": 513,
+      "sha256": "7b46bce0784ced88628c7b137d6696ce668e5a8e117d7e0f84c2763de27d2541",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part3_Codex_Handoff/Codex_Handoff_2026-10-09/manifest_original_58.json",
+      "bytes": 11350,
+      "sha256": "2b7c3131f96f2338a8c396197d713419713d45de30a96453721354e2494b2974",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_20261009/Wastewater_Part3_Codex_Handoff.zip",
+      "bytes": 30226,
+      "sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    },
+    {
+      "path": "/workspace/Wastewater_Paper/materials/received_stage2_20261009/paper idea.docx",
+      "bytes": 18060,
+      "sha256": "e698f0c07c3e73baf16c2b88d873675405443b2186dfe6746f55a50e33c818b1",
+      "receipt_date_basis": "project original-input record; not filesystem mtime",
+      "known_receipt_date": "2026-10-09",
+      "role": "original container copy or extracted original member; not a new Stage3F provider reply"
+    }
+  ],
+  "original_archive_member_inventory": [
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/README_中文.md",
+      "bytes": 8023,
+      "crc32_from_original_container": "98de2b69",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/SHA256SUMS.txt",
+      "bytes": 5262,
+      "crc32_from_original_container": "7624356d",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/audit/hk_series_audit.csv",
+      "bytes": 660,
+      "crc32_from_original_container": "085e3d13",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/audit/summary.json",
+      "bytes": 621,
+      "crc32_from_original_container": "060229a7",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/audit/wessex_duplicate_records.csv",
+      "bytes": 587,
+      "crc32_from_original_container": "0de2e16d",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/audit/wessex_provisional_50.csv",
+      "bytes": 6257,
+      "crc32_from_original_container": "dea76799",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/audit/wessex_site_audit.csv",
+      "bytes": 31745,
+      "crc32_from_original_container": "d5956135",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/audit/wessex_year_coverage.csv",
+      "bytes": 171213,
+      "crc32_from_original_container": "ed5c65fa",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/audit_data.py",
+      "bytes": 4485,
+      "crc32_from_original_container": "45b23e24",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/download_external.py",
+      "bytes": 893,
+      "crc32_from_original_container": "893f5395",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/download_wessex.py",
+      "bytes": 1809,
+      "crc32_from_original_container": "cc3ca087",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/metadata/download_status.json",
+      "bytes": 242,
+      "crc32_from_original_container": "e5202b2c",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/metadata/expected_count.json",
+      "bytes": 17,
+      "crc32_from_original_container": "8d97dc8f",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/metadata/thames_urls.json",
+      "bytes": 305,
+      "crc32_from_original_container": "da79bc46",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/metadata/wessex_description.txt",
+      "bytes": 8815,
+      "crc32_from_original_container": "64c37594",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/metadata/wessex_item.json",
+      "bytes": 199334,
+      "crc32_from_original_container": "910be9fb",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/metadata/wessex_layer.json",
+      "bytes": 6944,
+      "crc32_from_original_container": "8908e32c",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/metadata/wessex_service.json",
+      "bytes": 2656,
+      "crc32_from_original_container": "2ba2582e",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/hk.csv",
+      "bytes": 5073174,
+      "crc32_from_original_container": "8909ed93",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/hk_dictionary.pdf",
+      "bytes": 269491,
+      "crc32_from_original_container": "13e48031",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_all_2016_2025.csv",
+      "bytes": 73570225,
+      "crc32_from_original_container": "1069cceb",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000000000.json",
+      "bytes": 5550657,
+      "crc32_from_original_container": "d25b8e25",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000032000.json",
+      "bytes": 5565094,
+      "crc32_from_original_container": "f289c55a",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000064000.json",
+      "bytes": 5589516,
+      "crc32_from_original_container": "dbff51d0",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000096000.json",
+      "bytes": 5516484,
+      "crc32_from_original_container": "b51077b2",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000128000.json",
+      "bytes": 5547727,
+      "crc32_from_original_container": "c5ac30ed",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000160000.json",
+      "bytes": 5588759,
+      "crc32_from_original_container": "b535f11d",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000192000.json",
+      "bytes": 5588771,
+      "crc32_from_original_container": "b8910e43",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000224000.json",
+      "bytes": 5567295,
+      "crc32_from_original_container": "16a0ff8c",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000256000.json",
+      "bytes": 5547361,
+      "crc32_from_original_container": "a5ac4a93",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000288000.json",
+      "bytes": 5522430,
+      "crc32_from_original_container": "3f2725bd",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000320000.json",
+      "bytes": 5573362,
+      "crc32_from_original_container": "4603fdd8",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000352000.json",
+      "bytes": 5566482,
+      "crc32_from_original_container": "d180de22",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000384000.json",
+      "bytes": 5650344,
+      "crc32_from_original_container": "00176dfe",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000416000.json",
+      "bytes": 5509536,
+      "crc32_from_original_container": "2dbb727a",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000448000.json",
+      "bytes": 5634039,
+      "crc32_from_original_container": "1c4b99c8",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000480000.json",
+      "bytes": 5586160,
+      "crc32_from_original_container": "7da1faec",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000512000.json",
+      "bytes": 5458518,
+      "crc32_from_original_container": "aca4a3b0",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000544000.json",
+      "bytes": 5604782,
+      "crc32_from_original_container": "ac9c0058",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000576000.json",
+      "bytes": 5600843,
+      "crc32_from_original_container": "50f8ed82",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000608000.json",
+      "bytes": 5520208,
+      "crc32_from_original_container": "adb576a2",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000640000.json",
+      "bytes": 5504483,
+      "crc32_from_original_container": "9a47a7c0",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000672000.json",
+      "bytes": 5596749,
+      "crc32_from_original_container": "d4332ccd",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000704000.json",
+      "bytes": 5561770,
+      "crc32_from_original_container": "4bc3210e",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000736000.json",
+      "bytes": 5651559,
+      "crc32_from_original_container": "45dee500",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000768000.json",
+      "bytes": 5626439,
+      "crc32_from_original_container": "ea13ef75",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000800000.json",
+      "bytes": 5527172,
+      "crc32_from_original_container": "cb8d7599",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000832000.json",
+      "bytes": 5482060,
+      "crc32_from_original_container": "a4722a13",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000864000.json",
+      "bytes": 5556968,
+      "crc32_from_original_container": "14d85e4a",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000896000.json",
+      "bytes": 5538307,
+      "crc32_from_original_container": "448ba103",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000928000.json",
+      "bytes": 5650033,
+      "crc32_from_original_container": "8622abb3",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/wastewater_data/raw/wessex_pages/000960000.json",
+      "bytes": 1565305,
+      "crc32_from_original_container": "73ded983",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/plan 2.0.docx",
+      "bytes": 43258,
+      "crc32_from_original_container": "eac52ca1",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part1_Plan_and_Raw.zip",
+      "container_sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "member": "Wastewater_Paper/开始阅读.txt",
+      "bytes": 924,
+      "crc32_from_original_container": "c7f06be4",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part2_Derived.zip",
+      "container_sha256": "bd9fe8cc879937903a191ec9d0d2aed385c211e51d74402126d0c9c0b740d55b",
+      "member": "Wastewater_Paper/wastewater_data/derived/hk_flow_unverified.csv",
+      "bytes": 2790953,
+      "crc32_from_original_container": "b966005f",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part2_Derived.zip",
+      "container_sha256": "bd9fe8cc879937903a191ec9d0d2aed385c211e51d74402126d0c9c0b740d55b",
+      "member": "Wastewater_Paper/wastewater_data/derived/hk_original_values_utf8.csv",
+      "bytes": 2487247,
+      "crc32_from_original_container": "4718d227",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part2_Derived.zip",
+      "container_sha256": "bd9fe8cc879937903a191ec9d0d2aed385c211e51d74402126d0c9c0b740d55b",
+      "member": "Wastewater_Paper/wastewater_data/derived/wessex_wrc_flagged.csv",
+      "bytes": 105322314,
+      "crc32_from_original_container": "5556c024",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part2_Derived.zip",
+      "container_sha256": "bd9fe8cc879937903a191ec9d0d2aed385c211e51d74402126d0c9c0b740d55b",
+      "member": "Wastewater_Paper/wastewater_data/derived/wessex_wrc_original_values.csv",
+      "bytes": 70367891,
+      "crc32_from_original_container": "809f189a",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part3_Codex_Handoff.zip",
+      "container_sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "member": "Codex_Handoff_2026-10-09/DATA_SEMANTICS.md",
+      "bytes": 3815,
+      "crc32_from_original_container": "e221bd29",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part3_Codex_Handoff.zip",
+      "container_sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "member": "Codex_Handoff_2026-10-09/DELIVERY_GAPS.md",
+      "bytes": 2567,
+      "crc32_from_original_container": "fe31a2c3",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part3_Codex_Handoff.zip",
+      "container_sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "member": "Codex_Handoff_2026-10-09/EXPERIMENT_NEXT.md",
+      "bytes": 5539,
+      "crc32_from_original_container": "b8f1bbd1",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part3_Codex_Handoff.zip",
+      "container_sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "member": "Codex_Handoff_2026-10-09/FINAL_DELIVERABLES.md",
+      "bytes": 3327,
+      "crc32_from_original_container": "aa6a83f2",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part3_Codex_Handoff.zip",
+      "container_sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "member": "Codex_Handoff_2026-10-09/JOURNAL_AND_LITERATURE.md",
+      "bytes": 5893,
+      "crc32_from_original_container": "fd2fadf8",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part3_Codex_Handoff.zip",
+      "container_sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "member": "Codex_Handoff_2026-10-09/LOCAL_REAUDIT.json",
+      "bytes": 941,
+      "crc32_from_original_container": "2c71ed66",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part3_Codex_Handoff.zip",
+      "container_sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "member": "Codex_Handoff_2026-10-09/PACKAGE_VALIDATION.json",
+      "bytes": 554,
+      "crc32_from_original_container": "febeac22",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part3_Codex_Handoff.zip",
+      "container_sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "member": "Codex_Handoff_2026-10-09/RESUME_INSTRUCTIONS.txt",
+      "bytes": 3739,
+      "crc32_from_original_container": "b049e8a9",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part3_Codex_Handoff.zip",
+      "container_sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "member": "Codex_Handoff_2026-10-09/SHA256SUMS_HANDOFF.txt",
+      "bytes": 1141,
+      "crc32_from_original_container": "06d3cd6f",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part3_Codex_Handoff.zip",
+      "container_sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "member": "Codex_Handoff_2026-10-09/START_HERE.md",
+      "bytes": 3006,
+      "crc32_from_original_container": "fa9ec8d0",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part3_Codex_Handoff.zip",
+      "container_sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "member": "Codex_Handoff_2026-10-09/facility_mapping_pending.json",
+      "bytes": 100309,
+      "crc32_from_original_container": "ccdae82a",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part3_Codex_Handoff.zip",
+      "container_sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "member": "Codex_Handoff_2026-10-09/import_and_verify.py",
+      "bytes": 5007,
+      "crc32_from_original_container": "90fa566f",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part3_Codex_Handoff.zip",
+      "container_sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "member": "Codex_Handoff_2026-10-09/manifest_archives.json",
+      "bytes": 513,
+      "crc32_from_original_container": "86e15858",
+      "new_external_reply": false
+    },
+    {
+      "container": "materials/received_20261009/Wastewater_Part3_Codex_Handoff.zip",
+      "container_sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "member": "Codex_Handoff_2026-10-09/manifest_original_58.json",
+      "bytes": 11350,
+      "crc32_from_original_container": "f5568e5a",
+      "new_external_reply": false
+    }
+  ],
+  "repository_document_basename_hits": [
+    "data/derived/wessex_qa_v3_20261009/facility_mapping.csv",
+    "data/provenance/FACILITY_MAPPING.csv",
+    "data/provenance/FACILITY_MAPPING_V3_20261009.csv",
+    "data/provenance/hk_dictionary_extracted.txt",
+    "data/provenance/stage3b_20261011_v1/FACILITY_MAPPING.csv",
+    "data/provenance/stage3c1_20261011_v1/facilities/facility_mapping_status.csv",
+    "data/provenance/stage3c1_20261011_v1/facilities/reused_stage3b_official/FACILITY_MAPPING.csv",
+    "materials/received_20261009/Wastewater_Part1_Plan_and_Raw/Wastewater_Paper/wastewater_data/raw/hk_dictionary.pdf",
+    "materials/received_20261009/Wastewater_Part3_Codex_Handoff/Codex_Handoff_2026-10-09/facility_mapping_pending.json",
+    "reports/stage3c1_20261011_v1/QUESTIONS_FOR_GUNA_PROVIDER.md",
+    "reports/stage3c1_20261011_v1/facility_mapping_status.csv",
+    "reports/stage3d_interval_v1/FACILITY_MAPPING_STATUS.csv",
+    "reports/stage3e_evidence_review_v1/FACILITY_MAPPING_STATUS.csv",
+    "wastewater_data/raw/hk_dictionary.pdf"
+  ],
+  "new_provider_reply_found_in_scanned_inputs": false,
+  "new_supervisor_journal_confirmation_found_in_scanned_inputs": false,
+  "new_historical_facility_mapping_found_in_scanned_inputs": false,
+  "new_daily_time_dictionary_found_in_scanned_inputs": false,
+  "stage3e_external_review": {
+    "user_reported_results_available_in_conversation": true,
+    "reviewer_original_document_received_in_scanned_inputs": false,
+    "limits": "The user reports an external review. Its report, raw logs and checked attachment copies are not available here as new received files; do not claim an independent review of those missing originals."
+  },
+  "paper_idea": {
+    "original_docx": "materials/received_stage2_20261009/paper idea.docx",
+    "bytes": 18060,
+    "sha256": "e698f0c07c3e73baf16c2b88d873675405443b2186dfe6746f55a50e33c818b1",
+    "paragraphs_read": 48,
+    "extracted_file": "reports/stage3f_evidence_gate_v1/external_inputs/paper_idea_read_from_original_docx.txt",
+    "extracted_sha256": "6d7e40ae63fdbd4dc8ac0585f2ff194c663abddaa405d8dfa2b2188bb0db5de1",
+    "final_target_journal_name_present": false,
+    "read_findings": "Existing facilities; limited initial history; processed daily discharge volume; one-day/third-day target; no energy/overflow/new-plant/real-time generalisation. No final journal decision in this DOCX."
+  },
+  "target_journal": {
+    "status": "UNCONFIRMED",
+    "old_handoff_source": "materials/received_20261009/Wastewater_Part3_Codex_Handoff.zip::Codex_Handoff_2026-10-09/JOURNAL_AND_LITERATURE.md",
+    "finding": "Old plan named JWPE, later user removed it. Journal of Hydroinformatics and Water Science & Technology remain candidates; no final supervisor confirmation received."
+  },
+  "old_generated_mapping_files_are_not_new_provider_replies": true,
+  "old_official_queries_are_not_new_provider_replies": true,
+  "file_mtime_used_as_receipt_evidence": false,
+  "forecast_result_values_read": false,
+  "original_data_bytes_hashed_only": true,
+  "new_performance_computed": false,
+  "metadata_verification_run_on_new_provider_mapping": false,
+  "metadata_fixture_tests_required": false,
+  "metadata_fixture_reason": "No new mapping input was received, so no unnecessary synthetic mapping checks or fabricated facility verification were performed.",
+  "checker_path": "reports/stage3f_evidence_gate_v1/external_inputs/check_received_inputs.py",
+  "checker_sha256": "07bd33174f0c3c459a44431525328794a3a2184559b71824edc00bcb0654653b"
+}

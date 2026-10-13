@@ -1,0 +1,9 @@
+{
+  "status": "FAILED_AND_PRESERVED",
+  "scope": "New small delivery supplement only, no science touched",
+  "failed_archive_sha256": "caabeb874015fe8323a447ffad9e9f8d8907463e388a3fa29761a5c45fc5e38f",
+  "cause": "Manifest builder excluded nested original_stage3e_receipts/SHA256SUMS by basename although archive correctly included it; standalone verifier rejected undeclared member",
+  "fix": "Exclude only two supplement root checksum/manifest paths; preserve all nested original checksum files in declared members",
+  "scientific_workflows_recomputed": false,
+  "failed_attempt_path": "delivery/20261013_stage3f/failed_supplement_attempt01"
+}

@@ -1,0 +1,21 @@
+{
+  "request_version": "stage3f_evidence_gate_v1",
+  "source_unique_SiteIDs": 73,
+  "development_SiteIDs": 10,
+  "associated_extra_SiteIDs": [
+    "13199",
+    "13355"
+  ],
+  "request_unique_SiteIDs": 85,
+  "source_pool_ids": [
+    "order20261012_K30",
+    "order20261013_K30",
+    "order20261014_K30"
+  ],
+  "protected_performance_read": false,
+  "names_or_candidate_links_are_physical_proof": false,
+  "facility_mapping_input": "reports/stage3e_evidence_review_v1/FACILITY_MAPPING_STATUS.csv",
+  "scope_definition_input": "data/provenance/stage3c2_source_scale_v1/source_pool_definition.json",
+  "associated_relations_input": "data/provenance/stage3c2_source_scale_v1/association_edges.csv",
+  "basis": "read frozen membership and metadata only; no new provider response"
+}

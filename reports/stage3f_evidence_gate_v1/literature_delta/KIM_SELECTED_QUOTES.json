@@ -1,0 +1,47 @@
+[
+  {
+    "source": "evidence/L04_publisher_visible_text.txt",
+    "source_sha256": "279a68eb4d4f3183a7eb316fd4a1fef3d10bbb2d2ddec99a5b5cde5a69a12e66",
+    "location": "Section 2.1; preserved visible-text line 369",
+    "quote_original_ko": "본 연구에서는 전이학습 적용을 위해 시스템 구성이 동일한 2개의 폐수처리공정(진주시 상평산업단지에 위치한 폐수종말처리장 및 청주시 국가산업단지에 위치한 폐수종말처리장)을 선정하였다. 참고로, 2개의 폐수처리공정은 모두 1차 침전공정과 2차 생물학적 처리공정으로 구성되어 있다. 본 연구에서는 2개의 폐수처리공정의 유출수로부터 측정되는 최근 5년간(2018년 1월 1일 ~ 2022년 12월 31일)의 모니터링 데이터를 심층학습 및 전이학습 모델의 입력 자료로 사용하였다(Tables 1 및 2). 모니터링 데이터는 총 9개의 항목으로 구성되어 있으며, (전이학습의 적용성을 시범적으로 평가하기 위한) 예측을 위한 변수로 유량(Discharge)과 생물화학적 산소 요구량(Biochemical oxygen demand, BOD)을 선정하였다. 모니터링 데이터 내 결측값(Missing value)이 부분적으로 발생함에 따라 특정 항목에 결측값이 발생한 경우 보간 없이 모든 데이터를 제외하여 평가를 수행하였으며, 이상치(Outlier)의 경우 사분범위(Interquartile range, IQR)의3배 범위를 이용하여 특정 항목에 이상치가 발생한 경우 결측값과 동일하게 모든 데이터를 제외하여 평가를 수행하였다. 그 결과 진주시 및 청주시 폐수종말처리장에서 총 1,139 및 1,121의 데이터가 각각 사용되었다.",
+    "reviewer_interpretation_zh": "两座工业废水厂出口2018—2022监测；缺失/3IQR记录删除、保留1139/1121。此处不定义体积单位、预测时距或含缩放/适应的历史预算。",
+    "original_language": "Korean",
+    "interpretation_not_author_quote": true
+  },
+  {
+    "source": "evidence/L04_publisher_visible_text.txt",
+    "source_sha256": "279a68eb4d4f3183a7eb316fd4a1fef3d10bbb2d2ddec99a5b5cde5a69a12e66",
+    "location": "Section 2.2; preserved visible-text line 376",
+    "quote_original_ko": "본 연구에서는 전이학습을 적용을 위한 심층학습 기반의 벤치마크 알고리즘으로 연구자들에게 활용도가 높은 (비시계열 기반) 합성곱 신경망(CNN)과 (시계열 기반) 장단기 메모리(LSTM)를 사용하였다. 합성곱 신경망(CNN)은 하나 또는 여러 개의 합성곱 계층(Convolutional layer)과 통합 계층(Pooling layer), 그리고 완전하게 연결된 계층(Fully connected layer)으로 구성되어 있다. 합성곱 신경망(CNN)의 주요 장점으로는 다른 비시계열 기반 유사 심층학습 알고리즘에 비해 파라미터 가중치 공유를 통한 학습 파라미터의 개수를 감소시켜 효율적인 학습 속도를 제공하는 장점이 있다. 한편, 장단기 메모리(LSTM)는 은닉층의 메모리 셀에 입력 층, 망각 층, 출력 층으로 구성된 알고리즘으로서, 기존의 시계열 모델인 순환신경망(RNN)의 (학습과 예측 시점 간의 차이가 커짐에 따라 학습 능력 저하의) 단점을 극복하기 위해 제안된 알고리즘으로 알려져 있다. 장단기 메모리(LSTM)의 주요 장점으로는 다른 시 계열 기반 유사 알고리즘에 비하여 비교적 긴 시퀀스의 입력을 처리하는 데에 유용한 것으로 알려져 있으며, 특히 데이터의 크기가 클수록 보다 정확한 예측 성능을 나타내는 것으로 평가되고 있다. 본 연구에서는 다양한 전이학습 적용(은닉층 레이어 전체 사용 및 부분 사용)에 따른 벤치마크 심층학습 알고리즘의 성능 변화를 평가하기 위하여 2개 알고리즘에 단일 은닉층이 아닌 다중 은닉층을 사용하였다. 즉, 합성곱 신경망(CNN)의 경우 4개의 은닉층을, 장단기 메모리(LSTM)의 경우 3개의 은닉층을 각각 사용하였으며, (시범 연구로서 심층학습과 전이학습의 단순한 성능을 비교하기 위하여) 별도의 초매개변수 최적화는 수행하지 않았다. 본 연구에서 사용한 보다 자세한 2개 심층학습의 알고리즘 구조는 Fig. 1에 제시되어 있다.",
+    "reviewer_interpretation_zh": "CNN四隐层、LSTM三隐层，未做超参数优化；仅比较网络与迁移，不能推断整个补充资料不存在Persistence。",
+    "original_language": "Korean",
+    "interpretation_not_author_quote": true
+  },
+  {
+    "source": "evidence/L04_publisher_visible_text.txt",
+    "source_sha256": "279a68eb4d4f3183a7eb316fd4a1fef3d10bbb2d2ddec99a5b5cde5a69a12e66",
+    "location": "Section 2.3; preserved visible-text line 383",
+    "quote_original_ko": "전이학습은 우선 1) 구축된 모델의 활용 측면 또는 2) 데이터의 크기 및 유사성 측면에 따라 적용 방법을 달리 할 수 있다. 본 연구에서는 2개 폐수처리공정의 데이터의 크기 및 유사성을 평가하기 위한 명확한 판단 기준이 부재하여 구축된 모델의 활용 측면을 단순히 고려하여 평가에 활용하였다. 구축된 모델의 활용 측면에서 전이학습은 다음과 같은 3가지 방식이 주로 적용되고 있다. 즉, 기존 은닉층 전부를 사용하고 출력층만 훈련하는 경우(Case A), 기존 은닉층을 일부를 사용하고 나머지 은닉층을 훈련하는 경우(Case B), 모델의 구조(기존 은닉층 및 출력층 모두 훈련)만 활용하는 경우(Case C)로 구분할 수 있다. 본 연구에서는 폐수처리공정에 전이학습의 적용성을 시범적으로 평가하기 위하여 단순히 Case A(3.2 섹션)와 Case B(3.3 섹션)를 사용하여 성능 변화를 분석하였다. 참고로, 전이학습 방식 중 Case B의 경우 기존 모델의 다양한 은닉층 중 말단의 최종 은닉층(레이어)만을 훈련에 사용하였다. 또한, 전이학습을 통해 청주시 폐수처리공정의 유량 및 수질을 예측하는 경우 진주시 폐수처리공정에서 개발한 유량 및 수질 예측 모델을 활용하였으며, 전이학습을 통해 진주시 폐수처리공정의 유량 및 수질을 예측하는 경우 정반대의 방향으로 예측 모델들을 활용하였다.",
+    "reviewer_interpretation_zh": "两厂双向迁移；Case A冻结隐层训练输出，Case B只训练最后隐层。不是Wessex物理分组证据。",
+    "original_language": "Korean",
+    "interpretation_not_author_quote": true
+  },
+  {
+    "source": "evidence/L04_publisher_visible_text.txt",
+    "source_sha256": "279a68eb4d4f3183a7eb316fd4a1fef3d10bbb2d2ddec99a5b5cde5a69a12e66",
+    "location": "Section 2.4; preserved visible-text line 390",
+    "quote_original_ko": "심층학습 및 전이학습은 모두 파이썬(Python, Version 3.7.9) 환경에서 범용성이 뛰어난 케라스(Keras, Version 2.4.3) 패키지를 사용하다. 심층학습 및 전이학습의 입력 데이터는 최소값 및 최대값을 통해 정규화(Min-max scaling) 되었으며, 손실 함수의 최적화 함수로 RMSProp과 성능 평가 지표로 평균제곱오차(Mean squared error, MSE)를 각각 사용하였다. 본 연구에서 훈련 및 테스트 데이터는 7:3의 비율로 구분하여 평가를 수행하였으나, 단순화된 평가 결과를 제시하기 위하여 테스트 결과만을 제시하였다.",
+    "reviewer_interpretation_zh": "Min-max scaling、RMSProp、MSE、7:3训练测试；未明确时间排序、scaler拟合子集或前瞻标签边界。未知不等于泄漏证实。",
+    "original_language": "Korean",
+    "interpretation_not_author_quote": true
+  },
+  {
+    "source": "evidence/L04_publisher_visible_text.txt",
+    "source_sha256": "279a68eb4d4f3183a7eb316fd4a1fef3d10bbb2d2ddec99a5b5cde5a69a12e66",
+    "location": "Section 3.1; preserved visible-text line 403",
+    "quote_original_ko": "Table 3은 진주시 및 청주시 폐수처리공정에서의 2개 벤치마크 심층학습 알고리즘에 대한 유량 및 생물화학적 산소요구량의 예측 성능을 나타내고 있다. 우선, 진주시 폐수처리공정의 유량을 예측하는 경우 평균제곱오차(MSE)를 기준으로 장단기 메모리(LSTM)의 예측 성능이 합성곱 신경망(CNN)에 비해 우수한 것으로 조사되었으며, 이와는 반대로 청주시 폐수처리공정의 유량 예측 시 합성곱 신경망(CNN)의 장단기 메모리(LSTM)에 비해 성능이 보다 우수한 것으로 평가되었다. 또한, 진주시 및 청주시 폐수처리공정의 생물화학적 산소요구량을 예측하는 경우 각각 장단기 메모리(LSTM) 및 합성곱 신경망(CNN)이 상대적으로 우수하여, 유량 예측과 동일한 성능 우선순위가 도출되었다. 다만, 진주시 및 청주시 폐수처리 공정 모두 유량의 예측 성능이 생물화학적 산소요구량에 비해 보다 우수한 것으로 조사되었으며, 이러한 원인은 폐수처리공정 유출수에서 유량의 변동성(변동 계수=표준 편차/평균, 진주시 7.90, 청주시 32.38)이 생물화학적 산소요구량의 변동성(진주시 16.86, 청주시 55.55)에 비해 상대적으로 낮기 때문인 것으로 판단된다.",
+    "reviewer_interpretation_zh": "作者以流量低变异解释预测相对容易，但低变异不等于自相关，更不证明Persistence难/易被击败。",
+    "original_language": "Korean",
+    "interpretation_not_author_quote": true
+  }
+]

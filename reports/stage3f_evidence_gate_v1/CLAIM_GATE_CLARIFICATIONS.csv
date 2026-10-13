@@ -1,0 +1,5 @@
+old_claim_id,new_gate_ids,topic,clarification_or_increment,current_evidence_status
+C08,A02|A03|A04|A05,Independent-facility retrospective evidence,"Anonymous stable, time-valid physical groups accepted; exact coordinates are not mandatory for current nonspatial models.",NOT_VERIFIED; old scientific result unchanged
+C09,B01|B02|B03|B04,Real-time deployment evidence,Operational arrival/QA and public-data arrival/QA are separate environments; lack realtime evidence does not block a labelled idealized retrospective benchmark.,NOT_VERIFIED; no deployment authentication
+C03|C04,C01|C02|C03,Engineering significance and history saving,Use case and prospective justified margins required; do not retrofit margins to existing differences; metadata cannot improve past scores.,NOT_ESTABLISHED; no new performance
+C10,N01,Novelty/source verification,Kim existing sections sharpened; one new author-preprint relation metadata record; no new methods/fulltext and no first/algorithm claim.,PARTIAL_LITERATURE_ONLY; contribution remains conditional

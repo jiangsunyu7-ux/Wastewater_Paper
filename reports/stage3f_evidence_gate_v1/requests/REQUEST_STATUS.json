@@ -1,0 +1,18 @@
+{
+  "version": "stage3f_evidence_gate_v1",
+  "state": "WAITING_FOR_EXTERNAL_EVIDENCE",
+  "request_materials_prepared": true,
+  "emails_or_forms_sent": false,
+  "new_provider_reply_received": false,
+  "new_advisor_journal_confirmation_received": false,
+  "received_evidence_basis": "root initial attachment scan found only original October9 ZIPs and paper idea; no provider/advisor reply",
+  "physical_mapping_verified": false,
+  "verified_real_time": false,
+  "independent_validation_protocol_created": false,
+  "new_prediction_performance_computed": false,
+  "coordinates_required_for_existing_models": false,
+  "independent_facility_retrospective_gate": "NOT_VERIFIED",
+  "real_time_deployment_gate": "NOT_VERIFIED",
+  "engineering_history_saving_gate": "NOT_ESTABLISHED",
+  "next_action": "User sends prepared short request and obtains dated metadata/advisor decisions; no new scoring"
+}

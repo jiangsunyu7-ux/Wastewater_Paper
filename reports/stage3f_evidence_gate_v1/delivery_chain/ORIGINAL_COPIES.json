@@ -1,0 +1,170 @@
+[
+  {
+    "original_path": "delivery/20261013_stage3e/ARTIFACT_INDEX.json",
+    "supplement_member": "original_stage3e_receipts/ARTIFACT_INDEX.json",
+    "bytes": 1114123,
+    "sha256": "ad2b8f15721165dc539297325ec36537160c15360df51c043ae146e680388356",
+    "original_bytes_preserved": true,
+    "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/ARTIFACT_INDEX.json"
+  },
+  {
+    "original_path": "delivery/20261013_stage3e/PACKAGE_CHECKS.json",
+    "supplement_member": "original_stage3e_receipts/PACKAGE_CHECKS.json",
+    "bytes": 1117092,
+    "sha256": "396f799af54f4e35d3c3d809cb27149dc744289da5d79d69364ac71a95d2fc42",
+    "original_bytes_preserved": true,
+    "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/PACKAGE_CHECKS.json"
+  },
+  {
+    "original_path": "delivery/20261013_stage3e/POST_PACKAGE_PRESERVATION.json",
+    "supplement_member": "original_stage3e_receipts/POST_PACKAGE_PRESERVATION.json",
+    "bytes": 285,
+    "sha256": "ad2312ca2383708bbe7dacd647eb26584bf43826c2bafe2e28e9a0c71a2b0648",
+    "original_bytes_preserved": true,
+    "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/POST_PACKAGE_PRESERVATION.json"
+  },
+  {
+    "original_path": "delivery/20261013_stage3e/C2_ORIGINAL_PART01_PART02.json",
+    "supplement_member": "original_stage3e_receipts/C2_ORIGINAL_PART01_PART02.json",
+    "bytes": 1006422,
+    "sha256": "6e1a8c625685d58b78972afd219732bdf6b55dcbc4240aef4568d0f99c5accbc",
+    "original_bytes_preserved": true,
+    "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/C2_ORIGINAL_PART01_PART02.json"
+  },
+  {
+    "original_path": "delivery/20261013_stage3e/CODE_VERSION.json",
+    "supplement_member": "original_stage3e_receipts/CODE_VERSION.json",
+    "bytes": 2198,
+    "sha256": "8e62d50a5861a5c5e8a0e41bbe9ff6f4ac01411d23baffb749038e6d2ca0d066",
+    "original_bytes_preserved": true,
+    "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/CODE_VERSION.json"
+  },
+  {
+    "original_path": "delivery/20261013_stage3e/RUN_STATUS.json",
+    "supplement_member": "original_stage3e_receipts/RUN_STATUS.json",
+    "bytes": 3814,
+    "sha256": "f070ef1fade31e4731c16e4f5903f718c3a6304db84186cdfd26396ba07be01a",
+    "original_bytes_preserved": true,
+    "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/RUN_STATUS.json"
+  },
+  {
+    "original_path": "delivery/20261013_stage3e/SHA256SUMS",
+    "supplement_member": "original_stage3e_receipts/SHA256SUMS",
+    "bytes": 2880,
+    "sha256": "28f16879ac55547d7e500098bcbd22af59f101b2df51e8f60a0ce7bf247849c4",
+    "original_bytes_preserved": true,
+    "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/SHA256SUMS"
+  },
+  {
+    "original_path": "delivery/20261013_stage3e/REPRODUCE.md",
+    "supplement_member": "original_stage3e_receipts/REPRODUCE.md",
+    "bytes": 5670,
+    "sha256": "6d81ebc15d58539c7df43a2028b2255e0b81d60ce16c356d4c28dd8a7c616af4",
+    "original_bytes_preserved": true,
+    "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/REPRODUCE.md"
+  },
+  {
+    "original_path": "delivery/20261013_stage3e/PACKAGING_RECOVERY.json",
+    "supplement_member": "original_stage3e_receipts/PACKAGING_RECOVERY.json",
+    "bytes": 1016,
+    "sha256": "0cdf952a3bfd70a5363b82b21b208b7da5f409cc9b5ea6c70543273b107de75e",
+    "original_bytes_preserved": true,
+    "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/PACKAGING_RECOVERY.json"
+  },
+  {
+    "original_path": "delivery/20261013_stage3e/clean_replay_logs/new_E_software_tests.log",
+    "supplement_member": "original_stage3e_receipts/clean_replay_logs/new_E_software_tests.log",
+    "bytes": 2688,
+    "sha256": "5662501e7e21069242b823400ac68024cd3871fc6959191bc4625c607e9f7cdc",
+    "original_bytes_preserved": true,
+    "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/clean_replay_logs/new_E_software_tests.log"
+  },
+  {
+    "original_path": "delivery/20261013_stage3e/clean_replay_logs/cold_twelve_frozen_D_interval_software_reconstructions.log",
+    "supplement_member": "original_stage3e_receipts/clean_replay_logs/cold_twelve_frozen_D_interval_software_reconstructions.log",
+    "bytes": 2839,
+    "sha256": "7e6603928f3e2ba55b97d00bb8ee0d4c915344a84478899c373731daa4fdc961",
+    "original_bytes_preserved": true,
+    "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/clean_replay_logs/cold_twelve_frozen_D_interval_software_reconstructions.log"
+  },
+  {
+    "original_path": "delivery/20261013_stage3e/clean_replay_logs/frozen_scientific_files_and_atomic_recovery_checks.log",
+    "supplement_member": "original_stage3e_receipts/clean_replay_logs/frozen_scientific_files_and_atomic_recovery_checks.log",
+    "bytes": 1224,
+    "sha256": "913ad5c69fd2dbc8d6c07663a64c960616570258079d6eb836bdd83db404d567",
+    "original_bytes_preserved": true,
+    "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/clean_replay_logs/frozen_scientific_files_and_atomic_recovery_checks.log"
+  },
+  {
+    "original_path": "delivery/20261013_stage3e/clean_replay_logs/repeated_verified_twelve_cache_resume.log",
+    "supplement_member": "original_stage3e_receipts/clean_replay_logs/repeated_verified_twelve_cache_resume.log",
+    "bytes": 2803,
+    "sha256": "f08c5cdc8dc9722e592107db4254c2d8f6a90c361a83e2f9093a40897a1cec74",
+    "original_bytes_preserved": true,
+    "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/clean_replay_logs/repeated_verified_twelve_cache_resume.log"
+  },
+  {
+    "original_path": "configs/stage3c2_source_scale_v1/FREEZE.json",
+    "supplement_member": "original_dependencies/STAGE3C2_FREEZE.json",
+    "bytes": 2989,
+    "sha256": "45eaf6984a16c650127b588cb9b6d74c3082077aa08176980744b12163c567c6",
+    "original_bytes_preserved": true,
+    "commit": null
+  },
+  {
+    "original_path": "configs/stage3c2_source_scale_v1/full.json",
+    "supplement_member": "original_dependencies/STAGE3C2_full.json",
+    "bytes": 8874,
+    "sha256": "d26962beff3c34f83b11fa9ac13a5ca3b2cdc6e457e2aca3c448a40a345466d6",
+    "original_bytes_preserved": true,
+    "commit": null
+  },
+  {
+    "original_path": "delivery/20261012_stage3c2/REPRODUCE.md",
+    "supplement_member": "original_dependencies/STAGE3C2_REPRODUCE.md",
+    "bytes": 7687,
+    "sha256": "ace3f6c3ba731a951fa02305d253077d94caf1309cfb7dce4fcc67a59bd50081",
+    "original_bytes_preserved": true,
+    "commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/f33e38a8d28bf3206989794240cc35e63d62f017/delivery/20261012_stage3c2/REPRODUCE.md"
+  },
+  {
+    "original_path": "delivery/20261012_stage3c2/README.md",
+    "supplement_member": "original_dependencies/STAGE3C2_ORIGINAL_README.md",
+    "bytes": 5108,
+    "sha256": "e8504932df6fed1753b2106c03d158bca9a11591f7481afd26aefd0ab9615320",
+    "original_bytes_preserved": true,
+    "commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/f33e38a8d28bf3206989794240cc35e63d62f017/delivery/20261012_stage3c2/README.md"
+  },
+  {
+    "original_path": "delivery/20261012_stage3c2/PACKAGE_CHECKS.json",
+    "supplement_member": "original_dependencies/STAGE3C2_PACKAGE_CHECKS.json",
+    "bytes": 23213,
+    "sha256": "4dc403922bdf4c734c3ae699f85d40b0c4d295c5a0537247b69ce03576953163",
+    "original_bytes_preserved": true,
+    "commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/f33e38a8d28bf3206989794240cc35e63d62f017/delivery/20261012_stage3c2/PACKAGE_CHECKS.json"
+  },
+  {
+    "original_path": "reports/stage3e_evidence_review_v1/results/INPUT_MANIFEST.json",
+    "supplement_member": "original_dependencies/STAGE3E_original_D_INPUT_MANIFEST.json",
+    "bytes": 94535,
+    "sha256": "ee43d22701554912461839dad1ad78c40e7738c9ab36c54b729f53e34c0f0413",
+    "original_bytes_preserved": true,
+    "commit": null
+  }
+]

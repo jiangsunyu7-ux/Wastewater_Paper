@@ -1,0 +1,23 @@
+template,field,requirement,meaning
+FACILITY_GROUPS_TEMPLATE.csv,SiteID,PREPOPULATED,Published station ID; do not overwrite while returning mapping.
+FACILITY_GROUPS_TEMPLATE.csv,published_name_for_reference_only,PREPOPULATED_NOT_EVIDENCE,Saved pre2022 name; alone cannot certify facility identity.
+FACILITY_GROUPS_TEMPLATE.csv,request_scope / frozen_source_pool_membership,PREPOPULATED,"Scientific partition and frozen pools; metadata only, no performance."
+FACILITY_GROUPS_TEMPLATE.csv,candidate_related_SiteIDs_not_confirmed,PREPOPULATED_NOT_EVIDENCE,Suspected existing links only; provider should confirm or reject.
+FACILITY_GROUPS_TEMPLATE.csv,stable_physical_facility_group_id,REQUIRED_FOR_A,Anonymous but stable identifier is sufficient; unknown is acceptable and remains unresolved.
+FACILITY_GROUPS_TEMPLATE.csv,normal_treated_effluent_measurement_role,REQUIRED_FOR_A,"Normal treated-effluent observation, aggregate/shared outlet, bypass, influent or other; exact coordinates not required."
+FACILITY_GROUPS_TEMPLATE.csv,confirmed_related_SiteIDs / relation_type,REQUIRED_FOR_A,"Same facility, aliases, merger, shared normal outlet etc.; explicitly none/unknown if applicable."
+FACILITY_GROUPS_TEMPLATE.csv,valid_from / valid_to,REQUIRED_FOR_A,Historical validity; blank open-ended dates must be distinguished from unknown in the evidence note.
+FACILITY_GROUPS_TEMPLATE.csv,evidence_reference / respondent / response_date,REQUIRED_FOR_A,"Traceable dictionary/file/page/written response and date, not inferred from names."
+DATA_DEFINITIONS_AND_AVAILABILITY_TEMPLATE.csv,daily_volume_unit,REQUIRED_FOR_A,State m3/day or another exact unit; distinguish integrated volume from flow rate.
+DATA_DEFINITIONS_AND_AVAILABILITY_TEMPLATE.csv,accumulation_interval_start_and_end,REQUIRED_FOR_A,Clock times and relationship to the labelled date; ordinary-day example.
+DATA_DEFINITIONS_AND_AVAILABILITY_TEMPLATE.csv,date_label_start_or_end,REQUIRED_FOR_A,"Does the date identify interval start, interval end, or another convention?"
+DATA_DEFINITIONS_AND_AVAILABILITY_TEMPLATE.csv,timezone_and_DST_rule,REQUIRED_FOR_A,UTC/Europe-London/other; handling of 23/25-hour days.
+DATA_DEFINITIONS_AND_AVAILABILITY_TEMPLATE.csv,operational_observation_first_available,REQUIRED_FOR_B_OPERATIONAL,"First internal operational availability; rule/delay bound/as-of evidence, not just observation time."
+DATA_DEFINITIONS_AND_AVAILABILITY_TEMPLATE.csv,initial_operational_QA_available,REQUIRED_FOR_B_OPERATIONAL,"Initial internal QA time, meaning and whether it differs from final QA."
+DATA_DEFINITIONS_AND_AVAILABILITY_TEMPLATE.csv,public_observation_first_release,REQUIRED_FOR_B_PUBLIC,Public release timing; annual release is distinct from operational arrival.
+DATA_DEFINITIONS_AND_AVAILABILITY_TEMPLATE.csv,public_QA_first_release,REQUIRED_FOR_B_PUBLIC,First publicly available QA; distinguish initial and revised flags.
+DATA_DEFINITIONS_AND_AVAILABILITY_TEMPLATE.csv,final_QA_revision_and_historical_versions,REQUIRED_FOR_B,Final QA/revision policy and any immutable as-of/version evidence; unknown allowed.
+DATA_DEFINITIONS_AND_AVAILABILITY_TEMPLATE.csv,licence_and_metadata_citation,OPTIONAL_PERMISSION_CLARIFICATION,Permission to cite/share metadata or anonymized grouping.
+DATA_DEFINITIONS_AND_AVAILABILITY_TEMPLATE.csv,calculation_formula_86000_display,OPTIONAL_CLARIFICATION,Confirm the intended documented seconds/litre conversion; no released-value rescaling requested.
+DATA_DEFINITIONS_AND_AVAILABILITY_TEMPLATE.csv,precise_coordinates_and_CRS,OPTIONAL_LATER,Not needed for present volume-history models or anonymous grouping.
+DATA_DEFINITIONS_AND_AVAILABILITY_TEMPLATE.csv,meter_ID_certification_and_full_revisions,OPTIONAL_LATER,May clarify measurement uncertainty later; not all requested before first reply.

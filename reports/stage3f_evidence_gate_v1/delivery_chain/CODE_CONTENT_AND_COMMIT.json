@@ -1,0 +1,332 @@
+{
+  "base_HEAD_is_not_a_complete_scientific_code_version": true,
+  "version_rule": "Content SHA256 + real delivery Git commit + committed code ZIP + exact member path",
+  "Stage3E_delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+  "Stage3C2_delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+  "C2_code_container": {
+    "path": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+    "bytes": 11848744,
+    "sha256": "7ad78fc45809e932a3df4fdb77dfea561b0acb3f5747c2a41ba818b41e110ab2",
+    "commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+    "disk_equals_local_git_commit_blob": true,
+    "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/f33e38a8d28bf3206989794240cc35e63d62f017/delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+    "remote_HTTP_download_retested_this_stage": false
+  },
+  "files": [
+    {
+      "path": "STAGE3E_PROTOCOL.md",
+      "sha256": "461c8ab4aa2b9c0eca7985afd653a3ad915a8dbebc374a10131c5b68fae21562",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "STAGE3E_PROTOCOL.md",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "configs/stage3e_evidence_review_v1/diagnostics.json",
+      "sha256": "f4aacab3ed594762c8f1c4fc462637cefd2c667ae92a9ad1c8089070a3bf47e9",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "configs/stage3e_evidence_review_v1/diagnostics.json",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "configs/stage3e_evidence_review_v1/full.json",
+      "sha256": "e9a371e98b22eb97ac37d07b54d4af3da7fc90514ddeec0980ebe28417e3e42a",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "configs/stage3e_evidence_review_v1/full.json",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "reports/stage3e_evidence_review_v1/literature/verify_literature_evidence.py",
+      "sha256": "3b79de51ba19875f41c5bd05faa384243b942774e329822ed337e3f1f3f9069e",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "reports/stage3e_evidence_review_v1/literature/verify_literature_evidence.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/check_stage3e_evidence.py",
+      "sha256": "37c368d1bf578c059eabb1075bb44af7e28cb8eb25bd26d7db67be814741d19e",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "scripts/check_stage3e_evidence.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/check_stage3e_runtime.py",
+      "sha256": "f9e355d4ea9c74a0bd55c43ae5ff9d1cf028138b6e1650ece92a2acdb3e82025",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "scripts/check_stage3e_runtime.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/finalize_stage3e_evidence.py",
+      "sha256": "ae6b35c911927f7a9e3a5dbf49b0fbe69695676945cc2c52e3398604b3ac2955",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "scripts/finalize_stage3e_evidence.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/package_stage3e.py",
+      "sha256": "999814cf4f4e76972cb68a6cbb9aae72eb56a377efef773dd9d599e6df20ff1d",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "scripts/package_stage3e.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/plot_stage3e.py",
+      "sha256": "19ecd593bc11072599c7a0eeee5c6bbd845adbed9173152cab00b5e54930fbbd",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "scripts/plot_stage3e.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/run_stage3e_diagnostics.py",
+      "sha256": "f7bc98b2ad06a7b09e680753958d09a0ed7518d3b8789b0ce75e0ad015b69bd2",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "scripts/run_stage3e_diagnostics.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "src/wastewater/stage3e_diagnostics.py",
+      "sha256": "3968b4c0e8a69f0c4492986440181ad4e46b7462b1b31eea626a552608a72e3f",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "src/wastewater/stage3e_diagnostics.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "src/wastewater/stage3e_runtime.py",
+      "sha256": "cc78ae3ed41515e4720ee9e74a1738f1ab0648907e972a9626e474cb5b9b3164",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "src/wastewater/stage3e_runtime.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "tests/test_stage3e_diagnostics.py",
+      "sha256": "73ecdb7b5f3247062469a898eaf4fce1ec2303df72cada02680a06d659fa4f85",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "tests/test_stage3e_diagnostics.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "tests/test_stage3e_runtime.py",
+      "sha256": "be600542df7edfc023ee290584fae693f1266c5ba25f4134962166375af9b2b2",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "tests/test_stage3e_runtime.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "STAGE3C2_PROTOCOL.md",
+      "sha256": "a5102ef224c3fcdbb9f8ae57487eb6d3910e6e8385558c5f597e64fd976b78b8",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "STAGE3C2_PROTOCOL.md",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "configs/stage3c2_source_scale_v1/full.json",
+      "sha256": "d26962beff3c34f83b11fa9ac13a5ca3b2cdc6e457e2aca3c448a40a345466d6",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "configs/stage3c2_source_scale_v1/full.json",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "data/provenance/stage3c2_source_scale_v1/source_pool_definition.json",
+      "sha256": "db1ed7af6954ef6d819433ee977ba8638891a9eacc2db33ca733192be84c356e",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "data/provenance/stage3c2_source_scale_v1/source_pool_definition.json",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "data/derived/stage3c2_source_scale_v1/daily_candidates.csv",
+      "sha256": "0ed8366360d487d74c447ba8a304e1d9b8db9c112d019975a034b5700bf3bddf",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "data/derived/stage3c2_source_scale_v1/daily_candidates.csv",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "data/derived/stage3c2_source_scale_v1/manifest.json",
+      "sha256": "c24c54fafb471442c96d0f2503dc158a944607878936780453fa01dd7a91dba4",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "data/derived/stage3c2_source_scale_v1/manifest.json",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "src/wastewater/common.py",
+      "sha256": "6abe5bc95f8ae1cd74d8b14e6f2f15eaee6038ced57db13ed47887008e4b455c",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "src/wastewater/common.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "src/wastewater/shared_data.py",
+      "sha256": "3814e7bb507fc7bbb19d63608982cc585f695c5b11b935fb53f380958a84f86a",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "src/wastewater/shared_data.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "src/wastewater/stage3a_data.py",
+      "sha256": "e07486e7a26097a3561f2d8b7c749c5b582a5ae15c49d82ab703d51c057f9bea",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "src/wastewater/stage3a_data.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "src/wastewater/stage3b_models.py",
+      "sha256": "6e9c7eba6db81a382f9d21b0a5305be3750d75f20294598fa837bba47a8ef316",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "src/wastewater/stage3b_models.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "src/wastewater/stage3b_experiment.py",
+      "sha256": "18743b08dc357ec63b20eb6801afd6d37151ab122055fac55b5f5253d976e942",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "src/wastewater/stage3b_experiment.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "src/wastewater/stage3c2_source.py",
+      "sha256": "c36abf2879321e763c0a2c368689e266b662af5bc146951bee2226e19310d7dd",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "src/wastewater/stage3c2_source.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "src/wastewater/stage3c2_experiment.py",
+      "sha256": "3ae09c6fe9a589ba132fe0bb8a8a33314834fbfbc010ef8166983bdf866add52",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "src/wastewater/stage3c2_experiment.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "src/wastewater/stage3c2_evaluation.py",
+      "sha256": "1e11115d35a718c93a255f10753ab4097f85394238def055725424d10da4c1b3",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "src/wastewater/stage3c2_evaluation.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/prepare_stage3c2.py",
+      "sha256": "ddc41e895c85e4415dc104785d97c6b94e25bc7b94c5cd29060c36592d2d60db",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "scripts/prepare_stage3c2.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/verify_stage3c2_data.py",
+      "sha256": "f19c7297e727bf5e7718f6d1faf2e75eb2cf64dcc749e2149c4d5336d62e26b5",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "scripts/verify_stage3c2_data.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/check_stage3c2_k3.py",
+      "sha256": "8bc1c4052be2cd8e3c344f30b67ce726a0556d1f746da67a7fd42fd523f9d515",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "scripts/check_stage3c2_k3.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/summarize_stage3c2.py",
+      "sha256": "517f702f3704235ac867b2ae98a73ccfe834fda6904a81e2862262bd9417786a",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "scripts/summarize_stage3c2.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/freeze_stage3c2.py",
+      "sha256": "6170582924187704b32ccfbe2f89586a1104eaa151d5454d238b79a8326fb345",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "scripts/freeze_stage3c2.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "tests/test_stage3c2_evaluation.py",
+      "sha256": "344de7e8025d1437b5ef1c6796359e5701011053a97b84f322dbc97effae7316",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "tests/test_stage3c2_evaluation.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "tests/test_stage3c2_experiment.py",
+      "sha256": "e2b48344c241690eb3221032600095f7fff1fea5dfad42f9ffc9a5790f5390a0",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "tests/test_stage3c2_experiment.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "tests/test_stage3c2_source.py",
+      "sha256": "860b322ac574488d0040634bc0f42e4869405f7d4bc22de9aed667434d489f50",
+      "delivery_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+      "committed_container": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "member_path": "tests/test_stage3c2_source.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    }
+  ]
+}

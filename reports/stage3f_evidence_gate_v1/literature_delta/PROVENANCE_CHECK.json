@@ -1,0 +1,15 @@
+{
+  "status": "PASSED_PROVENANCE_ONLY",
+  "sources_checked": [
+    "KIM_HTML",
+    "KIM_VISIBLE",
+    "YU_CROSSREF",
+    "YU_OPENALEX",
+    "WRR_CROSSREF",
+    "WRR_AUTHOR_PREPRINT_METADATA"
+  ],
+  "delta_rows": 3,
+  "new_full_text_or_methods_verified": false,
+  "novelty_established": false,
+  "physical_facilities_verified": false
+}

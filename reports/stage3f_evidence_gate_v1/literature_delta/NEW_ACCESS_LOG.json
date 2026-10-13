@@ -1,0 +1,28 @@
+[
+  {
+    "name": "wr_author_software_zenodo",
+    "requested_url": "https://zenodo.org/api/records/6997701",
+    "new_legal_lead": "Publisher-deposited WRR reference explicitly identifies author software DOI10.5281/zenodo.6997701; previously unvisited author repository may expose exact AR/Persistence comparators.",
+    "attempt_utc": "2026-10-13T06:15:03.077517+00:00",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "name": "wr_author_preprint_crossref",
+    "requested_url": "https://api.crossref.org/works/10.1002/essoar.10512603.1",
+    "new_legal_lead": "Saved WRR Crossref has-preprint relationship explicitly names DOI10.1002/essoar.10512603.1; previously unvisited author preprint may expose original methods.",
+    "attempt_utc": "2026-10-13T06:15:03.103724+00:00",
+    "status": 200,
+    "resolved_url": "https://api.crossref.org/works/10.1002/essoar.10512603.1",
+    "content_type": "application/json",
+    "bytes": 2002,
+    "sha256": "78dd645f8acf2a9b28e8de10ec2a9b86149cfceee859eba8a86addb21de2e723",
+    "file": "wr_author_preprint_crossref.json"
+  },
+  {
+    "name": "wr_author_preprint_pdf",
+    "requested_url": "https://essopenarchive.org/doi/pdf/10.1002/essoar.10512603.1",
+    "new_legal_lead": "Fresh Crossref preprint record returns this exact author-preprint PDF URL and reciprocal is-preprint-of relation to10.1029/2022WR033826. It is not a previously failed publisher URL.",
+    "attempt_utc": "2026-10-13T06:15:40.531044+00:00",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+]

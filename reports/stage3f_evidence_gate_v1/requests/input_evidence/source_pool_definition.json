@@ -1,0 +1,720 @@
+{
+  "version": "stage3c2_source_scale_v1",
+  "stage": "development",
+  "analysis_unit": "station_exploratory",
+  "physical_mapping_verified": false,
+  "verified_real_time": false,
+  "original_source_ids": [
+    "13006",
+    "13008",
+    "13012"
+  ],
+  "development_ids": [
+    "13013",
+    "13015",
+    "13016",
+    "13017",
+    "13022",
+    "13024",
+    "13025",
+    "13028",
+    "13029",
+    "13031"
+  ],
+  "smoke_ids": [
+    "13013",
+    "13015"
+  ],
+  "order_labels": [
+    20261012,
+    20261013,
+    20261014
+  ],
+  "pool_sizes": [
+    3,
+    10,
+    30
+  ],
+  "pools": [
+    {
+      "pool_id": "K3",
+      "order_label": null,
+      "k": 3,
+      "site_ids": [
+        "13006",
+        "13008",
+        "13012"
+      ]
+    },
+    {
+      "pool_id": "order20261012_K10",
+      "order_label": 20261012,
+      "k": 10,
+      "site_ids": [
+        "13006",
+        "13008",
+        "13012",
+        "13035",
+        "17968",
+        "13264",
+        "13278",
+        "13064",
+        "13145",
+        "13364"
+      ]
+    },
+    {
+      "pool_id": "order20261012_K30",
+      "order_label": 20261012,
+      "k": 30,
+      "site_ids": [
+        "13006",
+        "13008",
+        "13012",
+        "13035",
+        "17968",
+        "13264",
+        "13278",
+        "13064",
+        "13145",
+        "13364",
+        "13353",
+        "13242",
+        "13220",
+        "13214",
+        "13252",
+        "13515",
+        "13324",
+        "13248",
+        "13255",
+        "13362",
+        "13079",
+        "19155",
+        "13243",
+        "13232",
+        "13182",
+        "13082",
+        "13043",
+        "17430",
+        "13041",
+        "13125"
+      ]
+    },
+    {
+      "pool_id": "order20261013_K10",
+      "order_label": 20261013,
+      "k": 10,
+      "site_ids": [
+        "13006",
+        "13008",
+        "13012",
+        "13032",
+        "13047",
+        "13316",
+        "13035",
+        "13163",
+        "13275",
+        "13354"
+      ]
+    },
+    {
+      "pool_id": "order20261013_K30",
+      "order_label": 20261013,
+      "k": 30,
+      "site_ids": [
+        "13006",
+        "13008",
+        "13012",
+        "13032",
+        "13047",
+        "13316",
+        "13035",
+        "13163",
+        "13275",
+        "13354",
+        "13060",
+        "19539",
+        "13324",
+        "13071",
+        "13056",
+        "13118",
+        "13207",
+        "13142",
+        "13175",
+        "13079",
+        "13315",
+        "13223",
+        "13264",
+        "13238",
+        "13172",
+        "13143",
+        "13101",
+        "13361",
+        "13360",
+        "13078"
+      ]
+    },
+    {
+      "pool_id": "order20261014_K10",
+      "order_label": 20261014,
+      "k": 10,
+      "site_ids": [
+        "13006",
+        "13008",
+        "13012",
+        "13156",
+        "13515",
+        "13238",
+        "13242",
+        "13207",
+        "13044",
+        "13144"
+      ]
+    },
+    {
+      "pool_id": "order20261014_K30",
+      "order_label": 20261014,
+      "k": 30,
+      "site_ids": [
+        "13006",
+        "13008",
+        "13012",
+        "13156",
+        "13515",
+        "13238",
+        "13242",
+        "13207",
+        "13044",
+        "13144",
+        "13191",
+        "13249",
+        "13219",
+        "13291",
+        "13201",
+        "13075",
+        "13198",
+        "13293",
+        "13310",
+        "13260",
+        "13076",
+        "13254",
+        "13134",
+        "13192",
+        "13275",
+        "13055",
+        "13079",
+        "13171",
+        "13035",
+        "19556"
+      ]
+    }
+  ],
+  "source_related_ids": {
+    "13006": [
+      "13006"
+    ],
+    "13008": [
+      "13008"
+    ],
+    "13012": [
+      "13012"
+    ]
+  },
+  "source_union_ids": [
+    "13006",
+    "13008",
+    "13012",
+    "13032",
+    "13035",
+    "13041",
+    "13043",
+    "13044",
+    "13047",
+    "13055",
+    "13056",
+    "13060",
+    "13064",
+    "13071",
+    "13075",
+    "13076",
+    "13078",
+    "13079",
+    "13082",
+    "13101",
+    "13118",
+    "13125",
+    "13134",
+    "13142",
+    "13143",
+    "13144",
+    "13145",
+    "13156",
+    "13163",
+    "13171",
+    "13172",
+    "13175",
+    "13182",
+    "13191",
+    "13192",
+    "13198",
+    "13201",
+    "13207",
+    "13214",
+    "13219",
+    "13220",
+    "13223",
+    "13232",
+    "13238",
+    "13242",
+    "13243",
+    "13248",
+    "13249",
+    "13252",
+    "13254",
+    "13255",
+    "13260",
+    "13264",
+    "13275",
+    "13278",
+    "13291",
+    "13293",
+    "13310",
+    "13315",
+    "13316",
+    "13324",
+    "13353",
+    "13354",
+    "13360",
+    "13361",
+    "13362",
+    "13364",
+    "13515",
+    "17430",
+    "17968",
+    "19155",
+    "19539",
+    "19556"
+  ],
+  "source_to_provisional_group": {
+    "13006": "provisional:13006",
+    "13008": "provisional:13008",
+    "13012": "provisional:13012",
+    "13032": "provisional:13032",
+    "13035": "provisional:13035",
+    "13041": "provisional:13041",
+    "13043": "provisional:13043",
+    "13044": "provisional:13044",
+    "13047": "provisional:13047",
+    "13055": "provisional:13055",
+    "13056": "provisional:13056",
+    "13060": "provisional:13060",
+    "13064": "provisional:13064",
+    "13071": "provisional:13071",
+    "13075": "provisional:13075",
+    "13076": "provisional:13076",
+    "13078": "provisional:13078",
+    "13079": "provisional:13079",
+    "13082": "provisional:13082",
+    "13101": "provisional:13101",
+    "13118": "provisional:13118",
+    "13125": "provisional:13125",
+    "13134": "provisional:13134",
+    "13142": "provisional:13142",
+    "13143": "provisional:13143",
+    "13144": "provisional:13144",
+    "13145": "provisional:13145",
+    "13156": "provisional:13156",
+    "13163": "provisional:13163",
+    "13171": "provisional:13171",
+    "13172": "provisional:13172",
+    "13175": "provisional:13175",
+    "13182": "provisional:13182",
+    "13191": "provisional:13191",
+    "13192": "provisional:13192",
+    "13198": "provisional:13198|13199",
+    "13201": "provisional:13201",
+    "13207": "provisional:13207",
+    "13214": "provisional:13214",
+    "13219": "provisional:13219",
+    "13220": "provisional:13220",
+    "13223": "provisional:13223",
+    "13232": "provisional:13232",
+    "13238": "provisional:13238",
+    "13242": "provisional:13242",
+    "13243": "provisional:13243",
+    "13248": "provisional:13248",
+    "13249": "provisional:13249",
+    "13252": "provisional:13252",
+    "13254": "provisional:13254",
+    "13255": "provisional:13255",
+    "13260": "provisional:13260",
+    "13264": "provisional:13264",
+    "13275": "provisional:13275",
+    "13278": "provisional:13278",
+    "13291": "provisional:13291",
+    "13293": "provisional:13293",
+    "13310": "provisional:13310",
+    "13315": "provisional:13315",
+    "13316": "provisional:13316",
+    "13324": "provisional:13324",
+    "13353": "provisional:13353",
+    "13354": "provisional:13354|13355",
+    "13360": "provisional:13360",
+    "13361": "provisional:13361",
+    "13362": "provisional:13362",
+    "13364": "provisional:13364",
+    "13515": "provisional:13515",
+    "17430": "provisional:17430",
+    "17968": "provisional:17968",
+    "19155": "provisional:19155",
+    "19539": "provisional:19539",
+    "19556": "provisional:19556"
+  },
+  "all_related_ids_by_provisional_group": {
+    "provisional:13006": [
+      "13006"
+    ],
+    "provisional:13008": [
+      "13008"
+    ],
+    "provisional:13012": [
+      "13012"
+    ],
+    "provisional:13032": [
+      "13032"
+    ],
+    "provisional:13035": [
+      "13035"
+    ],
+    "provisional:13041": [
+      "13041"
+    ],
+    "provisional:13043": [
+      "13043"
+    ],
+    "provisional:13044": [
+      "13044"
+    ],
+    "provisional:13047": [
+      "13047"
+    ],
+    "provisional:13055": [
+      "13055"
+    ],
+    "provisional:13056": [
+      "13056"
+    ],
+    "provisional:13060": [
+      "13060"
+    ],
+    "provisional:13064": [
+      "13064"
+    ],
+    "provisional:13071": [
+      "13071"
+    ],
+    "provisional:13075": [
+      "13075"
+    ],
+    "provisional:13076": [
+      "13076"
+    ],
+    "provisional:13078": [
+      "13078"
+    ],
+    "provisional:13079": [
+      "13079"
+    ],
+    "provisional:13082": [
+      "13082"
+    ],
+    "provisional:13101": [
+      "13101"
+    ],
+    "provisional:13118": [
+      "13118"
+    ],
+    "provisional:13125": [
+      "13125"
+    ],
+    "provisional:13134": [
+      "13134"
+    ],
+    "provisional:13142": [
+      "13142"
+    ],
+    "provisional:13143": [
+      "13143"
+    ],
+    "provisional:13144": [
+      "13144"
+    ],
+    "provisional:13145": [
+      "13145"
+    ],
+    "provisional:13156": [
+      "13156"
+    ],
+    "provisional:13163": [
+      "13163"
+    ],
+    "provisional:13171": [
+      "13171"
+    ],
+    "provisional:13172": [
+      "13172"
+    ],
+    "provisional:13175": [
+      "13175"
+    ],
+    "provisional:13182": [
+      "13182"
+    ],
+    "provisional:13191": [
+      "13191"
+    ],
+    "provisional:13192": [
+      "13192"
+    ],
+    "provisional:13198|13199": [
+      "13198",
+      "13199"
+    ],
+    "provisional:13201": [
+      "13201"
+    ],
+    "provisional:13207": [
+      "13207"
+    ],
+    "provisional:13214": [
+      "13214"
+    ],
+    "provisional:13219": [
+      "13219"
+    ],
+    "provisional:13220": [
+      "13220"
+    ],
+    "provisional:13223": [
+      "13223"
+    ],
+    "provisional:13232": [
+      "13232"
+    ],
+    "provisional:13238": [
+      "13238"
+    ],
+    "provisional:13242": [
+      "13242"
+    ],
+    "provisional:13243": [
+      "13243"
+    ],
+    "provisional:13248": [
+      "13248"
+    ],
+    "provisional:13249": [
+      "13249"
+    ],
+    "provisional:13252": [
+      "13252"
+    ],
+    "provisional:13254": [
+      "13254"
+    ],
+    "provisional:13255": [
+      "13255"
+    ],
+    "provisional:13260": [
+      "13260"
+    ],
+    "provisional:13264": [
+      "13264"
+    ],
+    "provisional:13275": [
+      "13275"
+    ],
+    "provisional:13278": [
+      "13278"
+    ],
+    "provisional:13291": [
+      "13291"
+    ],
+    "provisional:13293": [
+      "13293"
+    ],
+    "provisional:13310": [
+      "13310"
+    ],
+    "provisional:13315": [
+      "13315"
+    ],
+    "provisional:13316": [
+      "13316"
+    ],
+    "provisional:13324": [
+      "13324"
+    ],
+    "provisional:13353": [
+      "13353"
+    ],
+    "provisional:13354|13355": [
+      "13354",
+      "13355"
+    ],
+    "provisional:13360": [
+      "13360"
+    ],
+    "provisional:13361": [
+      "13361"
+    ],
+    "provisional:13362": [
+      "13362"
+    ],
+    "provisional:13364": [
+      "13364"
+    ],
+    "provisional:13515": [
+      "13515"
+    ],
+    "provisional:17430": [
+      "17430"
+    ],
+    "provisional:17968": [
+      "17968"
+    ],
+    "provisional:19155": [
+      "19155"
+    ],
+    "provisional:19539": [
+      "19539"
+    ],
+    "provisional:19556": [
+      "19556"
+    ],
+    "provisional:13013": [
+      "13013"
+    ],
+    "provisional:13015": [
+      "13015"
+    ],
+    "provisional:13016": [
+      "13016"
+    ],
+    "provisional:13017": [
+      "13017"
+    ],
+    "provisional:13022": [
+      "13022"
+    ],
+    "provisional:13024": [
+      "13024"
+    ],
+    "provisional:13025": [
+      "13025"
+    ],
+    "provisional:13028": [
+      "13028"
+    ],
+    "provisional:13029": [
+      "13029"
+    ],
+    "provisional:13031": [
+      "13031"
+    ]
+  },
+  "protected_ids": [
+    "13039",
+    "13054",
+    "13061",
+    "13073",
+    "13083",
+    "13084",
+    "13092",
+    "13096",
+    "13105",
+    "13129",
+    "13140",
+    "13152",
+    "13161",
+    "13165",
+    "13184",
+    "13196",
+    "13221",
+    "13222",
+    "13231",
+    "13267",
+    "13271",
+    "13274",
+    "13280",
+    "13281",
+    "13286",
+    "13288",
+    "13292",
+    "13309",
+    "13312",
+    "13318",
+    "13320",
+    "13325",
+    "13330",
+    "13331",
+    "13352",
+    "17081",
+    "17375"
+  ],
+  "protected_provisional_groups": [
+    "provisional:13039",
+    "provisional:13054",
+    "provisional:13061",
+    "provisional:13073",
+    "provisional:13083",
+    "provisional:13084",
+    "provisional:13092",
+    "provisional:13096",
+    "provisional:13105",
+    "provisional:13129",
+    "provisional:13140",
+    "provisional:13152",
+    "provisional:13161",
+    "provisional:13165",
+    "provisional:13184",
+    "provisional:13196",
+    "provisional:13221",
+    "provisional:13222",
+    "provisional:13231",
+    "provisional:13267",
+    "provisional:13271",
+    "provisional:13274",
+    "provisional:13280",
+    "provisional:13281",
+    "provisional:13286",
+    "provisional:13288",
+    "provisional:13292",
+    "provisional:13309",
+    "provisional:13312",
+    "provisional:13318",
+    "provisional:13320",
+    "provisional:13325",
+    "provisional:13330",
+    "provisional:13331",
+    "provisional:13352",
+    "provisional:17081",
+    "provisional:17375"
+  ],
+  "temporary_protection_group_count": 37,
+  "eligible_unused_group_count_before_reservation": 185,
+  "registered_protection_status": "未找到具名正式保留目标登记；不能据此认定不存在外部名单",
+  "group_rule": "connected exact normalized names, same bracket-stripped main name, or exact bracket alias/main-name match; provisional:<all group SiteIDs numeric ascending joined by '|'>",
+  "representative_rule": "lowest numeric eligible candidate SiteID in provisional group; noneligible linked meters remain same partition but cannot be selected",
+  "reserve_rule": "ceil(0.20*N); sort SHA256('Wessex-C2-reserve-v1|' + provisional_group_id) ascending; existing protection first",
+  "source_order_rule": "SHA256('Wessex-C2-order-v1|' + str(order_label) + '|' + provisional_group_id) ascending; tie group_id",
+  "canonical_csv": "data/derived/stage3c2_source_scale_v1/daily_candidates.csv",
+  "source_period": [
+    "2016-01-01",
+    "2021-12-31"
+  ],
+  "development_maximum": "2023-12-31",
+  "source_b30_validation_exclusion": "remove original pseudo-target SiteID and all known/suspected related IDs; fit other sources only through 2020-12-31",
+  "no_independent_physical_facility_validation_claim": true,
+  "frozen_before_any_stage3c2_predictions": true
+}

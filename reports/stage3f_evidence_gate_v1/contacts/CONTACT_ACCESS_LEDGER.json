@@ -1,0 +1,40 @@
+[
+  {
+    "label": "official_open_data_schedule",
+    "requested_url": "https://corporate.wessexwater.co.uk/our-performance/open-data-schedule",
+    "queried_utc": "2026-10-13T06:16:49.409506+00:00",
+    "method": "GET",
+    "origin": "New lead in saved official provider catalog; no old failure URL retried",
+    "attempts": 1,
+    "status": null,
+    "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "saved_file": "reports/stage3f_evidence_gate_v1/contacts/official_open_data_schedule_response.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "emails_found": [],
+    "contact_links": [],
+    "access_failure_file": "reports/stage3f_evidence_gate_v1/contacts/official_open_data_schedule_access_failure.txt",
+    "access_failure_sha256": "f5e14272cf35422e53d3c158d91ef4a964e426474851eedaedcdb0e36f002611",
+    "response_body_received": false,
+    "tunnel_rejection_not_official_http_response": true
+  },
+  {
+    "label": "marketplace_home",
+    "requested_url": "https://marketplace.wessexwater.co.uk/",
+    "queried_utc": "2026-10-13T06:16:49.427629+00:00",
+    "method": "GET",
+    "origin": "New lead in saved official provider catalog; no old failure URL retried",
+    "attempts": 1,
+    "status": null,
+    "error": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+    "saved_file": "reports/stage3f_evidence_gate_v1/contacts/marketplace_home_response.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "emails_found": [],
+    "contact_links": [],
+    "access_failure_file": "reports/stage3f_evidence_gate_v1/contacts/marketplace_home_access_failure.txt",
+    "access_failure_sha256": "f5e14272cf35422e53d3c158d91ef4a964e426474851eedaedcdb0e36f002611",
+    "response_body_received": false,
+    "tunnel_rejection_not_official_http_response": true
+  }
+]

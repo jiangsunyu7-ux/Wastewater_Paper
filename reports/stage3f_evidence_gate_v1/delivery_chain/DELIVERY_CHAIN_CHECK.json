@@ -1,0 +1,435 @@
+{
+  "status": "PASSED",
+  "stage": "Stage3F",
+  "version": "stage3f_evidence_gate_v1",
+  "checked_utc": "2026-10-13T06:16:57.461381+00:00",
+  "work_scope": "Read-only original container/CRC/member/content/commit audit; no science replay",
+  "actual_Stage3E_packages_verified": [
+    {
+      "path": "delivery/20261013_stage3e/Wessex_Stage3E_Quick_Review_20261013.zip",
+      "bytes": 6692127,
+      "sha256": "2bdac0a697dc17fccec95e3df16d4176a3f1dda53607886728401f4fa977e7cb",
+      "members_verified": 155,
+      "CRC_and_all_member_SHA256": "PASSED",
+      "under_24_MiB": true,
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/Wessex_Stage3E_Quick_Review_20261013.zip",
+      "remote_HTTP_download_retested_this_stage": false,
+      "origin": "Stage3E original new package"
+    },
+    {
+      "path": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "bytes": 21321245,
+      "sha256": "7f36d375b76908f8e4863ae8e34048f3a9be8229a76fe63c79e931fe5b282df8",
+      "members_verified": 176,
+      "CRC_and_all_member_SHA256": "PASSED",
+      "under_24_MiB": true,
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "remote_HTTP_download_retested_this_stage": false,
+      "origin": "Stage3E original new package"
+    },
+    {
+      "path": "delivery/20261013_stage3e/Wessex_Stage3E_Diagnostics_20261013_Part01.zip",
+      "bytes": 4959734,
+      "sha256": "2caff719905bbf1033f33e577817f777d419ef900c4c06fbc09b1f5944c883bd",
+      "members_verified": 293,
+      "CRC_and_all_member_SHA256": "PASSED",
+      "under_24_MiB": true,
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/Wessex_Stage3E_Diagnostics_20261013_Part01.zip",
+      "remote_HTTP_download_retested_this_stage": false,
+      "origin": "Stage3E original new package"
+    }
+  ],
+  "actual_original_C2_parts_verified": [
+    {
+      "path": "delivery/20261013_stage3e/Wessex_Stage3C2_Original_Predictions_and_Diagnostics_Part01_Reissued_20261013.zip",
+      "bytes": 23057568,
+      "sha256": "396662672038a7221f062c1f1e43aa56a26770379244db788a13a2cf1f0226a8",
+      "members_verified": 230,
+      "CRC_and_all_member_SHA256": "PASSED",
+      "under_24_MiB": true,
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/Wessex_Stage3C2_Original_Predictions_and_Diagnostics_Part01_Reissued_20261013.zip",
+      "remote_HTTP_download_retested_this_stage": false,
+      "original_container": {
+        "path": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Predictions_and_Diagnostics_20261012_Part01.zip",
+        "bytes": 23057568,
+        "sha256": "396662672038a7221f062c1f1e43aa56a26770379244db788a13a2cf1f0226a8",
+        "commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+        "disk_equals_local_git_commit_blob": true,
+        "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/f33e38a8d28bf3206989794240cc35e63d62f017/delivery/20261012_stage3c2/Wastewater_Stage3C2_Predictions_and_Diagnostics_20261012_Part01.zip",
+        "remote_HTTP_download_retested_this_stage": false
+      },
+      "original_and_reissued_bytes_equal": true,
+      "no_original_container_regenerated": true
+    },
+    {
+      "path": "delivery/20261013_stage3e/Wessex_Stage3C2_Original_Predictions_and_Diagnostics_Part02_Reissued_20261013.zip",
+      "bytes": 21943829,
+      "sha256": "4a81e3b7d7413008754f3d286606c51980700163830ee104f6027a13a2fbf805",
+      "members_verified": 4011,
+      "CRC_and_all_member_SHA256": "PASSED",
+      "under_24_MiB": true,
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/Wessex_Stage3C2_Original_Predictions_and_Diagnostics_Part02_Reissued_20261013.zip",
+      "remote_HTTP_download_retested_this_stage": false,
+      "original_container": {
+        "path": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Predictions_and_Diagnostics_20261012_Part02.zip",
+        "bytes": 21943829,
+        "sha256": "4a81e3b7d7413008754f3d286606c51980700163830ee104f6027a13a2fbf805",
+        "commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+        "disk_equals_local_git_commit_blob": true,
+        "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/f33e38a8d28bf3206989794240cc35e63d62f017/delivery/20261012_stage3c2/Wastewater_Stage3C2_Predictions_and_Diagnostics_20261012_Part02.zip",
+        "remote_HTTP_download_retested_this_stage": false
+      },
+      "original_and_reissued_bytes_equal": true,
+      "no_original_container_regenerated": true
+    }
+  ],
+  "original_receipts_verified_against_immutable_commit": [
+    {
+      "path": "delivery/20261013_stage3e/ARTIFACT_INDEX.json",
+      "bytes": 1114123,
+      "sha256": "ad2b8f15721165dc539297325ec36537160c15360df51c043ae146e680388356",
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/ARTIFACT_INDEX.json",
+      "remote_HTTP_download_retested_this_stage": false
+    },
+    {
+      "path": "delivery/20261013_stage3e/PACKAGE_CHECKS.json",
+      "bytes": 1117092,
+      "sha256": "396f799af54f4e35d3c3d809cb27149dc744289da5d79d69364ac71a95d2fc42",
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/PACKAGE_CHECKS.json",
+      "remote_HTTP_download_retested_this_stage": false
+    },
+    {
+      "path": "delivery/20261013_stage3e/POST_PACKAGE_PRESERVATION.json",
+      "bytes": 285,
+      "sha256": "ad2312ca2383708bbe7dacd647eb26584bf43826c2bafe2e28e9a0c71a2b0648",
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/POST_PACKAGE_PRESERVATION.json",
+      "remote_HTTP_download_retested_this_stage": false
+    },
+    {
+      "path": "delivery/20261013_stage3e/C2_ORIGINAL_PART01_PART02.json",
+      "bytes": 1006422,
+      "sha256": "6e1a8c625685d58b78972afd219732bdf6b55dcbc4240aef4568d0f99c5accbc",
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/C2_ORIGINAL_PART01_PART02.json",
+      "remote_HTTP_download_retested_this_stage": false
+    },
+    {
+      "path": "delivery/20261013_stage3e/CODE_VERSION.json",
+      "bytes": 2198,
+      "sha256": "8e62d50a5861a5c5e8a0e41bbe9ff6f4ac01411d23baffb749038e6d2ca0d066",
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/CODE_VERSION.json",
+      "remote_HTTP_download_retested_this_stage": false
+    },
+    {
+      "path": "delivery/20261013_stage3e/RUN_STATUS.json",
+      "bytes": 3814,
+      "sha256": "f070ef1fade31e4731c16e4f5903f718c3a6304db84186cdfd26396ba07be01a",
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/RUN_STATUS.json",
+      "remote_HTTP_download_retested_this_stage": false
+    },
+    {
+      "path": "delivery/20261013_stage3e/SHA256SUMS",
+      "bytes": 2880,
+      "sha256": "28f16879ac55547d7e500098bcbd22af59f101b2df51e8f60a0ce7bf247849c4",
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/SHA256SUMS",
+      "remote_HTTP_download_retested_this_stage": false
+    },
+    {
+      "path": "delivery/20261013_stage3e/REPRODUCE.md",
+      "bytes": 5670,
+      "sha256": "6d81ebc15d58539c7df43a2028b2255e0b81d60ce16c356d4c28dd8a7c616af4",
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/REPRODUCE.md",
+      "remote_HTTP_download_retested_this_stage": false
+    },
+    {
+      "path": "delivery/20261013_stage3e/PACKAGING_RECOVERY.json",
+      "bytes": 1016,
+      "sha256": "0cdf952a3bfd70a5363b82b21b208b7da5f409cc9b5ea6c70543273b107de75e",
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/PACKAGING_RECOVERY.json",
+      "remote_HTTP_download_retested_this_stage": false
+    },
+    {
+      "path": "delivery/20261013_stage3e/clean_replay_logs/new_E_software_tests.log",
+      "bytes": 2688,
+      "sha256": "5662501e7e21069242b823400ac68024cd3871fc6959191bc4625c607e9f7cdc",
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/clean_replay_logs/new_E_software_tests.log",
+      "remote_HTTP_download_retested_this_stage": false
+    },
+    {
+      "path": "delivery/20261013_stage3e/clean_replay_logs/cold_twelve_frozen_D_interval_software_reconstructions.log",
+      "bytes": 2839,
+      "sha256": "7e6603928f3e2ba55b97d00bb8ee0d4c915344a84478899c373731daa4fdc961",
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/clean_replay_logs/cold_twelve_frozen_D_interval_software_reconstructions.log",
+      "remote_HTTP_download_retested_this_stage": false
+    },
+    {
+      "path": "delivery/20261013_stage3e/clean_replay_logs/frozen_scientific_files_and_atomic_recovery_checks.log",
+      "bytes": 1224,
+      "sha256": "913ad5c69fd2dbc8d6c07663a64c960616570258079d6eb836bdd83db404d567",
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/clean_replay_logs/frozen_scientific_files_and_atomic_recovery_checks.log",
+      "remote_HTTP_download_retested_this_stage": false
+    },
+    {
+      "path": "delivery/20261013_stage3e/clean_replay_logs/repeated_verified_twelve_cache_resume.log",
+      "bytes": 2803,
+      "sha256": "f08c5cdc8dc9722e592107db4254c2d8f6a90c361a83e2f9093a40897a1cec74",
+      "commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "disk_equals_local_git_commit_blob": true,
+      "immutable_url": "https://github.com/jiangsunyu7-ux/Wastewater_Paper/raw/d7eda982a91084a3b875e351de1e91dae0e5cacf/delivery/20261013_stage3e/clean_replay_logs/repeated_verified_twelve_cache_resume.log",
+      "remote_HTTP_download_retested_this_stage": false
+    }
+  ],
+  "code_content_and_true_delivery_commit": [
+    {
+      "path": "STAGE3E_PROTOCOL.md",
+      "sha256": "461c8ab4aa2b9c0eca7985afd653a3ad915a8dbebc374a10131c5b68fae21562",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "STAGE3E_PROTOCOL.md",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "configs/stage3e_evidence_review_v1/diagnostics.json",
+      "sha256": "f4aacab3ed594762c8f1c4fc462637cefd2c667ae92a9ad1c8089070a3bf47e9",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "configs/stage3e_evidence_review_v1/diagnostics.json",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "configs/stage3e_evidence_review_v1/full.json",
+      "sha256": "e9a371e98b22eb97ac37d07b54d4af3da7fc90514ddeec0980ebe28417e3e42a",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "configs/stage3e_evidence_review_v1/full.json",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "reports/stage3e_evidence_review_v1/literature/verify_literature_evidence.py",
+      "sha256": "3b79de51ba19875f41c5bd05faa384243b942774e329822ed337e3f1f3f9069e",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "reports/stage3e_evidence_review_v1/literature/verify_literature_evidence.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/check_stage3e_evidence.py",
+      "sha256": "37c368d1bf578c059eabb1075bb44af7e28cb8eb25bd26d7db67be814741d19e",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "scripts/check_stage3e_evidence.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/check_stage3e_runtime.py",
+      "sha256": "f9e355d4ea9c74a0bd55c43ae5ff9d1cf028138b6e1650ece92a2acdb3e82025",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "scripts/check_stage3e_runtime.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/finalize_stage3e_evidence.py",
+      "sha256": "ae6b35c911927f7a9e3a5dbf49b0fbe69695676945cc2c52e3398604b3ac2955",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "scripts/finalize_stage3e_evidence.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/package_stage3e.py",
+      "sha256": "999814cf4f4e76972cb68a6cbb9aae72eb56a377efef773dd9d599e6df20ff1d",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "scripts/package_stage3e.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/plot_stage3e.py",
+      "sha256": "19ecd593bc11072599c7a0eeee5c6bbd845adbed9173152cab00b5e54930fbbd",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "scripts/plot_stage3e.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "scripts/run_stage3e_diagnostics.py",
+      "sha256": "f7bc98b2ad06a7b09e680753958d09a0ed7518d3b8789b0ce75e0ad015b69bd2",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "scripts/run_stage3e_diagnostics.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "src/wastewater/stage3e_diagnostics.py",
+      "sha256": "3968b4c0e8a69f0c4492986440181ad4e46b7462b1b31eea626a552608a72e3f",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "src/wastewater/stage3e_diagnostics.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "src/wastewater/stage3e_runtime.py",
+      "sha256": "cc78ae3ed41515e4720ee9e74a1738f1ab0648907e972a9626e474cb5b9b3164",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "src/wastewater/stage3e_runtime.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "tests/test_stage3e_diagnostics.py",
+      "sha256": "73ecdb7b5f3247062469a898eaf4fce1ec2303df72cada02680a06d659fa4f85",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "tests/test_stage3e_diagnostics.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    },
+    {
+      "path": "tests/test_stage3e_runtime.py",
+      "sha256": "be600542df7edfc023ee290584fae693f1266c5ba25f4134962166375af9b2b2",
+      "delivery_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+      "committed_container": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "member_path": "tests/test_stage3e_runtime.py",
+      "individual_file_tracked_by_base_HEAD": false,
+      "disk_equals_committed_container_member": true
+    }
+  ],
+  "base_checkout_HEAD_not_complete_code_version": "e6a4fc628d8aae0412cb83a81c528b43d6662fea",
+  "PACKAGING_HELPER_CHECK_scope": "controlled packaging fixtures, not scientific data",
+  "PACKAGING_HELPER_CHECK_is_actual_all_package_receipt": false,
+  "actual_package_receipt": "delivery/20261013_stage3e/PACKAGE_CHECKS.json",
+  "previous_actual_package_clean_replay_record": {
+    "status": "PASSED",
+    "code_only_extraction": {
+      "packages": 1,
+      "validated_file_instances": 176,
+      "differing_existing_members_rejected": true
+    },
+    "merged_extraction": {
+      "packages": 3,
+      "validated_file_instances": 624,
+      "differing_existing_members_rejected": true
+    },
+    "cold_interval_calibration_reconstructions": 12,
+    "new_predictive_models_trained": 0,
+    "original_D_source_banks_loaded_read_only": true,
+    "full_D_300_cold_rerun": false,
+    "full_diagnostic_replay": "Separate original D large prediction/loss inputs are SHA-linked; not bundled or replayed here",
+    "all_new_archive_members_verified_after_extraction": true,
+    "commands": [
+      {
+        "command": [
+          "/workspace/Wastewater_Paper/.venv-stage2/bin/python",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-p",
+          "test_stage3e*.py",
+          "-v"
+        ],
+        "cwd": "clean temporary root",
+        "exit_code": 0,
+        "seconds": 1.6690409869916039,
+        "log_path": "/workspace/Wastewater_Paper/delivery/20261013_stage3e/clean_replay_logs/new_E_software_tests.log",
+        "log_sha256": "5662501e7e21069242b823400ac68024cd3871fc6959191bc4625c607e9f7cdc"
+      },
+      {
+        "command": [
+          "/workspace/Wastewater_Paper/.venv-stage2/bin/python",
+          "-m",
+          "wastewater.stage3e_runtime",
+          "--mode",
+          "smoke"
+        ],
+        "cwd": "clean temporary root",
+        "exit_code": 0,
+        "seconds": 5.979499537992524,
+        "log_path": "/workspace/Wastewater_Paper/delivery/20261013_stage3e/clean_replay_logs/cold_twelve_frozen_D_interval_software_reconstructions.log",
+        "log_sha256": "7e6603928f3e2ba55b97d00bb8ee0d4c915344a84478899c373731daa4fdc961"
+      },
+      {
+        "command": [
+          "/workspace/Wastewater_Paper/.venv-stage2/bin/python",
+          "scripts/check_stage3e_runtime.py",
+          "--scope",
+          "smoke"
+        ],
+        "cwd": "clean temporary root",
+        "exit_code": 0,
+        "seconds": 4.075297144998331,
+        "log_path": "/workspace/Wastewater_Paper/delivery/20261013_stage3e/clean_replay_logs/frozen_scientific_files_and_atomic_recovery_checks.log",
+        "log_sha256": "913ad5c69fd2dbc8d6c07663a64c960616570258079d6eb836bdd83db404d567"
+      },
+      {
+        "command": [
+          "/workspace/Wastewater_Paper/.venv-stage2/bin/python",
+          "-m",
+          "wastewater.stage3e_runtime",
+          "--mode",
+          "resume"
+        ],
+        "cwd": "clean temporary root",
+        "exit_code": 0,
+        "seconds": 2.672452244994929,
+        "log_path": "/workspace/Wastewater_Paper/delivery/20261013_stage3e/clean_replay_logs/repeated_verified_twelve_cache_resume.log",
+        "log_sha256": "f08c5cdc8dc9722e592107db4254c2d8f6a90c361a83e2f9093a40897a1cec74"
+      }
+    ],
+    "tolerance_not_bitwise_claim": true
+  },
+  "previous_clean_replay_not_rerun_in_Stage3F": true,
+  "external_reviewer_original_containers_received_locally": false,
+  "external_duplicate_parenthesis_1_and_reviewer_ZIP_not_present": true,
+  "external_reviewer_reference_counts_used_as_program_pass_criteria": false,
+  "new_model_training_or_scientific_result_recomputation": false,
+  "seconds": 3.8246947089999708,
+  "verifier_sha256": "e6442f8d39a9557628896805a6f16c60059b1b69842fe7d5fae661c628e65e4a"
+}
