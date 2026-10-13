@@ -1,0 +1,23 @@
+{
+  "version": "stage3f_evidence_gate_v1",
+  "source_commit": "3e369d86ea33c823408ffba4c22ec911d8e6d86b",
+  "source_commit_is_real_content_not_base_HEAD": true,
+  "committed_files_sha256": {
+    "reports/stage3f_evidence_gate_v1/delivery_chain/build_supplement.py": "2ba337743c6b78f1130a9cede15ef6205254317beb4d564466b376886a700cbe",
+    "reports/stage3f_evidence_gate_v1/delivery_chain/verify_delivery_chain.py": "e6442f8d39a9557628896805a6f16c60059b1b69842fe7d5fae661c628e65e4a",
+    "reports/stage3f_evidence_gate_v1/delivery_chain/verify_supplement.py": "03f7b69803de856b6afb9e6d2d6c4ada6bcfd3706c6cac3120680bd2edff5a8a",
+    "reports/stage3f_evidence_gate_v1/external_inputs/check_received_inputs.py": "07bd33174f0c3c459a44431525328794a3a2184559b71824edc00bcb0654653b",
+    "reports/stage3f_evidence_gate_v1/literature_delta/verify_literature_delta.py": "6a6f5ed6b90746068a8a60f562626ac3347b58b9430dce852dbfd84f4912f2e9",
+    "reports/stage3f_evidence_gate_v1/requests/verify_request_scope.py": "d85fb824936ac7db1eadc46856239d3c108e3ac55fb67cae9968e163114070e5",
+    "scripts/finalize_stage3f.py": "c869149f301ab58ca2db7cb883cc3fb61a827618f85f148077332433eb781004",
+    "scripts/package_stage3f.py": "07cd00e52a435c352b29f75cb80c9e9dcead2be6fe7c72e242d48e7642b0d47c",
+    "STAGE3F_PROTOCOL.md": "c477100944005a20071a57c58bfb39de4c298ebc248471a6ff20721d6807bc73",
+    "configs/stage3f_evidence_gate_v1/full.json": "4b8ad86c675a8b97c566f8e197771cd8367565e6927ab8445758eeb817ba26fa"
+  },
+  "actual_Git_blob_contents_verified": true,
+  "original_science_commit_and_member_reference": "delivery_chain/CODE_CONTENT_AND_COMMIT.json",
+  "old_Stage3E_commit": "d7eda982a91084a3b875e351de1e91dae0e5cacf",
+  "old_Stage3C2_commit": "f33e38a8d28bf3206989794240cc35e63d62f017",
+  "base_checkout_HEAD_not_a_complete_scientific_version": true,
+  "source_config_sha256": "4b8ad86c675a8b97c566f8e197771cd8367565e6927ab8445758eeb817ba26fa"
+}

@@ -1,0 +1,17 @@
+# Stage3F资料与补件复核
+
+本轮没有预测性能重算或新训练。Python标准库足够复核新资料的来源、SHA和请求范围；不需要GPU、付费资源或新的依赖。将两个小包解压到新的目录，保留包内路径；不覆盖原科学目录。
+
+```bash
+python reports/stage3f_evidence_gate_v1/requests/verify_request_scope.py
+python reports/stage3f_evidence_gate_v1/literature_delta/verify_literature_delta.py
+python reports/stage3f_evidence_gate_v1/delivery_chain/verify_supplement.py Wessex_Stage3E_Delivery_Supplement_20261013.zip
+```
+
+前两条只核查自带元数据来源、85个请求SiteID、未填写回复字段和文献证据层级，不认证物理设施或部署能力。最后一条核查真实补件的CRC及全部声明成员SHA；补件中的原 `PACKAGE_CHECKS.json` 才是先前实际交付的完整记录，`PACKAGING_HELPER_CHECK`夹具不能替代它。
+
+新Stage3F包由 `scripts/package_stage3f.py` 生成和干净目录核验；其命令是资料打包命令，不能称为科研实验。旧Stage3E、C2不可变容器/索引/检查记录的准确提交、大小、SHA在 `delivery_chain/IMMUTABLE_DOWNLOADS.csv`；原C2 Part01/02不在小补件内，按该不可变地址取回原件，不重新生成同名原包。原E代码版本同时关联真实内容提交d7eda982a91084a3b875e351de1e91dae0e5cacf及Code ZIP/包内源文件SHA；基础checkout HEAD不能代表完整科学代码。
+
+`external_inputs/check_received_inputs.py`是当前仓库输入盘点工具，完整附件目录不在小包中，不能在新解压目录声称复现了整个原接收范围。结果与原SHA盘点已经保存。没有新历史映射，所以没有进行真实新设施关系认证；也没有用合成夹具替代真实设施核查。恢复状态修复的已验证范围仍限Stage3E小规模单进程，未新增部署环境认证。
+
+状态为WAITING_FOR_EXTERNAL_EVIDENCE，本地请求准备完成；未通过的科学门槛不得因这些工具通过而改为通过。

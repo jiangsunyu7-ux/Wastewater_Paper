@@ -1,0 +1,10 @@
+{
+  "status": "PASSED",
+  "scope": "Actual new supplement clean extraction and standard-library checksum verifier only",
+  "members_verified": 33,
+  "original_receipt_copies_verified": 19,
+  "science_replayed": false,
+  "verify_stdout": "{\"status\": \"PASSED\", \"sha256\": \"449569498a52e0536f485ba70376f5cfa33e356d9c94dca0b4cbc0f337b6ca19\", \"members\": 33, \"work\": \"CRC/member SHA only; no science executed\"}\n",
+  "python_exit_code": 0,
+  "archive_sha256": "449569498a52e0536f485ba70376f5cfa33e356d9c94dca0b4cbc0f337b6ca19"
+}
