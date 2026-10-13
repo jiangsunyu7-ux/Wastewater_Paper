@@ -1,0 +1,32 @@
+{"step": 1, "selected": 12, "expected": 12, "task": "13013_2022-01-01_B30_H1", "status": "COMPLETED_VERIFIED", "utc": "2026-10-13T05:30:56.020567+00:00"}
+{"step": 2, "selected": 12, "expected": 12, "task": "13013_2022-01-01_B30_H3", "status": "COMPLETED_VERIFIED", "utc": "2026-10-13T05:30:56.308024+00:00"}
+{"step": 3, "selected": 12, "expected": 12, "task": "13013_2022-01-01_B90_H1", "status": "COMPLETED_VERIFIED", "utc": "2026-10-13T05:30:56.593278+00:00"}
+{"step": 4, "selected": 12, "expected": 12, "task": "13013_2022-01-01_B90_H3", "status": "COMPLETED_VERIFIED", "utc": "2026-10-13T05:30:56.877273+00:00"}
+{"step": 5, "selected": 12, "expected": 12, "task": "13013_2022-01-01_B180_H1", "status": "COMPLETED_VERIFIED", "utc": "2026-10-13T05:30:57.182207+00:00"}
+{"step": 6, "selected": 12, "expected": 12, "task": "13013_2022-01-01_B180_H3", "status": "COMPLETED_VERIFIED", "utc": "2026-10-13T05:30:57.495584+00:00"}
+{"step": 7, "selected": 12, "expected": 12, "task": "13015_2022-01-01_B30_H1", "status": "COMPLETED_VERIFIED", "utc": "2026-10-13T05:30:57.788618+00:00"}
+{"step": 8, "selected": 12, "expected": 12, "task": "13015_2022-01-01_B30_H3", "status": "COMPLETED_VERIFIED", "utc": "2026-10-13T05:30:58.122458+00:00"}
+{"step": 9, "selected": 12, "expected": 12, "task": "13015_2022-01-01_B90_H1", "status": "COMPLETED_VERIFIED", "utc": "2026-10-13T05:30:58.426235+00:00"}
+{"step": 10, "selected": 12, "expected": 12, "task": "13015_2022-01-01_B90_H3", "status": "COMPLETED_VERIFIED", "utc": "2026-10-13T05:30:58.711451+00:00"}
+{"step": 11, "selected": 12, "expected": 12, "task": "13015_2022-01-01_B180_H1", "status": "COMPLETED_VERIFIED", "utc": "2026-10-13T05:30:59.013766+00:00"}
+{"step": 12, "selected": 12, "expected": 12, "task": "13015_2022-01-01_B180_H3", "status": "COMPLETED_VERIFIED", "utc": "2026-10-13T05:30:59.313821+00:00"}
+{
+  "version": "stage3e_evidence_review_v1",
+  "status": "COMPLETED",
+  "expected_tasks": 12,
+  "disk_verified_completed": 12,
+  "not_completed": 0,
+  "function_return_success_count_this_call": 12,
+  "cached_verified_this_call": 0,
+  "repaired_or_recalculated_this_call": 12,
+  "failed_this_call": 0,
+  "completion_basis": "on-disk fingerprints + required files + actual rows + hashes + durable receipt",
+  "max_attempts_per_call": 2,
+  "generated_utc": "2026-10-13T05:30:59.425815+00:00",
+  "seconds_this_call": 5.676615265008877,
+  "science_config_sha256": "9db2cb6dd886d4b89ca875d08c597b94503665c63b1b68f125ae3b45bb6b670d",
+  "science_signature": "31451b4547aed6b9654da2d79e4d80a2e91bed8a23d5cda263d663da34a18b61",
+  "runtime_signature": "fd0ce0df48a680984084e2eca2ea99f6a59974b66264954ef3e15553d3c752a9",
+  "original_natural_anomaly": "NOT_REPRODUCED; root cause unconfirmed",
+  "work_kind": "12 historical calibration reconstructions; no new predictive model/source selection"
+}

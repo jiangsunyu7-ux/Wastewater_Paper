@@ -1,0 +1,14 @@
+{
+  "status": "RECOVERED",
+  "work_kind": "Packaging call correction only; original science/code/config unchanged",
+  "first_attempt_directory": "delivery/20261013_stage3e_failed_attempt01",
+  "first_attempt_log": "PACKAGING_ATTEMPT01_FAILED.log",
+  "first_attempt_log_sha256": "79de363f8bf453549545adc9604d51057d377e25f7583dc099613de02a82b9b9",
+  "first_attempt_failure": "Quick/Diagnostics captured currently-being-written validation/stage3e_packaging.log at different times; merged clean extraction correctly rejected the same path with different SHA",
+  "first_attempt_software_tests_and_twelve_smoke": "Passed before merged extraction failure; not new forecasting model training",
+  "corrective_action": "Keep first failed archives/logs; redirect final stdout outside scanned payload to /tmp; rebuild real new Stage3E archives and rerun clean verification",
+  "sealed_scientific_payload_changed": false,
+  "new_models_trained": 0,
+  "final_package_check_status": "PASSED",
+  "failed_archives_uploaded": false
+}

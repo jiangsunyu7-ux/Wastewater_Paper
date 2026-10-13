@@ -1,0 +1,25 @@
+unittest.case.FunctionTestCase (test_interval_score_independent_components) ... ok
+unittest.case.FunctionTestCase (test_left_quantiles_zero_and_noninterpolation) ... ok
+unittest.case.FunctionTestCase (test_weighted_ks_is_single_descriptive_distance) ... ok
+unittest.case.FunctionTestCase (test_signed_source_mean_keeps_zero_errors) ... ok
+unittest.case.FunctionTestCase (test_influence_can_reverse_relative_and_raw_averages) ... ok
+unittest.case.FunctionTestCase (test_equal_window_segment_summary_does_not_pool_longer_cells) ... ok
+test_actual_row_counts_not_only_hash_receipt (test_stage3e_runtime.Stage3ERuntimeTests.test_actual_row_counts_not_only_hash_receipt) ... ok
+test_adapter_does_not_touch_original_science_code (test_stage3e_runtime.Stage3ERuntimeTests.test_adapter_does_not_touch_original_science_code) ... ok
+test_atomic_exact_bytes_flush_fsync_readback (test_stage3e_runtime.Stage3ERuntimeTests.test_atomic_exact_bytes_flush_fsync_readback) ... ok
+test_attempt_limit_cannot_expand (test_stage3e_runtime.Stage3ERuntimeTests.test_attempt_limit_cannot_expand) ... ok
+test_controlled_status_commit_fault_bounded_resume (test_stage3e_runtime.Stage3ERuntimeTests.test_controlled_status_commit_fault_bounded_resume) ... ok
+test_corrupt_output_never_reuses_cache (test_stage3e_runtime.Stage3ERuntimeTests.test_corrupt_output_never_reuses_cache) ... ok
+test_function_success_with_missing_disk_is_failed_and_bounded (test_stage3e_runtime.Stage3ERuntimeTests.test_function_success_with_missing_disk_is_failed_and_bounded) ... ok
+test_interrupted_after_replace_is_not_returned_as_success (test_stage3e_runtime.Stage3ERuntimeTests.test_interrupted_after_replace_is_not_returned_as_success) ... ok
+test_interrupted_before_replace_preserves_old_bytes (test_stage3e_runtime.Stage3ERuntimeTests.test_interrupted_before_replace_preserves_old_bytes) ... ok
+test_missing_output_never_reuses_cache (test_stage3e_runtime.Stage3ERuntimeTests.test_missing_output_never_reuses_cache) ... ok
+test_partial_failed_zero_is_not_completed (test_stage3e_runtime.Stage3ERuntimeTests.test_partial_failed_zero_is_not_completed) ... ok
+test_real_frozen_science_adapter_and_repeat_resume (test_stage3e_runtime.Stage3ERuntimeTests.test_real_frozen_science_adapter_and_repeat_resume) ... ok
+test_stale_running_recomputes_and_preserves_recovery_evidence (test_stage3e_runtime.Stage3ERuntimeTests.test_stale_running_recomputes_and_preserves_recovery_evidence) ... ok
+test_wrong_fingerprint_refused_without_overwrite (test_stage3e_runtime.Stage3ERuntimeTests.test_wrong_fingerprint_refused_without_overwrite) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.297s
+
+OK

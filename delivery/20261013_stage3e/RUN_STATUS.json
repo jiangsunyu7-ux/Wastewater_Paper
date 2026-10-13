@@ -1,0 +1,80 @@
+{
+  "version": "stage3e_evidence_review_v1",
+  "stage": "Stage3E",
+  "status": "COMPLETED",
+  "completed_utc": "2026-10-13T05:29:11.218685+00:00",
+  "completion_basis": "Actual new code/tests, verified disk evidence, independent arithmetic/bootstrap and preserved old bytes",
+  "evidence_seal_sha256": "53bdb1ff0be678fb76caec3c29a68b09bc7d16a701b97c8bb3f3dd7cad990084",
+  "config_sha256": "e9a371e98b22eb97ac37d07b54d4af3da7fc90514ddeec0980ebe28417e3e42a",
+  "code_version_sha256": "8e62d50a5861a5c5e8a0e41bbe9ff6f4ac01411d23baffb749038e6d2ca0d066",
+  "original_D_disk_tasks_verified": 300,
+  "runtime_smoke_expected": 12,
+  "runtime_smoke_disk_verified_completed": 12,
+  "function_return_successes": {
+    "first_partial_invocation": 1,
+    "cold_clean_subset": 11,
+    "repeat_resume": 0
+  },
+  "function_return_count_basis": "Original runtime/smoke.log and PARTIAL_FIRST_INVOCATION.json; clean-package rerun logged separately",
+  "runtime_scientific_files_byte_identical": 36,
+  "controlled_fault_scenarios": 8,
+  "max_attempts_per_invocation": 2,
+  "natural_external_anomaly": "NOT_REPRODUCED; root cause unconfirmed",
+  "software_tests_passed": 20,
+  "existing_daily_loss_rows_recomputed": 636444,
+  "original_scientific_models_retrained": 0,
+  "new_predictive_models_trained": 0,
+  "independent_primary_primitive_bootstrap_checks": 6,
+  "bootstrap_replicates_per_check": 5000,
+  "preservation_files_checked": 6069,
+  "preservation_changed_files": 0,
+  "literature_records": 7,
+  "literature_evidence_levels": {
+    "selected_publisher_fulltext": 1,
+    "publisher_deposited_abstract": 3,
+    "metadata_only": 3
+  },
+  "reused_official_responses": 20,
+  "new_official_mapping_queries": 0,
+  "figures": 5,
+  "posthoc_diagnostics": true,
+  "scientific_primary_conclusions_changed": false,
+  "executed": [
+    "initial old-artifact/300-disk-condition audit",
+    "12 small frozen-science runtime reconstruction conditions",
+    "8 controlled recovery fault scenarios and repeated cache resume",
+    "20 meaningful software tests",
+    "636444 saved daily-loss formula checks; all sites/windows/pools/budgets/constraints retained",
+    "6 independent 5000-replicate primitive paired calendar-block/SiteID bootstrap checks",
+    "heterogeneity/contribution/leave-one-site-out/distribution/fixed-segment/high-volume/history comparisons",
+    "7-paper graded literature and reused official engineering-evidence review",
+    "5 saved-result figure groups"
+  ],
+  "failed_and_preserved": [
+    "first diagnostics attempt: same-budget CI selection omitted reference budget; new selector corrected, old science unchanged",
+    "independent checker attempt01: new diagnostic CSV field alias wrong; corrected checker only; original failed log retained",
+    "bounded controlled software fault attempts retained as fixtures, not natural root-cause proof",
+    "initial finalization helper syntax error before execution; corrected helper only, failed log retained",
+    "4 new literature access requests tunnel403; no repeated known failure request"
+  ],
+  "missing_materials": [
+    "external five (1) repeated attachments not received here",
+    "Wessex_Stage3D_Reviewer_Evidence_and_Stage3E_Prompt_20261012.zip"
+  ],
+  "not_executed": [
+    "new model training",
+    "full 300-condition cold D recalibration",
+    "new gamma/source/window search",
+    "2024-2025 or protected-target performance",
+    "provider/mentor messages",
+    "paper/App/paid compute",
+    "independent physical-facility confirmation"
+  ],
+  "physical_mapping_verified": false,
+  "verified_real_time": false,
+  "final_2024_2025_performance_used": false,
+  "next_stage_decision": "C: NEEDS_DATA",
+  "next_experiment_execute_allowed": false,
+  "STOP": true,
+  "packaging_validation": "Pending separate PACKAGE_CHECKS.json; not scientific training"
+}

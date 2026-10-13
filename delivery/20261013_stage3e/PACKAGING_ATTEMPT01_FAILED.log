@@ -1,0 +1,22 @@
+packaging Quick_Review: 152 files
+packaging Code_and_Reproduce: 173 files
+packaging Diagnostics: 290 files
+clean replay new_E_software_tests
+clean replay cold_twelve_frozen_D_interval_software_reconstructions
+clean replay frozen_scientific_files_and_atomic_recovery_checks
+clean replay repeated_verified_twelve_cache_resume
+Traceback (most recent call last):
+  File "/workspace/Wastewater_Paper/scripts/package_stage3e.py", line 287, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/Wastewater_Paper/scripts/package_stage3e.py", line 285, in main
+    build(a.output,a.python,a.skip_replay)
+  File "/workspace/Wastewater_Paper/scripts/package_stage3e.py", line 219, in build
+    replay=run_clean_checks(root,packages,python,output) if not skip_replay else dict(status='NOT_EXECUTED')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Wastewater_Paper/scripts/package_stage3e.py", line 187, in run_clean_checks
+    clean=Path(folder);merged=helper.safe_extract([p['path'] for p in packages],clean)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Wastewater_Paper/scripts/package_stage3d.py", line 167, in safe_extract
+    raise ValueError("Refusing differing existing file: "+str(target))
+ValueError: Refusing differing existing file: /tmp/stage3e_clean_merged_wbp07gku/validation/stage3e_packaging.log
