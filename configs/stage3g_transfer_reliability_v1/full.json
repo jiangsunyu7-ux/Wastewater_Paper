@@ -1,0 +1,377 @@
+{
+  "source_ids": [
+    "13006",
+    "13008",
+    "13012"
+  ],
+  "development_ids": [
+    "13013",
+    "13015",
+    "13016",
+    "13017",
+    "13022",
+    "13024",
+    "13025",
+    "13028",
+    "13029",
+    "13031"
+  ],
+  "source_training_start": "2016-01-01",
+  "source_training_end": "2021-12-31",
+  "source_selection_train_end": "2020-12-31",
+  "source_pseudo_origins": [
+    "2021-01-01",
+    "2021-07-01"
+  ],
+  "source_pseudo_validation_days": 14,
+  "evaluation_days": 60,
+  "budgets": [
+    30,
+    90,
+    180
+  ],
+  "horizons": [
+    1,
+    3
+  ],
+  "extra_delay_days": 0,
+  "sequence_length": 7,
+  "min_train_labels": 14,
+  "scale": "median_positive_Good_volume_in_allowed_training_history; fallback=1m3",
+  "high_volume_quantile": 0.9,
+  "high_volume_history_days": 30,
+  "ridge_alphas": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "lambdas": [
+    0,
+    0.25,
+    0.5,
+    1
+  ],
+  "local_validation_fraction": 0.2,
+  "validation_min_fit_labels": 30,
+  "validation_min_labels": 10,
+  "version": "stage3g_transfer_reliability_v1",
+  "stage": "post_prior_results_development",
+  "analysis_unit": "station_exploratory",
+  "physical_mapping_verified": false,
+  "verified_real_time": false,
+  "qa_mode": "published_good_only_retrospective",
+  "canonical_csv": "data/derived/stage3c2_source_scale_v1/daily_candidates.csv",
+  "source_pool_definition": "data/provenance/stage3c2_source_scale_v1/source_pool_definition.json",
+  "pools": [
+    {
+      "pool_id": "order20261012_K30",
+      "order_label": 20261012,
+      "k": 30,
+      "site_ids": [
+        "13006",
+        "13008",
+        "13012",
+        "13035",
+        "17968",
+        "13264",
+        "13278",
+        "13064",
+        "13145",
+        "13364",
+        "13353",
+        "13242",
+        "13220",
+        "13214",
+        "13252",
+        "13515",
+        "13324",
+        "13248",
+        "13255",
+        "13362",
+        "13079",
+        "19155",
+        "13243",
+        "13232",
+        "13182",
+        "13082",
+        "13043",
+        "17430",
+        "13041",
+        "13125"
+      ]
+    },
+    {
+      "pool_id": "order20261013_K30",
+      "order_label": 20261013,
+      "k": 30,
+      "site_ids": [
+        "13006",
+        "13008",
+        "13012",
+        "13032",
+        "13047",
+        "13316",
+        "13035",
+        "13163",
+        "13275",
+        "13354",
+        "13060",
+        "19539",
+        "13324",
+        "13071",
+        "13056",
+        "13118",
+        "13207",
+        "13142",
+        "13175",
+        "13079",
+        "13315",
+        "13223",
+        "13264",
+        "13238",
+        "13172",
+        "13143",
+        "13101",
+        "13361",
+        "13360",
+        "13078"
+      ]
+    },
+    {
+      "pool_id": "order20261014_K30",
+      "order_label": 20261014,
+      "k": 30,
+      "site_ids": [
+        "13006",
+        "13008",
+        "13012",
+        "13156",
+        "13515",
+        "13238",
+        "13242",
+        "13207",
+        "13044",
+        "13144",
+        "13191",
+        "13249",
+        "13219",
+        "13291",
+        "13201",
+        "13075",
+        "13198",
+        "13293",
+        "13310",
+        "13260",
+        "13076",
+        "13254",
+        "13134",
+        "13192",
+        "13275",
+        "13055",
+        "13079",
+        "13171",
+        "13035",
+        "19556"
+      ]
+    }
+  ],
+  "smoke_ids": [
+    "13013",
+    "13015"
+  ],
+  "evaluation_origins": [
+    "2022-01-01",
+    "2022-07-01",
+    "2023-01-01",
+    "2023-07-01",
+    "2023-10-01"
+  ],
+  "origins": [
+    "2022-01-01",
+    "2022-07-01",
+    "2023-01-01",
+    "2023-07-01",
+    "2023-10-01"
+  ],
+  "all_windows_already_used_development": true,
+  "protocol": "STAGE3G_PROTOCOL.md",
+  "primary_pool_id": "order20261012_K30",
+  "primary_budget": 30,
+  "deterministic": true,
+  "volume_feature_columns": [
+    "normalized_volume_t",
+    "normalized_volume_t_minus_1",
+    "normalized_volume_t_minus_6",
+    "mask_t",
+    "mask_t_minus_1",
+    "mask_t_minus_6"
+  ],
+  "normalized_missing_volume_placeholder": 1,
+  "initial_budget_definition": "initial B continuous calendar days; no left warm-up; parameters/scales/bias freeze60origins; origin-known inputs can update",
+  "prediction_constraint": "raw primary; max(0,prediction) for ALL methods secondary",
+  "loss": "weighted mean MSE with unpenalized intercept; validation normalized MAE",
+  "tuning_tie_rule": "within1e-12normalizedMAE:smallereta thenlambda thenalpha;directonlyalpha",
+  "protected_sites_not_used": true,
+  "prediction_tolerance": {
+    "normalized_atol": 1e-10,
+    "rtol": 1e-10
+  },
+  "bootstrap": {
+    "replicates": 5000,
+    "blocks": [
+      7,
+      14,
+      28
+    ],
+    "primary_block": 14,
+    "seed": 20261014,
+    "seed_formula": "20261014+h*100+L",
+    "primary_comparison_interval_level": 0.9875,
+    "primary_comparison_interval_percentiles": [
+      0.625,
+      99.375
+    ],
+    "design": "noncircular synchronized calendarblocks withinseparate60windows thenwholeSiteID resampling"
+  },
+  "source_output": "runs/stage3g_transfer_reliability_v1/source",
+  "output": "runs/stage3g_transfer_reliability_v1/full",
+  "report_output": "reports/stage3g_transfer_reliability_v1/results",
+  "frozen_manifest": "configs/stage3g_transfer_reliability_v1/FREEZE.json",
+  "etas": [
+    0,
+    0.5,
+    0.9
+  ],
+  "descriptor": {
+    "formulas": [
+      "IQR_valid_volume/positive_median_scale",
+      "median_abs_adjacent_calendar_change/scale",
+      "Pearson_lag1_on_valid_adjacent_calendar_pairs",
+      "1-valid_observation_count/calendar_days"
+    ],
+    "min_valid_observations": 14,
+    "min_valid_adjacent_pairs": 7,
+    "source_window_end_years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020
+    ],
+    "source_min_finite_windows_per_component": 3,
+    "source_matching_history_lengths": [
+      30,
+      72,
+      90,
+      144,
+      180
+    ],
+    "constant_autocorrelation": "NA; targetuniformfallback,source-trainingmedianimputation",
+    "source_scale_standardizer": "per-fold training source median imputation then populationmean/std;zero-std ignored logged",
+    "distance": "squared Euclidean four standardized descriptors",
+    "weights": "(1-eta)/K+eta*softmax(-distance_squared)",
+    "target_insufficient_descriptor": "uniform fallback with reason"
+  },
+  "source_group_crossfit": {
+    "folds": 5,
+    "sort_key": "SHA256(Wessex-G-source-fold-v1|provisional_group_id)",
+    "assignment": "sortedgroups roundrobin modulo5",
+    "outer_eval": "f",
+    "risk_train": "(f+1)%5",
+    "threshold_calibration": "(f+2)%5",
+    "base_training": "other2folds",
+    "base_training_groups": 12,
+    "risk_training_groups": 6,
+    "threshold_groups": 6,
+    "evaluation_groups": 6,
+    "base_parameter_inner_folds": 3,
+    "inner_assignment": "samefixedhash sortedbasegroups roundrobin modulo3"
+  },
+  "local_hyperparameter_fallback_pool": "order20261012_K30",
+  "main_model": "similarity_residual_ridge_bias_selected",
+  "primary_model": "similarity_residual_ridge_bias_selected",
+  "source_choice_tie": "within1e-12normalizedMAE:smallereta,thenlambda,thenalpha",
+  "shuffle": {
+    "enabled": true,
+    "pool_id": "order20261012_K30",
+    "budgets": [
+      30
+    ],
+    "horizons": [
+      1,
+      3
+    ],
+    "seeds": [
+      20261014,
+      20261015,
+      20261016
+    ],
+    "parameters": "same chosenalpha/lambda asmain; weights multisetpermute,legalinitialbias refit",
+    "analysis": "exploratory;average seed losses notpredictionensemble;notpermutationtest"
+  },
+  "reliability": {
+    "model": "LogisticRegression",
+    "C": 1.0,
+    "solver": "lbfgs",
+    "max_iter": 1000,
+    "class_weight": null,
+    "training_sample_weights": "equalSiteID/pseudowindow normalize sumN",
+    "features": [
+      "sqrt(mean source squared descriptor distances)",
+      "last7calendarinputmissingfraction",
+      "last7medianadjacentabschange/initialscale"
+    ],
+    "recent_window": 7,
+    "min_recent_adjacent_pairs": 2,
+    "large_error_quantile": 0.9,
+    "quantile_method": "inverted_cdf",
+    "min_initial_calibration_errors": 14,
+    "event_rule": "abs(mainpred-truth)>initial_Persistence_absoluteerror_Q90;zeroQ90allowed",
+    "operating_mark_rates": [
+      0.1,
+      0.2
+    ],
+    "tie_rule": "sourcecalibratedfraction of tiedscore mass; deterministic SHA256 offorecastkey,nevertruth",
+    "random_baseline_seed": 20261014,
+    "baselines": [
+      "random_hash",
+      "recent_missing",
+      "main_minus_P_absolute_difference_over_scale"
+    ],
+    "final_training": "outer-eval source baseOOF rows",
+    "final_operation_thresholds": "source outer riskOOF score weighted quantiles;notfinalrisktraining fitted scores",
+    "score_size_shift_disclosure": "risk6to30;baseline12to30; empirical not calibrated guarantee"
+  },
+  "evaluation_date_rule": "comparison-specific pairedfinite truth/predictions,full plannedcoverage andallpoliciescommonindexreported",
+  "risk_min_calibration_samples": 14,
+  "primary_comparisons": [
+    "B30 mainweighted+bias vsPersistence h1/h3",
+    "B30 mainweighted+bias vsmatcheduniform+bias h1/h3"
+  ],
+  "source_assisted_local_selection_disclosed": true,
+  "engineering_noninferiority_margin": null,
+  "final_performance_allowed": false,
+  "protected_performance_allowed": false,
+  "workers": 1,
+  "max_attempts": 2,
+  "completion_rule": "expectedtaskset + fingerprint +requiredfiles +rowkeys+SHA+write-readback receipt;functionreturn separate",
+  "smoke_output": "runs/stage3g_transfer_reliability_v1/smoke",
+  "shuffle_seeds": [
+    20261014,
+    20261015,
+    20261016
+  ],
+  "risk_min_initial_errors": 14,
+  "partition_group_ledger": "data/provenance/stage3c2_source_scale_v1/partition_group_ledger.csv",
+  "shared_parameter_selection": "alpha/lambda/eta source-only all budgets; targetweights/scale/bias legalinitialadaptation only",
+  "source_reconstruction": "group-out reconstruction assembledafter2021 for2022 deployment;notonlineasofJanuary2021",
+  "runtime_packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0"
+  }
+}

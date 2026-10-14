@@ -1,0 +1,2530 @@
+{
+  "defined_before_target_results": true,
+  "config_sha256": "d9d70b49b513138cd43e29e5488daf9a4c13956cd4a71cfd9c2ff66c5c6fd2dc",
+  "tasks": [
+    {
+      "site_id": "13013",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13013_2022-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13013",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13013_2022-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13013",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13013_2022-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13013_2022-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13013_2022-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13013_2022-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13015_2022-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13015",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13015_2022-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13015",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13015_2022-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13015_2022-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13015_2022-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13015_2022-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13016_2022-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13016",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13016_2022-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13016",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13016_2022-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13016_2022-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13016_2022-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13016_2022-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13017_2022-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13017",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13017_2022-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13017",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13017_2022-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13017_2022-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13017_2022-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13017_2022-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13022_2022-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13022",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13022_2022-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13022",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13022_2022-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13022_2022-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13022_2022-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13022_2022-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13024_2022-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13024",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13024_2022-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13024",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13024_2022-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13024_2022-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13024_2022-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13024_2022-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13025_2022-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13025",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13025_2022-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13025",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13025_2022-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13025_2022-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13025_2022-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13025_2022-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13028_2022-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13028",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13028_2022-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13028",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13028_2022-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13028_2022-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13028_2022-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13028_2022-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13029_2022-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13029",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13029_2022-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13029",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13029_2022-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13029_2022-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13029_2022-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13029_2022-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13031_2022-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13031",
+      "episode": "2022-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13031_2022-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13031",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13031_2022-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2022-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13031_2022-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13031_2022-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2022-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13031_2022-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13013_2022-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13013",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13013_2022-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13013",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13013_2022-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13013_2022-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13013_2022-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13013_2022-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13015_2022-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13015",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13015_2022-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13015",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13015_2022-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13015_2022-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13015_2022-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13015_2022-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13016_2022-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13016",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13016_2022-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13016",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13016_2022-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13016_2022-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13016_2022-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13016_2022-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13017_2022-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13017",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13017_2022-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13017",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13017_2022-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13017_2022-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13017_2022-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13017_2022-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13022_2022-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13022",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13022_2022-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13022",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13022_2022-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13022_2022-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13022_2022-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13022_2022-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13024_2022-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13024",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13024_2022-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13024",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13024_2022-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13024_2022-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13024_2022-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13024_2022-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13025_2022-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13025",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13025_2022-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13025",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13025_2022-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13025_2022-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13025_2022-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13025_2022-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13028_2022-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13028",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13028_2022-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13028",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13028_2022-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13028_2022-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13028_2022-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13028_2022-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13029_2022-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13029",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13029_2022-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13029",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13029_2022-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13029_2022-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13029_2022-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13029_2022-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13031_2022-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13031",
+      "episode": "2022-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13031_2022-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13031",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13031_2022-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2022-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13031_2022-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13031_2022-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2022-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13031_2022-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13013_2023-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13013_2023-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13013_2023-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13013_2023-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13013_2023-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13013_2023-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13015_2023-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13015_2023-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13015_2023-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13015_2023-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13015_2023-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13015_2023-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13016_2023-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13016_2023-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13016_2023-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13016_2023-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13016_2023-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13016_2023-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13017_2023-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13017_2023-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13017_2023-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13017_2023-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13017_2023-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13017_2023-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13022_2023-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13022_2023-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13022_2023-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13022_2023-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13022_2023-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13022_2023-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13024_2023-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13024_2023-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13024_2023-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13024_2023-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13024_2023-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13024_2023-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13025_2023-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13025_2023-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13025_2023-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13025_2023-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13025_2023-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13025_2023-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13028_2023-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13028_2023-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13028_2023-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13028_2023-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13028_2023-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13028_2023-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13029_2023-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13029_2023-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13029_2023-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13029_2023-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13029_2023-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13029_2023-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13031_2023-01-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-01-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13031_2023-01-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13031_2023-01-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-01-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13031_2023-01-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13031_2023-01-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-01-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13031_2023-01-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13013_2023-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13013_2023-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13013_2023-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13013_2023-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13013_2023-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13013_2023-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13015_2023-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13015_2023-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13015_2023-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13015_2023-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13015_2023-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13015_2023-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13016_2023-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13016_2023-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13016_2023-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13016_2023-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13016_2023-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13016_2023-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13017_2023-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13017_2023-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13017_2023-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13017_2023-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13017_2023-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13017_2023-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13022_2023-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13022_2023-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13022_2023-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13022_2023-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13022_2023-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13022_2023-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13024_2023-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13024_2023-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13024_2023-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13024_2023-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13024_2023-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13024_2023-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13025_2023-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13025_2023-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13025_2023-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13025_2023-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13025_2023-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13025_2023-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13028_2023-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13028_2023-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13028_2023-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13028_2023-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13028_2023-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13028_2023-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13029_2023-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13029_2023-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13029_2023-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13029_2023-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13029_2023-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13029_2023-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13031_2023-07-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-07-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13031_2023-07-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13031_2023-07-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-07-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13031_2023-07-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13031_2023-07-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-07-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13031_2023-07-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13013_2023-10-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13013_2023-10-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13013_2023-10-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13013_2023-10-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13013_2023-10-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13013",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13013_2023-10-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13015_2023-10-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13015_2023-10-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13015_2023-10-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13015_2023-10-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13015_2023-10-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13015",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13015_2023-10-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13016_2023-10-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13016_2023-10-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13016_2023-10-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13016_2023-10-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13016_2023-10-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13016",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13016_2023-10-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13017_2023-10-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13017_2023-10-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13017_2023-10-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13017_2023-10-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13017_2023-10-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13017",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13017_2023-10-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13022_2023-10-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13022_2023-10-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13022_2023-10-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13022_2023-10-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13022_2023-10-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13022",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13022_2023-10-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13024_2023-10-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13024_2023-10-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13024_2023-10-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13024_2023-10-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13024_2023-10-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13024",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13024_2023-10-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13025_2023-10-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13025_2023-10-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13025_2023-10-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13025_2023-10-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13025_2023-10-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13025",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13025_2023-10-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13028_2023-10-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13028_2023-10-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13028_2023-10-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13028_2023-10-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13028_2023-10-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13028",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13028_2023-10-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13029_2023-10-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13029_2023-10-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13029_2023-10-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13029_2023-10-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13029_2023-10-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13029",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13029_2023-10-01_B180_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 1,
+      "task_id": "13031_2023-10-01_B30_H1",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-10-01",
+      "budget": 30,
+      "horizon": 3,
+      "task_id": "13031_2023-10-01_B30_H3",
+      "planned_point_rows": 1620
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 1,
+      "task_id": "13031_2023-10-01_B90_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-10-01",
+      "budget": 90,
+      "horizon": 3,
+      "task_id": "13031_2023-10-01_B90_H3",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 1,
+      "task_id": "13031_2023-10-01_B180_H1",
+      "planned_point_rows": 1440
+    },
+    {
+      "site_id": "13031",
+      "episode": "2023-10-01",
+      "budget": 180,
+      "horizon": 3,
+      "task_id": "13031_2023-10-01_B180_H3",
+      "planned_point_rows": 1440
+    }
+  ],
+  "source_pools": [
+    {
+      "pool_id": "order20261012_K30",
+      "source_groups": [
+        "provisional:13006",
+        "provisional:13008",
+        "provisional:13012",
+        "provisional:13035",
+        "provisional:17968",
+        "provisional:13264",
+        "provisional:13278",
+        "provisional:13064",
+        "provisional:13145",
+        "provisional:13364",
+        "provisional:13353",
+        "provisional:13242",
+        "provisional:13220",
+        "provisional:13214",
+        "provisional:13252",
+        "provisional:13515",
+        "provisional:13324",
+        "provisional:13248",
+        "provisional:13255",
+        "provisional:13362",
+        "provisional:13079",
+        "provisional:19155",
+        "provisional:13243",
+        "provisional:13232",
+        "provisional:13182",
+        "provisional:13082",
+        "provisional:13043",
+        "provisional:17430",
+        "provisional:13041",
+        "provisional:13125"
+      ],
+      "pseudo_tasks": 360,
+      "global_candidates": 79920,
+      "nested_candidates": 159840,
+      "strict_reliability_base_rows": 15120
+    },
+    {
+      "pool_id": "order20261013_K30",
+      "source_groups": [
+        "provisional:13006",
+        "provisional:13008",
+        "provisional:13012",
+        "provisional:13032",
+        "provisional:13047",
+        "provisional:13316",
+        "provisional:13035",
+        "provisional:13163",
+        "provisional:13275",
+        "provisional:13354|13355",
+        "provisional:13060",
+        "provisional:19539",
+        "provisional:13324",
+        "provisional:13071",
+        "provisional:13056",
+        "provisional:13118",
+        "provisional:13207",
+        "provisional:13142",
+        "provisional:13175",
+        "provisional:13079",
+        "provisional:13315",
+        "provisional:13223",
+        "provisional:13264",
+        "provisional:13238",
+        "provisional:13172",
+        "provisional:13143",
+        "provisional:13101",
+        "provisional:13361",
+        "provisional:13360",
+        "provisional:13078"
+      ],
+      "pseudo_tasks": 360,
+      "global_candidates": 79920,
+      "nested_candidates": 159840,
+      "strict_reliability_base_rows": 15120
+    },
+    {
+      "pool_id": "order20261014_K30",
+      "source_groups": [
+        "provisional:13006",
+        "provisional:13008",
+        "provisional:13012",
+        "provisional:13156",
+        "provisional:13515",
+        "provisional:13238",
+        "provisional:13242",
+        "provisional:13207",
+        "provisional:13044",
+        "provisional:13144",
+        "provisional:13191",
+        "provisional:13249",
+        "provisional:13219",
+        "provisional:13291",
+        "provisional:13201",
+        "provisional:13075",
+        "provisional:13198|13199",
+        "provisional:13293",
+        "provisional:13310",
+        "provisional:13260",
+        "provisional:13076",
+        "provisional:13254",
+        "provisional:13134",
+        "provisional:13192",
+        "provisional:13275",
+        "provisional:13055",
+        "provisional:13079",
+        "provisional:13171",
+        "provisional:13035",
+        "provisional:19556"
+      ],
+      "pseudo_tasks": 360,
+      "global_candidates": 79920,
+      "nested_candidates": 159840,
+      "strict_reliability_base_rows": 15120
+    }
+  ],
+  "source_base_stats_model_count": 292,
+  "source_cv_weighted_small_matrix_fits_upper_estimate": 150000,
+  "reliability_fixed_logistic_models": 108,
+  "target_final_models_upper_bound": 4200,
+  "counts_estimates_are_not_executed_counts": true
+}

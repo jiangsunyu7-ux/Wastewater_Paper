@@ -1,0 +1,199 @@
+provisional_group_id,all_pre2022_related_siteids,candidate_siteids,representative_site_id,partition,reason,reserve_sha256,reserve_rank,physical_facility_id,physical_mapping_verified,known_or_suspected_multi_measurement
+provisional:13006,13006,,,original_source,original K3 source group fixed; linked siblings not separately sampled,ae785433372efc1f4bbb69384847603eb4267dda7b48b7d005e367111a45a49b,,unknown,False,False
+provisional:13008,13008,,,original_source,original K3 source group fixed; linked siblings not separately sampled,25db0552e0f1f358524fbfc9ee1ff81dbb974b2476200428b52f479d13d2bb3a,,unknown,False,False
+provisional:13012,13012,,,original_source,original K3 source group fixed; linked siblings not separately sampled,339183c68cf0ec40fbe51d78cda6e11aa66ad02d2ea07e23a5dcb41e7a3e9cd0,,unknown,False,False
+provisional:13013,13013,,,development,original fixed target IDs; linked siblings excluded from sources,b1635c618f62599d7b0b37e95cfaf6ede7ea78a9d1915efd9ecd15dd1445d6b0,,unknown,False,False
+provisional:13015,13015,,,development,original fixed target IDs; linked siblings excluded from sources,0a20243cd37586c5939b895a2be2508f5198e80ebdedccb2698474e35f62e1fa,,unknown,False,False
+provisional:13016,13016,,,development,original fixed target IDs; linked siblings excluded from sources,e7e051e35f9bcaf466977af369cd63d95296a41abd97df54a499300917c4183f,,unknown,False,False
+provisional:13017,13017,,,development,original fixed target IDs; linked siblings excluded from sources,4804cd43c3754abb65cd02c52af8436a6a994e0d6516fc8ec5b652c9e357b36b,,unknown,False,False
+provisional:13022,13022,,,development,original fixed target IDs; linked siblings excluded from sources,ea7173fdabf706c13ad1e019dfe13f3c5907abd575a88425600c8772cee8ef81,,unknown,False,False
+provisional:13024,13024,,,development,original fixed target IDs; linked siblings excluded from sources,1357db216864eb01747ef0737cca4a659808d97caf4cabd281da52e241ab73b3,,unknown,False,False
+provisional:13025,13025,,,development,original fixed target IDs; linked siblings excluded from sources,4afc32544a7582b397902ae114d743163da664866d0337752bd7e8205fa4b639,,unknown,False,False
+provisional:13028,13028,,,development,original fixed target IDs; linked siblings excluded from sources,24068694d5750172e2a34853422e7d9e9c904aadced42671a64ef1a25c91521f,,unknown,False,False
+provisional:13029,13029,,,development,original fixed target IDs; linked siblings excluded from sources,7d8dc4ee39d86501e6fb536d34cc07cbcc3f85fbbfee1585d837bdc4a5851b8f,,unknown,False,False
+provisional:13031,13031,,,development,original fixed target IDs; linked siblings excluded from sources,97d2d727668c886c97229d8f1735c42f008a0dc599213c88395158b31f6bdadb,,unknown,False,False
+provisional:13032,13032,13032,13032,added_source,fixed pre-performance source-rank prefix,639499e2d258325e1ad15b4d37e8c5bae19208fd224ad7a06d2836b8e00a621f,60,unknown,False,False
+provisional:13034,13034,13034,13034,eligible_not_selected,not in any fixed top27 source ordering,a27a029bf4d4d84e52ed95fbc4fc8e0e15579e55d92e62e904e7597c2535eedd,114,unknown,False,False
+provisional:13035,13035,13035,13035,added_source,fixed pre-performance source-rank prefix,8b2898a631eb4c1289cd005bbc2d4b1c2a27f2869d2f51df546b7b24c5f3502d,92,unknown,False,False
+provisional:13037,13037,13037,13037,eligible_not_selected,not in any fixed top27 source ordering,6131855357a0241e97ba10723527b87942d0bad270efd86ac3d6eea45cda954e,57,unknown,False,False
+provisional:13039,13039,13039,13039,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,1c1d6368d4a761e9506153427f80c0026712342cfc0f8b5e04dc814821b333dd,22,unknown,False,False
+provisional:13041,13041,13041,13041,added_source,fixed pre-performance source-rank prefix,5dcb1787a6b78a561040329e5480739e76e1bd469450c3fabf10d945e16e6f5a,55,unknown,False,False
+provisional:13043,13043,13043,13043,added_source,fixed pre-performance source-rank prefix,56c7e42c61f4fa193181a5c69ef47e7fbc18d4c3f08ad865214a8225f346707a,52,unknown,False,False
+provisional:13044,13044,13044,13044,added_source,fixed pre-performance source-rank prefix,d117db7d7477d3ef5ae48882261ca4f150c1abc46638918ce9c9b8d59bcc6b8b,145,unknown,False,False
+provisional:13045,13045,13045,13045,eligible_not_selected,not in any fixed top27 source ordering,a2513dd88e846eda891feae5d5e9e26dd6fcb37592c3a21e9f684da7afe14ad7,113,unknown,False,False
+provisional:13047,13047,13047,13047,added_source,fixed pre-performance source-rank prefix,aaded51985fbd5218ce7a8f578567674f01fe01351fbdf502c11d64395d9b5e4,124,unknown,False,False
+provisional:13048,13048,13048,13048,eligible_not_selected,not in any fixed top27 source ordering,dcafcd1e869b2e9ff05a1660651568cfaa19c5e25cfc127a9cf439e49dafdc69,158,unknown,False,False
+provisional:13050,13050,13050,13050,eligible_not_selected,not in any fixed top27 source ordering,d28bc21f6a3b4e79acb9da7fa923a72b31752f27db3d85a011d76593b461c4c8,149,unknown,False,False
+provisional:13054,13054,13054,13054,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,363100fd6125d50d95a543a74e60a7f291bba07be853d5bc98d4aba47edb7187,34,unknown,False,False
+provisional:13055,13055,13055,13055,added_source,fixed pre-performance source-rank prefix,413d2ecb0e4d81ea64e580c9234d8f9c16d4513e5fbc302737f7af649b04e8c7,41,unknown,False,False
+provisional:13056,13056,13056,13056,added_source,fixed pre-performance source-rank prefix,7a87e4c8e750f1ce4d5a3732b5d2b971557afc862072c6afb45ca55d5dacfb10,80,unknown,False,False
+provisional:13060,13060,13060,13060,added_source,fixed pre-performance source-rank prefix,c8f1f6ce521f27817383365031883ed9e89c1d33cb991bed56f0b55ce7d3d298,142,unknown,False,False
+provisional:13061,13061,13061,13061,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,21b9c4933f2e95b401594f598cfc27c0c36c7cdc6c20ada5f90557dde1046666,23,unknown,False,False
+provisional:13064,13064,13064,13064,added_source,fixed pre-performance source-rank prefix,be0afea998d414b53d71c3cca5d97ff7495651631dc408d71d6a14ad85260147,138,unknown,False,False
+provisional:13069,13069,13069,13069,eligible_not_selected,not in any fixed top27 source ordering,9bb51a89f968fc12589699269336803b9f93e70dd26ad6ed6352bfe56f192b60,106,unknown,False,False
+provisional:13071,13071,13071,13071,added_source,fixed pre-performance source-rank prefix,efcd65a384c5d4b8a4daa0edaee45f368a57c333da59cdae4e023cd8f74cc44b,175,unknown,False,False
+provisional:13073,13073,13073,13073,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,0d4cfaaf3d1d41afd60957b4850faf7d4d6c38aa2d06b771f54b20aaada6518c,13,unknown,False,False
+provisional:13075,13075,13075,13075,added_source,fixed pre-performance source-rank prefix,7fa2793efc136623a136e00ff4ec5ea30f3ee6ac8bc9dd1f38c55839982b7865,86,unknown,False,False
+provisional:13076,13076,13076,13076,added_source,fixed pre-performance source-rank prefix,d2378574ad04074643623fe5e14a1e4a6048384b427f7d067aa846eb03c0116c,148,unknown,False,False
+provisional:13078,13078,13078,13078,added_source,fixed pre-performance source-rank prefix,e91e4f2ffedaafb95a2d684ddbb040688c239c0c0179d03d56c203bdd410571e,171,unknown,False,False
+provisional:13079,13079,13079,13079,added_source,fixed pre-performance source-rank prefix,f8d9019e069b69d3837f97354bb52d3004d6b89ae143a568a0af4c637db098c3,181,unknown,False,False
+provisional:13082,13082,13082,13082,added_source,fixed pre-performance source-rank prefix,b6bba370e1912f48d14af7828dcdde1b6fdfd8609225134b220217e44b6077f6,132,unknown,False,False
+provisional:13083,13083,13083,13083,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,0d90471eea41db7e428e046eda19370bb55ffbb2aca450e224b644801b3db242,14,unknown,False,False
+provisional:13084,13084,13084,13084,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,2ecba5c4fd586f547e52d79968ad65efa0bff3770de9978bbd307f6f5bf87c1d,28,unknown,False,False
+provisional:13086,13086,13086,13086,eligible_not_selected,not in any fixed top27 source ordering,9fc11b83824a173dcddc8189a90e57eb94b4205eb7fbf4d4d36d7fabfa5f6d42,111,unknown,False,False
+provisional:13087,13087,13087,13087,eligible_not_selected,not in any fixed top27 source ordering,f9c58bf153dc790fcae8fdec8688285f7d120765163d264f156e0bf77a569163,183,unknown,False,False
+provisional:13088,13088,13088,13088,eligible_not_selected,not in any fixed top27 source ordering,d96b99d92bec21698217e13ff8fa5d4b5d1a25adb40ab0238408bf1c8e4dbb6a,154,unknown,False,False
+provisional:13092,13092,13092,13092,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,0f7c192c0a68f528eddc41272854dcc381df61f0143233e5e6de09e0a808e0a2,15,unknown,False,False
+provisional:13095,13095,13095,13095,eligible_not_selected,not in any fixed top27 source ordering,7d7f49e3d66a545a80462d7e653efd7e1ce5ea2b12a0a7942c4c3c01c58dd0a7,85,unknown,False,False
+provisional:13096,13096,13096,13096,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,36ab4abcb89bb157630019b8203442f9f527b8d7a01e03de88cc42d70b24d04e,35,unknown,False,False
+provisional:13098,13098,13098,13098,eligible_not_selected,not in any fixed top27 source ordering,e87087ad810b168ec8b687c4f6211636870d3301896daefc9d91ed3f73090bb7,169,unknown,False,False
+provisional:13101,13101,13101,13101,added_source,fixed pre-performance source-rank prefix,c00132e8f689ebdf457b4d15f0b9071dbda17cccab79b876826b2139dc6bedc3,139,unknown,False,False
+provisional:13105,13105,13105,13105,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,03e066436540b9ddaf86f2e494c0085734becf95f38a02f49305179a346517a6,3,unknown,False,False
+provisional:13106,13106,13106,13106,eligible_not_selected,not in any fixed top27 source ordering,e3ce563a795a67fdec962a58cf9c70d461d744c51ff24a438db66bb2cf97716e,167,unknown,False,False
+provisional:13107,13107,13107,13107,eligible_not_selected,not in any fixed top27 source ordering,822cb35d85976d5685424c52421b69aa58046d8579c030eea8df1b1e1ca490e4,87,unknown,False,False
+provisional:13116,13116,13116,13116,eligible_not_selected,not in any fixed top27 source ordering,7c4e098c904d2e6c23b17074540af596be70f7873e3d662ddee34871e5aa2843,82,unknown,False,False
+provisional:13118,13118,13118,13118,added_source,fixed pre-performance source-rank prefix,bd5190f17a161ff250783503495013dac942916fe40e3e5520ee5a7ac3b94c67,137,unknown,False,False
+provisional:13121,13121,13121,13121,eligible_not_selected,not in any fixed top27 source ordering,d773ae1cc805973a31f2394299720268b5836a207b59b6a177a85024dc11a245,152,unknown,False,False
+provisional:13125,13125,13125,13125,added_source,fixed pre-performance source-rank prefix,a2f0aaa3eb251569a431deabbd7d552cc20fa041c612f930e434ac30ffc2def0,116,unknown,False,False
+provisional:13128,13128,13128,13128,eligible_not_selected,not in any fixed top27 source ordering,9ec21e22acecdeafdef3969d106128cb5a233c1082a9bbfe3aea4d4378f3d9c4,110,unknown,False,False
+provisional:13129,13129,13129,13129,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,040cd04f5ad6d396ea08ae9cbbdd8ecbeb9bb6dccb349ff74477e6d6c1a6900c,4,unknown,False,False
+provisional:13130,13130,13130,13130,eligible_not_selected,not in any fixed top27 source ordering,f91754b841c1edebb8827a0ee1059681ef825ebe1eac792960b9d64efecc0de2,182,unknown,False,False
+provisional:13132,13132,13132,13132,eligible_not_selected,not in any fixed top27 source ordering,988995b4b706940773ff7fefcb949b73bf60ef1d9ddd7c9d88d3d92f7c0497d3,103,unknown,False,False
+provisional:13134,13134,13134,13134,added_source,fixed pre-performance source-rank prefix,cfc673315a29f944352415f107d63e46c684ba427c23375828972c520792c1d7,144,unknown,False,False
+provisional:13137,13137,13137,13137,eligible_not_selected,not in any fixed top27 source ordering,b5f704e2e3d5622dd84e84b015d0d20f1cec6b4858d17022bf4d61e1499028de,130,unknown,False,False
+provisional:13140,13140,13140,13140,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,1a61a444a440b778ed678d5f0d8294aac9b6a7457ed8b840604a3690fa07a348,21,unknown,False,False
+provisional:13142,13142,13142,13142,added_source,fixed pre-performance source-rank prefix,67169bf58ca26720a7a87745ba97afe33a18f788e3200cc96cdc1013f56ff283,61,unknown,False,False
+provisional:13143,13143,13143,13143,added_source,fixed pre-performance source-rank prefix,4c52f5ec658b432343f50d4a84b5bbae4a1c6edeb692375318adac77ad2d0ebc,48,unknown,False,False
+provisional:13144,13144,13144,13144,added_source,fixed pre-performance source-rank prefix,99fdcea52ad390cec640eb29b7be8eed26c5892240f232c381e9757210b46c58,104,unknown,False,False
+provisional:13145,13145,13145,13145,added_source,fixed pre-performance source-rank prefix,aa559fbf697286b7eb5aa4bd3d6b3434a4612db5b831777453869103bd77f06a,122,unknown,False,False
+provisional:13146,13146,13146,13146,eligible_not_selected,not in any fixed top27 source ordering,82eda90512ea4b5822f537072352b2032e5f710550972683fe6baccf125adcdb,88,unknown,False,False
+provisional:13150,13150,13150,13150,eligible_not_selected,not in any fixed top27 source ordering,6e02c7c49ace44fd6d5f33b8f83da3ba7b042173c0d4e9def0c4a4e512a9536b,68,unknown,False,False
+provisional:13152,13152,13152,13152,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,3bc49ace2ac47f54721969f7a76824512eef48961c0bee70db405c20d2aa4153,36,unknown,False,False
+provisional:13156,13156,13156,13156,added_source,fixed pre-performance source-rank prefix,e85d8dcec29928d5b1e36068b4bf0ca231877968743fc30963e23be7036f279a,168,unknown,False,False
+provisional:13157,13157,13157,13157,eligible_not_selected,not in any fixed top27 source ordering,aa953d897262a896498f3aba5cf8f544bca1b9afd849cc7937f3fb45cd2e3882,123,unknown,False,False
+provisional:13161,13161,13161,13161,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,019f456a4b2742036287f8732d0900be0cd13fa2fa60165f86d59d6f935da7c1,2,unknown,False,False
+provisional:13163,13163,13163,13163,added_source,fixed pre-performance source-rank prefix,8db48ca38bcffa8c3ee6309601c49db710a6356cfbc31832945df0f161aee1d4,95,unknown,False,False
+provisional:13164,13164,13164,13164,eligible_not_selected,not in any fixed top27 source ordering,a07b7bbbcd47b594254ace04c569ce1a433b3ea5b38fe4e10acefb8828e6a886,112,unknown,False,False
+provisional:13165,13165,13165,13165,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,16a324ed066b369768355b059f590518679cc9ce00e313ff50952774beacb6ba,19,unknown,False,False
+provisional:13168,13168,13168,13168,eligible_not_selected,not in any fixed top27 source ordering,71d1ee09ebdb9e43b5d6e40b88e67f9a026bb21216b9bdb490e10c2ee5d840be,76,unknown,False,False
+provisional:13171,13171,13171,13171,added_source,fixed pre-performance source-rank prefix,fdae577b8939b90f5fe7027b0c193531a10f4f36aa25561ebcf794465e8b989f,185,unknown,False,False
+provisional:13172,13172,13172,13172,added_source,fixed pre-performance source-rank prefix,9e5945f9f3f9ff9c587351e74a9ecf74feb3f2e0047a447755544e7fe74f3311,109,unknown,False,False
+provisional:13174,13174,13174,13174,eligible_not_selected,not in any fixed top27 source ordering,8ebe9928cdb7cc3fea76c7468026576bc8e1a531a29722da57a5e79d9c537d4d,97,unknown,False,False
+provisional:13175,13175,13175,13175,added_source,fixed pre-performance source-rank prefix,f7ff992e1fd29f9218d685337bc63c163920c06024eb0f9f84f2266cd414d345,180,unknown,False,False
+provisional:13180,13180,13180,13180,eligible_not_selected,not in any fixed top27 source ordering,6336cfc65ca630ecf879aee65483e4806df6670068cba827d3cf848a6aa38c1f,59,unknown,False,False
+provisional:13181,13181,13181,13181,eligible_not_selected,not in any fixed top27 source ordering,af0cfdb8a841446d9e7cfe640a758041e7cfc677be8da0641b6bfcbc900012be,125,unknown,False,False
+provisional:13182,13182,13182,13182,added_source,fixed pre-performance source-rank prefix,475a429fe2bb6bf0012ff7dcd0d51945ed17e14bcecb66616fd63a80eb0e26c5,45,unknown,False,False
+provisional:13184,13184,13184,13184,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,0a6fb3df7cfd98a839527f432c11c54b8cd8caa3f46061db8318d81919153eae,10,unknown,False,False
+provisional:13190,13190,13190,13190,eligible_not_selected,not in any fixed top27 source ordering,85bbbfa3d19e1f7062797464b1d26d20dbac3ad7f0a5f4f24b5110f936524571,90,unknown,False,False
+provisional:13191,13191,13191,13191,added_source,fixed pre-performance source-rank prefix,ebe3ea75efc721b18347bfaa67c5cdacacdd6eac81195de4ddc537563972ecea,173,unknown,False,False
+provisional:13192,13192,13192,13192,added_source,fixed pre-performance source-rank prefix,6e67bd022881e58ecb99c6d47e94217a74b347b14102a66783d030b19094fe69,69,unknown,False,False
+provisional:13193,13193,13193,13193,eligible_not_selected,not in any fixed top27 source ordering,71fa51c1d2178079deceff200839f03830601931728d6363d218de74d022c9fc,77,unknown,False,False
+provisional:13196,13196,13196,13196,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,17d052e96405ce3d3d42240acfa896171721fde7b1edf6bca02210e4c34c71d9,20,unknown,False,False
+provisional:13198|13199,13198|13199,13198|13199,13198,added_source,fixed pre-performance source-rank prefix,b06c0c15fa84aca19e75937f64536646b51a19155957ada50bc2a04af9d72a79,126,unknown,False,True
+provisional:13201,13201,13201,13201,added_source,fixed pre-performance source-rank prefix,a57a36cadd4f07f56ae7115be40c8fe8ae922854f49103e0956a3333f6ade79b,118,unknown,False,False
+provisional:13202,13202,13202,13202,eligible_not_selected,not in any fixed top27 source ordering,e3234eeeeab9c2f75baf9a392f3b34b6fe11253a52905b93f9654627944edccb,166,unknown,False,False
+provisional:13204,13204,13204,13204,eligible_not_selected,not in any fixed top27 source ordering,e033abeb9f7154f2fea835c2910b253658b836bc34310e38c967997f24d47831,163,unknown,False,False
+provisional:13205,13205,13205,13205,eligible_not_selected,not in any fixed top27 source ordering,dcf1c24707f7425508d8ce0000ff610053f3079dd51d404bc6092b11b5ed2230,159,unknown,False,False
+provisional:13207,13207,13207,13207,added_source,fixed pre-performance source-rank prefix,d1caeeaf8df1d0e3073eb0ac96604c8e5a57a78a71cbacb9b20e10cf80e3f3c2,147,unknown,False,False
+provisional:13209,13209,13209,13209,eligible_not_selected,not in any fixed top27 source ordering,7c931f1120e6d191ebe895020dc4f95dac6406d6942f4f16f209d6dc4fa2b495,84,unknown,False,False
+provisional:13214,13214,13214,13214,added_source,fixed pre-performance source-rank prefix,a99e5517ff22c8044e59060d128c1e31d33ce1d18140a8981d30fe1f9d167588,121,unknown,False,False
+provisional:13215,13215,13215,13215,eligible_not_selected,not in any fixed top27 source ordering,e8d99fda359a7037d9e01bb8a292215d41502e5014ef59688b0236928c0dc751,170,unknown,False,False
+provisional:13219,13219,13219,13219,added_source,fixed pre-performance source-rank prefix,522166ce095897114e068608ba21249a0d14195a1904cb937326523430912893,50,unknown,False,False
+provisional:13220,13220,13220,13220,added_source,fixed pre-performance source-rank prefix,c06015034cd8a3715437af85152841f299d64bc460f6b910ab35a79ff42e5967,140,unknown,False,False
+provisional:13221,13221,13221,13221,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,342654d095061c8d50392337ee7fcc3a343a7534d0f9a4c8de8df5423959c222,31,unknown,False,False
+provisional:13222,13222,13222,13222,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,3bf1719aaa5d968184ad822b86bc8c8400bb0a45442f989426793f398800bf62,37,unknown,False,False
+provisional:13223,13223,13223,13223,added_source,fixed pre-performance source-rank prefix,dbbdef08e1feec7d0726e9378679ea2ff6e764b178f380e3a732a0e64920e05c,156,unknown,False,False
+provisional:13226,13226,13226,13226,eligible_not_selected,not in any fixed top27 source ordering,a2efcddbe9fb8f9e2aabc68a9c1e8046ec81ec90fb326d4b714adf401c4dabe4,115,unknown,False,False
+provisional:13227,13227,13227,13227,eligible_not_selected,not in any fixed top27 source ordering,462d5184ba51c97ad7254b2dd574da05f0fa549e60802215ad85c1e0e76f47b0,44,unknown,False,False
+provisional:13229,13229,13229,13229,eligible_not_selected,not in any fixed top27 source ordering,73dacd77152972fef980a53274a702f678f91c340e0d66c0b6e0b3d10e2e91bc,78,unknown,False,False
+provisional:13230,13230,13230,13230,eligible_not_selected,not in any fixed top27 source ordering,dff6f7cef4474128925ab98e61564608d21ee5cb14339ee64be9d003dcf731da,162,unknown,False,False
+provisional:13231,13231,13231,13231,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,06a6c96262cb5d9a80e248e8fecf7de7b72e2b297b24946a20324d2a2d9ee370,7,unknown,False,False
+provisional:13232,13232,13232,13232,added_source,fixed pre-performance source-rank prefix,8a5f7110d63bd0b085af61482be02d4b204dfea94992e4f2722b98899c38f0f0,91,unknown,False,False
+provisional:13235,13235,13235,13235,eligible_not_selected,not in any fixed top27 source ordering,fc3005c0568be7cf00fcd670957ce1be5754386378a1610dd62f1765bd86a13d,184,unknown,False,False
+provisional:13237,13237,13237,13237,eligible_not_selected,not in any fixed top27 source ordering,455729ebf75dbd279f524b225c35301c8b04faa693e3df6cf08e21f5cc0de82a,43,unknown,False,False
+provisional:13238,13238,13238,13238,added_source,fixed pre-performance source-rank prefix,d7ee2b77c79f69d738e8595677dc6946f25126dcc49c796ce8ac43c2ad7b8f84,153,unknown,False,False
+provisional:13242,13242,13242,13242,added_source,fixed pre-performance source-rank prefix,dd2ec3c52542813805f559d2e8cd3cea6c1f3e60690257bed7af03abc850206a,160,unknown,False,False
+provisional:13243,13243,13243,13243,added_source,fixed pre-performance source-rank prefix,d58695cbd009ced33015b416a8486402b01e308120be5348e534e628a6af2f2b,151,unknown,False,False
+provisional:13244,13244,13244,13244,eligible_not_selected,not in any fixed top27 source ordering,d9ad622dfcb65a11d03667b2c6cb8ea0756bc23b832ed9b5447a07790a23fc6f,155,unknown,False,False
+provisional:13248,13248,13248,13248,added_source,fixed pre-performance source-rank prefix,6ee1013dad16f8bc53389fb17608ba3d04b5875024fecbb31a6ade54beb070e8,71,unknown,False,False
+provisional:13249,13249,13249,13249,added_source,fixed pre-performance source-rank prefix,a9633db8d3f64bef50151e38b0743dd1ad2963b46a7d8d2f0ba24d9465962578,120,unknown,False,False
+provisional:13252,13252,13252,13252,added_source,fixed pre-performance source-rank prefix,68138bb01bf092fb0a9590de0d8e8f933c25af88947dda4cb061f7d2556367d1,63,unknown,False,False
+provisional:13253,13253,13253,13253,eligible_not_selected,not in any fixed top27 source ordering,4ee3e71e19857537c2912f7c83182c1aa24410e0347fc033f26ecbdd5e65f78e,49,unknown,False,False
+provisional:13254,13254,13254,13254,added_source,fixed pre-performance source-rank prefix,715ac49a50e3a7d5f88b7883ec3292973fae05bb94f0a3b427e2565083e7be91,75,unknown,False,False
+provisional:13255,13255,13255,13255,added_source,fixed pre-performance source-rank prefix,c3ae0ff795d038fb724161c81ea4a398d67d1e4e6da128e581b4a5e2700ed9e8,141,unknown,False,False
+provisional:13257,13257,13257,13257,eligible_not_selected,not in any fixed top27 source ordering,7c7bd866baf37ad5f4b97d7dd2b0e3243249e2ec54e138c330081a5382a3caf8,83,unknown,False,False
+provisional:13258,13258,13258,13258,eligible_not_selected,not in any fixed top27 source ordering,3f55b82e0c021cddf517dae163f90a0387d641cb9d20bb4c3eab3e548989a4f3,39,unknown,False,False
+provisional:13260,13260,13260,13260,added_source,fixed pre-performance source-rank prefix,f5c028c73b85f2c16684a72a8697336223fd01eb764f376a9191e0f625824981,178,unknown,False,False
+provisional:13262,13262,13262,13262,eligible_not_selected,not in any fixed top27 source ordering,6fa11fd83eb8fc65ccc4681b2ebf98d77eefb58fc7c17856cde81cea5d41b673,73,unknown,False,False
+provisional:13264,13264,13264,13264,added_source,fixed pre-performance source-rank prefix,7608a8a214ab4cea00cefed0c3641b616d223c9132848f3a7822f84ef83c0f13,79,unknown,False,False
+provisional:13266,13266,13266,13266,eligible_not_selected,not in any fixed top27 source ordering,b6ccbd1c6c9d9596242daa9330da29fcac6a67ab2724a35e6e15ee2930eea5e3,133,unknown,False,False
+provisional:13267,13267,13267,13267,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,33d0356fe3104fca37e34c721ef0d5075b8e1b1911b41fdfe175ef411fd78314,30,unknown,False,False
+provisional:13271,13271,13271,13271,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,110ecabe8699bcd31bac1025f4770bcbed72d14b48c0615378cbaace5e7c0b73,16,unknown,False,False
+provisional:13274,13274,13274,13274,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,0c1ec93e1c473961182ac8eebd7a34be26897ec3bda0c00ae8a773bb08b5bac0,12,unknown,False,False
+provisional:13275,13275,13275,13275,added_source,fixed pre-performance source-rank prefix,8da01a56fffe5470f7c1c495d51fb57dc5924fe576f322d751e6b1336febd4bb,94,unknown,False,False
+provisional:13277,13277,13277,13277,eligible_not_selected,not in any fixed top27 source ordering,6b4a324bd596954e781b4a50b8259f78abde29e1fdf6ad72b568f472f6f9c2e5,65,unknown,False,False
+provisional:13278,13278,13278,13278,added_source,fixed pre-performance source-rank prefix,9c1074454466a81e63c5caed825f4144df1f676bd0be7a8c006572502623a429,107,unknown,False,False
+provisional:13280,13280,13280,13280,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,361efc6eba5a11dbde383382a50ca8e50af92219c8091578972f2f2bed1c3e98,33,unknown,False,False
+provisional:13281,13281,13281,13281,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,275334c120d0104f9ef1a22cda056ce4c128130428634a9fb3a9a08a6bc25c58,26,unknown,False,False
+provisional:13286,13286,13286,13286,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,06feff8580b76f8e8badd002e81515308149eadcd3011e3232f57665dc3bfcce,9,unknown,False,False
+provisional:13288,13288,13288,13288,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,056c3e0978abb65cc3e96c60e5c7e6357036984172b0eb7ee0b70a2f89586e84,6,unknown,False,False
+provisional:13290,13290,13290,13290,eligible_not_selected,not in any fixed top27 source ordering,e11255e0789b4878ebaaadf25ae939b4e1312bf9e48f22e2f0cd2a41c2dc0934,164,unknown,False,False
+provisional:13291,13291,13291,13291,added_source,fixed pre-performance source-rank prefix,8e09b79c32bc223d4592b78dc7356a6b92de4c33b663457d09772f3f8a22e20c,96,unknown,False,False
+provisional:13292,13292,13292,13292,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,04aeb8b9c6698319ffa9d8e1b471533d9d36df660c9d74184d06a171cc10ef66,5,unknown,False,False
+provisional:13293,13293,13293,13293,added_source,fixed pre-performance source-rank prefix,dec38ab14f5ca0512607c0907ea8b4b5ed92b197691259e31023f53d5fa03689,161,unknown,False,False
+provisional:13295,13295,13295,13295,eligible_not_selected,not in any fixed top27 source ordering,e232c24dcfb9e8baeb747a8447eb3aba1eba1924bc57a2fa87e76efed277a109,165,unknown,False,False
+provisional:13297,13297,13297,13297,eligible_not_selected,not in any fixed top27 source ordering,96ce662ac6b371c575a84e14c6582c8e81126a82467b807689879e0f44e60358,101,unknown,False,False
+provisional:13304,13304,13304,13304,eligible_not_selected,not in any fixed top27 source ordering,f08706f524d40b00fc479ce951d45c4049fdff206a689dc235b4af11c2f64728,176,unknown,False,False
+provisional:13305,13305,13305,13305,eligible_not_selected,not in any fixed top27 source ordering,8c33e12fb33a179d36bd6c6bf126c84979a88dddb69e258e68404e663e5951e4,93,unknown,False,False
+provisional:13306,13306,13306,13306,eligible_not_selected,not in any fixed top27 source ordering,f7a16c9c9e23151c2a91bc37937dcaa199144c96eea539b808aa84518c18c844,179,unknown,False,False
+provisional:13308,13308,13308,13308,eligible_not_selected,not in any fixed top27 source ordering,cfac1f091b1a53cad9236ef3c4b372df8f368819562767c8b3db800710c4565a,143,unknown,False,False
+provisional:13309,13309,13309,13309,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,15f24e9168e69d0e3082b2db763f33d64f107977f72e21d2cf259ede9b8eddac,18,unknown,False,False
+provisional:13310,13310,13310,13310,added_source,fixed pre-performance source-rank prefix,b2b6c3ef1d699d19398adf949e59ba95171bda7e1f9b687ede13a786c68cc61d,127,unknown,False,False
+provisional:13311,13311,13311,13311,eligible_not_selected,not in any fixed top27 source ordering,5bf1e9f0b26ad2f5f97da733aa8df4593366fb3327e28f1ac2caade2584d4185,54,unknown,False,False
+provisional:13312,13312,13312,13312,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,2b5b30df518b9bea83e8060e6f3d90154f4639f89a23f0de1e9408fdf59127c5,27,unknown,False,False
+provisional:13313,13313,13313,13313,eligible_not_selected,not in any fixed top27 source ordering,d17c487df12d5ae91f58068e67b470d98f3a96ec456a565bc3f735ef86b6e136,146,unknown,False,False
+provisional:13315,13315,13315,13315,added_source,fixed pre-performance source-rank prefix,a50910d9f5862a54816c360a3c549315c5aa5c3f3d14f73f37fce524a3b38125,117,unknown,False,False
+provisional:13316,13316,13316,13316,added_source,fixed pre-performance source-rank prefix,8fbc3af99a7794a9f37c44f19e6135495d8a1249e09233efff28627c30b7c13e,98,unknown,False,False
+provisional:13317,13317,13317,13317,eligible_not_selected,not in any fixed top27 source ordering,b48de5aa20e85449c59905575d37510ad7067c53627f8c8d05e6fe1204bddf71,129,unknown,False,False
+provisional:13318,13318,13318,13318,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,233d92f56e0697672de18b2dd9d64694ca74ea03883e1c8e90ec7f819a947712,24,unknown,False,False
+provisional:13319,13319,13319,13319,eligible_not_selected,not in any fixed top27 source ordering,9e1732b27648790ef52b168cf955276be15b9feaba8a1351178520815b8675e8,108,unknown,False,False
+provisional:13320,13320,13320,13320,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,31fbc5f5a88633079c089a115e8e587e131bd1e6f44c8f35c872be0a2395fbe7,29,unknown,False,False
+provisional:13322,13322,13322,13322,eligible_not_selected,not in any fixed top27 source ordering,f233c488ed1e477bf997c6bd82e3b51fad6e81eff6cabaa4a51f086f9cf44966,177,unknown,False,False
+provisional:13323,13323,13323,13323,eligible_not_selected,not in any fixed top27 source ordering,b7066d6d04c554de302bfabb256aa19c4f9df663b9f3de45dedbb174e39dacfd,135,unknown,False,False
+provisional:13324,13324,13324,13324,added_source,fixed pre-performance source-rank prefix,a7ea844bf7bfb7b80ba028399b4f4608d487a162dc1bb48d832a97500a0f9b70,119,unknown,False,False
+provisional:13325,13325,13325,13325,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,349097afc562e006a08322a60440e5872c71712f398bc8825d8095d979ecf38a,32,unknown,False,False
+provisional:13329,13329,13329,13329,eligible_not_selected,not in any fixed top27 source ordering,b672163fde7edd95e2269e840fa664365a23232265b625e73fd016dac06ac9af,131,unknown,False,False
+provisional:13330,13330,13330,13330,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,143b0c201e08f4ce20341dcfb0f212256a20215b3b43fcb455d2dd36d970ca19,17,unknown,False,False
+provisional:13331,13331,13331,13331,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,007bc0de88e7303566cacb8e4cb4224d66f947546d2f521d6bacff6f3b07454d,1,unknown,False,False
+provisional:13332,13332,13332,13332,eligible_not_selected,not in any fixed top27 source ordering,d35f1dd8c7a57d0c282e95c078053201b62538217a01f97a5c3f5ded2496ec14,150,unknown,False,False
+provisional:13336,13336,13336,13336,eligible_not_selected,not in any fixed top27 source ordering,dc1eb30716a51ab54fd0f5953004bd425867fc2e4c6828fc1954e9a9e77f6380,157,unknown,False,False
+provisional:13338,13338,13338,13338,eligible_not_selected,not in any fixed top27 source ordering,e9e66a1347d314cc2d94bfa0453852baaab297bdc748309a75c520e033634592,172,unknown,False,False
+provisional:13339,13339,13339,13339,eligible_not_selected,not in any fixed top27 source ordering,85528a8ea552fa4e3920b43899c4570211ac374ab321f9a9f83e8b5d51c4d307,89,unknown,False,False
+provisional:13341,13341,13341,13341,eligible_not_selected,not in any fixed top27 source ordering,b700590ce4f81bdccc8b01f356a62afc5003b2845159be94159b09089c019574,134,unknown,False,False
+provisional:13342,13342,13342,13342,eligible_not_selected,not in any fixed top27 source ordering,eecb47b8d34d253a268e3804a555ef486e673f151c4206c6d29eff472a76b856,174,unknown,False,False
+provisional:13345,13345,13345,13345,eligible_not_selected,not in any fixed top27 source ordering,59a0c7706a00e98ae9b2f1a658993f37283b06e5ab02186738148509d336c6a6,53,unknown,False,False
+provisional:13347,13347,13347,13347,eligible_not_selected,not in any fixed top27 source ordering,96d90ce973758ad591a7af4a629d60fda952b310398c60a5ee3a91b8b92423f3,102,unknown,False,False
+provisional:13349,13349,13349,13349,eligible_not_selected,not in any fixed top27 source ordering,4ae44ac85e46ef37557da8fee52a249866d160b34d7f0f555c49ef306a972f13,47,unknown,False,False
+provisional:13350,13350,13350,13350,eligible_not_selected,not in any fixed top27 source ordering,6d372200d2e8dd28016621a09ba5e83079cb9e5264823a9c601591a714afeb9e,67,unknown,False,False
+provisional:13352,13352,13352,13352,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,2729f46ba32cf831ea943f02db1c81e51ea16a0bda81fd175962f567d66c9a6e,25,unknown,False,False
+provisional:13353,13353,13353,13353,added_source,fixed pre-performance source-rank prefix,91186f48352f0e09559d4b76da9002bb78622f5a6d88aa8726b3524844e488a3,100,unknown,False,False
+provisional:13354|13355,13354|13355,13354,13354,added_source,fixed pre-performance source-rank prefix,707b6752ae54a35f757ffdac5c3f1f38f5471768c66eb76aa83578120b75b262,74,unknown,False,True
+provisional:13358,13358,13358,13358,eligible_not_selected,not in any fixed top27 source ordering,49da0f19d6b910e61fa2453ec35a9c27c51545067d4e026eaeb99836fb42e321,46,unknown,False,False
+provisional:13359,13359,13359,13359,eligible_not_selected,not in any fixed top27 source ordering,bae84fd436f79f4a4af7dea7de43535df0d2324cef5e3cc4f4d2caf424ca5823,136,unknown,False,False
+provisional:13360,13360,13360,13360,added_source,fixed pre-performance source-rank prefix,6b78f4704d0d8391167da6ac6cc8b9068eeaa325066f57372d650c39e6ddf7f5,66,unknown,False,False
+provisional:13361,13361,13361,13361,added_source,fixed pre-performance source-rank prefix,3d009ce6d6a7a2c2464ebd9e1152a01748066540299c74dc3b6ea31e617d5907,38,unknown,False,False
+provisional:13362,13362,13362,13362,added_source,fixed pre-performance source-rank prefix,61c9a6d8c99bd83bbc778fcfae264d9d6fb57d0846723df8bb99b52d0fc83943,58,unknown,False,False
+provisional:13364,13364,13364,13364,added_source,fixed pre-performance source-rank prefix,6aec0d72b5280533cf3b1510eb39c3d390e8e82e149ad66d348d66002f31dc13,64,unknown,False,False
+provisional:13366,13366,13366,13366,eligible_not_selected,not in any fixed top27 source ordering,902124864901437e74b74a949b0fabb55f24d269e9e75eedbcc1c56620558d81,99,unknown,False,False
+provisional:13368,13368,13368,13368,eligible_not_selected,not in any fixed top27 source ordering,4424422f7d427a63cd97c0ac08fa2827f1688c9773aeb01726af1fd1cfe1fc5a,42,unknown,False,False
+provisional:13515,13515,13515,13515,added_source,fixed pre-performance source-rank prefix,6e9ee474c819d841eaa83906672610bde7d52e3fac1bcfa11589e99686823b6a,70,unknown,False,False
+provisional:17081,17081,17081,17081,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,0c1666fe244e7b5f2c6c2e04bbc1c06db30752e84ea38f47c20d73cea8db641d,11,unknown,False,False
+provisional:17375,17375,17375,17375,temporary_protection,lowest fixed reserve SHA256; never fitted/tuned/evaluated in this round,06add71500c44368cb0252bb890f603ec4b2dd820c81f0623df93b7083a7cc8f,8,unknown,False,False
+provisional:17430,17430,17430,17430,added_source,fixed pre-performance source-rank prefix,6f2eb7a41fff529693a6b88ff77f31f798d2019e7ff74ac558286d32ff7cad50,72,unknown,False,False
+provisional:17968,17968,17968,17968,added_source,fixed pre-performance source-rank prefix,6755620ab9a9f6b820b3f0952331def95067a0e027a08177c807fa9085bc8967,62,unknown,False,False
+provisional:19155,19155,19155,19155,added_source,fixed pre-performance source-rank prefix,545eeb514f6b13db42aebf7cd8e4fbeb83ad78788dd5f68b8086c4096a437566,51,unknown,False,False
+provisional:19156,19156,19156,19156,eligible_not_selected,not in any fixed top27 source ordering,3fffc0649fefcdbe52701f10cc2a93c790fe142904153be252eb5f6364ab888d,40,unknown,False,False
+provisional:19539,19539,19539,19539,added_source,fixed pre-performance source-rank prefix,b47b26500e5c053b66c697d4f1f88aba7efd931068e49c5d7a24e0463bd09ccc,128,unknown,False,False
+provisional:19541,19541,19541,19541,eligible_not_selected,not in any fixed top27 source ordering,5f215545c7cb550a7e6eefc43484c0d853dd821a943457fe89e69e6a356746f7,56,unknown,False,False
+provisional:19556,19556,19556,19556,added_source,fixed pre-performance source-rank prefix,7b92b099d785349d345798ae615af9ae4cb491c1f9d15472a4adec1ba581ceca,81,unknown,False,False
+provisional:19705,19705,19705,19705,eligible_not_selected,not in any fixed top27 source ordering,9b3e6518d55417e106dd3f8cb46297c7f2120ebffcd9f4b19a2b86172831933e,105,unknown,False,False
