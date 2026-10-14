@@ -1,0 +1,20 @@
+{
+  "decisions_from_completed_development_only": true,
+  "final_or_protected_performance_used": false,
+  "new_model_fits": 0,
+  "point_metrics_independent_rows": 80,
+  "risk_macro_comparisons_checked": 144,
+  "risk_saved_rows_checked": 216000,
+  "scientific_files_changed": false,
+  "script_sha256": "e4b72337f0d00b27b01bafb6683908175505ab678baf654a521e8b6e6eb2ac08",
+  "sources_sha256": {
+    "reports/stage3g_transfer_reliability_v1/results/high_volume_summary.csv": "c885f2f137ea68f142460acb1a725f718ada5b5dfd3af88fd0d6c684b3768890",
+    "reports/stage3g_transfer_reliability_v1/results/metrics_by_station.csv": "c1841e9ab54da9a746b4c482c566dab31afaaf3f309e738320e2b7259664e131",
+    "reports/stage3g_transfer_reliability_v1/results/paired_block_intervals.csv": "fc0c74f4da7b6d0679a1c790c7d6656bcc07f56bb55bb61149dea90413ad9a90",
+    "reports/stage3g_transfer_reliability_v1/results/paired_comparisons_by_station.csv": "2623cccc482ad413f240fd69c16f7910bfaa3f796c1d0d783fd00c23ce0247d7",
+    "reports/stage3g_transfer_reliability_v1/results/reliability_summary.csv": "9c3cc037fa05b34bd4052d4c05d06827c051c4e3afe97f31e064053bb169f15d",
+    "reports/stage3g_transfer_reliability_v1/results/summary.csv": "2e7fcec23f4ee604e158953e7bdbbbf42c500bece38ab9de2179eebf80630afd",
+    "reports/stage3g_transfer_reliability_v1/results/weighting_diagnostics_summary.csv": "74f4a0f51ef741aadcf40429a9e6bcec46a2bd319f05da18759229da78ceec0d"
+  },
+  "status": "PASSED"
+}

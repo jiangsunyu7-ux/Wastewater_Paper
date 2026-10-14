@@ -1,0 +1,138 @@
+{
+  "status": "PASSED",
+  "figures": [
+    {
+      "name": "cross_budget_comparison",
+      "raster_images": 0,
+      "svg_text_nodes": 24,
+      "png": {
+        "bytes": 114845,
+        "sha256": "e07115883c422a6575ed87ac871cf020b079df6a4bb662bd30ddfa93e0f75ee8"
+      },
+      "pdf": {
+        "bytes": 18291,
+        "sha256": "c16f2fd1e53da2d100b0d8966b0ffd481df9ebb73e50be78c3a608ab7c2f9e17"
+      },
+      "svg": {
+        "bytes": 26034,
+        "sha256": "bae776ddb5c218e3fcd68513b88f55e2e19c192824cb2bb3a9dbf27b0259cbbd"
+      }
+    },
+    {
+      "name": "high_volume_conditions",
+      "raster_images": 0,
+      "svg_text_nodes": 32,
+      "png": {
+        "bytes": 121060,
+        "sha256": "1a1ed5de2fb6cdac42bf5a45ef69f23e603ac447b52f442d06ebac2e9ffc1cba"
+      },
+      "pdf": {
+        "bytes": 19710,
+        "sha256": "fc3d659eaec5be38710dc58c811095dec39e3b44278175b3b643cfd411c20a2a"
+      },
+      "svg": {
+        "bytes": 27473,
+        "sha256": "193f0a8c52206307d5746a5c7caef45656f6662cd2e1a76c092eadff0f834559"
+      }
+    },
+    {
+      "name": "reliability_retention_and_review_cost",
+      "raster_images": 0,
+      "svg_text_nodes": 88,
+      "png": {
+        "bytes": 299803,
+        "sha256": "3085074451d2aefbc116cf57a19ae010bbf3a7decab9d1f1dce0c9691aedc192"
+      },
+      "pdf": {
+        "bytes": 22475,
+        "sha256": "1159375412e75dc49ff8f77163f6fe0b397e007f4b2e67f8a70d37d930022a7c"
+      },
+      "svg": {
+        "bytes": 48079,
+        "sha256": "f82df82cdcc39a7e8958fb0926552b2bcb7374044b346937466302966f3d9c17"
+      }
+    },
+    {
+      "name": "site_skills_and_negative_transfer",
+      "raster_images": 0,
+      "svg_text_nodes": 34,
+      "png": {
+        "bytes": 111279,
+        "sha256": "cffaceab17c5cd7f9d1820d02f784cdc8f898e52bd9a43fac069de73190d2583"
+      },
+      "pdf": {
+        "bytes": 19227,
+        "sha256": "0d7b1ad0b2d1ae25f776bb0bdcd6f34ed8564ae9252885c4da4727390f7a0271"
+      },
+      "svg": {
+        "bytes": 28600,
+        "sha256": "05d7100692253c941b811dcea2461ab0dbcb783f212feca3fab0d98039048d38"
+      }
+    },
+    {
+      "name": "source_weights_and_composition",
+      "raster_images": 0,
+      "svg_text_nodes": 44,
+      "png": {
+        "bytes": 153517,
+        "sha256": "6b45738969a32aa822ee51128dcb5d3ae20604a395a3d96329d1e7af3fd4ebc5"
+      },
+      "pdf": {
+        "bytes": 23780,
+        "sha256": "8d00153c1003642a0d6b45ac5e517e6a009f4b85fc7ca0e4c08ae7245668a4fe"
+      },
+      "svg": {
+        "bytes": 115199,
+        "sha256": "a35d2f5a4b4fefdd4dad37b7226a9e4e6deedb85781c7cd60384833dd6750243"
+      }
+    }
+  ],
+  "source_tables": {
+    "metrics_by_station.csv": {
+      "sha256": "c1841e9ab54da9a746b4c482c566dab31afaaf3f309e738320e2b7259664e131",
+      "rows": 2880
+    },
+    "paired_comparisons_by_station.csv": {
+      "sha256": "2623cccc482ad413f240fd69c16f7910bfaa3f796c1d0d783fd00c23ce0247d7",
+      "rows": 5040
+    },
+    "cross_budget_by_station.csv": {
+      "sha256": "f0f27ecc0bda1f63024cc61db97dfebfe37b31c5be1db8a8e15730554fa42a0c",
+      "rows": 360
+    },
+    "cross_budget_intervals.csv": {
+      "sha256": "98f92ead5627182751d69cc81c0162cb3b80348c0b46e5a3338a8cbd51905921",
+      "rows": 108
+    },
+    "parameter_choices.csv": {
+      "sha256": "2fd92c334c2b181c9d419c7c61021ea99f8263ce8b1c0601b6b2c2ab815993f0",
+      "rows": 7200
+    },
+    "summary.csv": {
+      "sha256": "2e7fcec23f4ee604e158953e7bdbbbf42c500bece38ab9de2179eebf80630afd",
+      "rows": 288
+    },
+    "risk_retention_summary.csv": {
+      "sha256": "ae44189171d5431d6deaa24a39576a7dd7c0d19929219ad24ebe8b79d724209c",
+      "rows": 720
+    },
+    "reliability_summary.csv": {
+      "sha256": "9c3cc037fa05b34bd4052d4c05d06827c051c4e3afe97f31e064053bb169f15d",
+      "rows": 144
+    },
+    "reliability_by_station.csv": {
+      "sha256": "d1e2b28f33be44d2ae83abebeb6585d3364080895d82af78370149cc1fe905b8",
+      "rows": 1440
+    },
+    "high_volume_metrics_by_station.csv": {
+      "sha256": "1289cf6e3deeb5eed6d5fc56cdb7b1045257218f29ab20e4b324ef9c73d007db",
+      "rows": 2880
+    }
+  },
+  "manual_visual_inspection": {
+    "status": "PASSED",
+    "evidence": "MANUAL_VISUAL_REVIEW.json",
+    "all_five_png_chart_families_and_flow_actually_viewed": true
+  },
+  "no_synthetic_scientific_data": true
+}

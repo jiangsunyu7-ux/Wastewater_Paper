@@ -1,0 +1,153 @@
+{
+  "stage": "stage3g_transfer_reliability_v1",
+  "measured_phases": [
+    {
+      "phase": "stage3g_evaluate_cost",
+      "started_utc": "2026-10-14T08:54:44.718109+00:00",
+      "finished_utc": "2026-10-14T09:03:22.967305+00:00",
+      "command": [
+        ".venv-stage2/bin/python",
+        "scripts/summarize_stage3g.py",
+        "--config",
+        "configs/stage3g_transfer_reliability_v1/full.json",
+        "--run",
+        "runs/stage3g_transfer_reliability_v1/full",
+        "--output",
+        "reports/stage3g_transfer_reliability_v1/results"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 518.2494333229988,
+      "user_cpu_seconds": 465.732555,
+      "system_cpu_seconds": 18.952936,
+      "max_rss_kib": 1387068,
+      "memory_scope": "Unix RUSAGE_CHILDREN high-water; this wrapper executes exactly one command"
+    },
+    {
+      "phase": "stage3g_full_cost",
+      "started_utc": "2026-10-14T08:47:34.480320+00:00",
+      "finished_utc": "2026-10-14T08:52:09.722286+00:00",
+      "command": [
+        ".venv-stage2/bin/python",
+        "-m",
+        "wastewater.stage3g_experiment",
+        "--mode",
+        "full",
+        "--config",
+        "configs/stage3g_transfer_reliability_v1/full.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 275.2426155439898,
+      "user_cpu_seconds": 255.598728,
+      "system_cpu_seconds": 9.482282,
+      "max_rss_kib": 769556,
+      "memory_scope": "Unix RUSAGE_CHILDREN high-water; this wrapper executes exactly one command"
+    },
+    {
+      "phase": "stage3g_full_risk_cost",
+      "started_utc": "2026-10-14T08:52:20.588138+00:00",
+      "finished_utc": "2026-10-14T08:53:36.006108+00:00",
+      "command": [
+        ".venv-stage2/bin/python",
+        "scripts/run_stage3g_reliability.py",
+        "target",
+        "--mode",
+        "full",
+        "--config",
+        "configs/stage3g_transfer_reliability_v1/full.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 75.4179778980033,
+      "user_cpu_seconds": 68.773173,
+      "system_cpu_seconds": 4.865824,
+      "max_rss_kib": 828544,
+      "memory_scope": "Unix RUSAGE_CHILDREN high-water; this wrapper executes exactly one command"
+    },
+    {
+      "phase": "stage3g_independent_full_cost",
+      "started_utc": "2026-10-14T09:03:42.357757+00:00",
+      "finished_utc": "2026-10-14T09:07:30.955813+00:00",
+      "command": [
+        ".venv-stage2/bin/python",
+        "scripts/check_stage3g_results.py",
+        "--scope",
+        "full",
+        "--statistics",
+        "--config",
+        "configs/stage3g_transfer_reliability_v1/full.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 228.59733357900404,
+      "user_cpu_seconds": 194.373254,
+      "system_cpu_seconds": 11.945352,
+      "max_rss_kib": 499500,
+      "memory_scope": "Unix RUSAGE_CHILDREN high-water; this wrapper executes exactly one command"
+    },
+    {
+      "phase": "stage3g_resume_cost",
+      "started_utc": "2026-10-14T08:52:54.845735+00:00",
+      "finished_utc": "2026-10-14T08:54:08.209431+00:00",
+      "command": [
+        ".venv-stage2/bin/python",
+        "-m",
+        "wastewater.stage3g_experiment",
+        "--mode",
+        "resume",
+        "--config",
+        "configs/stage3g_transfer_reliability_v1/full.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 73.36370924099174,
+      "user_cpu_seconds": 69.383247,
+      "system_cpu_seconds": 3.7473549999999998,
+      "max_rss_kib": 759136,
+      "memory_scope": "Unix RUSAGE_CHILDREN high-water; this wrapper executes exactly one command"
+    },
+    {
+      "phase": "stage3g_smoke_cost",
+      "started_utc": "2026-10-14T08:45:49.445128+00:00",
+      "finished_utc": "2026-10-14T08:46:10.912183+00:00",
+      "command": [
+        ".venv-stage2/bin/python",
+        "-m",
+        "wastewater.stage3g_experiment",
+        "--mode",
+        "smoke",
+        "--config",
+        "configs/stage3g_transfer_reliability_v1/full.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 21.467061707997345,
+      "user_cpu_seconds": 19.508307,
+      "system_cpu_seconds": 1.714369,
+      "max_rss_kib": 246700,
+      "memory_scope": "Unix RUSAGE_CHILDREN high-water; this wrapper executes exactly one command"
+    },
+    {
+      "phase": "stage3g_smoke_risk_cost",
+      "started_utc": "2026-10-14T08:47:02.698687+00:00",
+      "finished_utc": "2026-10-14T08:47:08.782030+00:00",
+      "command": [
+        ".venv-stage2/bin/python",
+        "scripts/run_stage3g_reliability.py",
+        "target",
+        "--mode",
+        "smoke",
+        "--config",
+        "configs/stage3g_transfer_reliability_v1/full.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 6.084129198992741,
+      "user_cpu_seconds": 5.102716,
+      "system_cpu_seconds": 0.96085,
+      "max_rss_kib": 207112,
+      "memory_scope": "Unix RUSAGE_CHILDREN high-water; this wrapper executes exactly one command"
+    }
+  ],
+  "source_preparation_seconds": 367.21531067699834,
+  "source_risk_fit_seconds": 97.96310650900705,
+  "source_memory_observation": "Initial benchmark sampled one process; not aggregate or verified whole phase peak",
+  "scope": "CPU, single process per phase; no GPU or paid compute; evaluation independent from model-fitting",
+  "source_fit_counters": "Pool status stores cumulative counters; final pool is total, do not sum cumulative records",
+  "launch_failure": "validation/stage3g_smoke_launch_attempt0.log: /usr/bin/time unavailable, no experiment ran in that launch; portable resource wrapper used",
+  "scientific_configuration_changed_after_target_scores": false
+}

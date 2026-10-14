@@ -1,0 +1,39 @@
+{
+  "stage": "dry eligibility count only; no fitted forecast or score",
+  "source_ids": 73,
+  "conditions": 876,
+  "min_training_labels": 23,
+  "below_min": 0,
+  "minimum_by_budget_horizon": [
+    {
+      "budget": 30,
+      "horizon": 1,
+      "training_labels": 25
+    },
+    {
+      "budget": 30,
+      "horizon": 3,
+      "training_labels": 23
+    },
+    {
+      "budget": 90,
+      "horizon": 1,
+      "training_labels": 78
+    },
+    {
+      "budget": 90,
+      "horizon": 3,
+      "training_labels": 74
+    },
+    {
+      "budget": 180,
+      "horizon": 1,
+      "training_labels": 163
+    },
+    {
+      "budget": 180,
+      "horizon": 3,
+      "training_labels": 159
+    }
+  ]
+}

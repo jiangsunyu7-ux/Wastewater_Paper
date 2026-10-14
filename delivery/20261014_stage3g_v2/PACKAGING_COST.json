@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-10-14T09:23:09.209043+00:00",
+  "finished_utc": "2026-10-14T09:23:47.121099+00:00",
+  "command": [
+    ".venv-stage2/bin/python",
+    "scripts/package_stage3g.py",
+    "build",
+    "--output",
+    "delivery/20261014_stage3g_v2",
+    "--scientific-commit",
+    "adbade653848bd1c4a51ff93326d4bf3501527fb",
+    "--compressed-reference",
+    "delivery/20261014_stage3g",
+    "--extract-root",
+    "/tmp/wessex-stage3g-actual-package-extract-v2-20261014"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 37.91171957200277,
+  "user_cpu_seconds": 34.705933,
+  "system_cpu_seconds": 3.100857,
+  "max_rss_kib": 28808,
+  "memory_scope": "Unix RUSAGE_CHILDREN high-water; this wrapper executes exactly one command"
+}

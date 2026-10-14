@@ -1,0 +1,1829 @@
+{
+  "status": "COMPLETED",
+  "signature": "225952a0ae5bec81fe127859ad2ee86c16bf83dc36345d4dbd7c9b9b50531f24",
+  "mode": "full",
+  "expected": 300,
+  "disk_verified_completed": 300,
+  "function_successes": 300,
+  "verified_cached": 0,
+  "failed_this_invocation": 0,
+  "not_completed": [],
+  "source_states": [
+    {
+      "pool_id": "order20261012_K30",
+      "status": "CACHED_VERIFIED"
+    },
+    {
+      "pool_id": "order20261013_K30",
+      "status": "CACHED_VERIFIED"
+    },
+    {
+      "pool_id": "order20261014_K30",
+      "status": "CACHED_VERIFIED"
+    }
+  ],
+  "results": [
+    {
+      "task": "13013_2022-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 3.057995906987344,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13013_2022-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 1.5118027469870867,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13013_2022-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 2.2874611860024743,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2022-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 1.292094382995856,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2022-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.836957731997245,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2022-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3972295959974872,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2022-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.2795295459945919,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13015_2022-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3459608700068202,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13015_2022-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.35093972498725634,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2022-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3528028230066411,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2022-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3981585389992688,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2022-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3407269800081849,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2022-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.32051655900431797,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13016_2022-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.29736270901048556,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13016_2022-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.34609283300233074,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2022-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3651809900038643,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2022-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.34358300200256053,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2022-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3517348530003801,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2022-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.297029093009769,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13017_2022-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.2794714180054143,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13017_2022-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.33183210299466737,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2022-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.34774157700303476,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2022-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3597817080008099,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2022-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.32872454800235573,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2022-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3500356360018486,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13022_2022-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.2552790959889535,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13022_2022-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.33699641899147537,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2022-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3493057270097779,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2022-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3064451460086275,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2022-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3270959670044249,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2022-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.40432679498917423,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13024_2022-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4243683230015449,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13024_2022-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.5034859010047512,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2022-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4821560390118975,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2022-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.48376781000115443,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2022-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5008542079885956,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2022-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.38324594500591047,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13025_2022-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3621708280115854,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13025_2022-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4624182249972364,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2022-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4620687220012769,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2022-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.5101961659966037,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2022-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5011710350081557,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2022-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.40125060599530116,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13028_2022-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.512797474002582,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13028_2022-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.6974211979977554,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2022-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5733265230082907,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2022-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 1.4066584240063094,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2022-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4021126489969902,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2022-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.31481984301353805,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13029_2022-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.45180876601079945,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13029_2022-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3952716890053125,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2022-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5246542510139989,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2022-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.39866559399524704,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2022-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5446818920026999,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2022-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3943278619990451,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13031_2022-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.9020138740015682,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13031_2022-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4791407269949559,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2022-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 1.0162226099928375,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2022-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.5899133999919286,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2022-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.41345459800504614,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2022-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 1.0659982200013474,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13013_2022-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.39054024701181334,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13013_2022-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4148630249983398,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2022-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.6894856769940816,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2022-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.8206566330045462,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2022-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5765559269930236,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2022-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3310829609981738,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13015_2022-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3110957870085258,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13015_2022-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.5225029730063397,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2022-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.42607994099671487,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2022-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.456963596996502,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2022-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4673830500105396,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2022-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.35751569300191477,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13016_2022-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3971826269989833,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13016_2022-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4805365369975334,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2022-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.42074863699963316,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2022-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3884863840066828,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2022-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5090498920035316,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2022-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3273046730028,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13017_2022-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3999070150020998,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13017_2022-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3705165709980065,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2022-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.42615886600106023,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2022-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3718377969926223,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2022-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.38936730100249406,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2022-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.28918683499796316,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13022_2022-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.29422299200086854,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13022_2022-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.36426308199588675,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2022-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.39240573199640494,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2022-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.36258496600203216,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2022-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3765885739994701,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2022-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.31444211599591654,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13024_2022-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3258918729989091,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13024_2022-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.39881812600651756,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2022-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.361906589998398,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2022-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3968739770061802,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2022-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3717329420032911,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2022-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3000262520072283,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13025_2022-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.2912885880068643,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13025_2022-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4391079650085885,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2022-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4028312059963355,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2022-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3861794880067464,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2022-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.391426608999609,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2022-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.37933763799082953,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13028_2022-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4248048079898581,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13028_2022-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4679650159960147,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2022-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4448817109951051,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2022-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4780857629957609,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2022-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.518877409005654,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2022-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.43233738499111496,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13029_2022-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.30765628900553565,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13029_2022-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.40968506201170385,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2022-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3801921909907833,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2022-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4097228150058072,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2022-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3966445560072316,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2022-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3041105099982815,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13031_2022-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.29580521999741904,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13031_2022-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.375235863000853,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2022-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.42297609700472094,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2022-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.43667724200349767,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2022-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.41036199500376824,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2023-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.33523001200228464,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13013_2023-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.33352610300062224,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13013_2023-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4133434550021775,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2023-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.42496047700115014,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2023-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4031489189947024,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2023-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4409572980075609,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2023-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3245495769951958,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13015_2023-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3379706069972599,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13015_2023-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.5007154189952416,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2023-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4033553949993802,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2023-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.755367762001697,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2023-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 1.0471102909941692,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2023-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.6709271200088551,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13016_2023-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3753285889979452,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13016_2023-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.5844297059957171,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2023-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 3.125049541995395,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2023-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.6289718830084894,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2023-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5616061749897199,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2023-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 2.2686378770013107,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13017_2023-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 2.476321337002446,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13017_2023-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.914415347011527,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2023-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5486230219976278,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2023-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.5183709749981062,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2023-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 1.2139836459973594,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2023-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.9854528620053316,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13022_2023-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 1.5674989609979093,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13022_2023-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 1.353094645004603,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2023-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.8433094990032259,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2023-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4838063289935235,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2023-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5164327429956757,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2023-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.567659084990737,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13024_2023-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.46641251299297437,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13024_2023-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.5374548439867795,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2023-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.7319329119927716,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2023-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.694067503005499,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2023-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.6383456410112558,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2023-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.53463854000438,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13025_2023-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.44511167200107593,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13025_2023-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.6274170409888029,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2023-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.6305314250057563,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2023-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.9337934479990508,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2023-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.7507899259944679,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2023-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.7086527779902099,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13028_2023-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4500989400112303,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13028_2023-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4962068860040745,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2023-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5145958670036634,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2023-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 1.0403613329981454,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2023-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.6903577240009326,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2023-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.9635617269959766,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13029_2023-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.7704575259995181,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13029_2023-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.553432608008734,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2023-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5579730850004125,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2023-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4970492560096318,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2023-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5321890440100105,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2023-01-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3641298760048812,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13031_2023-01-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3416214500030037,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13031_2023-01-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.43661746400175616,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2023-01-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.44372139500046615,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2023-01-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.496202111011371,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2023-01-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.443853336997563,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2023-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3400801850075368,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13013_2023-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3401378229900729,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13013_2023-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.41988676000619307,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2023-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.41638186600175686,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2023-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.41332849000173155,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2023-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.42693380000127945,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2023-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3423400520114228,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13015_2023-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3293142490001628,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13015_2023-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4432157320115948,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2023-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4171867780096363,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2023-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.42044309999619145,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2023-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.404925712995464,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2023-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.30283067699929234,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13016_2023-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.3259786210110178,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13016_2023-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4090385100134881,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2023-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.36659482000686694,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2023-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.6155619880009908,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2023-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4724591150006745,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2023-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.34728630699100904,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13017_2023-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.346144209994236,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13017_2023-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.5759762550005689,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2023-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.38386029899993446,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2023-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4294261940085562,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2023-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4049493460042868,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2023-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.39516759499383625,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13022_2023-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.38201934000244364,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13022_2023-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.40259904001140967,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2023-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4391602520045126,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2023-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3926146010053344,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2023-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4755200409999816,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2023-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.33417489199200645,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13024_2023-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.38310316001297906,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13024_2023-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.6265826869930606,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2023-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 1.7693784630100708,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2023-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 1.2037480769940885,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2023-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.6881938510050531,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2023-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 1.9060199430095963,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13025_2023-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 2.1891467310051667,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13025_2023-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 1.7349634949932806,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2023-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 2.2388575860095443,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2023-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 1.7043177710002055,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2023-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 1.3761947940074606,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2023-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.6686604940041434,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13028_2023-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.41795475700928364,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13028_2023-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.37925525099853985,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2023-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4111238909972599,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2023-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.6497355550091015,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2023-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 1.2750955670053372,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2023-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 1.0826310039992677,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13029_2023-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 1.0931009089981671,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13029_2023-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 1.199649454007158,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2023-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.704547512010322,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2023-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.8392553820012836,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2023-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.8892021659994498,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2023-07-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.7850441629998386,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13031_2023-07-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.7001869170053396,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13031_2023-07-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.8741765300073894,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2023-07-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.6923901000118349,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2023-07-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.8330349949974334,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2023-07-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.8206745920033427,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2023-10-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.6798331440077163,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13013_2023-10-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.6079360410076333,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13013_2023-10-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.8021232360042632,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2023-10-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.9103661789995385,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2023-10-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.8474902800080599,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13013_2023-10-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 1.1435893029993167,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2023-10-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 1.2783056480111554,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13015_2023-10-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 1.4075588429986965,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13015_2023-10-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 1.2893399449967546,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2023-10-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 1.3224781909957528,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2023-10-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.7281614560051821,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13015_2023-10-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4966892340016784,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2023-10-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.38368791599350516,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13016_2023-10-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.40783768400433473,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13016_2023-10-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.621855928999139,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2023-10-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5417821949959034,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2023-10-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.5767015550081851,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13016_2023-10-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5365379580034642,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2023-10-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.46049034300085623,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13017_2023-10-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4862409100023797,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13017_2023-10-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.6080380870116642,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2023-10-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4631021499953931,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2023-10-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4942824850004399,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13017_2023-10-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.6947731120017124,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2023-10-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.44957008698838763,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13022_2023-10-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4423794739996083,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13022_2023-10-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.699031484007719,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2023-10-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5467099020024762,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2023-10-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.5558934559958288,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13022_2023-10-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.55302013499022,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2023-10-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.47594038500392344,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13024_2023-10-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4419241159921512,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13024_2023-10-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.7025713670009281,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2023-10-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5845097940036794,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2023-10-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.6938964860019041,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13024_2023-10-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5679908269958105,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2023-10-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.43404910499521066,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13025_2023-10-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.42686598500586115,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13025_2023-10-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.5026700999878813,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2023-10-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4925962170091225,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2023-10-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.5619381380092818,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13025_2023-10-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5285181360086426,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2023-10-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.3654444370040437,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13028_2023-10-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.45730720199935604,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13028_2023-10-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 1.1010871199978283,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2023-10-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.769533455997589,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2023-10-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 1.197027818998322,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13028_2023-10-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.6968495159962913,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2023-10-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4284865590016125,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13029_2023-10-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 1.0328037459985353,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13029_2023-10-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 1.2953397419914836,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2023-10-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 1.1970449569926132,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2023-10-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 1.048877323002671,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13029_2023-10-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 1.028818318998674,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2023-10-01_B30_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4738213749951683,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13031_2023-10-01_B30_H3",
+      "status": "COMPLETED",
+      "seconds": 0.45256155300012324,
+      "prediction_rows": 1620
+    },
+    {
+      "task": "13031_2023-10-01_B90_H1",
+      "status": "COMPLETED",
+      "seconds": 0.49594219600840006,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2023-10-01_B90_H3",
+      "status": "COMPLETED",
+      "seconds": 0.5770991309982492,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2023-10-01_B180_H1",
+      "status": "COMPLETED",
+      "seconds": 0.4941865940054413,
+      "prediction_rows": 1440
+    },
+    {
+      "task": "13031_2023-10-01_B180_H3",
+      "status": "COMPLETED",
+      "seconds": 0.4684461049910169,
+      "prediction_rows": 1440
+    }
+  ],
+  "seconds": 218.59215971799858,
+  "finished_utc": "2026-10-14T08:51:15.414453+00:00"
+}

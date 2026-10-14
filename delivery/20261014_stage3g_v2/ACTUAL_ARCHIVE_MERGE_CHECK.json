@@ -1,0 +1,6 @@
+{
+  "status": "PASSED",
+  "source_packages": "Actual final v2 ZIP payloads; not pre-package workspace copies",
+  "unique_members": 2752,
+  "all_bytes_match_package_manifests": true
+}

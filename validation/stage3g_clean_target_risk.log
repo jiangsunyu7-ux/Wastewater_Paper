@@ -1,0 +1,54 @@
+{
+  "status": "COMPLETED",
+  "action": "target",
+  "completed": "2026-10-14T09:08:44.764344+00:00",
+  "fingerprint": {
+    "config_sha256": "d9d70b49b513138cd43e29e5488daf9a4c13956cd4a71cfd9c2ff66c5c6fd2dc",
+    "input_sha256": {
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13013_2022-01-01_B180_H1/risk_inputs.csv": "fba6699968ad25b32bd84a2b6e87a8801be92873ec9ccdeaaa2b7af236e9d610",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13013_2022-01-01_B180_H3/risk_inputs.csv": "484a98f993777a1034c01937cc3218f1cdb6ac48fcdcf98fa5512d89bb15c41e",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13013_2022-01-01_B30_H1/risk_inputs.csv": "7ff3270c1a8842544dbd99cf38b30f788e022ad012da11d24e0092c2ff5e0b36",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13013_2022-01-01_B30_H3/risk_inputs.csv": "76f47aa79ec1d84d9872a95738b5911ade2f2605b9d94848947c56e45340cc67",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13013_2022-01-01_B90_H1/risk_inputs.csv": "fb01e033b2368e02ca71b12b670ec15962fd4b8ae6bd9c73364b76dfd3ced5cf",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13013_2022-01-01_B90_H3/risk_inputs.csv": "1e1fcbb3c7323073ef2d3fdf33aee3457c152a47d5096fc6e63b21e76336934c",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13015_2022-01-01_B180_H1/risk_inputs.csv": "e6288747f9966e0aa38a7feca0456a9e252740606b8332556670438fb83bce09",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13015_2022-01-01_B180_H3/risk_inputs.csv": "087dc77acfbf90f350e91e086ee3e7549a894ad5fa7ccdf190d589959a9c21b5",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13015_2022-01-01_B30_H1/risk_inputs.csv": "c9aefb1c3b8fb2d95673f2f5bec8ac77d1c07d9fe66bd697a029225828c289e3",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13015_2022-01-01_B30_H3/risk_inputs.csv": "181f13e92d8f9d6ff82f456d1dd33ca32ac50d3c3d1ccb9142792e8fe59aac01",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13015_2022-01-01_B90_H1/risk_inputs.csv": "f445f96b5cfdcd95fd946993ad9f9b415a9ab9e49fc94fff32b45ec228fd8a45",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13015_2022-01-01_B90_H3/risk_inputs.csv": "106d91a59a3d6f6f9e9b31d40161e317347c2fb86f7944651074d1f7c1763646",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13013_2022-01-01_B180_H1/status.json": "df47d7a5720fbb7eb68cece5f48de11e2417571164efc03a1194e5386695ecd0",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13013_2022-01-01_B180_H3/status.json": "ae56757b584159f513e332ac8b86ba5ef8ebe1a48932a867ec2176ae33a12c20",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13013_2022-01-01_B30_H1/status.json": "8f0556f176c9914bf760ec4d0d315a551c1cebf1824e067204cae56a690d0224",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13013_2022-01-01_B30_H3/status.json": "0bd61f401f70f0e6bea7ddc2923cb2bb87199a06e6439de00eb13a13a3103b3b",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13013_2022-01-01_B90_H1/status.json": "41ed6a1026fc1ebd9216fcfdac814ccf597d61c63763700de3cefafae68d7303",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13013_2022-01-01_B90_H3/status.json": "7849e9720f7d84e1c8d3915d6dd4f09188f4e1dc43f3f67c08ae653b3cf20a81",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13015_2022-01-01_B180_H1/status.json": "1d85ef2ccba6f18f79311dd476cd9d70eb623edbe131e5d7cc50f9aa29a86d0b",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13015_2022-01-01_B180_H3/status.json": "4d657f1754669571eca38d4be12c0f6a6eef0bba9e25d702c65f3d06189bbff7",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13015_2022-01-01_B30_H1/status.json": "4c8e3075c657e8d953074b6dc443a2755253e9116eed54402d10f123ee77fe7b",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13015_2022-01-01_B30_H3/status.json": "bf151854db488b0697c88ed0227837a8067aade53f882c8b0eb2576e2be32061",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13015_2022-01-01_B90_H1/status.json": "1e4a07b40c95467f31e6c27f5a1ceb722222abcc543e4ce124f41728902a40df",
+      "runs/stage3g_transfer_reliability_v1/smoke/jobs/13015_2022-01-01_B90_H3/status.json": "cfa6888f330676d062f0b630772fea3f83b0c2831564f5a904b3da04b7fa7b92",
+      "runs/stage3g_transfer_reliability_v1/source/reliability/final_risk_bundle.json": "06227c38c9c57fd5de55b7fdc61726e0491e1633d2ad4ca4d8bfc92146dd6640",
+      "runs/stage3g_transfer_reliability_v1/source/reliability/RUN_STATUS.json": "6ae74acc5f90941c48050025d7556c4775d607733d18b20f1fedc5494203d338",
+      "configs/stage3g_transfer_reliability_v1/FREEZE.json": "47b7753245655fed02ece75888a3d57036f6d8a22e9020289f24e3561c4d9b5a"
+    },
+    "code_sha256": {
+      "scripts/run_stage3g_reliability.py": "c56cfbb39e1b6f5ceeb241cb76f84e324a741418488cdd29de798295121c0184",
+      "src/wastewater/stage3g_reliability.py": "7ad26f06ab943ce028cd22f51a8954827efde7a917ae52d955999b20a8b908d3",
+      "src/wastewater/stage3e_runtime.py": "cc78ae3ed41515e4720ee9e74a1738f1ab0648907e972a9626e474cb5b9b3164",
+      "src/wastewater/common.py": "6abe5bc95f8ae1cd74d8b14e6f2f15eaee6038ced57db13ed47887008e4b455c"
+    }
+  },
+  "members": {
+    "target_risk_predictions.csv.gz": "5294157342c1c7be332d9d9301dff8d52e1a6d5e185ed2e8b915c3f188f324ed"
+  },
+  "row_counts": {
+    "target_risk_predictions.csv.gz": 8640
+  },
+  "elapsed_seconds": 2.536198392001097,
+  "target_point_rows": 2160,
+  "risk_methods": 4,
+  "point_predictions_modified": false,
+  "point_refits": 0
+}

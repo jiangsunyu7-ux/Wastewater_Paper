@@ -1,0 +1,31 @@
+{
+  "status": "PASSED_OFFLINE_SYNTAX_AND_SYNTHETIC_IMPORTER_GUARDS_ONLY",
+  "code_cells_compiled": 6,
+  "notebook_sha256": "5f82d9ccaf41773a2f5f31d5e3b28eeae00ebe31a43154dd6c686873d13b903a",
+  "checker_sha256": "866110bdc93377a8ca55cfae542b53335e22a9c12d1ac8fb7a47a9de4879605d",
+  "synthetic_byte_fixture_checks": [
+    {
+      "case": "valid_fixture_and_identical_repeat",
+      "status": "PASSED"
+    },
+    {
+      "case": "refuse_differing_existing_payload",
+      "status": "PASSED"
+    },
+    {
+      "case": "outer_checksum_corruption",
+      "status": "PASSED"
+    },
+    {
+      "case": "reject_archive_path_traversal",
+      "status": "PASSED"
+    },
+    {
+      "case": "member_checksum_corruption",
+      "status": "PASSED"
+    }
+  ],
+  "live_colab_login_verified": false,
+  "live_drive_verified": false,
+  "scientific_model_executed_by_this_check": false
+}

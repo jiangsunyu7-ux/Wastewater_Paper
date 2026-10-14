@@ -1,0 +1,17 @@
+{
+  "stage": "stage3g_transfer_reliability_v1",
+  "saved_utc": "2026-10-14T09:14:42.430501+00:00",
+  "skill_used": "cloud-environment-onboarding:setup",
+  "required_workflow": "Existing CPU scientific environment and actual source/point/risk/evaluation/reproduction commands",
+  "current_instance_validation": "Pinned runtime matched; actual G fits/evaluation and clean cached-source small replay completed",
+  "saved_configuration_fields": [
+    "start_skill"
+  ],
+  "install_script_network_secrets_repository_settings": "preserved existing values",
+  "requires_publish": true,
+  "published_by_agent": false,
+  "fresh_cloud_task_restoration_verified": false,
+  "live_colab_drive_verified": false,
+  "user_action_if_publishing_environment": "Review/save environment settings then Publish; not required to read Git delivery packages",
+  "no_gpu_paid_compute": true
+}

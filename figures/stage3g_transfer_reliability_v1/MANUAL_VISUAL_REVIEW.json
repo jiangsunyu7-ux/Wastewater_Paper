@@ -1,0 +1,26 @@
+{
+  "status": "PASSED",
+  "reviewed_utc": "2026-10-14T09:15:04.196434+00:00",
+  "method": "Actual view_image inspection of all five saved PNG chart families and editable-flow PNG",
+  "png_sha256": {
+    "site_skills_and_negative_transfer.png": "cffaceab17c5cd7f9d1820d02f784cdc8f898e52bd9a43fac069de73190d2583",
+    "cross_budget_comparison.png": "e07115883c422a6575ed87ac871cf020b079df6a4bb662bd30ddfa93e0f75ee8",
+    "source_weights_and_composition.png": "6b45738969a32aa822ee51128dcb5d3ae20604a395a3d96329d1e7af3fd4ebc5",
+    "reliability_retention_and_review_cost.png": "3085074451d2aefbc116cf57a19ae010bbf3a7decab9d1f1dce0c9691aedc192",
+    "high_volume_conditions.png": "1a1ed5de2fb6cdac42bf5a45ef69f23e603ac447b52f442d06ebac2e9ffc1cba",
+    "editableflow.png": "65a87652cc55627d1f644d6281771371021887ccd5cf503932e060d832d0a2a5"
+  },
+  "checks": [
+    "Axis units and horizon labels visible",
+    "All ten SiteIDs retained",
+    "Negative skill and actual source composition visible",
+    "No cropped captions or overlapping final review-threshold annotations",
+    "Drawio node text wrapped within boxes; arrows and timeline boundaries visible"
+  ],
+  "presentation_changes_only": [
+    "Saved maximum_source_weight schema compatibility",
+    "Risk-method-specific annotation offsets",
+    "Source/history flow text line wrapping"
+  ],
+  "scientific_values_changed": false
+}

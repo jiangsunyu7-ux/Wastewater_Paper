@@ -1,0 +1,25 @@
+{
+  "status": "PASSED",
+  "checked_utc": "2026-10-14T08:46:54.246615+00:00",
+  "scope": "smoke",
+  "scientific_implementation_imported": false,
+  "tolerance": {
+    "normalized_atol": 1e-10,
+    "rtol": 1e-10,
+    "exact_lambda0": true
+  },
+  "config_sha256": "d9d70b49b513138cd43e29e5488daf9a4c13956cd4a71cfd9c2ff66c5c6fd2dc",
+  "checker_sha256": "148b321433769b862bd330c2cef70be5dc547817e362368792cb3bf08ff4557d",
+  "seconds": 6.155174486993928,
+  "source_global_folds": 1080,
+  "strict_outer_roles": 15,
+  "strict_inner_folds": 2160,
+  "expected_tasks": 12,
+  "disk_completed_tasks": 12,
+  "prediction_rows_checked": 18000,
+  "source_weight_sets_checked": 156,
+  "shuffled_multisets_checked": 12,
+  "point_formula_sets_checked": 194,
+  "normal_equation_models_checked": 16,
+  "statistics_checked": false
+}

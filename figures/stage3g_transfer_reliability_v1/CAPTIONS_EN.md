@@ -1,0 +1,9 @@
+**site_skills_and_negative_transfer.** Does the main weighted candidate improve matched Persistence and uniform/local comparisons across all target SiteIDs? All ten fixed development SiteIDs are retained; the main pool is order 20261012 and B30 unless shown otherwise. Reused 2022–2023 development history; SiteID groups and retrospective QA; facility independence and real-time availability unverified.
+
+**cross_budget_comparison.** How do shared short-history predictions compare with stronger local models using longer permitted initial history? All ten fixed development SiteIDs are retained; the main pool is order 20261012 and B30 unless shown otherwise. Reused 2022–2023 development history; SiteID groups and retrospective QA; facility independence and real-time availability unverified.
+
+**source_weights_and_composition.** Are weights concentrated, and do apparent improvements depend on one of three fixed source compositions? All ten fixed development SiteIDs are retained; the main pool is order 20261012 and B30 unless shown otherwise. Reused 2022–2023 development history; SiteID groups and retrospective QA; facility independence and real-time availability unverified.
+
+**reliability_retention_and_review_cost.** Do source-trained pre-prediction risk scores identify large errors, and at what fixed-threshold review burden? All ten fixed development SiteIDs are retained; the main pool is order 20261012 and B30 unless shown otherwise. Reused 2022–2023 development history; SiteID groups and retrospective QA; facility independence and real-time availability unverified.
+
+**high_volume_conditions.** How do all matched methods behave on high-volume labels defined using legal initial-history Q90? All ten fixed development SiteIDs are retained; the main pool is order 20261012 and B30 unless shown otherwise. Reused 2022–2023 development history; SiteID groups and retrospective QA; facility independence and real-time availability unverified.

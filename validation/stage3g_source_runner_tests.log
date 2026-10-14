@@ -1,0 +1,11 @@
+test_budget_internal_descriptor_only_uses_train_prefix (test_stage3g_source_runner.SourceRunnerTests.test_budget_internal_descriptor_only_uses_train_prefix) ... ok
+test_completed_cache_needs_present_unchanged_outputs (test_stage3g_source_runner.SourceRunnerTests.test_completed_cache_needs_present_unchanged_outputs) ... ok
+test_connected_group_fold_never_splits_and_order_invariant (test_stage3g_source_runner.SourceRunnerTests.test_connected_group_fold_never_splits_and_order_invariant) ... ok
+test_running_partial_status_not_complete (test_stage3g_source_runner.SourceRunnerTests.test_running_partial_status_not_complete) ... ok
+test_selection_ties_use_frozen_eta_lambda_alpha_order (test_stage3g_source_runner.SourceRunnerTests.test_selection_ties_use_frozen_eta_lambda_alpha_order) ... ok
+test_synthetic_full_job_resume_and_future_independence (test_stage3g_source_runner.SourceRunnerTests.test_synthetic_full_job_resume_and_future_independence) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.209s
+
+OK

@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-10-14T08:52:54.845735+00:00",
+  "finished_utc": "2026-10-14T08:54:08.209431+00:00",
+  "command": [
+    ".venv-stage2/bin/python",
+    "-m",
+    "wastewater.stage3g_experiment",
+    "--mode",
+    "resume",
+    "--config",
+    "configs/stage3g_transfer_reliability_v1/full.json"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 73.36370924099174,
+  "user_cpu_seconds": 69.383247,
+  "system_cpu_seconds": 3.7473549999999998,
+  "max_rss_kib": 759136,
+  "memory_scope": "Unix RUSAGE_CHILDREN high-water; this wrapper executes exactly one command"
+}

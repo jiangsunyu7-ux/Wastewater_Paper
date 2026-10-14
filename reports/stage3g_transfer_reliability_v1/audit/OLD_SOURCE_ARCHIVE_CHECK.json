@@ -1,0 +1,71 @@
+{
+  "checked_utc": "2026-10-14T05:41:01.227937+00:00",
+  "packages": [
+    {
+      "path": "delivery/20261010/Wastewater_Stage2_Code_Data_20261010.zip",
+      "bytes": 1018750,
+      "sha256": "9e1563811e35b0d9abafaf59e9d11342d4b507520f8009181b803ff71ec7c5ed",
+      "crc_ok": true,
+      "members": 89,
+      "scientific_code_members": 8,
+      "current_exact_code_matches": 8,
+      "different_or_missing_current_code_members": [],
+      "scope": "Archive bytes/CRC/current code comparison only; historical configs may differ as disclosed"
+    },
+    {
+      "path": "delivery/20261010_stage3a/Wastewater_Stage3A_Code_Data_20261010.zip",
+      "bytes": 1325340,
+      "sha256": "13911e8b11b767c651b362500d0bdc68e560fba909f78eb67f87592e7bb83253",
+      "crc_ok": true,
+      "members": 114,
+      "scientific_code_members": 11,
+      "current_exact_code_matches": 11,
+      "different_or_missing_current_code_members": [],
+      "scope": "Archive bytes/CRC/current code comparison only; historical configs may differ as disclosed"
+    },
+    {
+      "path": "delivery/20261011_stage3b/Wastewater_Stage3B_Code_and_Reproduce_20261011.zip",
+      "bytes": 1783649,
+      "sha256": "595112fc5b4582aeb2105e0e6ea59bcf4a1ac516e291123f7192e62acee0fd78",
+      "crc_ok": true,
+      "members": 154,
+      "scientific_code_members": 14,
+      "current_exact_code_matches": 14,
+      "different_or_missing_current_code_members": [],
+      "scope": "Archive bytes/CRC/current code comparison only; historical configs may differ as disclosed"
+    },
+    {
+      "path": "delivery/20261012_stage3c2/Wastewater_Stage3C2_Code_and_Reproduce_20261012.zip",
+      "bytes": 11848744,
+      "sha256": "7ad78fc45809e932a3df4fdb77dfea561b0acb3f5747c2a41ba818b41e110ab2",
+      "crc_ok": true,
+      "members": 667,
+      "scientific_code_members": 9,
+      "current_exact_code_matches": 9,
+      "different_or_missing_current_code_members": [],
+      "scope": "Archive bytes/CRC/current code comparison only; historical configs may differ as disclosed"
+    },
+    {
+      "path": "delivery/20261012_stage3d/Wessex_Stage3D_Code_and_Reproduce_20261012.zip",
+      "bytes": 6943004,
+      "sha256": "7ef5c0dcb15e0bf63b37f9ab3e7687ecea711a6c8b7db6aac2b130d4481422c7",
+      "crc_ok": true,
+      "members": 98,
+      "scientific_code_members": 7,
+      "current_exact_code_matches": 7,
+      "different_or_missing_current_code_members": [],
+      "scope": "Archive bytes/CRC/current code comparison only; historical configs may differ as disclosed"
+    },
+    {
+      "path": "delivery/20261013_stage3e/Wessex_Stage3E_Code_and_Reproduce_20261013.zip",
+      "bytes": 21321245,
+      "sha256": "7f36d375b76908f8e4863ae8e34048f3a9be8229a76fe63c79e931fe5b282df8",
+      "crc_ok": true,
+      "members": 176,
+      "scientific_code_members": 9,
+      "current_exact_code_matches": 9,
+      "different_or_missing_current_code_members": [],
+      "scope": "Archive bytes/CRC/current code comparison only; historical configs may differ as disclosed"
+    }
+  ]
+}

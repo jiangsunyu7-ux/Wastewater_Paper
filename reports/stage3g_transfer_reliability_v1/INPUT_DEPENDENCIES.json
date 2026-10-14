@@ -1,0 +1,109 @@
+{
+  "stage": "Stage3G",
+  "version": "stage3g_transfer_reliability_v1",
+  "required_for_canonical_input_reexecution": [
+    {
+      "path": "data/derived/stage3c2_source_scale_v1/daily_candidates.csv",
+      "bytes": 15155429,
+      "sha256": "0ed8366360d487d74c447ba8a304e1d9b8db9c112d019975a034b5700bf3bddf"
+    },
+    {
+      "path": "data/derived/stage3c2_source_scale_v1/manifest.json",
+      "bytes": 585,
+      "sha256": "c24c54fafb471442c96d0f2503dc158a944607878936780453fa01dd7a91dba4"
+    },
+    {
+      "path": "data/provenance/stage3c2_source_scale_v1/source_pool_definition.json",
+      "bytes": 13993,
+      "sha256": "db1ed7af6954ef6d819433ee977ba8638891a9eacc2db33ca733192be84c356e"
+    },
+    {
+      "path": "data/provenance/stage3c2_source_scale_v1/partition_group_ledger.csv",
+      "bytes": 37730,
+      "sha256": "f73020702cedef4389000f951c16bc437bdc07a0902ffee655b701077e891ef3"
+    },
+    {
+      "path": "data/provenance/stage3c2_source_scale_v1/association_edges.csv",
+      "bytes": 226,
+      "sha256": "5b5817cf08a39c42cd4e48df796c553bf57f49dab5df72a4d3696e351b15a8d2"
+    }
+  ],
+  "inherited_python_imports": [
+    {
+      "path": "src/wastewater/__init__.py",
+      "sha256": "732eb3917c92206ee95d701b52fa309e47ed526a07280ca4b91751966b7434a7",
+      "included_in_Code_and_Reproduce": true
+    },
+    {
+      "path": "src/wastewater/common.py",
+      "sha256": "6abe5bc95f8ae1cd74d8b14e6f2f15eaee6038ced57db13ed47887008e4b455c",
+      "included_in_Code_and_Reproduce": true
+    },
+    {
+      "path": "src/wastewater/shared_data.py",
+      "sha256": "3814e7bb507fc7bbb19d63608982cc585f695c5b11b935fb53f380958a84f86a",
+      "included_in_Code_and_Reproduce": true
+    },
+    {
+      "path": "src/wastewater/stage3a_data.py",
+      "sha256": "e07486e7a26097a3561f2d8b7c749c5b582a5ae15c49d82ab703d51c057f9bea",
+      "included_in_Code_and_Reproduce": true
+    },
+    {
+      "path": "src/wastewater/stage3b_models.py",
+      "sha256": "6e9c7eba6db81a382f9d21b0a5305be3750d75f20294598fa837bba47a8ef316",
+      "included_in_Code_and_Reproduce": true
+    },
+    {
+      "path": "src/wastewater/stage3b_experiment.py",
+      "sha256": "18743b08dc357ec63b20eb6801afd6d37151ab122055fac55b5f5253d976e942",
+      "included_in_Code_and_Reproduce": true
+    },
+    {
+      "path": "src/wastewater/stage3c2_source.py",
+      "sha256": "c36abf2879321e763c0a2c368689e266b662af5bc146951bee2226e19310d7dd",
+      "included_in_Code_and_Reproduce": true
+    },
+    {
+      "path": "src/wastewater/stage3c2_evaluation.py",
+      "sha256": "1e11115d35a718c93a255f10753ab4097f85394238def055725424d10da4c1b3",
+      "included_in_Code_and_Reproduce": true
+    },
+    {
+      "path": "src/wastewater/stage3d_experiment.py",
+      "sha256": "a1da3b51ea41e7025882d1176f2d75b8b69cf769a8b05d8fa63f67c2262f824c",
+      "included_in_Code_and_Reproduce": true
+    },
+    {
+      "path": "src/wastewater/stage3d_intervals.py",
+      "sha256": "9dd5aca8899098675749626638073c07644a7b416e07b55cdf7c443b65755ee6",
+      "included_in_Code_and_Reproduce": true
+    },
+    {
+      "path": "src/wastewater/stage3e_runtime.py",
+      "sha256": "cc78ae3ed41515e4720ee9e74a1738f1ab0648907e972a9626e474cb5b9b3164",
+      "included_in_Code_and_Reproduce": true
+    }
+  ],
+  "canonical_scope": "2016-01-01..2023-12-31, same audited C2 cleaned file; no protected or final performance calculation",
+  "canonical_input_is_not_a_new_raw_cleaning_audit": true,
+  "raw_to_canonical_dependency": {
+    "original_raw_path": "wastewater_data/raw/wessex_all_2016_2025.csv",
+    "sha256": "22f494e2b96fe6fa9550c68971d50c752ddd291793fdc60334d64b2ef089f518",
+    "included_in_stage3g_packages": false,
+    "reason": "New G changes source weighting and risk only; original raw cleaning/provenance belongs to preserved C2. The old raw includes protected final dates and is not included in G reproduction packages.",
+    "bytes": 73570225,
+    "path_and_SHA_basis": "Original C2 PREPARATION_STATUS.json and preserved raw-file inventory, not a new raw download or scientific re-cleaning"
+  },
+  "source_and_target_cached_evidence": {
+    "location": "Predictions_and_Diagnostics parts at runs/stage3g_transfer_reliability_v1/",
+    "cache_reuse_is_not_new_training": true,
+    "source_cold_reproduction_requires": "same pinned environment plus supplied canonical and complete source selections; in separate copy remove source cache to rerun fixed source grids",
+    "small_cold_target_reproduction": "separate copy without smoke cache; supplied checked source/risk caches permit fixed12 target conditions"
+  },
+  "omitted_dependencies": [
+    "Full old-stage archives, old predictions and GRU weights are not required by the new Stage3G code.",
+    "No external data, weather, spatial coordinates, provider reply or physical-mapping certification is supplied.",
+    "Logged-in Colab/Drive connection is unverified."
+  ]
+}

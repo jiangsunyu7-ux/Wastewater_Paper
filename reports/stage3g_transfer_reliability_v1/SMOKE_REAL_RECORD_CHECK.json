@@ -1,0 +1,19 @@
+{
+  "stage": "stage3g_transfer_reliability_v1",
+  "checked_utc": "2026-10-14T09:01:31.437192+00:00",
+  "scope": "manual real-record check after independent12-task smoke verification; no model choices changed",
+  "SiteID": "13013",
+  "B": 30,
+  "h": 3,
+  "origin": "2022-01-01",
+  "target_date": "2022-01-04",
+  "initial_calendar_start": "2021-12-02",
+  "initial_end": "2021-12-31",
+  "latest_training_target": "2021-12-31",
+  "training_labels": 27,
+  "calibration_error_count": 27,
+  "initial_parameters_frozen": true,
+  "new_deployment_labels_not_used": true,
+  "metadata_null_site_id": "raw diagnostics has null; task directory and all prediction rows supply verified SiteID; raw remains unchanged",
+  "log": "validation/stage3g_smoke_check.log"
+}

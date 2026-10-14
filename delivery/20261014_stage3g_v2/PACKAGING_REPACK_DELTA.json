@@ -1,0 +1,52 @@
+{
+  "status": "PASSED",
+  "checked_utc": "2026-10-14T09:25:06.520601+00:00",
+  "attempt1_directory": "delivery/20261014_stage3g",
+  "final_directory": "delivery/20261014_stage3g_v2",
+  "attempt1_kept_unchanged": true,
+  "all_unique_source_members": 2752,
+  "missing_members": [],
+  "added_members": [],
+  "unchanged_members_count": 2749,
+  "all_scientific_members_preserved_exactly": true,
+  "only_changed_support_members": [
+    {
+      "path": "reports/stage3g_transfer_reliability_v1/PACKAGE_CONTENT_VERSION.json",
+      "attempt1": {
+        "bytes": 5272,
+        "sha256": "baf6e3f28a3aa0ac2f9780ad76a0a95a0dc8f8cad204898d6610abb04851da76"
+      },
+      "final": {
+        "bytes": 5272,
+        "sha256": "d40bcc3b8a05a1d7ed14266d0b55b4eba9d951c14884c61a151077300e676c67"
+      }
+    },
+    {
+      "path": "reports/stage3g_transfer_reliability_v1/REPRODUCE.md",
+      "attempt1": {
+        "bytes": 11369,
+        "sha256": "16316c50768747d922d368ed7868a437cbcb9537e46756c6803bedb9ce238503"
+      },
+      "final": {
+        "bytes": 12086,
+        "sha256": "393b8868d6835ee55a41914870b62d6d402aa25be99d5c3b9e1a90b0c7e00a69"
+      }
+    },
+    {
+      "path": "scripts/package_stage3g.py",
+      "attempt1": {
+        "bytes": 22389,
+        "sha256": "a973fce81f8b1859b2db684b950d5d05f8123249f190c961281cfbf369d5b54c"
+      },
+      "final": {
+        "bytes": 24815,
+        "sha256": "cc74bb7666ee7349f6e583cdb4c952cfd4c8922c8d69e6fc9dadbc48db8fdb84"
+      }
+    }
+  ],
+  "scientific_predictions_regenerated": false,
+  "extra_model_training": false,
+  "change_reason": "Replace count-based ZIP subdivision with deterministic first-fit-decreasing using actual member compressed sizes, reduce12 diagnostic packages to4",
+  "final_archive_CRC_and_extracted_SHA_evidence": "PACKAGE_CHECKS.json and DELIVERY_INDEX_CHECK.json",
+  "no_original_stage_science_overwritten": true
+}

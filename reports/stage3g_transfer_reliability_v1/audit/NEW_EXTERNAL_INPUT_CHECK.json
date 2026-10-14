@@ -1,0 +1,35 @@
+{
+  "checked_utc": "2026-10-14T05:51:09.355000+00:00",
+  "actual_attachment_files": 4,
+  "new_content_attachment_files": [],
+  "entries": [
+    {
+      "path": "/workspace/attachments/6d579c29-6959-4215-9737-9f99a17543e3/Wastewater_Part3_Codex_Handoff.zip",
+      "bytes": 30226,
+      "sha256": "b1e76bda57f1813374f3df09c88588e2140038612f33cfd66c3b3248399c0b12",
+      "same_content_in_prior_attachment_inventory": true
+    },
+    {
+      "path": "/workspace/attachments/b02a1275-d7c1-48dc-b4d4-c230711a8ec1/Wastewater_Part2_Derived.zip",
+      "bytes": 22844102,
+      "sha256": "bd9fe8cc879937903a191ec9d0d2aed385c211e51d74402126d0c9c0b740d55b",
+      "same_content_in_prior_attachment_inventory": true
+    },
+    {
+      "path": "/workspace/attachments/e0abab83-c521-406e-8e3e-0d218773f23f/Wastewater_Part1_Plan_and_Raw.zip",
+      "bytes": 22422564,
+      "sha256": "ad884e2a5ddd98907026b980ec36a94b7dd8860fb304300edfc4fcfda1688ba8",
+      "same_content_in_prior_attachment_inventory": true
+    },
+    {
+      "path": "/workspace/attachments/e35c84bb-f908-42ae-8dca-f9cfac5c21b1/paper idea.docx",
+      "bytes": 18060,
+      "sha256": "e698f0c07c3e73baf16c2b88d873675405443b2186dfe6746f55a50e33c818b1",
+      "same_content_in_prior_attachment_inventory": true
+    }
+  ],
+  "scope": "Actual workspace attachment directory only; no email/account/remote-drive inspection",
+  "new_physical_mapping_verified": false,
+  "new_real_time_verified": false,
+  "user_Stage3G_authorization_supersedes_prior_wait_for_new_development_only": true
+}

@@ -1,0 +1,9 @@
+claim_id,proposed_claim,evidence_status,result_source,observed_evidence_or_counterexample,limitations_or_missing_evidence,allowed_wording
+G1,相似性加权改善主B30预测,NOT_SUPPORTED,paired_block_intervals.csv,h1 −0.312%; h3 −7.576%; adjusted intervals cross0,主两时距eta=0;同均匀逐条相同,当前开发结果未证明加权稳定收益
+G2,相似源匹配机制,NOT_ESTABLISHED,weighting_diagnostics_summary.csv;shuffle_mechanism_block_intervals.csv,主权重全部均匀，三seed消融同值,次要非均匀条件未做充分机制确认,固定四描述下主源选择未支持非均匀权重
+G3,共享减少初始历史,NOT_ESTABLISHED,cross_budget_intervals.csv,主跨预算CI跨0;部分点估计不利,无工程等效/非劣界;未稳定超过Persistence,报告跨预算表现，不宣称已节省历史
+G4,预测前识别同厂危险日,NOT_SUPPORTED,reliability_summary.csv;reliability_by_site_window.csv,主日内宏AUC .481/.452;漏报高,源→目标分布迁移;单类/少事件条件,未证明固定Logistic优于简单日内规则
+G5,识别整体较难部署条件,EXPLORATORY_LIMITED,reliability_summary.csv,between-condition Spearman .546/.697; pooled AUC .587/.692,非日内识别;仅已用10SiteID开发;非物理因果,来源交叉拟合风险分数与开发条件事件率存在关联
+G6,所有共享学习无效,NOT_ALLOWED,summary.csv;Stage2/3A archives,若干源组成/长预算有正收益，其他骨干仍有边界,本轮仅固定Ridge方向，不能穷尽模型,当前固定设计未证明稳定共享收益
+G7,独立物理设施泛化,NOT_VERIFIED,configs/stage3g_transfer_reliability_v1/full.json;Stage3F EVIDENCE_GATES.csv,physical_mapping_verified=false,尚缺有有效期的正式关联关系,SiteID级回顾探索结果
+G8,实时部署和工程收益,NOT_VERIFIED,STAGE3G_PROTOCOL.md;Stage3F evidence,released-Good QA理想化;不调整预测,实际观测/QA到达、使用场景及复核成本未知,发布后QA回顾实验，不称实时工程验证

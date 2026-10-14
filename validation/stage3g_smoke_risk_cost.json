@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-10-14T08:47:02.698687+00:00",
+  "finished_utc": "2026-10-14T08:47:08.782030+00:00",
+  "command": [
+    ".venv-stage2/bin/python",
+    "scripts/run_stage3g_reliability.py",
+    "target",
+    "--mode",
+    "smoke",
+    "--config",
+    "configs/stage3g_transfer_reliability_v1/full.json"
+  ],
+  "exit_code": 0,
+  "wall_seconds": 6.084129198992741,
+  "user_cpu_seconds": 5.102716,
+  "system_cpu_seconds": 0.96085,
+  "max_rss_kib": 207112,
+  "memory_scope": "Unix RUSAGE_CHILDREN high-water; this wrapper executes exactly one command"
+}

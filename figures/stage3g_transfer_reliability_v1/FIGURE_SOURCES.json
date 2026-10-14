@@ -1,0 +1,85 @@
+{
+  "stage": "stage3g_transfer_reliability_v1",
+  "script_sha256": "b087759662d719c0a24b4ed06889ce732881e1fed8fe54df3ae2778055a6010c",
+  "source_tables": {
+    "metrics_by_station.csv": {
+      "sha256": "c1841e9ab54da9a746b4c482c566dab31afaaf3f309e738320e2b7259664e131",
+      "rows": 2880
+    },
+    "paired_comparisons_by_station.csv": {
+      "sha256": "2623cccc482ad413f240fd69c16f7910bfaa3f796c1d0d783fd00c23ce0247d7",
+      "rows": 5040
+    },
+    "cross_budget_by_station.csv": {
+      "sha256": "f0f27ecc0bda1f63024cc61db97dfebfe37b31c5be1db8a8e15730554fa42a0c",
+      "rows": 360
+    },
+    "cross_budget_intervals.csv": {
+      "sha256": "98f92ead5627182751d69cc81c0162cb3b80348c0b46e5a3338a8cbd51905921",
+      "rows": 108
+    },
+    "parameter_choices.csv": {
+      "sha256": "2fd92c334c2b181c9d419c7c61021ea99f8263ce8b1c0601b6b2c2ab815993f0",
+      "rows": 7200
+    },
+    "summary.csv": {
+      "sha256": "2e7fcec23f4ee604e158953e7bdbbbf42c500bece38ab9de2179eebf80630afd",
+      "rows": 288
+    },
+    "risk_retention_summary.csv": {
+      "sha256": "ae44189171d5431d6deaa24a39576a7dd7c0d19929219ad24ebe8b79d724209c",
+      "rows": 720
+    },
+    "reliability_summary.csv": {
+      "sha256": "9c3cc037fa05b34bd4052d4c05d06827c051c4e3afe97f31e064053bb169f15d",
+      "rows": 144
+    },
+    "reliability_by_station.csv": {
+      "sha256": "d1e2b28f33be44d2ae83abebeb6585d3364080895d82af78370149cc1fe905b8",
+      "rows": 1440
+    },
+    "high_volume_metrics_by_station.csv": {
+      "sha256": "1289cf6e3deeb5eed6d5fc56cdb7b1045257218f29ab20e4b324ef9c73d007db",
+      "rows": 2880
+    }
+  },
+  "figures": {
+    "site_skills_and_negative_transfer": "Does the main weighted candidate improve matched Persistence and uniform/local comparisons across all target SiteIDs?",
+    "cross_budget_comparison": "How do shared short-history predictions compare with stronger local models using longer permitted initial history?",
+    "source_weights_and_composition": "Are weights concentrated, and do apparent improvements depend on one of three fixed source compositions?",
+    "reliability_retention_and_review_cost": "Do source-trained pre-prediction risk scores identify large errors, and at what fixed-threshold review burden?",
+    "high_volume_conditions": "How do all matched methods behave on high-volume labels defined using legal initial-history Q90?"
+  },
+  "display_rules": {
+    "primary_pool": "order20261012_K30",
+    "budget": 30,
+    "horizons": [
+      1,
+      3
+    ],
+    "all_sites": [
+      "13013",
+      "13015",
+      "13016",
+      "13017",
+      "13022",
+      "13024",
+      "13025",
+      "13028",
+      "13029",
+      "13031"
+    ],
+    "source_pools": [
+      "order20261012_K30",
+      "order20261013_K30",
+      "order20261014_K30"
+    ],
+    "constraint": "raw",
+    "models": [
+      "similarity_residual_ridge_bias_selected",
+      "uniform_residual_ridge_bias_selected",
+      "local_residual_ridge_selected"
+    ]
+  },
+  "limitations": "Reused 2022–2023 development history; SiteID groups and retrospective QA; facility independence and real-time availability unverified."
+}

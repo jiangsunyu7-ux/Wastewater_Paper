@@ -1,5 +1,8 @@
 # 开发入口与结果边界
 
+最新完成状态（2026-10-14）：Stage3G stage3g_transfer_reliability_v1 预定CPU开发矩阵已完成300条件、450000点预测及216000风险记录，全部原任务与独立重算通过；43项软件测试与干净目录12条件复现另列范围。主要B30相对Persistence平均技能h1−0.31%/h3−7.58%，98.75%区间均跨零；源侧主B30选eta=0，与匹配均匀共享完全同，权重消融不支持匹配机制。日内可靠性宏AUC .481/.452，不能用混合日期AUC冒称逐厂日内预警；历史节省未证实。全部旧6505科学文件原SHA保留，设施独立性/实时QA仍false，未用最终2024—2025或保护性能。完成后STOP等待审查，唯一下一行动是取得历史设施关系、日体积/到达含义与具体工程用途证据，复用未发送请求；不自动扩模/GRU、调参、最终验证、论文/App。详见新协议及reports/stage3g_transfer_reliability_v1/ANALYSIS_ZH.md、RUN_STATUS.json、NEXT_ACTION.md。下文旧阶段记录保留为历史。
+
+
 当前Stage3E证据审查已完成，STOP等待审查。先读reports/stage3e_evidence_review_v1/REPRODUCE.md、RUN_STATUS.json、ANALYSIS_ZH.md与NEXT_STAGE_DECISION.md。新运行修复只复算原12条件的历史区间校准；新事后诊断只读取已有预测。不要在原Stage3D运行目录执行resume，不自动启动新模型或最终测试。历史入口说明保留如下。
 
 启动时没有真实数据；收到拆分包后已完成全量审计和三个真实开发基线。下方模板说明保留为通用入口；最新实测命令见末尾。27项程序测试与真实结果检查分别记录，不能混同。

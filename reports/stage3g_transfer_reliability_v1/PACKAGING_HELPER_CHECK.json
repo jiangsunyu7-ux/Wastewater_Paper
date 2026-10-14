@@ -1,0 +1,24 @@
+{
+  "status": "PASSED",
+  "checked_utc": "2026-10-14T08:53:07.140290+00:00",
+  "scope": "synthetic packaging fixtures only; NOT checks of final delivery packages or scientific execution",
+  "checks": [
+    {
+      "check": "CRC and independently extracted member SHA synthetic fixture",
+      "passed": true
+    },
+    {
+      "check": "never overwrite archive",
+      "passed": true
+    },
+    {
+      "check": "source mutation before packaging rejected",
+      "passed": true
+    },
+    {
+      "check": "unsafe member path rejected",
+      "passed": true
+    }
+  ],
+  "actual_final_delivery_checks_file": "delivery/20261014_stage3g/PACKAGE_CHECKS.json (created only after real final package extraction)"
+}

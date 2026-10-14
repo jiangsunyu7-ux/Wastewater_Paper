@@ -1,0 +1,279 @@
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:251: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  out["large_error_event"] = pd.to_numeric(out.large_error_event.replace({
+/workspace/Wastewater_Paper/src/wastewater/stage3g_reliability.py:153: FutureWarning: Downcasting behavior in `replace` is deprecated and will be removed in a future version. To retain the old behavior, explicitly call `result.infer_objects(copy=False)`. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+  event = pd.to_numeric(frame.large_error_event.replace({"True": 1, "False": 0,
+{
+  "status": "COMPLETED",
+  "action": "source",
+  "completed": "2026-10-14T08:44:07.166952+00:00",
+  "fingerprint": {
+    "config_sha256": "d9d70b49b513138cd43e29e5488daf9a4c13956cd4a71cfd9c2ff66c5c6fd2dc",
+    "input_sha256": {
+      "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/strict_reliability_base_predictions.csv.gz": "be7689e3fe886ba428d9e26839644a11c81c90c087f2fbc3b7780d3077978f11",
+      "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/strict_reliability_base_predictions.csv.gz": "d0969b7d11c3568d13f343736f0a81a2f9345ea76fc7280e7e06ee1e21913e17",
+      "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/strict_reliability_base_predictions.csv.gz": "3e1b0c50f14972afc964f24e30ad078ce0afd6849662a78f58a37ed7bbcbb2a5",
+      "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/status.json": "3f9acbc83e2c4129d46fb26377703e7215df3628cf134f03ee814cd77a67d89c",
+      "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/status.json": "156da620dd51a24eeda176f588780f0a361c5c8e56bd6c7e2d2584a48f3f8eaf",
+      "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/status.json": "e4eb1c87ce407eaf035dfc23bd12d4c9bd8d9034585d668fd590f951dc128f02",
+      "configs/stage3g_transfer_reliability_v1/FREEZE.json": "47b7753245655fed02ece75888a3d57036f6d8a22e9020289f24e3561c4d9b5a"
+    },
+    "code_sha256": {
+      "scripts/run_stage3g_reliability.py": "c56cfbb39e1b6f5ceeb241cb76f84e324a741418488cdd29de798295121c0184",
+      "src/wastewater/stage3g_reliability.py": "7ad26f06ab943ce028cd22f51a8954827efde7a917ae52d955999b20a8b908d3",
+      "src/wastewater/stage3e_runtime.py": "cc78ae3ed41515e4720ee9e74a1738f1ab0648907e972a9626e474cb5b9b3164",
+      "src/wastewater/common.py": "6abe5bc95f8ae1cd74d8b14e6f2f15eaee6038ced57db13ed47887008e4b455c"
+    }
+  },
+  "members": {
+    "final_risk_bundle.json": "06227c38c9c57fd5de55b7fdc61726e0491e1633d2ad4ca4d8bfc92146dd6640",
+    "source_risk_crossfit_scores.csv.gz": "f6c94512a0229907186bb41c94ccc2a67f1510b9a03028b1957ac4283a5f7c14",
+    "source_operating_thresholds.csv.gz": "13407ce44bf41e5d09016a24c691e2e3e3d2cfef9ac4befa9fad3d2e36387a3e",
+    "risk_model_diagnostics.json": "ede6ffb1643208bfc5dd1d700bdc9fe4d30f51e6aa34dd29717720c588d657e3"
+  },
+  "row_counts": {
+    "source_risk_crossfit_scores.csv.gz": 60480,
+    "source_operating_thresholds.csv.gz": 864
+  },
+  "elapsed_seconds": 97.96310650900705,
+  "source_base_rows": 45360,
+  "final_models": 18,
+  "outer_models": 90,
+  "thresholds_from_outer_OOS_scores": true,
+  "target_rows_used": 0
+}

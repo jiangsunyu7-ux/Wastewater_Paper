@@ -1,0 +1,1 @@
+comparison_id,pool_id,model,budget,reference,reference_budget,horizon,kind,prespecified_primary,constraint,subset,site_id,n_dates,reference_n_dates,mae_m3,reference_mae_m3,skill,mae_ratio,absolute_mae_difference_m3,zero_reference_mae,negative_transfer,win,tie

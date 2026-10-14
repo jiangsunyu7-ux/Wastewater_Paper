@@ -1,0 +1,17 @@
+{
+  "stage": "stage3g_transfer_reliability_v1",
+  "basis": "Algorithm-call count reconstructed from actual frozen validation_grid rows and complete task set; not optimizer telemetry",
+  "source_actual_cumulative_final_pool_counters": {
+    "source_weighted": 61560,
+    "local": 38880
+  },
+  "target_final_ridge_solve_calls": 4500,
+  "target_internal_validation_candidate_rows": 18000,
+  "target_jobs_with_local_internal_validation": 200,
+  "target_internal_local_ridge_solve_calls": 7200,
+  "point_final_count_derivation": "600 local (reused between pools) + 3600 shared + 300 fixed-seed shuffled; lambda zero still saves/fits underlying Ridge",
+  "risk_outer_classifier_fits": 90,
+  "risk_final_classifier_fits": 18,
+  "no_gru_fits": true,
+  "note": "Earlier target internal validation upper bound2400 omitted repeated matching-pool evaluation of the identical local grids; actual calls reconstructed here. Small deterministic repeated grids are disclosed, not claimed avoided."
+}

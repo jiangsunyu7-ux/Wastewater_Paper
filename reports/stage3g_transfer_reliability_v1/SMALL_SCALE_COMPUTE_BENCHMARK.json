@@ -1,0 +1,46 @@
+{
+  "measured_utc": "2026-10-14T08:37:11.359701+00:00",
+  "source_pool_progress": [
+    {
+      "pool_id": "order20261012_K30",
+      "status": "COMPLETED",
+      "seconds": 111.921192564987,
+      "elapsed_seconds": 102.41310313298891,
+      "fits_cumulative": {
+        "source_weighted": 20520,
+        "local": 12960
+      }
+    },
+    {
+      "pool_id": "order20261014_K30",
+      "status": "RUNNING",
+      "seconds": null,
+      "elapsed_seconds": 20.322778076006216,
+      "fits_cumulative": null
+    },
+    {
+      "pool_id": "order20261013_K30",
+      "status": "COMPLETED",
+      "seconds": 117.40382971700456,
+      "elapsed_seconds": 109.58348269600538,
+      "fits_cumulative": {
+        "source_weighted": 41040,
+        "local": 25920
+      }
+    }
+  ],
+  "process_id": 58755,
+  "memory_snapshot": {
+    "VmHWM": "414028 kB",
+    "VmRSS": "288408 kB",
+    "Threads": "1"
+  },
+  "memory_scope": "Observed single Python process high-water RSS from/proc,not process-tree aggregate",
+  "remaining_source_pool_estimate_seconds": 240,
+  "estimate_based_on_first_pool_completed": true,
+  "target_final_fit_upper_count_corrected": 4500,
+  "target_local_internal_validation_fit_upper_count": 2400,
+  "source_small_matrix_fit_estimate_upper_count": 150000,
+  "reliability_model_expected_count": 108,
+  "actual_execution_not_assumed_from_estimates": true
+}

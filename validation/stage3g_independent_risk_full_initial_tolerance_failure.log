@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/workspace/Wastewater_Paper/scripts/check_stage3g_risk_independent.py", line 261, in <module>
+    if __name__ == '__main__': main()
+                               ^^^^^^
+  File "/workspace/Wastewater_Paper/scripts/check_stage3g_risk_independent.py", line 247, in main
+    result = audit(cfg, args.scope); result['audit_script_sha256'] = sha(Path(__file__))
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Wastewater_Paper/scripts/check_stage3g_risk_independent.py", line 224, in audit
+    verify_row_truth_and_dates(target); counts['target_scored_rows'] = len(target)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/Wastewater_Paper/scripts/check_stage3g_risk_independent.py", line 149, in verify_row_truth_and_dates
+    near(error, frame.absolute_error_m3, 'Risk absolute error differs from unchanged point prediction')
+  File "/workspace/Wastewater_Paper/scripts/check_stage3g_risk_independent.py", line 34, in near
+    raise AssertionError(context)
+AssertionError: Risk absolute error differs from unchanged point prediction

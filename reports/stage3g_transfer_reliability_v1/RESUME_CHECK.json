@@ -1,0 +1,11 @@
+{
+  "status": "PASSED",
+  "checked_utc": "2026-10-14T08:54:44.251625+00:00",
+  "scientific_files_checked": 2101,
+  "changed": [],
+  "verified_cached": 300,
+  "function_successes_new_computation": 0,
+  "disk_completed": 300,
+  "expected": 300,
+  "scope": "single-process existing full run, actual repeated resume; old software fault fixtures remain separately labeled"
+}

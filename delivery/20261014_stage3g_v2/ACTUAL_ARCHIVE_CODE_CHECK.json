@@ -1,0 +1,13 @@
+{
+  "status": "PASSED",
+  "actual_fresh_cwd": "/tmp/wessex-stage3g-final-merged-20261014",
+  "code_imported_from": "/tmp/wessex-stage3g-final-merged-20261014/src/wastewater/stage3g_experiment.py",
+  "runtime_and_27_frozen_file_fingerprints_passed": true,
+  "signature": "225952a0ae5bec81fe127859ad2ee86c16bf83dc36345d4dbd7c9b9b50531f24",
+  "actual_archive_unique_members": 2752,
+  "actual_smoke_tasks_disk_verified": 12,
+  "no_source_or_target_model_fits": true,
+  "full_new_prediction_rows_not_regenerated": true,
+  "physical_mapping_verified": false,
+  "verified_real_time": false
+}

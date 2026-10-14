@@ -1,0 +1,14 @@
+unittest.case.FunctionTestCase (test_left_quantile_observed_support_zero_and_no_interpolation) ... ok
+unittest.case.FunctionTestCase (test_site_window_weights_do_not_reward_long_series) ... ok
+unittest.case.FunctionTestCase (test_recent_features_true_zero_calendar_missing_and_future_invariance) ... ok
+unittest.case.FunctionTestCase (test_initial_calibration_h3_boundary_and_constant_zero_threshold) ... ok
+unittest.case.FunctionTestCase (test_imputer_and_standardizer_use_training_only) ... ok
+unittest.case.FunctionTestCase (test_single_class_and_no_label_are_explicit) ... ok
+unittest.case.FunctionTestCase (test_threshold_ties_use_expected_mass_and_truth_independent_hash) ... ok
+unittest.case.FunctionTestCase (test_source_crossfit_disjoint_roles_and_final_oos_threshold_source) ... ok
+unittest.case.FunctionTestCase (test_target_truth_never_changes_scores_or_flags) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.185s
+
+OK

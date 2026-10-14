@@ -1,0 +1,123 @@
+{
+  "stage": "stage3g_transfer_reliability_v1",
+  "frozen_at_utc": "2026-10-14T08:43:44.642504+00:00",
+  "meaning": "Source choices and strict base OOF records frozen before target development scores; not preregistration",
+  "members": {
+    "configs/stage3g_transfer_reliability_v1/FREEZE.json": {
+      "bytes": 3548,
+      "sha256": "47b7753245655fed02ece75888a3d57036f6d8a22e9020289f24e3561c4d9b5a"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/SOURCE_RUN_STATUS.json": {
+      "bytes": 487,
+      "sha256": "d973d1fa289918d18609ba92c01ad49e766f03604899f6de5fc784cad279e6c7"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/nested_source_cv_candidates.csv.gz": {
+      "bytes": 1910705,
+      "sha256": "3b03ea7339e3a5c2ce481acedff9a018de0df258738859ce7b5a552690ded8fb"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/selection.json": {
+      "bytes": 13911,
+      "sha256": "27517977ac4ecdc8b421bfcd1d86869cd6d65b4d9546bc5cd993f485d49df816"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/source_cv_candidates.csv.gz": {
+      "bytes": 917671,
+      "sha256": "7204002ae316a7dc9a4c1899a9beba5151fdc95e45932b22a4ea235d936deac8"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/source_cv_folds.json": {
+      "bytes": 866625,
+      "sha256": "bc7694391438b6eb75631706f89112a3bf3f2d7f249ef1a2c90ceadda816159d"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/source_descriptor_windows.json": {
+      "bytes": 563337,
+      "sha256": "44adc356b20ac431372bd1fee2ad4095a3990d771e1337b7df2591435e4852dd"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/source_training_diagnostics.json": {
+      "bytes": 104547,
+      "sha256": "a3eebbbf6657cea6d7a5ab71894b8821577b1163303ce98f162996314aab7fe4"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/status.json": {
+      "bytes": 1489,
+      "sha256": "3f9acbc83e2c4129d46fb26377703e7215df3628cf134f03ee814cd77a67d89c"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/strict_reliability_base_predictions.csv.gz": {
+      "bytes": 826171,
+      "sha256": "be7689e3fe886ba428d9e26839644a11c81c90c087f2fbc3b7780d3077978f11"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/strict_reliability_roles.json": {
+      "bytes": 1632553,
+      "sha256": "94d76a52e51884c2ba8a21883b22bb253e71aaacaaba3bb5da4354dee5e4610d"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/nested_source_cv_candidates.csv.gz": {
+      "bytes": 1915014,
+      "sha256": "bc766ad82525d39df6bf9fb78a88ee7f9c67038da1e037a50e93a07dc51a86fe"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/selection.json": {
+      "bytes": 13908,
+      "sha256": "2a93d143d72168c7dc5e0730ba136c2bbe7fd80a7d0a72df806b9b1412ac109f"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/source_cv_candidates.csv.gz": {
+      "bytes": 920265,
+      "sha256": "c3f4943d7811e8feaaa6769e6b5e15fef30a4afa01e6c1cf199cd44480ac4b46"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/source_cv_folds.json": {
+      "bytes": 866675,
+      "sha256": "6cc65fa1e7cf5be441879771ad9b0e0f079f520a1ab759dd67ad51665d8e6e70"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/source_descriptor_windows.json": {
+      "bytes": 563569,
+      "sha256": "14e09d285cb72606f668b42024170c16b0f095f162be82d350869b0e9cccdbe4"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/source_training_diagnostics.json": {
+      "bytes": 104487,
+      "sha256": "6a939ecc5a2fc828cfacc8b141f32024672926d36053bda556fd134d93a35984"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/status.json": {
+      "bytes": 1491,
+      "sha256": "156da620dd51a24eeda176f588780f0a361c5c8e56bd6c7e2d2584a48f3f8eaf"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/strict_reliability_base_predictions.csv.gz": {
+      "bytes": 767284,
+      "sha256": "d0969b7d11c3568d13f343736f0a81a2f9345ea76fc7280e7e06ee1e21913e17"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/strict_reliability_roles.json": {
+      "bytes": 1632403,
+      "sha256": "37e14a3b2614181bb28f6564d60c59bb11b320fa44e0e4ab6d01195fbd59338b"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/nested_source_cv_candidates.csv.gz": {
+      "bytes": 1909585,
+      "sha256": "f9d24d09f0d6e0a0a34621dca54976fc14db38ce5f9ad2b69ffce9d0dad2a2b9"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/selection.json": {
+      "bytes": 13923,
+      "sha256": "e133043e4c93ce3bd8abfc823adfd3b3f501548784428eff0db5393b0536106a"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/source_cv_candidates.csv.gz": {
+      "bytes": 916667,
+      "sha256": "8de62e91e34dfc1d95b820fb734f4bad23e8ff79c344759d017c891ec8ee1dbd"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/source_cv_folds.json": {
+      "bytes": 866887,
+      "sha256": "44255a7cd8700e1b93a39f31bae03a9bda3277c648014c5f5e32a23228876933"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/source_descriptor_windows.json": {
+      "bytes": 563068,
+      "sha256": "4e5b2f4a6cf83b5cabc26ff14bee899ece5bef266777dc366a35c30a955461d1"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/source_training_diagnostics.json": {
+      "bytes": 104497,
+      "sha256": "50dd21c3ef2dc19cce64adfaa32696770469faa154ab3872602910fb7d2f296a"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/status.json": {
+      "bytes": 1489,
+      "sha256": "e4eb1c87ce407eaf035dfc23bd12d4c9bd8d9034585d668fd590f951dc128f02"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/strict_reliability_base_predictions.csv.gz": {
+      "bytes": 816056,
+      "sha256": "3e1b0c50f14972afc964f24e30ad078ce0afd6849662a78f58a37ed7bbcbb2a5"
+    },
+    "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/strict_reliability_roles.json": {
+      "bytes": 1632835,
+      "sha256": "9aeb561cefcd43f069a818faec39995526afea1ed0be5a75917a828c4e5ac043"
+    }
+  }
+}

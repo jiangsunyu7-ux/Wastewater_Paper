@@ -1,0 +1,9 @@
+{
+  "status": "PASSED",
+  "checked_utc": "2026-10-14T09:05:39.163726+00:00",
+  "files_checked": 6505,
+  "bytes_checked": 918969087,
+  "changed": [],
+  "missing": [],
+  "meaning": "Old scientific artifacts retained byte-for-byte, no old fit replay"
+}

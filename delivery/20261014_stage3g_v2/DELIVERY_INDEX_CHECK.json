@@ -1,0 +1,30 @@
+{
+  "status": "PASSED",
+  "package": "Wessex_Stage3G_Delivery_Index_20261014.zip",
+  "bytes": 133989,
+  "sha256": "7254e628af681c34dc8270d51b309aa2606563d316643708f5efcb9c5872ac58",
+  "crc_passed": true,
+  "member_sha_passed": true,
+  "safe_independent_extraction": true,
+  "payload_members": 4,
+  "member_manifest_self_digest_omitted": true,
+  "extraction_directory": "/tmp/wessex-stage3g-actual-package-extract-v2-20261014/Wessex_Stage3G_Delivery_Index_20261014",
+  "members": {
+    "ARTIFACT_INDEX.json": {
+      "bytes": 14014,
+      "sha256": "82915b121c775090779c98010a97c01279865e9f9e5e5171f95af0ba40ba439c"
+    },
+    "PACKAGE_CHECKS.json": {
+      "bytes": 619554,
+      "sha256": "2b04e54cfeeb5a708aa93850b9a8fc992244727281affe6db63627fd0ada1791"
+    },
+    "PAYLOAD_SHA256SUMS.txt": {
+      "bytes": 750,
+      "sha256": "57129e70664cdc66585a8a0bbdd949459269da8308f8ace64afb18462cda316d"
+    },
+    "DELIVERY_README.md": {
+      "bytes": 480,
+      "sha256": "e4d6b8c3cfab424a38ff4b359e783719e1c5747b5cd8284e910fffc5b2600033"
+    }
+  }
+}

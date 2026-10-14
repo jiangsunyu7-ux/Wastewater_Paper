@@ -1,0 +1,416 @@
+{
+  "scope": "new empty directory from exact reproduction inputs and unchanged verified SOURCE caches; no old target jobs copied; NOT a cold source CV recomputation",
+  "status": "PASSED",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 17241,
+      "sha256": "9ae0d1f3b0c351029fa4c1cc6063913ae1104d6f96a5cf2516c8bd040fe3c9dc"
+    },
+    {
+      "path": "STAGE3G_PROTOCOL.md",
+      "bytes": 13238,
+      "sha256": "726ea98c7b7c76e18124bb2315222e123fd081f43fa3958662a4bbaf8482dbec"
+    },
+    {
+      "path": "configs/stage3g_transfer_reliability_v1/EXPECTED_TASKS.json",
+      "bytes": 60010,
+      "sha256": "549517a714e96fd0d2f319b667b7d3f6fe92bc926aa049be3ef20cb01d5113af"
+    },
+    {
+      "path": "configs/stage3g_transfer_reliability_v1/FREEZE.json",
+      "bytes": 3548,
+      "sha256": "47b7753245655fed02ece75888a3d57036f6d8a22e9020289f24e3561c4d9b5a"
+    },
+    {
+      "path": "configs/stage3g_transfer_reliability_v1/full.json",
+      "bytes": 10081,
+      "sha256": "d9d70b49b513138cd43e29e5488daf9a4c13956cd4a71cfd9c2ff66c5c6fd2dc"
+    },
+    {
+      "path": "data/derived/stage3c2_source_scale_v1/daily_candidates.csv",
+      "bytes": 15155429,
+      "sha256": "0ed8366360d487d74c447ba8a304e1d9b8db9c112d019975a034b5700bf3bddf"
+    },
+    {
+      "path": "data/derived/stage3c2_source_scale_v1/manifest.json",
+      "bytes": 585,
+      "sha256": "c24c54fafb471442c96d0f2503dc158a944607878936780453fa01dd7a91dba4"
+    },
+    {
+      "path": "data/provenance/stage3c2_source_scale_v1/CLEAN_INPUT_REPLAY.json",
+      "bytes": 2025,
+      "sha256": "17136b141e2fa3f815227ec9a7edb9c7c42998c75a7bc827f13a6200017090f8"
+    },
+    {
+      "path": "data/provenance/stage3c2_source_scale_v1/COHORT_AND_INPUT_NOTES_ZH.md",
+      "bytes": 3671,
+      "sha256": "66da563ba9547517adaac0fdec7a22aa39360f06d9557c5f1b1e761bccf91436"
+    },
+    {
+      "path": "data/provenance/stage3c2_source_scale_v1/DATA_VERIFICATION.json",
+      "bytes": 1257,
+      "sha256": "5c10c1a81bd501e187638c4563c7fb1d005a8cf176b5a38199b6ee5fbb354d57"
+    },
+    {
+      "path": "data/provenance/stage3c2_source_scale_v1/association_edges.csv",
+      "bytes": 226,
+      "sha256": "5b5817cf08a39c42cd4e48df796c553bf57f49dab5df72a4d3696e351b15a8d2"
+    },
+    {
+      "path": "data/provenance/stage3c2_source_scale_v1/nested_source_pool_members.csv",
+      "bytes": 7969,
+      "sha256": "5a96c20456f5074052417320f87b82b9445e5a0b41070cc5bc4c9f4fa869b91a"
+    },
+    {
+      "path": "data/provenance/stage3c2_source_scale_v1/partition_group_ledger.csv",
+      "bytes": 37730,
+      "sha256": "f73020702cedef4389000f951c16bc437bdc07a0902ffee655b701077e891ef3"
+    },
+    {
+      "path": "data/provenance/stage3c2_source_scale_v1/source_measurement_use_ledger.csv",
+      "bytes": 30290,
+      "sha256": "baff479d487a633128fb42437d9cbd895e1237002505a6472668defa3408275a"
+    },
+    {
+      "path": "data/provenance/stage3c2_source_scale_v1/source_pool_definition.json",
+      "bytes": 13993,
+      "sha256": "db1ed7af6954ef6d819433ee977ba8638891a9eacc2db33ca733192be84c356e"
+    },
+    {
+      "path": "data/provenance/stage3c2_source_scale_v1/temporary_and_registered_protection.csv",
+      "bytes": 8239,
+      "sha256": "35ebb27af37b81a821dd563e88f9f0e2dd15b7dc2674a491b7dde1f16b0c9602"
+    },
+    {
+      "path": "materials/received_stage2_20261009/paper idea.docx",
+      "bytes": 18060,
+      "sha256": "e698f0c07c3e73baf16c2b88d873675405443b2186dfe6746f55a50e33c818b1"
+    },
+    {
+      "path": "notebooks/Stage3GCPU.ipynb",
+      "bytes": 17233,
+      "sha256": "5f82d9ccaf41773a2f5f31d5e3b28eeae00ebe31a43154dd6c686873d13b903a"
+    },
+    {
+      "path": "reports/stage3g_transfer_reliability_v1/CODE_VERSION.json",
+      "bytes": 4727,
+      "sha256": "c55b8096fb75426bae20c1cc813b731b72d4bf4ae30de73358c33c2df94a6fe9"
+    },
+    {
+      "path": "reports/stage3g_transfer_reliability_v1/FROZEN_CODE_AND_CONFIG.zip",
+      "bytes": 115740,
+      "sha256": "81c9c4bc7ed9e154d21773e3dc8726e0059e75dbb184bb8fa84d1ac4039f7418"
+    },
+    {
+      "path": "reports/stage3g_transfer_reliability_v1/INPUT_DEPENDENCIES.json",
+      "bytes": 4888,
+      "sha256": "6988619be346d92980e8b098597bed8a3fb8a30e82b0ab6bd673eb7c183c86b1"
+    },
+    {
+      "path": "reports/stage3g_transfer_reliability_v1/REPRODUCE.md",
+      "bytes": 10024,
+      "sha256": "9af77bafbbe523c359fbadfb0ab880daeddea80e6d76a93b6a46c689cd947097"
+    },
+    {
+      "path": "requirements-stage3g.txt",
+      "bytes": 153,
+      "sha256": "5d25b602f9e76709c065ea2b1ca20963bf9e41114bde2858cc2c71408a606e3d"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/SOURCE_RUN_STATUS.json",
+      "bytes": 487,
+      "sha256": "d973d1fa289918d18609ba92c01ad49e766f03604899f6de5fc784cad279e6c7"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/nested_source_cv_candidates.csv.gz",
+      "bytes": 1910705,
+      "sha256": "3b03ea7339e3a5c2ce481acedff9a018de0df258738859ce7b5a552690ded8fb"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/selection.json",
+      "bytes": 13911,
+      "sha256": "27517977ac4ecdc8b421bfcd1d86869cd6d65b4d9546bc5cd993f485d49df816"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/source_cv_candidates.csv.gz",
+      "bytes": 917671,
+      "sha256": "7204002ae316a7dc9a4c1899a9beba5151fdc95e45932b22a4ea235d936deac8"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/source_cv_folds.json",
+      "bytes": 866625,
+      "sha256": "bc7694391438b6eb75631706f89112a3bf3f2d7f249ef1a2c90ceadda816159d"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/source_descriptor_windows.json",
+      "bytes": 563337,
+      "sha256": "44adc356b20ac431372bd1fee2ad4095a3990d771e1337b7df2591435e4852dd"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/source_training_diagnostics.json",
+      "bytes": 104547,
+      "sha256": "a3eebbbf6657cea6d7a5ab71894b8821577b1163303ce98f162996314aab7fe4"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/status.json",
+      "bytes": 1489,
+      "sha256": "3f9acbc83e2c4129d46fb26377703e7215df3628cf134f03ee814cd77a67d89c"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/strict_reliability_base_predictions.csv.gz",
+      "bytes": 826171,
+      "sha256": "be7689e3fe886ba428d9e26839644a11c81c90c087f2fbc3b7780d3077978f11"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261012_K30/strict_reliability_roles.json",
+      "bytes": 1632553,
+      "sha256": "94d76a52e51884c2ba8a21883b22bb253e71aaacaaba3bb5da4354dee5e4610d"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/nested_source_cv_candidates.csv.gz",
+      "bytes": 1915014,
+      "sha256": "bc766ad82525d39df6bf9fb78a88ee7f9c67038da1e037a50e93a07dc51a86fe"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/selection.json",
+      "bytes": 13908,
+      "sha256": "2a93d143d72168c7dc5e0730ba136c2bbe7fd80a7d0a72df806b9b1412ac109f"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/source_cv_candidates.csv.gz",
+      "bytes": 920265,
+      "sha256": "c3f4943d7811e8feaaa6769e6b5e15fef30a4afa01e6c1cf199cd44480ac4b46"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/source_cv_folds.json",
+      "bytes": 866675,
+      "sha256": "6cc65fa1e7cf5be441879771ad9b0e0f079f520a1ab759dd67ad51665d8e6e70"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/source_descriptor_windows.json",
+      "bytes": 563569,
+      "sha256": "14e09d285cb72606f668b42024170c16b0f095f162be82d350869b0e9cccdbe4"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/source_training_diagnostics.json",
+      "bytes": 104487,
+      "sha256": "6a939ecc5a2fc828cfacc8b141f32024672926d36053bda556fd134d93a35984"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/status.json",
+      "bytes": 1491,
+      "sha256": "156da620dd51a24eeda176f588780f0a361c5c8e56bd6c7e2d2584a48f3f8eaf"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/strict_reliability_base_predictions.csv.gz",
+      "bytes": 767284,
+      "sha256": "d0969b7d11c3568d13f343736f0a81a2f9345ea76fc7280e7e06ee1e21913e17"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261013_K30/strict_reliability_roles.json",
+      "bytes": 1632403,
+      "sha256": "37e14a3b2614181bb28f6564d60c59bb11b320fa44e0e4ab6d01195fbd59338b"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/nested_source_cv_candidates.csv.gz",
+      "bytes": 1909585,
+      "sha256": "f9d24d09f0d6e0a0a34621dca54976fc14db38ce5f9ad2b69ffce9d0dad2a2b9"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/selection.json",
+      "bytes": 13923,
+      "sha256": "e133043e4c93ce3bd8abfc823adfd3b3f501548784428eff0db5393b0536106a"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/source_cv_candidates.csv.gz",
+      "bytes": 916667,
+      "sha256": "8de62e91e34dfc1d95b820fb734f4bad23e8ff79c344759d017c891ec8ee1dbd"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/source_cv_folds.json",
+      "bytes": 866887,
+      "sha256": "44255a7cd8700e1b93a39f31bae03a9bda3277c648014c5f5e32a23228876933"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/source_descriptor_windows.json",
+      "bytes": 563068,
+      "sha256": "4e5b2f4a6cf83b5cabc26ff14bee899ece5bef266777dc366a35c30a955461d1"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/source_training_diagnostics.json",
+      "bytes": 104497,
+      "sha256": "50dd21c3ef2dc19cce64adfaa32696770469faa154ab3872602910fb7d2f296a"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/status.json",
+      "bytes": 1489,
+      "sha256": "e4eb1c87ce407eaf035dfc23bd12d4c9bd8d9034585d668fd590f951dc128f02"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/strict_reliability_base_predictions.csv.gz",
+      "bytes": 816056,
+      "sha256": "3e1b0c50f14972afc964f24e30ad078ce0afd6849662a78f58a37ed7bbcbb2a5"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/order20261014_K30/strict_reliability_roles.json",
+      "bytes": 1632835,
+      "sha256": "9aeb561cefcd43f069a818faec39995526afea1ed0be5a75917a828c4e5ac043"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/reliability/RUN_STATUS.json",
+      "bytes": 2576,
+      "sha256": "6ae74acc5f90941c48050025d7556c4775d607733d18b20f1fedc5494203d338"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/reliability/final_risk_bundle.json",
+      "bytes": 136560,
+      "sha256": "06227c38c9c57fd5de55b7fdc61726e0491e1633d2ad4ca4d8bfc92146dd6640"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/reliability/risk_model_diagnostics.json",
+      "bytes": 236814,
+      "sha256": "ede6ffb1643208bfc5dd1d700bdc9fe4d30f51e6aa34dd29717720c588d657e3"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/reliability/source_operating_thresholds.csv.gz",
+      "bytes": 11930,
+      "sha256": "13407ce44bf41e5d09016a24c691e2e3e3d2cfef9ac4befa9fad3d2e36387a3e"
+    },
+    {
+      "path": "runs/stage3g_transfer_reliability_v1/source/reliability/source_risk_crossfit_scores.csv.gz",
+      "bytes": 4428422,
+      "sha256": "f6c94512a0229907186bb41c94ccc2a67f1510b9a03028b1957ac4283a5f7c14"
+    },
+    {
+      "path": "scripts/check_stage3g_results.py",
+      "bytes": 21814,
+      "sha256": "148b321433769b862bd330c2cef70be5dc547817e362368792cb3bf08ff4557d"
+    },
+    {
+      "path": "scripts/measure_stage3g.py",
+      "bytes": 1442,
+      "sha256": "6f314a2467b2e87ae96a0f2464508f13261b94507d90cde9715eb164045b468d"
+    },
+    {
+      "path": "scripts/package_stage3g.py",
+      "bytes": 22389,
+      "sha256": "a973fce81f8b1859b2db684b950d5d05f8123249f190c961281cfbf369d5b54c"
+    },
+    {
+      "path": "scripts/plot_stage3g.py",
+      "bytes": 23942,
+      "sha256": "b565cc8bd6326022286dabb40c46b5e470426bd1e33871dfe6a8fe19cbcaddba"
+    },
+    {
+      "path": "scripts/run_stage3g_reliability.py",
+      "bytes": 8791,
+      "sha256": "c56cfbb39e1b6f5ceeb241cb76f84e324a741418488cdd29de798295121c0184"
+    },
+    {
+      "path": "scripts/summarize_stage3g.py",
+      "bytes": 7373,
+      "sha256": "84ac2426a96cfbda34d29b4828c9e6be73976e7ffbf132067839aa03e0a51cd0"
+    },
+    {
+      "path": "src/wastewater/__init__.py",
+      "bytes": 67,
+      "sha256": "732eb3917c92206ee95d701b52fa309e47ed526a07280ca4b91751966b7434a7"
+    },
+    {
+      "path": "src/wastewater/common.py",
+      "bytes": 1554,
+      "sha256": "6abe5bc95f8ae1cd74d8b14e6f2f15eaee6038ced57db13ed47887008e4b455c"
+    },
+    {
+      "path": "src/wastewater/shared_data.py",
+      "bytes": 4240,
+      "sha256": "3814e7bb507fc7bbb19d63608982cc585f695c5b11b935fb53f380958a84f86a"
+    },
+    {
+      "path": "src/wastewater/stage3a_data.py",
+      "bytes": 2894,
+      "sha256": "e07486e7a26097a3561f2d8b7c749c5b582a5ae15c49d82ab703d51c057f9bea"
+    },
+    {
+      "path": "src/wastewater/stage3b_experiment.py",
+      "bytes": 32462,
+      "sha256": "18743b08dc357ec63b20eb6801afd6d37151ab122055fac55b5f5253d976e942"
+    },
+    {
+      "path": "src/wastewater/stage3b_models.py",
+      "bytes": 9987,
+      "sha256": "6e9c7eba6db81a382f9d21b0a5305be3750d75f20294598fa837bba47a8ef316"
+    },
+    {
+      "path": "src/wastewater/stage3c2_evaluation.py",
+      "bytes": 32407,
+      "sha256": "1e11115d35a718c93a255f10753ab4097f85394238def055725424d10da4c1b3"
+    },
+    {
+      "path": "src/wastewater/stage3c2_source.py",
+      "bytes": 21605,
+      "sha256": "c36abf2879321e763c0a2c368689e266b662af5bc146951bee2226e19310d7dd"
+    },
+    {
+      "path": "src/wastewater/stage3d_experiment.py",
+      "bytes": 19820,
+      "sha256": "a1da3b51ea41e7025882d1176f2d75b8b69cf769a8b05d8fa63f67c2262f824c"
+    },
+    {
+      "path": "src/wastewater/stage3d_intervals.py",
+      "bytes": 29025,
+      "sha256": "9dd5aca8899098675749626638073c07644a7b416e07b55cdf7c443b65755ee6"
+    },
+    {
+      "path": "src/wastewater/stage3e_runtime.py",
+      "bytes": 18031,
+      "sha256": "cc78ae3ed41515e4720ee9e74a1738f1ab0648907e972a9626e474cb5b9b3164"
+    },
+    {
+      "path": "src/wastewater/stage3g_core.py",
+      "bytes": 17304,
+      "sha256": "46d1af0db54cb20449bd68df56ce6c08f2749f014af9ac0dcc4d4504aa194c69"
+    },
+    {
+      "path": "src/wastewater/stage3g_evaluation.py",
+      "bytes": 41311,
+      "sha256": "2885d249525ae75ebf9b56078e4be790cee43db6b395289245e663134460eb2f"
+    },
+    {
+      "path": "src/wastewater/stage3g_experiment.py",
+      "bytes": 22092,
+      "sha256": "1b7f7d0e2c061650c46b163f71e27e6372f5f54a7d5656bea9174f0bfcf24003"
+    },
+    {
+      "path": "src/wastewater/stage3g_reliability.py",
+      "bytes": 20936,
+      "sha256": "7ad26f06ab943ce028cd22f51a8954827efde7a917ae52d955999b20a8b908d3"
+    },
+    {
+      "path": "src/wastewater/stage3g_source.py",
+      "bytes": 17582,
+      "sha256": "40958f4d027aa628ce23b1c4c9c6266a1f8b5ab67d7a973c9fba790034bbffd3"
+    },
+    {
+      "path": "tests/test_stage3g_core.py",
+      "bytes": 12749,
+      "sha256": "323a933eab9cdb702acb01aaa00e730c129fa98fd1186afd35db7253870717ea"
+    },
+    {
+      "path": "tests/test_stage3g_evaluation.py",
+      "bytes": 6451,
+      "sha256": "2f67c57fd4eda8ce59cdd9c62be4c089768f68e5729e3c149b70a8b4011e5219"
+    },
+    {
+      "path": "tests/test_stage3g_reliability.py",
+      "bytes": 6965,
+      "sha256": "6262c3b46761eab594f9356d0649100105d46c0a7a604e37359d4227e46ac440"
+    },
+    {
+      "path": "tests/test_stage3g_source_runner.py",
+      "bytes": 6562,
+      "sha256": "ab5b0cae5dfb0bba31a1e30091b4513c7f079feacfda8f68760f58892bfc4114"
+    }
+  ]
+}

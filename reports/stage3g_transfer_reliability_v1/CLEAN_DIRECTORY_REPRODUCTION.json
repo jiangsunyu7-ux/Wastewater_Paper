@@ -1,0 +1,70 @@
+{
+  "status": "PASSED",
+  "checked_utc": "2026-10-14T09:11:08.284829+00:00",
+  "scope": "Clean new directory, cold12 target jobs using the original validated frozen source/risk caches; NOT a cold source CV refit",
+  "clean_directory": "/tmp/wessex-stage3g-clean-smoke-20261014",
+  "copied_input_members": 82,
+  "clean_cold_function_success_log_count": 12,
+  "expected_target_tasks": 12,
+  "prediction_rows": 18000,
+  "original_scientific_files": 84,
+  "byte_identical_scientific_files": 84,
+  "maximum_prediction_m3_difference": 0.0,
+  "maximum_normalized_prediction_difference": 0.0,
+  "declared_prediction_tolerance": {
+    "atol": 1e-10,
+    "rtol": 1e-10
+  },
+  "independent_checker": {
+    "status": "PASSED",
+    "checked_utc": "2026-10-14T09:08:36.749334+00:00",
+    "scope": "smoke",
+    "scientific_implementation_imported": false,
+    "tolerance": {
+      "normalized_atol": 1e-10,
+      "rtol": 1e-10,
+      "exact_lambda0": true
+    },
+    "config_sha256": "d9d70b49b513138cd43e29e5488daf9a4c13956cd4a71cfd9c2ff66c5c6fd2dc",
+    "checker_sha256": "148b321433769b862bd330c2cef70be5dc547817e362368792cb3bf08ff4557d",
+    "seconds": 6.939143640003749,
+    "source_global_folds": 1080,
+    "strict_outer_roles": 15,
+    "strict_inner_folds": 2160,
+    "expected_tasks": 12,
+    "disk_completed_tasks": 12,
+    "prediction_rows_checked": 18000,
+    "source_weight_sets_checked": 156,
+    "shuffled_multisets_checked": 12,
+    "point_formula_sets_checked": 194,
+    "normal_equation_models_checked": 16,
+    "statistics_checked": false
+  },
+  "repeat_entry": {
+    "mode": "smoke repeated cached re-entry, not full --mode resume",
+    "disk_verified_completed": 12,
+    "function_successes": 0,
+    "verified_cached": 12,
+    "failed_this_invocation": 0
+  },
+  "risk": {
+    "status": "COMPLETED",
+    "rows": {
+      "target_risk_predictions.csv.gz": 8640
+    },
+    "original_risk_sha256": "5294157342c1c7be332d9d9301dff8d52e1a6d5e185ed2e8b915c3f188f324ed",
+    "clean_risk_sha256": "5294157342c1c7be332d9d9301dff8d52e1a6d5e185ed2e8b915c3f188f324ed",
+    "byte_identical": true,
+    "second_entry": "{\"status\": \"CACHED_VERIFIED\", \"action\": \"target\", \"output\": \"/tmp/wessex-stage3g-clean-smoke-20261014/runs/stage3g_transfer_reliability_v1/smoke/reliability\"}"
+  },
+  "software_tests": {
+    "fresh_directory_tests_passed": 43,
+    "root_directory_attempt0_log_preserved": true,
+    "fixture_scope": "Synthetic fixtures are software checks only, not real facility/realtime certification"
+  },
+  "cold_target_job_seconds_sum": 63.9245560499694,
+  "cold_total_wall_time_not_separately_instrumented": true,
+  "source_CV_refits": 0,
+  "post2023_or_protected_performance_used": false,
+  "original_scientific_files_unchanged": true
+}

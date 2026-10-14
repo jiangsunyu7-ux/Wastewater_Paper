@@ -1,0 +1,10 @@
+{
+  "evaluation_receipt": "reports/stage3g_transfer_reliability_v1/results/evaluation_validation.json",
+  "evaluation_receipt_sha256": "c8dfd1fe3a23050673c40314bfed74ce81ba7eaf9608cf1c0495177b4af99cfe",
+  "status": "COMPLETED",
+  "editable_nodes": 15,
+  "editable_arrows": 13,
+  "not_a_new_model_or_app": true,
+  "physical_mapping_verified": false,
+  "verified_real_time": false
+}

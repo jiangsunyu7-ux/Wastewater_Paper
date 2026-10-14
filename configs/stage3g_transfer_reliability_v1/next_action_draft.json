@@ -1,0 +1,16 @@
+{
+  "stage": "after_Stage3G_review",
+  "execute_allowed": false,
+  "action": "Obtain and review facility/date/arrival/use-case evidence using existing unsent request",
+  "reason": "No stable main weighting or daily-risk benefit; no justified engineering margin",
+  "required_external_inputs": [
+    "time-valid anonymous or named physical facility/SiteID/normal effluent instrument groups and links",
+    "definition of daily volume/date/time boundary and unit",
+    "operational observation and initial/final QA first-availability evidence",
+    "specific forecasting use case and meaningful error/review burden"
+  ],
+  "predictive_performance_allowed": false,
+  "protected_performance_allowed": false,
+  "new_models_allowed": false,
+  "trigger": "New user review/authorization only; metadata receipt is not permission to start final scoring"
+}

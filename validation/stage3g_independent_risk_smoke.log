@@ -1,0 +1,1 @@
+{"status": "PASSED", "scope": "smoke", "counts": {"source_scored_rows": 60480, "source_models_checked": 108, "source_thresholds_checked": 864, "target_scored_rows": 8640, "target_conditions_checked": 18}, "report": "/workspace/Wastewater_Paper/reports/stage3g_transfer_reliability_v1/audit/INDEPENDENT_RISK_CHECK_SMOKE.json"}
